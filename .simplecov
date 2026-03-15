@@ -2,7 +2,7 @@ SimpleCov.start do
   command_name "Job #{ENV["TEST_ENV_NUMBER"]}" if ENV["TEST_ENV_NUMBER"]
 
   if ENV["CI"]
-    formatter SimpleCov::Formatter::SimpleFormatter
+    formatter SimpleCov::Formatter::JSONFormatter
   else
     formatter SimpleCov::Formatter::MultiFormatter.new([
       SimpleCov::Formatter::SimpleFormatter,
