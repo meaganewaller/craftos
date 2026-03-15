@@ -162,6 +162,7 @@ namespace :coverage do
   desc "Collate coverage from all gems into a single report"
   task :collate do
     require "simplecov"
+    require "simplecov-json"
 
     resultsets = []
     resultsets.concat(Dir.glob("coverage/.resultset.json"))
@@ -174,6 +175,10 @@ namespace :coverage do
 
     SimpleCov.collate(resultsets) do
       coverage_dir "coverage/combined"
+      formatter SimpleCov::Formatter::MultiFormatter.new([
+        SimpleCov::Formatter::HTMLFormatter,
+        SimpleCov::Formatter::JSONFormatter
+      ])
     end
 
     puts "✅ Combined coverage available at coverage/combined/index.html"

@@ -38,4 +38,6 @@ jobs:
         with:
           minimum_suite_coverage: 95
           minimum_file_coverage: 90
+          coverage_path: coverage/combined/.last_run.json
+          coverage_json_path: coverage/combined/coverage.json
           github_token: ${{ secrets.GITHUB_TOKEN }}
