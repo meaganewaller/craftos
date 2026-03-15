@@ -1,0 +1,132 @@
+name: Release Gem
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - edited
+      - ready_for_review
+      - closed
+
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  ready_for_release:
+    if: github.event.action != 'closed' && startsWith(github.event.pull_request.head.ref, 'release/')
+    name: Ready for Release
+    runs-on: ubuntu-latest
+
+    outputs:
+      gem_name: ${{ steps.readiness.outputs.gem_name }}
+      version: ${{ steps.readiness.outputs.version }}
+      tag: ${{ steps.readiness.outputs.tag }}
+      gem_dir: ${{ steps.readiness.outputs.gem_dir }}
+      gemspec: ${{ steps.readiness.outputs.gemspec }}
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      - name: Validate release readiness
+        id: readiness
+        run: >
+          ruby scripts/check_release_readiness.rb
+          --branch "${{ github.event.pull_request.head.ref }}"
+          --base "${{ github.event.pull_request.base.sha }}"
+          --head "${{ github.event.pull_request.head.sha }}"
+          --github-output "$GITHUB_OUTPUT"
+
+      - name: Verify target gem builds from the release branch
+        run: |
+          cd "${{ steps.readiness.outputs.gem_dir }}"
+          gem build "${{ steps.readiness.outputs.gem_name }}.gemspec"
+
+  publish_release:
+    if: >
+      github.event.action == 'closed' &&
+      github.event.pull_request.merged == true &&
+      startsWith(github.event.pull_request.head.ref, 'release/')
+    name: Publish Gem
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          persist-credentials: true
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      - name: Re-validate merged release branch
+        id: readiness
+        run: >
+          ruby scripts/check_release_readiness.rb
+          --branch "${{ github.event.pull_request.head.ref }}"
+          --base "${{ github.event.pull_request.base.sha }}"
+          --head "${{ github.event.pull_request.head.sha }}"
+          --github-output "$GITHUB_OUTPUT"
+
+      - name: Build gem
+        run: |
+          cd "${{ steps.readiness.outputs.gem_dir }}"
+          gem build "${{ steps.readiness.outputs.gem_name }}.gemspec"
+
+      - name: Publish gem to RubyGems
+        run: |
+          cd "${{ steps.readiness.outputs.gem_dir }}"
+          gem push "${{ steps.readiness.outputs.gem_name }}-${{ steps.readiness.outputs.version }}.gem"
+        env:
+          RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+
+      - name: Create git tag
+        env:
+          TAG: ${{ steps.readiness.outputs.tag }}
+          MERGE_SHA: ${{ github.event.pull_request.merge_commit_sha }}
+        run: |
+          git fetch --tags origin
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" "$MERGE_SHA" -m "Release $TAG"
+          git push origin "$TAG"
+
+      - name: Generate release notes from changelog
+        run: >
+          ruby scripts/check_release_readiness.rb
+          --notes-gem "${{ steps.readiness.outputs.gem_name }}"
+          --notes-version "${{ steps.readiness.outputs.version }}"
+          > release-notes.md
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.readiness.outputs.tag }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "GitHub release $TAG already exists."
+            exit 0
+          fi
+
+          gh release create "$TAG" --title "$TAG" --notes-file release-notes.md

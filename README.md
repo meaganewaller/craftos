@@ -150,14 +150,23 @@ bundle exec rake lint:all
 
 Each gem is versioned and released independently.
 
-To release gem:
+To release a gem:
 
 ```
-git tag fiber_units-v#.#.#
-git push origin fiber_units_-v0.1.0
+git checkout -b release/fiber_units-v0.3.2
 ```
 
-CI will build and publish the gem automatically.
+On that branch, update the target gem's version file and changelog, then open a PR into `main`.
+
+GitHub Actions marks the PR `Ready for Release` only when:
+
+- the branch name matches `release/<gem>-v<version>`
+- only one gem is being released
+- that gem's `version.rb` matches the branch version
+- that gem's `CHANGELOG.md` includes the new version entry and leaves `Unreleased` empty
+- the gem still builds cleanly
+
+After the PR is merged, GitHub Actions publishes the gem to RubyGems, creates the matching git tag, and creates the GitHub release automatically.
 
 ## Philosophy
 
