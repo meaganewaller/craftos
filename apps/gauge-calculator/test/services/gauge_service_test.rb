@@ -17,7 +17,7 @@ class GaugeServiceTest < ActiveSupport::TestCase
     }) do
       service = GaugeService.new(stitches: 20, rows: 28, width: 4)
 
-      assert_equal({ spi: 5.0, rpi: 7.0 }, service.results)
+      assert_equal({spi: 5.0, rpi: 7.0}, service.results)
     end
   end
 

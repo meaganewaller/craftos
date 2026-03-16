@@ -10,7 +10,7 @@ class GaugeService
   def results
     {
       spi: @gauge.spi,
-      rpi: @gauge.rpi,
+      rpi: @gauge.rpi
     }
   end
 

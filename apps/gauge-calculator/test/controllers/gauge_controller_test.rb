@@ -15,11 +15,11 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
 
       fake_gauge
     }) do
-      post "/gauge", params: { stitches: 20, rows: 28, width: 4 }
+      post "/gauge", params: {stitches: 20, rows: 28, width: 4}
     end
 
     assert_response :success
-    assert_equal({ "spi" => 5.0, "rpi" => 7.0 }, response.parsed_body)
+    assert_equal({"spi" => 5.0, "rpi" => 7.0}, response.parsed_body)
   end
 
   test "POST /gauge/stitches returns required stitches using requested unit" do
@@ -45,7 +45,7 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_response :success
-    assert_equal({ "stitches" => 50 }, response.parsed_body)
+    assert_equal({"stitches" => 50}, response.parsed_body)
   end
 
   test "POST /gauge/rows returns required rows in default inches" do
@@ -70,6 +70,6 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_response :success
-    assert_equal({ "rows" => 56 }, response.parsed_body)
+    assert_equal({"rows" => 56}, response.parsed_body)
   end
 end

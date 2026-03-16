@@ -47,7 +47,7 @@ class ReleaseReadiness
 
     extra_gems = changed_gems - [gem_name]
     unless extra_gems.empty?
-      fail! "Release PR can only touch one gem. Also changed: #{extra_gems.join(', ')}"
+      fail! "Release PR can only touch one gem. Also changed: #{extra_gems.join(", ")}"
     end
 
     unless changed_files.include?(version_file.relative_path_from(ROOT).to_s)
@@ -114,7 +114,7 @@ class ReleaseReadiness
     body = match[:body]
     remaining = body.lines.map(&:strip).reject(&:empty?)
     unless remaining.empty?
-      fail! "#{changelog_file.relative_path_from(ROOT)} still has content under Unreleased. Move those notes into the new #{release_heading_label(@notes_version || extract_first_release_version(changelog) || 'version')} section before merging."
+      fail! "#{changelog_file.relative_path_from(ROOT)} still has content under Unreleased. Move those notes into the new #{release_heading_label(@notes_version || extract_first_release_version(changelog) || "version")} section before merging."
     end
   end
 

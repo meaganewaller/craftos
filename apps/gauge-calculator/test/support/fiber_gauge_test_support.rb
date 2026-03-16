@@ -52,7 +52,7 @@ Float.include(GaugeNumericTestExtensions) unless Float.method_defined?(:centimet
 module ClassMethodStubHelper
   def stub_class_method(klass, method_name, callable)
     singleton = class << klass
-      self
+                  self
     end
 
     original_method = singleton.instance_method(method_name)
