@@ -17,6 +17,11 @@ gems/**/.byebug_history
 /.bundle/*
 !.bundle/config
 /vendor/
+apps/**/coverage/
+apps/**/tmp/
+apps/**/log/
+apps/**/public/assets/
+apps/**/vendor/
 
 *.lock
 !flake.lock
@@ -26,3 +31,5 @@ gems/**/.byebug_history
 .irb_history
 
 /coverage/
+
+apps/**/config/master.key

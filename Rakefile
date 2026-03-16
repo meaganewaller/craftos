@@ -24,18 +24,22 @@ def git_staged_files
 end
 
 def changed_components(paths)
-  components = {root: false, gems: []}
+  components = {root: false, gems: [], apps: []}
 
   paths.each do |path|
     if path.start_with?("gems/")
       component = path.split("/")[1]
       components[:gems] << component if component
+    elsif path.start_with?("apps/")
+      component = path.split("/")[1]
+      components[:apps] << component if component
     else
       components[:root] = true
     end
   end
 
   components[:gems].uniq!
+  components[:apps].uniq!
   components
 end
 
@@ -44,14 +48,24 @@ namespace :craftos do
   task :gems do
     Dir.children("gems").each { |g| puts g }
   end
+
+  desc "List all CraftOS apps"
+  task :apps do
+    Dir.children("apps").each { |a| puts a }
+  end
 end
 
 namespace :bundle do
-  desc "Run bundle install in host app and all gems"
+  desc "Run bundle install in host app and all apps and gems"
   task :all do
     run_in(".", ["bundle", "install"])
 
     Dir.glob("gems/*").sort.each do |path|
+      next unless File.exist?(File.join(path, "Gemfile"))
+      run_in(path, ["bundle", "install"])
+    end
+
+    Dir.glob("apps/*").sort.each do |path|
       next unless File.exist?(File.join(path, "Gemfile"))
       run_in(path, ["bundle", "install"])
     end
@@ -70,7 +84,19 @@ namespace :test do
       puts "👉 Running specs for #{gem_dir}..."
 
       Dir.chdir(gem_dir) do
-        system("bundle exec rake test", *extra_args) || abort("Tests failed for #{gem_dir}")
+        system("bundle", "exec", "rake", "test", *extra_args) || abort("Tests failed for #{gem_dir}")
+      end
+    end
+
+    Dir.glob("apps/*").each do |app_dir|
+      test_path = File.join(app_dir, "test")
+      next unless File.directory?(test_path)
+
+      puts "👉 Running specs for #{app_dir}..."
+      Dir.chdir(app_dir) do
+        Bundler.with_unbundled_env do
+          system("bundle", "exec", "rake", "test", *extra_args) || abort("Tests failed for #{app_dir}")
+        end
       end
     end
 
@@ -85,6 +111,11 @@ namespace :lint do
     run_in(".", ["bundle", "exec", "standardrb", *extra_args])
 
     Dir.glob("gems/*").sort.each do |path|
+      next unless File.exist?(File.join(path, "Gemfile"))
+      run_in(path, ["bundle", "exec", "standardrb", *extra_args])
+    end
+
+    Dir.glob("apps/*").sort.each do |path|
       next unless File.exist?(File.join(path, "Gemfile"))
       run_in(path, ["bundle", "exec", "standardrb", *extra_args])
     end
@@ -108,6 +139,12 @@ namespace :lint do
       next unless File.exist?(File.join(path, "Gemfile"))
       run_in(path, ["bundle", "exec", "standardrb", *extra_args])
     end
+
+    components[:apps].sort.each do |app_name|
+      path = File.join("apps", app_name)
+      next unless File.exist?(File.join(path, "Gemfile"))
+      run_in(path, ["bundle", "exec", "standardrb", *extra_args])
+    end
   end
 
   desc "Run StandardRB only in staged components (gems)"
@@ -128,6 +165,12 @@ namespace :lint do
       next unless File.exist?(File.join(path, "Gemfile"))
       run_in(path, ["bundle", "exec", "standardrb", *extra_args])
     end
+
+    components[:apps].sort.each do |app_name|
+      path = File.join("apps", app_name)
+      next unless File.exist?(File.join(path, "Gemfile"))
+      run_in(path, ["bundle", "exec", "standardrb", *extra_args])
+    end
   end
 
   task :fix do
@@ -135,6 +178,11 @@ namespace :lint do
     run_in(".", ["bundle", "exec", "standardrb", "--fix", *extra_args])
 
     Dir.glob("gems/*").sort.each do |path|
+      next unless File.exist?(File.join(path, "Gemfile"))
+      run_in(path, ["bundle", "exec", "standardrb", "--fix", *extra_args])
+    end
+
+    Dir.glob("apps/*").sort.each do |path|
       next unless File.exist?(File.join(path, "Gemfile"))
       run_in(path, ["bundle", "exec", "standardrb", "--fix", *extra_args])
     end
@@ -148,6 +196,11 @@ namespace :lint do
       next unless File.exist?(File.join(path, "Gemfile"))
       run_in(path, ["bundle", "exec", "standardrb", "--fix-unsafely", *extra_args])
     end
+
+    Dir.glob("apps/*").sort.each do |path|
+      next unless File.exist?(File.join(path, "Gemfile"))
+      run_in(path, ["bundle", "exec", "standardrb", "--fix-unsafely", *extra_args])
+    end
   end
 end
 
@@ -155,6 +208,7 @@ namespace :docs do
   desc "Generate YARD docs"
   task :yard do
     system("bundle exec yard doc gems/**/*.rb")
+    system("bundle exec yard doc apps/**/*.rb")
   end
 end
 
@@ -167,6 +221,7 @@ namespace :coverage do
     resultsets = []
     resultsets.concat(Dir.glob("coverage/.resultset.json"))
     resultsets.concat(Dir.glob("gems/*/coverage/.resultset.json"))
+    resultsets.concat(Dir.glob("apps/*/coverage/.resultset.json"))
 
     if resultsets.empty?
       puts "No coverage resultsets found. Run specs first."

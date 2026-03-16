@@ -1,4 +1,4 @@
-SimpleCov.start do
+SimpleCov.start "rails" do
   command_name "Job #{ENV["TEST_ENV_NUMBER"]}" if ENV["TEST_ENV_NUMBER"]
 
   if ENV["CI"]
