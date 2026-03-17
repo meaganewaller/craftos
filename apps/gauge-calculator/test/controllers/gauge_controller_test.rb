@@ -15,7 +15,7 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
 
       fake_gauge
     }) do
-      post "/gauge", params: {stitches: 20, rows: 28, width: 4}
+      post "/api/gauge", params: {stitches: 20, rows: 28, width: 4}
     end
 
     assert_response :success
@@ -35,7 +35,7 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
-      post "/gauge/stitches", params: {
+      post "/api/gauge/stitches", params: {
         stitches: 20,
         rows: 28,
         width: 4,
@@ -61,7 +61,7 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
-      post "/gauge/rows", params: {
+      post "/api/gauge/rows", params: {
         stitches: 20,
         rows: 28,
         width: 4,
@@ -71,5 +71,31 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
 
     assert_response :success
     assert_equal({"rows" => 56}, response.parsed_body)
+  end
+
+  test "POST /gauge/rows uses the requested unit" do
+    test_case = self
+    fake_gauge = Object.new
+    fake_rows = Struct.new(:value).new(70)
+
+    fake_gauge.define_singleton_method(:required_rows) do |target_height|
+      test_case.assert_equal 25.4, target_height.value
+      test_case.assert_equal :centimeters, target_height.unit
+
+      fake_rows
+    end
+
+    stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
+      post "/api/gauge/rows", params: {
+        stitches: 20,
+        rows: 28,
+        width: 4,
+        target_height: 25.4,
+        unit: "centimeters"
+      }
+    end
+
+    assert_response :success
+    assert_equal({"rows" => 70}, response.parsed_body)
   end
 end

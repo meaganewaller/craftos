@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="<%= I18n.locale %>">
   <head>
-    <title><%= content_for?(:title) ? yield(:title) : "Curated Connections" %></title>
+    <title>Gauge Calculator ✿</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-    <%= display_meta_tags %>
-    <%= favicon_link_tag 'favicon.ico' %>
-
-    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <%= yield :head %>
+    <style>
+      body {
+        background: linear-gradient(135deg, #fff1f2, #f0f9ff);
+      }
+      .tooltip {
+        position: relative;
+        cursor: help;
+      }
+
+      .tooltip .tooltip-text {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+
+        position: absolute;
+        bottom: 125%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        background: #1f2937;
+        color: white;
+        text-align: center;
+        padding: 8px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+        width: 180px;
+        z-index: 10;
+      }
+
+      .tooltip:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+      }
+    </style>
   </head>
 
-  <body>
+  <body class="min-h-screen flex items-center justify-center p-6">
     <%= yield %>
   </body>
 </html>

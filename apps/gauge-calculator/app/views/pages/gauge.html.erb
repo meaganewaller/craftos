@@ -1,71 +1,225 @@
-<h1>Gauge Calculator</h1>
+<div class="max-w-md w-full bg-white/80 backdrop-blur rounded-3xl shadow-xl p-6 border border-pink-100">
+  <h1 class="text-2xl font-bold text-center text-pink-600 mb-6">
+    ✿ gauge calculator ✿
+  </h1>
 
-<h2>Swatch</h2>
+  <p class="text-sm text-gray-500 text-center mb-6">
+    measure a swatch, enter your numbers, and we'll do the math for you! <br>
+    <span class="text-xs">pro tip: block your swatch before measuring for best results</span>
+  </p>
 
-<label>Stitches</label>
-<input id="stitches" type="number" value="18">
+  <!-- Swatch -->
+  <div class="space-y-5">
+    <p class="text-sm text-gray-500 mb-2">your swatch ✿</p>
 
-<label>Rows</label>
-<input id="rows" type="number" value="24">
+    <!-- Stitches -->
+    <div>
+      <label for="stitches" class="block text-sm font-semibold text-gray-700">
+        stitches in your swatch
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        count how many stitches are inside your measured section
+      </p>
+      <input id="stitches" type="number" value="18"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
 
-<label>Width (inches)</label>
-<input id="width" type="number" value="4">
+    <!-- Rows -->
+    <div>
+      <label for="rows" class="block text-sm font-semibold text-gray-700">
+        rows in your swatch
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        count the rows in the same section
+      </p>
+      <input id="rows" type="number" value="24"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
 
-<button onclick="calculateGauge()">Calculate Gauge</button>
+    <!-- Width -->
+    <div>
+      <label for="width" class="block text-sm font-semibold text-gray-700">
+        width you measured (inches)
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        measure your swatch area (ignore the edges!)
+      </p>
+      <input id="width" type="number" value="4"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
 
-<h3>Results</h3>
+    <!-- Calculate button -->
+    <button onclick="calculateGauge()"
+      class="w-full bg-pink-500 hover:bg-pink-600 text-white font-medium p-3 rounded-xl transition">
+      calculate my gauge!
+    </button>
+  </div>
 
-<div>SPI: <span id="spi"></span></div>
-<div>RPI: <span id="rpi"></span></div>
+  <!-- Results -->
+  <div class="mt-6 grid grid-cols-2 gap-3">
 
-<hr>
+    <div class="bg-pink-50 rounded-xl p-4 text-center tooltip">
+      <p class="text-xs text-gray-500 flex items-center justify-center gap-1">
+        SPI
+        <span class="text-gray-400">ⓘ</span>
+      </p>
 
-<h2>Width Calculator</h2>
+      <p id="spi" class="text-lg font-bold text-pink-600"></p>
 
-<label>Target Width</label>
-<input id="targetWidth" type="number" value="38">
+      <div class="tooltip-text">
+        stitches per inch — how many stitches fit in one inch of your fabric
+      </div>
+    </div>
 
-<button onclick="calculateStitches()">Calculate Stitches</button>
+    <div class="bg-blue-50 rounded-xl p-4 text-center tooltip">
+      <p class="text-xs text-gray-500 flex items-center justify-center gap-1">
+        RPI
+        <span class="text-gray-400">ⓘ</span>
+      </p>
 
-<div>Stitches Needed: <span id="stitchResult"></span></div>
+      <p id="rpi" class="text-lg font-bold text-blue-600"></p>
+
+      <div class="tooltip-text">
+        rows per inch — how many rows fit in one inch of your fabric
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Divider -->
+  <div class="my-6 border-t border-dashed border-pink-200"></div>
+  <p class="text-sm text-gray-500 mb-2 mt-6">project sizing</p>
+
+  <!-- Width calc -->
+  <div class="space-y-3">
+    <div class="mt-6 space-y-5">
+
+      <div>
+        <label for="targetWidth" class="block text-sm font-semibold text-gray-700">
+          desired width of your project (inches)
+        </label>
+        <p class="text-xs text-gray-400 mb-1">
+          how wide do you want the finished piece?
+        </p>
+        <input id="targetWidth" type="number" value="38"
+          class="w-full p-3 rounded-xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-300">
+      </div>
+
+    </div>
+
+    <button onclick="calculateStitches()"
+      class="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium p-3 rounded-xl transition">
+      calculate stitches 🧶
+    </button>
+
+    <div class="bg-blue-50 rounded-xl p-4 text-center">
+      <p class="text-xs text-gray-500">you need</p>
+      <p id="stitchResult" class="text-lg font-bold text-blue-600"></p>
+    </div>
+  </div>
+
+  <div class="mt-6 space-y-5">
+  <div class="my-6 border-t border-dashed border-pink-200"></div>
+
+
+  <p class="text-sm text-gray-500">pattern details ✿</p>
+  <p class="text-xs text-gray-500 leading-relaxed">
+    if your pattern repeats (like k2, p2), we’ll adjust your stitch count so it fits perfectly ✨<br>
+    <span class="text-gray-400">
+      leave these blank if you’re not using a repeat
+    </span>
+  </p>
+
+  <!-- Repeat -->
+  <div>
+    <label for="repeat" class="block text-sm font-semibold text-gray-700">
+      pattern repeat size
+    </label>
+    <p class="text-xs text-gray-400 mb-1">
+      number of stitches in one repeat<br>
+      <span class="text-gray-500">example: k2, p2 → repeat of 4</span>
+    </p>
+    <input id="repeat" type="number" placeholder="optional"
+      class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
+    <p class="text-[11px] text-gray-300 mt-1">
+      total stitches = (repeat × n) + offset
+    </p>
+  </div>
+
+  <!-- Offset -->
+  <div>
+    <label for="offset" class="block text-sm font-semibold text-gray-700">
+      extra stitches outside the repeat
+    </label>
+    <p class="text-xs text-gray-400 mb-1">
+      stitches outside the repeat (edges, borders, etc.)<br>
+      <span class="text-gray-500">example: +2 for edge stitches</span>
+    </p>
+    <input id="offset" type="number" value="0"
+      class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
+
+    <p class="text-[11px] text-gray-300 mt-1">
+      total stitches = (repeat × n) + offset
+    </p>
+  </div>
+
+</div>
+</div>
 
 <script>
-async function calculateGauge() {
-  const stitches = document.getElementById("stitches").value
-  const rows = document.getElementById("rows").value
-  const width = document.getElementById("width").value
+  async function calculateGauge() {
+    const stitches = document.getElementById("stitches").value
+    const rows = document.getElementById("rows").value
+    const width = document.getElementById("width").value
 
-  const response = await fetch("/api/gauge", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ stitches, rows, width })
-  })
-
-  const data = await response.json()
-
-  document.getElementById("spi").innerText = data.spi
-  document.getElementById("rpi").innerText = data.rpi
-}
-
-async function calculateStitches() {
-  const stitches = document.getElementById("stitches").value
-  const rows = document.getElementById("rows").value
-  const width = document.getElementById("width").value
-  const targetWidth = document.getElementById("targetWidth").value
-
-  const response = await fetch("/api/gauge/stitches", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      stitches,
-      rows,
-      width,
-      target_width: targetWidth
+    const res = await fetch("/api/gauge", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ stitches, rows, width })
     })
-  })
 
-  const data = await response.json()
+    const data = await res.json()
 
-  document.getElementById("stitchResult").innerText = data.stitches
-}
+    document.getElementById("spi").innerText = data.spi
+    document.getElementById("rpi").innerText = data.rpi
+  }
+
+  async function calculateStitches() {
+    const stitches = document.getElementById("stitches").value
+    const rows = document.getElementById("rows").value
+    const width = document.getElementById("width").value
+    const targetWidth = document.getElementById("targetWidth").value
+
+    const repeat = document.getElementById("repeat").value
+    const offset = document.getElementById("offset").value
+
+    const res = await fetch("/api/gauge/stitches", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        stitches,
+        rows,
+        width,
+        target_width: targetWidth
+      })
+    })
+
+    const data = await res.json()
+
+    let base = data.stitches
+
+    let adjusted = base
+
+    if (repeat) {
+      const r = parseInt(repeat)
+      const o = parseInt(offset || 0)
+
+      adjusted = Math.ceil((base - o) / r) * r + o
+    }
+
+    document.getElementById("stitchResult").innerText =
+      repeat
+        ? `${base} → ${adjusted} (adjusted)`
+        : `${base}`
+  }
 </script>
