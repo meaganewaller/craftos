@@ -8,6 +8,15 @@
     <span class="text-xs">pro tip: block your swatch before measuring for best results</span>
   </p>
 
+  <div class="mb-4">
+    <label for="unit" class="block text-sm font-semibold text-gray-700 mb-1">units</label>
+    <select id="unit" onchange="updateUnitLabels()"
+      class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300 bg-white">
+      <option value="inches" selected>inches</option>
+      <option value="centimeters">centimeters</option>
+    </select>
+  </div>
+
   <div class="space-y-5">
     <p class="text-sm text-gray-500 mb-2">your swatch ✿</p>
 
@@ -35,7 +44,7 @@
 
     <div>
       <label for="width" class="block text-sm font-semibold text-gray-700">
-        width you measured (inches)
+        width you measured (<span class="unitLabel">inches</span>)
       </label>
       <p class="text-xs text-gray-400 mb-1">
         measure your swatch area (ignore the edges!)
@@ -60,7 +69,7 @@
       <p id="spi" class="text-lg font-bold text-pink-600"></p>
 
       <div class="tooltip-text">
-        stitches per inch - how many stitches fit in one inch of your fabric
+        stitches per <span class="unitLabelSingular">inch</span> - how many stitches fit in one <span class="unitLabelSingular">inch</span> of your fabric
       </div>
     </div>
 
@@ -73,7 +82,7 @@
       <p id="rpi" class="text-lg font-bold text-blue-600"></p>
 
       <div class="tooltip-text">
-        rows per inch - how many rows fit in one inch of your fabric
+        rows per <span class="unitLabelSingular">inch</span> - how many rows fit in one <span class="unitLabelSingular">inch</span> of your fabric
       </div>
     </div>
   </div>
@@ -85,7 +94,7 @@
     <div class="mt-6 space-y-5">
       <div>
         <label for="targetWidth" class="block text-sm font-semibold text-gray-700">
-          desired width of your project (inches)
+          desired width of your project (<span class="unitLabel">inches</span>)
         </label>
         <p class="text-xs text-gray-400 mb-1">
           how wide do you want the finished piece?
@@ -109,7 +118,7 @@
   <div class="mt-6 space-y-3">
     <div>
       <label for="targetHeight" class="block text-sm font-semibold text-gray-700">
-        desired height of your project (inches)
+        desired height of your project (<span class="unitLabel">inches</span>)
       </label>
       <p class="text-xs text-gray-400 mb-1">
         how tall do you want the finished piece?
@@ -174,15 +183,28 @@
 </div>
 
 <script>
+  function getUnit() {
+    return document.getElementById("unit").value
+  }
+
+  function updateUnitLabels() {
+    const unit = getUnit()
+    const singular = unit === "inches" ? "inch" : "centimeter"
+
+    document.querySelectorAll(".unitLabel").forEach(el => el.innerText = unit)
+    document.querySelectorAll(".unitLabelSingular").forEach(el => el.innerText = singular)
+  }
+
   async function calculateGauge() {
     const stitches = document.getElementById("stitches").value
     const rows = document.getElementById("rows").value
     const width = document.getElementById("width").value
+    const unit = getUnit()
 
     const res = await fetch("/api/gauge", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ stitches, rows, width })
+      body: JSON.stringify({ stitches, rows, width, unit })
     })
 
     const data = await res.json()
@@ -196,6 +218,7 @@
     const rows = document.getElementById("rows").value
     const width = document.getElementById("width").value
     const targetWidth = document.getElementById("targetWidth").value
+    const unit = getUnit()
 
     const repeat = document.getElementById("repeat").value
     const offset = document.getElementById("offset").value
@@ -207,7 +230,8 @@
         stitches,
         rows,
         width,
-        target_width: targetWidth
+        target_width: targetWidth,
+        unit
       })
     })
 
@@ -234,6 +258,7 @@
     const rows = document.getElementById("rows").value
     const width = document.getElementById("width").value
     const targetHeight = document.getElementById("targetHeight").value
+    const unit = getUnit()
 
     const res = await fetch("/api/gauge/rows", {
       method: "POST",
@@ -242,7 +267,8 @@
         stitches,
         rows,
         width,
-        target_height: targetHeight
+        target_height: targetHeight,
+        unit
       })
     })
 

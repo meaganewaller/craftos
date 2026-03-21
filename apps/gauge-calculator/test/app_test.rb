@@ -7,6 +7,10 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert last_response.ok?
     assert_equal "Gauge Calculator ✿", html.at("title").text
     assert_match(/gauge calculator/i, html.at("h1").text)
+    unit_select = html.at_css("select#unit")
+    assert unit_select, "expected a unit select element"
+    options = unit_select.css("option").map { |o| o["value"] }
+    assert_equal %w[inches centimeters], options
     assert_equal "18", html.at_css("input#stitches")["value"]
     assert_equal "24", html.at_css("input#rows")["value"]
     assert_equal "4", html.at_css("input#width")["value"]
@@ -31,5 +35,7 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert_includes last_response.body, "if (repeat)"
     assert_includes last_response.body, '`${base} -> ${adjusted} (adjusted)`'
     assert_includes last_response.body, 'document.getElementById("rowResult").innerText = data.rows'
+    assert_includes last_response.body, "function getUnit()"
+    assert_includes last_response.body, "function updateUnitLabels()"
   end
 end
