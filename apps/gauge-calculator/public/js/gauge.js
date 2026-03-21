@@ -36,13 +36,20 @@ function updateUnitLabels() {
   document.querySelectorAll(".unitLabelSingular").forEach(el => el.innerText = singular)
 }
 
-async function calculateGauge() {
-  const stitches = document.getElementById("stitches").value
-  const rows = document.getElementById("rows").value
-  const width = document.getElementById("width").value
-  const unit = getUnit()
+function getSwatchParams() {
+  const params = {
+    stitches: document.getElementById("stitches").value,
+    rows: document.getElementById("rows").value,
+    width: document.getElementById("width").value,
+    unit: getUnit()
+  }
+  const height = document.getElementById("height").value
+  if (height) params.height = height
+  return params
+}
 
-  const data = await apiPost("/api/gauge", { stitches, rows, width, unit })
+async function calculateGauge() {
+  const data = await apiPost("/api/gauge", getSwatchParams())
   if (!data) return
 
   document.getElementById("spi").innerText = data.spi
@@ -50,16 +57,13 @@ async function calculateGauge() {
 }
 
 async function calculateStitches() {
-  const stitches = document.getElementById("stitches").value
-  const rows = document.getElementById("rows").value
-  const width = document.getElementById("width").value
-  const targetWidth = document.getElementById("targetWidth").value
-  const unit = getUnit()
-
   const repeat = document.getElementById("repeat").value
   const offset = document.getElementById("offset").value
 
-  const payload = { stitches, rows, width, target_width: targetWidth, unit }
+  const payload = {
+    ...getSwatchParams(),
+    target_width: document.getElementById("targetWidth").value
+  }
   if (repeat) {
     payload.repeat = parseInt(repeat)
     payload.offset = parseInt(offset || 0)
@@ -75,15 +79,12 @@ async function calculateStitches() {
 }
 
 async function calculateRows() {
-  const stitches = document.getElementById("stitches").value
-  const rows = document.getElementById("rows").value
-  const width = document.getElementById("width").value
-  const targetHeight = document.getElementById("targetHeight").value
-  const unit = getUnit()
+  const payload = {
+    ...getSwatchParams(),
+    target_height: document.getElementById("targetHeight").value
+  }
 
-  const data = await apiPost("/api/gauge/rows", {
-    stitches, rows, width, target_height: targetHeight, unit
-  })
+  const data = await apiPost("/api/gauge/rows", payload)
   if (!data) return
 
   document.getElementById("rowResult").innerText = data.rows

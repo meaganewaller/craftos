@@ -14,6 +14,7 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert_equal "18", html.at_css("input#stitches")["value"]
     assert_equal "24", html.at_css("input#rows")["value"]
     assert_equal "4", html.at_css("input#width")["value"]
+    assert_equal "same as width", html.at_css("input#height")["placeholder"]
     assert_equal "38", html.at_css("input#targetWidth")["value"]
     assert_equal "optional", html.at_css("input#repeat")["placeholder"]
     assert_equal "0", html.at_css("input#offset")["value"]

@@ -55,6 +55,17 @@
         class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
     </div>
 
+    <div>
+      <label for="height" class="block text-sm font-semibold text-gray-700">
+        height you measured (<span class="unitLabel">inches</span>)
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        leave blank to use the same as width (square swatch)
+      </p>
+      <input id="height" type="number" placeholder="same as width"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
+
     <button onclick="calculateGauge()"
       class="w-full bg-pink-500 hover:bg-pink-600 text-white font-medium p-3 rounded-xl transition">
       calculate my gauge!

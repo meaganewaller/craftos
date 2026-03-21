@@ -28,6 +28,24 @@ class GaugeCalculatorApiTest < Minitest::Test
     assert_equal({"spi" => 5.0, "rpi" => 7.0}, json_response)
   end
 
+  def test_post_api_gauge_uses_separate_height_for_rpi
+    width_gauge = Struct.new(:spi, :rpi).new(5.0, 7.0)
+    height_gauge = Struct.new(:spi, :rpi).new(5.0, 5.6)
+    call_count = 0
+
+    stub_class_method(FiberGauge::Gauge, :new, ->(**) {
+      call_count += 1
+      call_count == 1 ? width_gauge : height_gauge
+    }) do
+      request_post "/api/gauge",
+        JSON.generate({stitches: 20, rows: 28, width: 4, height: 5}),
+        {"CONTENT_TYPE" => "application/json"}
+    end
+
+    assert last_response.ok?
+    assert_equal({"spi" => 5.0, "rpi" => 5.6}, json_response)
+  end
+
   def test_post_api_gauge_stitches_returns_required_stitches_using_requested_unit
     test_case = self
     fake_gauge = Object.new

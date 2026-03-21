@@ -23,11 +23,11 @@ class GaugeCalculatorApp < Sinatra::Base
     validate_params!("stitches", "rows", "width")
     validate_positive!("stitches", "rows", "width")
 
-    gauge = build_gauge
+    service = build_service
 
     {
-      spi: gauge.spi,
-      rpi: gauge.rpi
+      spi: service.spi,
+      rpi: service.rpi
     }.to_json
   end
 
@@ -36,8 +36,8 @@ class GaugeCalculatorApp < Sinatra::Base
     validate_params!("stitches", "rows", "width", "target_width")
     validate_positive!("stitches", "rows", "width", "target_width")
 
-    gauge = build_gauge
-    base = gauge.required_stitches(length_param(:target_width)).value
+    service = build_service
+    base = service.gauge.required_stitches(length_param(:target_width)).value
     adjusted = adjust_for_repeat(base)
 
     result = {stitches: adjusted}
@@ -51,8 +51,8 @@ class GaugeCalculatorApp < Sinatra::Base
     validate_params!("stitches", "rows", "width", "target_height")
     validate_positive!("stitches", "rows", "width", "target_height")
 
-    gauge = build_gauge
-    rows = gauge.required_rows(length_param(:target_height))
+    service = build_service
+    rows = service.gauge.required_rows(length_param(:target_height))
 
     {rows: rows.value}.to_json
   end
@@ -87,13 +87,15 @@ class GaugeCalculatorApp < Sinatra::Base
     end
   end
 
-  def build_gauge
+  def build_service
+    height = request_params["height"]&.to_f
     GaugeService.new(
       stitches: request_params.fetch("stitches").to_i,
       rows: request_params.fetch("rows").to_i,
       width: request_params.fetch("width").to_f,
+      height: height,
       unit: request_params["unit"]
-    ).gauge
+    )
   end
 
   def length_param(key)
