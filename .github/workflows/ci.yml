@@ -45,7 +45,16 @@ jobs:
       - name: Run StandardRB
         run: bundle exec standardrb
 
-      - name: Run all gem tests
+      - name: Install app dependencies
+        run: |
+          for dir in apps/*/; do
+            if [ -f "$dir/Gemfile" ]; then
+              echo "📦 Installing $dir"
+              (cd "$dir" && bundle install)
+            fi
+          done
+
+      - name: Run all tests
         run: bundle exec rake test:all
 
       - name: Ensure minimum coverage
