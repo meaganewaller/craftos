@@ -13,8 +13,10 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert_equal "38", html.at_css("input#targetWidth")["value"]
     assert_equal "optional", html.at_css("input#repeat")["placeholder"]
     assert_equal "0", html.at_css("input#offset")["value"]
+    assert_equal "10", html.at_css("input#targetHeight")["value"]
     assert_includes last_response.body, "calculate my gauge!"
     assert_includes last_response.body, "calculate stitches"
+    assert_includes last_response.body, "calculate rows"
   end
 
   def test_get_root_includes_javascript_hooks_for_the_gauge_endpoints
@@ -23,9 +25,11 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert last_response.ok?
     assert_includes last_response.body, 'fetch("/api/gauge"'
     assert_includes last_response.body, 'fetch("/api/gauge/stitches"'
+    assert_includes last_response.body, 'fetch("/api/gauge/rows"'
     assert_includes last_response.body, 'document.getElementById("spi").innerText = data.spi'
     assert_includes last_response.body, "let base = data.stitches"
     assert_includes last_response.body, "if (repeat)"
     assert_includes last_response.body, '`${base} -> ${adjusted} (adjusted)`'
+    assert_includes last_response.body, 'document.getElementById("rowResult").innerText = data.rows'
   end
 end
