@@ -39,25 +39,19 @@ class GaugeServiceTest < Minitest::Test
   end
 
   def test_rpi_uses_height_when_provided
-    call_count = 0
-    width_gauge = Struct.new(:spi, :rpi).new(5.0, 7.0)
-    height_gauge = Struct.new(:spi, :rpi).new(5.0, 6.0)
+    test_case = self
+    fake_gauge = Struct.new(:spi, :rpi).new(5.0, 6.0)
 
     stub_class_method(FiberGauge::Gauge, :new, ->(**kwargs) {
-      call_count += 1
-      if call_count == 1
-        width_gauge
-      else
-        height_gauge
-      end
+      test_case.assert_equal 4.0, kwargs[:width].value
+      test_case.assert_equal 5.0, kwargs[:height].value
+      fake_gauge
     }) do
       service = GaugeService.new(stitches: 20, rows: 28, width: 4, height: 5)
 
       assert_equal 5.0, service.spi
       assert_equal 6.0, service.rpi
     end
-
-    assert_equal 2, call_count
   end
 
   def test_rpi_uses_width_when_height_omitted
