@@ -1,0 +1,24 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "sinatra", require: "sinatra/base"
+gem "puma"
+gem "dotenv"
+gem "fiber_units"
+gem "yarn_skein"
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "rake"
+end
+
+group :test do
+  gem "minitest"
+  gem "rack-test"
+  gem "simplecov", require: false
+  gem "simplecov-json", require: false
+end
+
+gem "rackup", "~> 2.3"
