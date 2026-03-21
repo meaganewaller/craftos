@@ -16,6 +16,7 @@ jobs:
     outputs:
       gauge-calculator: ${{ steps.changes.outputs.gauge-calculator }}
       yarn-substitution: ${{ steps.changes.outputs.yarn-substitution }}
+      stash-manager: ${{ steps.changes.outputs.stash-manager }}
     steps:
       - uses: actions/checkout@v6
       - uses: dorny/paths-filter@v3
@@ -28,6 +29,10 @@ jobs:
               - 'gems/fiber_gauge/**'
             yarn-substitution:
               - 'apps/yarn-substitution/**'
+              - 'gems/fiber_units/**'
+              - 'gems/yarn_skein/**'
+            stash-manager:
+              - 'apps/stash-manager/**'
               - 'gems/fiber_units/**'
               - 'gems/yarn_skein/**'
 
@@ -86,3 +91,11 @@ jobs:
     steps:
       - name: Deploy to Render
         run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_YARN_SUBSTITUTION }}"
+
+  deploy-stash-manager:
+    needs: [test, detect-changes]
+    if: github.ref == 'refs/heads/main' && needs.detect-changes.outputs.stash-manager == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_STASH_MANAGER }}"
