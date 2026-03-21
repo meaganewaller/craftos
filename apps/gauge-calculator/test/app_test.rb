@@ -23,21 +23,29 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert_includes last_response.body, "calculate rows"
   end
 
-  def test_get_root_includes_javascript_hooks_for_the_gauge_endpoints
+  def test_get_root_includes_external_assets
     request_get "/"
 
     assert last_response.ok?
-    assert_includes last_response.body, 'apiPost("/api/gauge"'
-    assert_includes last_response.body, 'apiPost("/api/gauge/stitches"'
-    assert_includes last_response.body, 'apiPost("/api/gauge/rows"'
-    assert_includes last_response.body, 'document.getElementById("spi").innerText = data.spi'
-    assert_includes last_response.body, "data.base_stitches"
-    assert_includes last_response.body, '`${data.base_stitches} -> ${data.stitches} (adjusted)`'
-    assert_includes last_response.body, 'document.getElementById("rowResult").innerText = data.rows'
-    assert_includes last_response.body, "function getUnit()"
-    assert_includes last_response.body, "function updateUnitLabels()"
-    assert_includes last_response.body, "function showError("
-    assert_includes last_response.body, "function apiPost("
+    assert html.at_css('script[src="/js/gauge.js"]'), "expected gauge.js script tag"
+    assert html.at_css('link[href="/css/app.css"]'), "expected app.css link tag"
     assert html.at_css("#errorBanner"), "expected an error banner element"
+  end
+
+  def test_gauge_js_is_served_as_static_asset
+    request_get "/js/gauge.js"
+
+    assert last_response.ok?
+    assert_includes last_response.body, "function apiPost("
+    assert_includes last_response.body, "function calculateGauge()"
+    assert_includes last_response.body, "function calculateStitches()"
+    assert_includes last_response.body, "function calculateRows()"
+  end
+
+  def test_app_css_is_served_as_static_asset
+    request_get "/css/app.css"
+
+    assert last_response.ok?
+    assert_includes last_response.body, ".tooltip"
   end
 end
