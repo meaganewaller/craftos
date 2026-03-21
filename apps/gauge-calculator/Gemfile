@@ -5,8 +5,8 @@ source "https://rubygems.org"
 gem "sinatra", require: "sinatra/base"
 gem "puma"
 gem "dotenv"
-gem "fiber_units", path: "../../gems/fiber_units"
-gem "fiber_gauge", path: "../../gems/fiber_gauge"
+gem "fiber_units"
+gem "fiber_gauge"
 
 group :development do
   gem "better_errors"
