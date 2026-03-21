@@ -11,6 +11,14 @@ on:
       - edited
       - ready_for_review
       - closed
+  workflow_dispatch:
+    inputs:
+      gem_name:
+        description: "Gem name (e.g. fiber_gauge)"
+        required: true
+      version:
+        description: "Version to publish (e.g. 0.2.0)"
+        required: true
 
 permissions:
   contents: write
@@ -94,7 +102,7 @@ jobs:
           cd "${{ steps.readiness.outputs.gem_dir }}"
           gem push "${{ steps.readiness.outputs.gem_name }}-${{ steps.readiness.outputs.version }}.gem"
         env:
-          RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+          GEM_HOST_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
 
       - name: Create git tag
         env:
@@ -123,6 +131,77 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ steps.readiness.outputs.tag }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "GitHub release $TAG already exists."
+            exit 0
+          fi
+
+          gh release create "$TAG" --title "$TAG" --notes-file release-notes.md
+
+  manual_publish:
+    if: github.event_name == 'workflow_dispatch'
+    name: Manual Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      - name: Resolve gem details
+        id: details
+        run: |
+          echo "gem_name=${{ inputs.gem_name }}" >> "$GITHUB_OUTPUT"
+          echo "version=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          echo "tag=${{ inputs.gem_name }}-v${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          echo "gem_dir=gems/${{ inputs.gem_name }}" >> "$GITHUB_OUTPUT"
+
+      - name: Build gem
+        run: |
+          cd "${{ steps.details.outputs.gem_dir }}"
+          gem build "${{ inputs.gem_name }}.gemspec"
+
+      - name: Publish gem to RubyGems
+        run: |
+          cd "${{ steps.details.outputs.gem_dir }}"
+          gem push "${{ inputs.gem_name }}-${{ inputs.version }}.gem"
+        env:
+          GEM_HOST_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
+
+      - name: Create git tag
+        env:
+          TAG: ${{ steps.details.outputs.tag }}
+        run: |
+          git fetch --tags origin
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git tag -a "$TAG" -m "Release $TAG"
+          git push origin "$TAG"
+
+      - name: Generate release notes from changelog
+        run: >
+          ruby scripts/check_release_readiness.rb
+          --notes-gem "${{ inputs.gem_name }}"
+          --notes-version "${{ inputs.version }}"
+          > release-notes.md
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.details.outputs.tag }}
         run: |
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "GitHub release $TAG already exists."
