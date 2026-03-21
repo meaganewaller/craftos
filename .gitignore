@@ -33,3 +33,4 @@ apps/**/vendor/
 /coverage/
 
 apps/**/config/master.key
+!apps/**/Gemfile.lock
