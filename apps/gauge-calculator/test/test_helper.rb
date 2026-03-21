@@ -1,28 +1,45 @@
 require "simplecov"
 require "simplecov-json"
-ENV["RAILS_ENV"] ||= "test"
-require_relative "../config/environment"
-require "rails/test_help"
-require_relative "support/fiber_gauge_test_support"
+
+SimpleCov.start do
+  command_name "gauge-calculator"
+  add_filter "/test/"
+  add_filter "/vendor/"
+  add_filter "/config/"
+end
+
+ENV["SINATRA_ENV"] = "test"
 
 require "minitest/autorun"
+require "rack/test"
+require "nokogiri"
+require_relative "../config/environment"
+require_relative "support/fiber_gauge_test_support"
 
-module ActiveSupport
-  class TestCase
-    # Run tests in parallel with specified workers
-    parallelize(workers: :number_of_processors)
+class Minitest::Test
+  include ClassMethodStubHelper
 
-    # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-    fixtures :all
-
-    # Add more helper methods to be used by all tests here...
+  def app
+    GaugeCalculatorApp
   end
-end
 
-class ActiveSupport::TestCase
-  include ClassMethodStubHelper
-end
+  def rack_test_session
+    @rack_test_session ||= Rack::Test::Session.new(Rack::MockSession.new(app))
+  end
 
-class ActionDispatch::IntegrationTest
-  include ClassMethodStubHelper
+  def request_get(path, headers = {})
+    rack_test_session.get(path, {}, headers)
+  end
+
+  def request_post(path, body = nil, headers = {})
+    rack_test_session.post(path, body, headers)
+  end
+
+  def last_response
+    rack_test_session.last_response
+  end
+
+  def html
+    Nokogiri::HTML(last_response.body)
+  end
 end

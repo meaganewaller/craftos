@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: gauge-calculator
+    runtime: ruby
+    rootDir: apps/gauge-calculator
+    buildCommand: bundle install
+    startCommand: bundle exec rackup -p $PORT -o 0.0.0.0
+    envVars:
+      - key: SINATRA_ENV
+        value: production
+      - key: RACK_ENV
+        value: production
+      - key: BUNDLE_WITHOUT
+        value: development:test

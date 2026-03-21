@@ -8,11 +8,9 @@
     <span class="text-xs">pro tip: block your swatch before measuring for best results</span>
   </p>
 
-  <!-- Swatch -->
   <div class="space-y-5">
     <p class="text-sm text-gray-500 mb-2">your swatch ✿</p>
 
-    <!-- Stitches -->
     <div>
       <label for="stitches" class="block text-sm font-semibold text-gray-700">
         stitches in your swatch
@@ -24,7 +22,6 @@
         class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
     </div>
 
-    <!-- Rows -->
     <div>
       <label for="rows" class="block text-sm font-semibold text-gray-700">
         rows in your swatch
@@ -36,7 +33,6 @@
         class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
     </div>
 
-    <!-- Width -->
     <div>
       <label for="width" class="block text-sm font-semibold text-gray-700">
         width you measured (inches)
@@ -48,16 +44,13 @@
         class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
     </div>
 
-    <!-- Calculate button -->
     <button onclick="calculateGauge()"
       class="w-full bg-pink-500 hover:bg-pink-600 text-white font-medium p-3 rounded-xl transition">
       calculate my gauge!
     </button>
   </div>
 
-  <!-- Results -->
   <div class="mt-6 grid grid-cols-2 gap-3">
-
     <div class="bg-pink-50 rounded-xl p-4 text-center tooltip">
       <p class="text-xs text-gray-500 flex items-center justify-center gap-1">
         SPI
@@ -67,7 +60,7 @@
       <p id="spi" class="text-lg font-bold text-pink-600"></p>
 
       <div class="tooltip-text">
-        stitches per inch — how many stitches fit in one inch of your fabric
+        stitches per inch - how many stitches fit in one inch of your fabric
       </div>
     </div>
 
@@ -80,20 +73,16 @@
       <p id="rpi" class="text-lg font-bold text-blue-600"></p>
 
       <div class="tooltip-text">
-        rows per inch — how many rows fit in one inch of your fabric
+        rows per inch - how many rows fit in one inch of your fabric
       </div>
     </div>
-
   </div>
 
-  <!-- Divider -->
   <div class="my-6 border-t border-dashed border-pink-200"></div>
   <p class="text-sm text-gray-500 mb-2 mt-6">project sizing</p>
 
-  <!-- Width calc -->
   <div class="space-y-3">
     <div class="mt-6 space-y-5">
-
       <div>
         <label for="targetWidth" class="block text-sm font-semibold text-gray-700">
           desired width of your project (inches)
@@ -104,7 +93,6 @@
         <input id="targetWidth" type="number" value="38"
           class="w-full p-3 rounded-xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-300">
       </div>
-
     </div>
 
     <button onclick="calculateStitches()"
@@ -119,51 +107,47 @@
   </div>
 
   <div class="mt-6 space-y-5">
-  <div class="my-6 border-t border-dashed border-pink-200"></div>
+    <div class="my-6 border-t border-dashed border-pink-200"></div>
 
-
-  <p class="text-sm text-gray-500">pattern details ✿</p>
-  <p class="text-xs text-gray-500 leading-relaxed">
-    if your pattern repeats (like k2, p2), we’ll adjust your stitch count so it fits perfectly ✨<br>
-    <span class="text-gray-400">
-      leave these blank if you’re not using a repeat
-    </span>
-  </p>
-
-  <!-- Repeat -->
-  <div>
-    <label for="repeat" class="block text-sm font-semibold text-gray-700">
-      pattern repeat size
-    </label>
-    <p class="text-xs text-gray-400 mb-1">
-      number of stitches in one repeat<br>
-      <span class="text-gray-500">example: k2, p2 → repeat of 4</span>
+    <p class="text-sm text-gray-500">pattern details ✿</p>
+    <p class="text-xs text-gray-500 leading-relaxed">
+      if your pattern repeats (like k2, p2), we'll adjust your stitch count so it fits perfectly ✨<br>
+      <span class="text-gray-400">
+        leave these blank if you're not using a repeat
+      </span>
     </p>
-    <input id="repeat" type="number" placeholder="optional"
-      class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
-    <p class="text-[11px] text-gray-300 mt-1">
-      total stitches = (repeat × n) + offset
-    </p>
+
+    <div>
+      <label for="repeat" class="block text-sm font-semibold text-gray-700">
+        pattern repeat size
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        number of stitches in one repeat<br>
+        <span class="text-gray-500">example: k2, p2 -> repeat of 4</span>
+      </p>
+      <input id="repeat" type="number" placeholder="optional"
+        class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
+      <p class="text-[11px] text-gray-300 mt-1">
+        total stitches = (repeat x n) + offset
+      </p>
+    </div>
+
+    <div>
+      <label for="offset" class="block text-sm font-semibold text-gray-700">
+        extra stitches outside the repeat
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        stitches outside the repeat (edges, borders, etc.)<br>
+        <span class="text-gray-500">example: +2 for edge stitches</span>
+      </p>
+      <input id="offset" type="number" value="0"
+        class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
+
+      <p class="text-[11px] text-gray-300 mt-1">
+        total stitches = (repeat x n) + offset
+      </p>
+    </div>
   </div>
-
-  <!-- Offset -->
-  <div>
-    <label for="offset" class="block text-sm font-semibold text-gray-700">
-      extra stitches outside the repeat
-    </label>
-    <p class="text-xs text-gray-400 mb-1">
-      stitches outside the repeat (edges, borders, etc.)<br>
-      <span class="text-gray-500">example: +2 for edge stitches</span>
-    </p>
-    <input id="offset" type="number" value="0"
-      class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
-
-    <p class="text-[11px] text-gray-300 mt-1">
-      total stitches = (repeat × n) + offset
-    </p>
-  </div>
-
-</div>
 </div>
 
 <script>
@@ -207,7 +191,6 @@
     const data = await res.json()
 
     let base = data.stitches
-
     let adjusted = base
 
     if (repeat) {
@@ -219,7 +202,7 @@
 
     document.getElementById("stitchResult").innerText =
       repeat
-        ? `${base} → ${adjusted} (adjusted)`
+        ? `${base} -> ${adjusted} (adjusted)`
         : `${base}`
   }
 </script>

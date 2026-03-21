@@ -1,7 +1,7 @@
 require "test_helper"
 
-class GaugeServiceTest < ActiveSupport::TestCase
-  test "results returns spi and rpi from the gauge" do
+class GaugeServiceTest < Minitest::Test
+  def test_results_returns_spi_and_rpi_from_the_gauge
     test_case = self
     fake_gauge = Struct.new(:spi, :rpi).new(5.0, 7.0)
 
@@ -10,7 +10,7 @@ class GaugeServiceTest < ActiveSupport::TestCase
       test_case.assert_equal 20, kwargs[:stitches].value
       test_case.assert_instance_of FiberUnits::RowCount, kwargs[:rows]
       test_case.assert_equal 28, kwargs[:rows].value
-      test_case.assert_equal 4, kwargs[:width].value
+      test_case.assert_equal 4.0, kwargs[:width].value
       test_case.assert_equal :inches, kwargs[:width].unit
 
       fake_gauge
@@ -21,11 +21,11 @@ class GaugeServiceTest < ActiveSupport::TestCase
     end
   end
 
-  test "stitches_for returns the raw value from the gauge" do
+  def test_stitches_for_returns_the_raw_value_from_the_gauge
     test_case = self
     fake_gauge = Object.new
     fake_gauge.define_singleton_method(:required_stitches) do |width|
-      test_case.assert_equal 10, width.value
+      test_case.assert_equal 10.0, width.value
       test_case.assert_equal :inches, width.unit
 
       Struct.new(:value).new(50)
@@ -38,11 +38,11 @@ class GaugeServiceTest < ActiveSupport::TestCase
     end
   end
 
-  test "rows_for returns the raw value from the gauge" do
+  def test_rows_for_returns_the_raw_value_from_the_gauge
     test_case = self
     fake_gauge = Object.new
     fake_gauge.define_singleton_method(:required_rows) do |height|
-      test_case.assert_equal 8, height.value
+      test_case.assert_equal 8.0, height.value
       test_case.assert_equal :inches, height.unit
 
       Struct.new(:value).new(56)

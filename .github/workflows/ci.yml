@@ -11,6 +11,21 @@ permissions:
   contents: read
 
 jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      gauge-calculator: ${{ steps.changes.outputs.gauge-calculator }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            gauge-calculator:
+              - 'apps/gauge-calculator/**'
+              - 'gems/fiber_units/**'
+              - 'gems/fiber_gauge/**'
+
   test:
     runs-on: ubuntu-latest
 
@@ -30,7 +45,16 @@ jobs:
       - name: Run StandardRB
         run: bundle exec standardrb
 
-      - name: Run all gem tests
+      - name: Install app dependencies
+        run: |
+          for dir in apps/*/; do
+            if [ -f "$dir/Gemfile" ]; then
+              echo "📦 Installing $dir"
+              (cd "$dir" && bundle install)
+            fi
+          done
+
+      - name: Run all tests
         run: bundle exec rake test:all
 
       - name: Ensure minimum coverage
@@ -41,3 +65,11 @@ jobs:
           coverage_path: coverage/combined/.last_run.json
           coverage_json_path: coverage/combined/coverage.json
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy-gauge-calculator:
+    needs: [test, detect-changes]
+    if: github.ref == 'refs/heads/main' && needs.detect-changes.outputs.gauge-calculator == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_GAUGE_CALCULATOR }}"

@@ -1,7 +1,11 @@
 require "test_helper"
 
-class GaugeControllerTest < ActionDispatch::IntegrationTest
-  test "POST /gauge returns spi and rpi" do
+class GaugeCalculatorApiTest < Minitest::Test
+  def json_response
+    JSON.parse(last_response.body)
+  end
+
+  def test_post_api_gauge_returns_spi_and_rpi
     test_case = self
     fake_gauge = Struct.new(:spi, :rpi).new(5.0, 7.0)
 
@@ -15,14 +19,16 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
 
       fake_gauge
     }) do
-      post "/api/gauge", params: {stitches: 20, rows: 28, width: 4}
+      request_post "/api/gauge",
+        JSON.generate({stitches: 20, rows: 28, width: 4}),
+        {"CONTENT_TYPE" => "application/json"}
     end
 
-    assert_response :success
-    assert_equal({"spi" => 5.0, "rpi" => 7.0}, response.parsed_body)
+    assert last_response.ok?
+    assert_equal({"spi" => 5.0, "rpi" => 7.0}, json_response)
   end
 
-  test "POST /gauge/stitches returns required stitches using requested unit" do
+  def test_post_api_gauge_stitches_returns_required_stitches_using_requested_unit
     test_case = self
     fake_gauge = Object.new
     fake_stitches = Struct.new(:value).new(50)
@@ -35,20 +41,22 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
-      post "/api/gauge/stitches", params: {
-        stitches: 20,
-        rows: 28,
-        width: 4,
-        target_width: 25.4,
-        unit: "centimeters"
-      }
+      request_post "/api/gauge/stitches",
+        JSON.generate({
+          stitches: 20,
+          rows: 28,
+          width: 4,
+          target_width: 25.4,
+          unit: "centimeters"
+        }),
+        {"CONTENT_TYPE" => "application/json"}
     end
 
-    assert_response :success
-    assert_equal({"stitches" => 50}, response.parsed_body)
+    assert last_response.ok?
+    assert_equal({"stitches" => 50}, json_response)
   end
 
-  test "POST /gauge/rows returns required rows in default inches" do
+  def test_post_api_gauge_rows_returns_required_rows_in_default_inches
     test_case = self
     fake_gauge = Object.new
     fake_rows = Struct.new(:value).new(56)
@@ -61,19 +69,21 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
-      post "/api/gauge/rows", params: {
-        stitches: 20,
-        rows: 28,
-        width: 4,
-        target_height: 8
-      }
+      request_post "/api/gauge/rows",
+        JSON.generate({
+          stitches: 20,
+          rows: 28,
+          width: 4,
+          target_height: 8
+        }),
+        {"CONTENT_TYPE" => "application/json"}
     end
 
-    assert_response :success
-    assert_equal({"rows" => 56}, response.parsed_body)
+    assert last_response.ok?
+    assert_equal({"rows" => 56}, json_response)
   end
 
-  test "POST /gauge/rows uses the requested unit" do
+  def test_post_api_gauge_rows_uses_the_requested_unit
     test_case = self
     fake_gauge = Object.new
     fake_rows = Struct.new(:value).new(70)
@@ -86,16 +96,18 @@ class GaugeControllerTest < ActionDispatch::IntegrationTest
     end
 
     stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
-      post "/api/gauge/rows", params: {
-        stitches: 20,
-        rows: 28,
-        width: 4,
-        target_height: 25.4,
-        unit: "centimeters"
-      }
+      request_post "/api/gauge/rows",
+        JSON.generate({
+          stitches: 20,
+          rows: 28,
+          width: 4,
+          target_height: 25.4,
+          unit: "centimeters"
+        }),
+        {"CONTENT_TYPE" => "application/json"}
     end
 
-    assert_response :success
-    assert_equal({"rows" => 70}, response.parsed_body)
+    assert last_response.ok?
+    assert_equal({"rows" => 70}, json_response)
   end
 end
