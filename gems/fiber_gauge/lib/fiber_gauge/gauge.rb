@@ -29,5 +29,12 @@ module FiberGauge
 
       count.stitches
     end
+
+    def required_rows(length)
+      inches = length.to(:inches).value
+      count = (inches * rpi).round
+
+      count.rows
+    end
   end
 end

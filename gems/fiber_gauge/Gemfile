@@ -8,3 +8,6 @@ gemspec
 group :test do
   gem "simplecov", require: false
 end
+
+gem "rake", "~> 13.3", group: :test
+gem "simplecov-json", "~> 0.2.3", group: :test

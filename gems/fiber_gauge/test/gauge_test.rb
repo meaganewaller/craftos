@@ -58,4 +58,20 @@ class FiberGaugeGaugeTest < Minitest::Test
 
     assert_equal 90.stitches, stitches
   end
+
+  # -----------------------------
+  # required_rows
+  # -----------------------------
+
+  def test_calculates_required_rows_for_height
+    rows = gauge.required_rows(10.inches)
+
+    assert_equal 60.rows, rows
+  end
+
+  def test_calculates_required_rows_for_metric_height
+    rows = gauge.required_rows(25.4.centimeters)
+
+    assert_equal 60.rows, rows
+  end
 end
