@@ -97,16 +97,35 @@ yarn.weight_category
 # => :worsted
 ```
 
+## Apps
+
+### `gauge-calculator`
+
+A web application for calculating knitting and crochet gauge. Built with Sinatra, it provides a UI and JSON API for computing stitches per inch, rows per inch, and required stitch/row counts for target dimensions.
+
+Depends on `fiber_units` and `fiber_gauge`.
+
+```
+cd apps/gauge-calculator
+bundle install
+bundle exec rackup
+```
+
+Deployed to [Render](https://render.com) automatically when changes to the app or its gem dependencies land on `main` and CI passes.
+
 ## Repository Structure
 
 ```
 craftos
+├── apps
+│   └── gauge-calculator
 ├── gems
 │   ├── fiber_units
 │   ├── fiber_gauge
 │   ├── fiber_pattern
 │   └── yarn_skein
 │
+├── render.yaml
 ├── Gemfile
 ├── Rakefile
 └── README.md
@@ -118,6 +137,13 @@ Each gem contains its own:
 - tests
 - version
 - release lifecycle
+
+Each app contains its own:
+
+- Gemfile
+- Rakefile
+- tests
+- deployment configuration
 
 ## Development
 
@@ -132,6 +158,7 @@ Install the dependencies
 
 ```
 bundle install
+bundle exec rake bundle:all
 ```
 
 Run the full test suite:
@@ -187,7 +214,6 @@ CraftOS is intended to support more advanced fiber tooling, including:
 - pattern grading engines
 - yarn substitution tools
 - stash management systems
-- gauge calculators
 - garment sizing engines
 - pattern editors
 
