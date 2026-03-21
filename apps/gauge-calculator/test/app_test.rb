@@ -27,14 +27,17 @@ class GaugeCalculatorAppTest < Minitest::Test
     request_get "/"
 
     assert last_response.ok?
-    assert_includes last_response.body, 'fetch("/api/gauge"'
-    assert_includes last_response.body, 'fetch("/api/gauge/stitches"'
-    assert_includes last_response.body, 'fetch("/api/gauge/rows"'
+    assert_includes last_response.body, 'apiPost("/api/gauge"'
+    assert_includes last_response.body, 'apiPost("/api/gauge/stitches"'
+    assert_includes last_response.body, 'apiPost("/api/gauge/rows"'
     assert_includes last_response.body, 'document.getElementById("spi").innerText = data.spi'
     assert_includes last_response.body, "data.base_stitches"
     assert_includes last_response.body, '`${data.base_stitches} -> ${data.stitches} (adjusted)`'
     assert_includes last_response.body, 'document.getElementById("rowResult").innerText = data.rows'
     assert_includes last_response.body, "function getUnit()"
     assert_includes last_response.body, "function updateUnitLabels()"
+    assert_includes last_response.body, "function showError("
+    assert_includes last_response.body, "function apiPost("
+    assert html.at_css("#errorBanner"), "expected an error banner element"
   end
 end

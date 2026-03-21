@@ -20,6 +20,8 @@ class GaugeCalculatorApp < Sinatra::Base
 
   post "/api/gauge" do
     content_type :json
+    validate_params!("stitches", "rows", "width")
+    validate_positive!("stitches", "rows", "width")
 
     gauge = build_gauge
 
@@ -31,6 +33,8 @@ class GaugeCalculatorApp < Sinatra::Base
 
   post "/api/gauge/stitches" do
     content_type :json
+    validate_params!("stitches", "rows", "width", "target_width")
+    validate_positive!("stitches", "rows", "width", "target_width")
 
     gauge = build_gauge
     base = gauge.required_stitches(length_param(:target_width)).value
@@ -44,6 +48,8 @@ class GaugeCalculatorApp < Sinatra::Base
 
   post "/api/gauge/rows" do
     content_type :json
+    validate_params!("stitches", "rows", "width", "target_height")
+    validate_positive!("stitches", "rows", "width", "target_height")
 
     gauge = build_gauge
     rows = gauge.required_rows(length_param(:target_height))
@@ -51,7 +57,26 @@ class GaugeCalculatorApp < Sinatra::Base
     {rows: rows.value}.to_json
   end
 
+  error 422 do
+    content_type :json
+    response.body
+  end
+
   private
+
+  def validate_params!(*keys)
+    missing = keys.select { |k| request_params[k].nil? }
+    unless missing.empty?
+      halt 422, {error: "Missing required parameters: #{missing.join(", ")}"}.to_json
+    end
+  end
+
+  def validate_positive!(*keys)
+    invalid = keys.select { |k| request_params[k].to_f <= 0 }
+    unless invalid.empty?
+      halt 422, {error: "Parameters must be positive: #{invalid.join(", ")}"}.to_json
+    end
+  end
 
   def request_params
     @request_params ||= begin

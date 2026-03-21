@@ -155,4 +155,41 @@ class GaugeCalculatorApiTest < Minitest::Test
     assert last_response.ok?
     assert_equal({"rows" => 70}, json_response)
   end
+
+  def test_post_api_gauge_returns_422_when_missing_required_params
+    request_post "/api/gauge",
+      JSON.generate({stitches: 20}),
+      {"CONTENT_TYPE" => "application/json"}
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "rows"
+    assert_includes json_response["error"], "width"
+  end
+
+  def test_post_api_gauge_returns_422_when_params_are_zero
+    request_post "/api/gauge",
+      JSON.generate({stitches: 0, rows: 28, width: 4}),
+      {"CONTENT_TYPE" => "application/json"}
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "stitches"
+  end
+
+  def test_post_api_gauge_stitches_returns_422_when_missing_target_width
+    request_post "/api/gauge/stitches",
+      JSON.generate({stitches: 20, rows: 28, width: 4}),
+      {"CONTENT_TYPE" => "application/json"}
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "target_width"
+  end
+
+  def test_post_api_gauge_rows_returns_422_when_missing_target_height
+    request_post "/api/gauge/rows",
+      JSON.generate({stitches: 20, rows: 28, width: 4}),
+      {"CONTENT_TYPE" => "application/json"}
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "target_height"
+  end
 end
