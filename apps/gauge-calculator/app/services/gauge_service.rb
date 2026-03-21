@@ -6,19 +6,14 @@ class GaugeService
     @stitch_count = stitches
     @row_count = rows
 
-    @gauge = FiberGauge::Gauge.new(
+    gauge_opts = {
       stitches: stitches.stitches,
       rows: rows.rows,
       width: width.to_f.public_send(@unit)
-    )
+    }
+    gauge_opts[:height] = height.to_f.public_send(@unit) if height
 
-    if height
-      @row_gauge = FiberGauge::Gauge.new(
-        stitches: stitches.stitches,
-        rows: rows.rows,
-        width: height.to_f.public_send(@unit)
-      )
-    end
+    @gauge = FiberGauge::Gauge.new(**gauge_opts)
   end
 
   def spi
@@ -26,7 +21,7 @@ class GaugeService
   end
 
   def rpi
-    row_gauge.rpi
+    gauge.rpi
   end
 
   def results
@@ -45,8 +40,4 @@ class GaugeService
   end
 
   private
-
-  def row_gauge
-    @row_gauge || @gauge
-  end
 end

@@ -63,8 +63,8 @@ GEM
       net-http (~> 0.5)
     faraday-retry (2.4.0)
       faraday (~> 2.0)
-    fiber_gauge (0.1.0)
-      fiber_units (~> 0.3.1)
+    fiber_gauge (0.2.0)
+      fiber_units (>= 0.1)
     fiber_units (0.3.1)
     grade_runner (0.0.16)
       activesupport (>= 2.3.5)
@@ -246,7 +246,7 @@ CHECKSUMS
   faraday (2.14.1) sha256=a43cceedc1e39d188f4d2cdd360a8aaa6a11da0c407052e426ba8d3fb42ef61c
   faraday-net_http (3.4.2) sha256=f147758260d3526939bf57ecf911682f94926a3666502e24c69992765875906c
   faraday-retry (2.4.0) sha256=7b79c48fb7e56526faf247b12d94a680071ff40c9fda7cf1ec1549439ad11ebe
-  fiber_gauge (0.1.0) sha256=7ab6743d9ac20449c91736ead742fbfde6a0ad254449d5032323eb15c5ab9e78
+  fiber_gauge (0.2.0) sha256=89ac687ce519061f00ccb3a7ef2fc59bfbdb68151f2909c82f9845bffce1d46d
   fiber_units (0.3.1) sha256=4aa5688494b1315ecaa415a434f03a69faee155af4fcd1d57f3d000f4ed6df1a
   grade_runner (0.0.16) sha256=c12013854b0c814cb8cb2c0882203e4674642aa4bc2297462a8f896a2ee33fd2
   hashdiff (1.2.1) sha256=9c079dbc513dfc8833ab59c0c2d8f230fa28499cc5efb4b8dd276cf931457cd1
