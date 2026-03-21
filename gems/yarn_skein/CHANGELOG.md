@@ -1,7 +1,13 @@
 ## [Unreleased]
 
-### Changed
-- GitHub Actions now publishes on version tag pushes and creates a matching GitHub release
+
+## [0.2.0] - 2026-03-21
+
+### Added
+- `YarnSkein::Substitution` for finding compatible yarn substitutes from a catalog
+- Matches by weight category and grist tolerance (default 15%, configurable)
+- Optional fiber content filter
+- Added missing `rake` and `simplecov-json` dev dependencies
 
 ## [0.1.1] - 2026-03-14
 ### Added
