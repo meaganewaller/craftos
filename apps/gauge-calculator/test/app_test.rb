@@ -31,9 +31,8 @@ class GaugeCalculatorAppTest < Minitest::Test
     assert_includes last_response.body, 'fetch("/api/gauge/stitches"'
     assert_includes last_response.body, 'fetch("/api/gauge/rows"'
     assert_includes last_response.body, 'document.getElementById("spi").innerText = data.spi'
-    assert_includes last_response.body, "let base = data.stitches"
-    assert_includes last_response.body, "if (repeat)"
-    assert_includes last_response.body, '`${base} -> ${adjusted} (adjusted)`'
+    assert_includes last_response.body, "data.base_stitches"
+    assert_includes last_response.body, '`${data.base_stitches} -> ${data.stitches} (adjusted)`'
     assert_includes last_response.body, 'document.getElementById("rowResult").innerText = data.rows'
     assert_includes last_response.body, "function getUnit()"
     assert_includes last_response.body, "function updateUnitLabels()"

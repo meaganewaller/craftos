@@ -223,34 +223,24 @@
     const repeat = document.getElementById("repeat").value
     const offset = document.getElementById("offset").value
 
+    const payload = { stitches, rows, width, target_width: targetWidth, unit }
+    if (repeat) {
+      payload.repeat = parseInt(repeat)
+      payload.offset = parseInt(offset || 0)
+    }
+
     const res = await fetch("/api/gauge/stitches", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        stitches,
-        rows,
-        width,
-        target_width: targetWidth,
-        unit
-      })
+      body: JSON.stringify(payload)
     })
 
     const data = await res.json()
 
-    let base = data.stitches
-    let adjusted = base
-
-    if (repeat) {
-      const r = parseInt(repeat)
-      const o = parseInt(offset || 0)
-
-      adjusted = Math.ceil((base - o) / r) * r + o
-    }
-
     document.getElementById("stitchResult").innerText =
-      repeat
-        ? `${base} -> ${adjusted} (adjusted)`
-        : `${base}`
+      data.base_stitches
+        ? `${data.base_stitches} -> ${data.stitches} (adjusted)`
+        : `${data.stitches}`
   }
 
   async function calculateRows() {

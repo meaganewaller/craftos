@@ -56,6 +56,51 @@ class GaugeCalculatorApiTest < Minitest::Test
     assert_equal({"stitches" => 50}, json_response)
   end
 
+  def test_post_api_gauge_stitches_adjusts_for_pattern_repeat
+    fake_gauge = Object.new
+    fake_stitches = Struct.new(:value).new(191)
+
+    fake_gauge.define_singleton_method(:required_stitches) { |_| fake_stitches }
+
+    stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
+      request_post "/api/gauge/stitches",
+        JSON.generate({
+          stitches: 20,
+          rows: 28,
+          width: 4,
+          target_width: 38,
+          repeat: 4,
+          offset: 2
+        }),
+        {"CONTENT_TYPE" => "application/json"}
+    end
+
+    assert last_response.ok?
+    assert_equal 194, json_response["stitches"]
+    assert_equal 191, json_response["base_stitches"]
+  end
+
+  def test_post_api_gauge_stitches_omits_base_when_no_repeat
+    fake_gauge = Object.new
+    fake_stitches = Struct.new(:value).new(190)
+
+    fake_gauge.define_singleton_method(:required_stitches) { |_| fake_stitches }
+
+    stub_class_method(FiberGauge::Gauge, :new, ->(**) { fake_gauge }) do
+      request_post "/api/gauge/stitches",
+        JSON.generate({
+          stitches: 20,
+          rows: 28,
+          width: 4,
+          target_width: 38
+        }),
+        {"CONTENT_TYPE" => "application/json"}
+    end
+
+    assert last_response.ok?
+    assert_equal({"stitches" => 190}, json_response)
+  end
+
   def test_post_api_gauge_rows_returns_required_rows_in_default_inches
     test_case = self
     fake_gauge = Object.new

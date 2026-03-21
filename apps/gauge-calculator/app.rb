@@ -33,9 +33,13 @@ class GaugeCalculatorApp < Sinatra::Base
     content_type :json
 
     gauge = build_gauge
-    stitches = gauge.required_stitches(length_param(:target_width))
+    base = gauge.required_stitches(length_param(:target_width)).value
+    adjusted = adjust_for_repeat(base)
 
-    {stitches: stitches.value}.to_json
+    result = {stitches: adjusted}
+    result[:base_stitches] = base if adjusted != base
+
+    result.to_json
   end
 
   post "/api/gauge/rows" do
@@ -72,5 +76,13 @@ class GaugeCalculatorApp < Sinatra::Base
     unit = request_params["unit"] || "inches"
 
     value.public_send(unit)
+  end
+
+  def adjust_for_repeat(base)
+    repeat = request_params["repeat"]&.to_i
+    return base unless repeat && repeat > 0
+
+    offset = (request_params["offset"] || 0).to_i
+    ((base - offset).to_f / repeat).ceil * repeat + offset
   end
 end
