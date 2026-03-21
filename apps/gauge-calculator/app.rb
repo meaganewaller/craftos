@@ -46,12 +46,10 @@ class GaugeCalculatorApp < Sinatra::Base
 
   def request_params
     @request_params ||= begin
-      body = request.body.read
-
-      parsed_body = body.empty? ? {} : JSON.parse(body)
-      params.to_h.merge(parsed_body)
+      body = env["rack.input"].read.to_s
+      body.empty? ? {} : JSON.parse(body)
     rescue JSON::ParserError
-      params.to_h
+      {}
     end
   end
 
