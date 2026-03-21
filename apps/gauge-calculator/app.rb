@@ -47,7 +47,6 @@ class GaugeCalculatorApp < Sinatra::Base
   def request_params
     @request_params ||= begin
       body = request.body.read
-      request.body.rewind
 
       parsed_body = body.empty? ? {} : JSON.parse(body)
       params.to_h.merge(parsed_body)
