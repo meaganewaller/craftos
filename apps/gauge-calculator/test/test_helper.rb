@@ -2,7 +2,10 @@ require "simplecov"
 require "simplecov-json"
 
 SimpleCov.start do
+  command_name "gauge-calculator"
   add_filter "/test/"
+  add_filter "/vendor/"
+  add_filter "/config/"
 end
 
 ENV["SINATRA_ENV"] = "test"

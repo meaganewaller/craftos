@@ -7,6 +7,11 @@ class GaugeCalculatorApp < Sinatra::Base
     set :views, File.join(root, "views")
     set :public_folder, File.join(root, "public")
     set :static, true
+    set :environment, ENV.fetch("SINATRA_ENV", "development").to_sym
+  end
+
+  configure :test do
+    set :protection, except: :host_authorization
   end
 
   get "/" do
