@@ -12,3 +12,17 @@ services:
         value: production
       - key: BUNDLE_WITHOUT
         value: development:test
+
+  - type: web
+    name: yarn-substitution
+    runtime: ruby
+    rootDir: apps/yarn-substitution
+    buildCommand: bundle install
+    startCommand: bundle exec rackup -p $PORT -o 0.0.0.0
+    envVars:
+      - key: SINATRA_ENV
+        value: production
+      - key: RACK_ENV
+        value: production
+      - key: BUNDLE_WITHOUT
+        value: development:test

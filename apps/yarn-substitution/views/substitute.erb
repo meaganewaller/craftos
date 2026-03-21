@@ -1,0 +1,86 @@
+<div class="max-w-xl mx-auto p-6 mt-8">
+  <h1 class="text-3xl font-bold text-center text-purple-800 mb-2">yarn substitution finder</h1>
+  <p class="text-center text-gray-600 mb-6">Enter your yarn's details to find compatible substitutes from our catalog.</p>
+
+  <div class="bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-lg font-semibold text-purple-700 mb-4">Your Yarn</h2>
+
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Yardage (per skein)</label>
+        <input type="number" id="yardage" step="any" min="0" class="w-full border rounded px-3 py-2" placeholder="e.g. 210">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Skein weight (grams)</label>
+        <input type="number" id="skein_weight" step="any" min="0" class="w-full border rounded px-3 py-2" placeholder="e.g. 100">
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Brand (optional)</label>
+        <input type="text" id="brand" class="w-full border rounded px-3 py-2" placeholder="e.g. Malabrigo">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Line (optional)</label>
+        <input type="text" id="line" class="w-full border rounded px-3 py-2" placeholder="e.g. Rios">
+      </div>
+    </div>
+
+    <div class="mb-4">
+      <label class="block text-sm font-medium text-gray-700 mb-1">Filter by fiber (optional)</label>
+      <select id="fiber_filter" class="w-full border rounded px-3 py-2">
+        <option value="">Any fiber</option>
+        <option value="wool">Wool</option>
+        <option value="cotton">Cotton</option>
+        <option value="acrylic">Acrylic</option>
+        <option value="alpaca">Alpaca</option>
+        <option value="nylon">Nylon</option>
+      </select>
+    </div>
+
+    <div class="mb-4">
+      <label class="block text-sm font-medium text-gray-700 mb-1">Tolerance</label>
+      <select id="tolerance" class="w-full border rounded px-3 py-2">
+        <option value="0.15">Standard (15%)</option>
+        <option value="0.10">Tight (10%)</option>
+        <option value="0.05">Very tight (5%)</option>
+        <option value="0.25">Loose (25%)</option>
+      </select>
+    </div>
+
+    <button onclick="findSubstitutes()" class="w-full bg-purple-600 text-white font-semibold py-2 px-4 rounded hover:bg-purple-700 transition">
+      Find substitutes
+    </button>
+  </div>
+
+  <div id="target-info" class="hidden bg-purple-50 rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-lg font-semibold text-purple-700 mb-3">Your Yarn Info</h2>
+    <div class="grid grid-cols-3 gap-4 text-center">
+      <div>
+        <div class="text-sm text-gray-600">Weight Category</div>
+        <div id="weight-category" class="text-lg font-bold text-purple-800"></div>
+      </div>
+      <div>
+        <div class="text-sm text-gray-600">Yards/100g</div>
+        <div id="yards-per-100g" class="text-lg font-bold text-purple-800"></div>
+      </div>
+      <div>
+        <div class="text-sm text-gray-600">Grist</div>
+        <div id="grist" class="text-lg font-bold text-purple-800"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="results" class="hidden">
+    <h2 class="text-lg font-semibold text-purple-700 mb-3">Compatible Substitutes</h2>
+    <div id="matches-list"></div>
+    <div id="no-matches" class="hidden text-center text-gray-500 py-4">
+      No compatible substitutes found. Try a looser tolerance.
+    </div>
+  </div>
+
+  <div id="error" class="hidden bg-red-50 rounded-xl shadow-md p-4 text-red-700"></div>
+</div>
+
+<script src="/js/substitute.js"></script>

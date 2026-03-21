@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       gauge-calculator: ${{ steps.changes.outputs.gauge-calculator }}
+      yarn-substitution: ${{ steps.changes.outputs.yarn-substitution }}
     steps:
       - uses: actions/checkout@v6
       - uses: dorny/paths-filter@v3
@@ -25,6 +26,10 @@ jobs:
               - 'apps/gauge-calculator/**'
               - 'gems/fiber_units/**'
               - 'gems/fiber_gauge/**'
+            yarn-substitution:
+              - 'apps/yarn-substitution/**'
+              - 'gems/fiber_units/**'
+              - 'gems/yarn_skein/**'
 
   test:
     runs-on: ubuntu-latest
@@ -73,3 +78,11 @@ jobs:
     steps:
       - name: Deploy to Render
         run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_GAUGE_CALCULATOR }}"
+
+  deploy-yarn-substitution:
+    needs: [test, detect-changes]
+    if: github.ref == 'refs/heads/main' && needs.detect-changes.outputs.yarn-substitution == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_YARN_SUBSTITUTION }}"
