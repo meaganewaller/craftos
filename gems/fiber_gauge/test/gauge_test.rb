@@ -21,6 +21,19 @@ class FiberGaugeGaugeTest < Minitest::Test
     assert_equal 18, g.stitches.value
     assert_equal 24, g.rows.value
     assert_equal 4.inches, g.width
+    assert_equal 4.inches, g.height
+  end
+
+  def test_initialization_with_separate_height
+    g = FiberGauge::Gauge.new(
+      stitches: 18.stitches,
+      rows: 24.rows,
+      width: 4.inches,
+      height: 5.inches
+    )
+
+    assert_equal 4.inches, g.width
+    assert_equal 5.inches, g.height
   end
 
   # -----------------------------
@@ -37,6 +50,18 @@ class FiberGaugeGaugeTest < Minitest::Test
 
   def test_calculates_rpi
     assert_equal 6, gauge.rpi
+  end
+
+  def test_calculates_rpi_with_separate_height
+    g = FiberGauge::Gauge.new(
+      stitches: 18.stitches,
+      rows: 24.rows,
+      width: 4.inches,
+      height: 6.inches
+    )
+
+    assert_in_delta 4.0, g.rpi, 0.001
+    assert_equal 4.5, g.spi.round(2)
   end
 
   # -----------------------------

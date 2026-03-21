@@ -1,11 +1,12 @@
 module FiberGauge
   class Gauge
-    attr_reader :stitches, :rows, :width
+    attr_reader :stitches, :rows, :width, :height
 
-    def initialize(stitches:, rows:, width:)
+    def initialize(stitches:, rows:, width:, height: width)
       @stitches = stitches
       @rows = rows
       @width = width
+      @height = height
     end
 
     def spi
@@ -13,7 +14,7 @@ module FiberGauge
     end
 
     def rpi
-      rows.value / width.to(:inches).value
+      rows.value / height.to(:inches).value
     end
 
     def width_for_stitches(stitch_count)
