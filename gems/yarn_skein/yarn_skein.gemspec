@@ -2,22 +2,26 @@
 
 require_relative "lib/yarn_skein/version"
 
+lib_name = "yarn_skein"
+monorepo_url = "https://github.com/meaganewaller/craftos"
+repository_url = "#{monorepo_url}/tree/main/gems/#{lib_name}"
+
 Gem::Specification.new do |spec|
-  spec.name = "yarn_skein"
+  spec.name = lib_name
   spec.version = YarnSkein::VERSION
   spec.authors = ["Meagan Waller"]
   spec.email = ["meagan@meaganwaller.com"]
 
   spec.summary = "Typed measurements for fiber arts."
   spec.description = "FiberUnits provides a comprehensive system for managing and converting measurements in fiber arts projects."
-  spec.homepage = "https://github.com/meaganewaller/yarn_skein"
+  spec.homepage = repository_url
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.2.0"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/meaganewaller/yarn_skein"
-  spec.metadata["changelog_uri"] = "https://github.com/meaganewaller/yarn_skein/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = repository_url
+  spec.metadata["changelog_uri"] = "#{repository_url}/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
