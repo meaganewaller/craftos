@@ -3,8 +3,6 @@ class GaugeService
 
   def initialize(stitches:, rows:, width:, height: nil, unit: nil)
     @unit = unit || "inches"
-    @stitch_count = stitches
-    @row_count = rows
 
     gauge_opts = {
       stitches: stitches.stitches,
@@ -31,8 +29,15 @@ class GaugeService
     }
   end
 
-  def stitches_for(width)
-    gauge.required_stitches(width.to_f.public_send(@unit)).value
+  def stitches_for(width, repeat: nil, offset: 0)
+    sizing_opts = {gauge: gauge}
+
+    if repeat && repeat > 0
+      sizing_opts[:repeat] = FiberPattern::Repeat.new(multiple: repeat.stitches, offset: offset.stitches)
+    end
+
+    sizing = FiberPattern::Sizing.new(**sizing_opts)
+    sizing.cast_on_for(width.to_f.public_send(@unit)).value
   end
 
   def rows_for(height)
