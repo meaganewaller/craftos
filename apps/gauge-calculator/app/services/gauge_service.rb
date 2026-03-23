@@ -33,8 +33,7 @@ class GaugeService
     sizing_opts = {gauge: gauge}
 
     if repeat && repeat > 0
-      sizing_opts[:stitch_repeat] = repeat.stitches
-      sizing_opts[:repeat_offset] = offset.stitches
+      sizing_opts[:repeat] = FiberPattern::Repeat.new(multiple: repeat.stitches, offset: offset.stitches)
     end
 
     sizing = FiberPattern::Sizing.new(**sizing_opts)
