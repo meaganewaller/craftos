@@ -3,7 +3,8 @@
 lib_name = "fiber_pattern"
 
 require_relative "lib/fiber_pattern/version"
-repository_url = "https://github.com/meaganewaller/#{lib_name}"
+monorepo_url = "https://github.com/meaganewaller/craftos"
+repository_url = "#{monorepo_url}/tree/main/gems/#{lib_name}"
 
 Gem::Specification.new do |spec|
   spec.summary = "Pattern sizing and stitch math for knitting and crochet."
@@ -15,7 +16,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     "source_code_uri" => repository_url,
-    "bug_tracker_uri" => "#{repository_url}/issues",
+    "bug_tracker_uri" => "#{monorepo_url}/issues",
     "rubygems_mfa_required" => "true"
   }
 
