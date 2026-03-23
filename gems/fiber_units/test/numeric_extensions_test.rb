@@ -108,4 +108,40 @@ class NumericDslExtensionsTest < Minitest::Test
     assert_instance_of FiberUnits::RowCount, result
     assert_equal 32, result.value
   end
+
+  # -----------------------------
+  # Tool size helpers
+  # -----------------------------
+
+  def test_creates_us_needle
+    result = 8.us_needle
+
+    assert_instance_of FiberUnits::NeedleSize, result
+    assert_equal 8, result.value
+    assert_equal :us, result.system
+  end
+
+  def test_creates_mm_needle
+    result = 5.0.mm_needle
+
+    assert_instance_of FiberUnits::NeedleSize, result
+    assert_equal 5.0, result.value
+    assert_equal :mm, result.system
+  end
+
+  def test_creates_uk_needle
+    result = 6.uk_needle
+
+    assert_instance_of FiberUnits::NeedleSize, result
+    assert_equal 6, result.value
+    assert_equal :uk, result.system
+  end
+
+  def test_creates_mm_hook
+    result = 5.0.mm_hook
+
+    assert_instance_of FiberUnits::HookSize, result
+    assert_equal 5.0, result.value
+    assert_equal :mm, result.system
+  end
 end

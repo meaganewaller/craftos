@@ -34,6 +34,7 @@ module FiberUnits
       install_length_units
       install_weight_units
       install_fiber_counts
+      install_tool_sizes
     end
 
     # Install numeric helpers for length units.
@@ -93,6 +94,33 @@ module FiberUnits
         FiberUnits::RowCount.new(self)
       end
     end
+
+    # Install numeric helpers for needle and hook sizes.
+    #
+    # @example
+    #   8.us_needle    # US 8 knitting needle
+    #   5.0.mm_needle  # 5.0mm knitting needle
+    #   5.0.mm_hook    # 5.0mm crochet hook
+    #   8.us_hook      # US H/8 crochet hook (by numeric part)
+    #
+    # @return [void]
+    def self.install_tool_sizes
+      Numeric.define_method(:us_needle) do
+        FiberUnits::NeedleSize.new(self, :us)
+      end
+
+      Numeric.define_method(:mm_needle) do
+        FiberUnits::NeedleSize.new(self, :mm)
+      end
+
+      Numeric.define_method(:uk_needle) do
+        FiberUnits::NeedleSize.new(self, :uk)
+      end
+
+      Numeric.define_method(:mm_hook) do
+        FiberUnits::HookSize.new(self, :mm)
+      end
+    end
   end
 end
 
@@ -150,4 +178,20 @@ class Numeric
   # @!method rows
   #   Create a row count.
   #   @return [FiberUnits::RowCount]
+
+  # @!method us_needle
+  #   Create a {FiberUnits::NeedleSize} in the US sizing system.
+  #   @return [FiberUnits::NeedleSize]
+
+  # @!method mm_needle
+  #   Create a {FiberUnits::NeedleSize} in the metric sizing system.
+  #   @return [FiberUnits::NeedleSize]
+
+  # @!method uk_needle
+  #   Create a {FiberUnits::NeedleSize} in the UK sizing system.
+  #   @return [FiberUnits::NeedleSize]
+
+  # @!method mm_hook
+  #   Create a {FiberUnits::HookSize} in the metric sizing system.
+  #   @return [FiberUnits::HookSize]
 end
