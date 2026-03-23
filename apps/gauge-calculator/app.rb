@@ -37,8 +37,12 @@ class GaugeCalculatorApp < Sinatra::Base
     validate_positive!("stitches", "rows", "width", "target_width")
 
     service = build_service
-    base = service.gauge.required_stitches(length_param(:target_width)).value
-    adjusted = adjust_for_repeat(base)
+    repeat = request_params["repeat"]&.to_i
+    offset = (request_params["offset"] || 0).to_i
+    target = request_params.fetch("target_width").to_f
+
+    base = service.stitches_for(target)
+    adjusted = service.stitches_for(target, repeat: repeat, offset: offset)
 
     result = {stitches: adjusted}
     result[:base_stitches] = base if adjusted != base
@@ -52,9 +56,9 @@ class GaugeCalculatorApp < Sinatra::Base
     validate_positive!("stitches", "rows", "width", "target_height")
 
     service = build_service
-    rows = service.gauge.required_rows(length_param(:target_height))
+    target = request_params.fetch("target_height").to_f
 
-    {rows: rows.value}.to_json
+    {rows: service.rows_for(target)}.to_json
   end
 
   error 422 do
@@ -98,18 +102,4 @@ class GaugeCalculatorApp < Sinatra::Base
     )
   end
 
-  def length_param(key)
-    value = request_params.fetch(key.to_s).to_f
-    unit = request_params["unit"] || "inches"
-
-    value.public_send(unit)
-  end
-
-  def adjust_for_repeat(base)
-    repeat = request_params["repeat"]&.to_i
-    return base unless repeat && repeat > 0
-
-    offset = (request_params["offset"] || 0).to_i
-    ((base - offset).to_f / repeat).ceil * repeat + offset
-  end
 end
