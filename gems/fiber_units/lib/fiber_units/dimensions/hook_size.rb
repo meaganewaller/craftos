@@ -13,22 +13,22 @@ module FiberUnits
 
     # Standard crochet hook size mappings across systems.
     SIZES = [
-      {mm: 2.25,  us: "B/1"},
-      {mm: 2.75,  us: "C/2"},
-      {mm: 3.25,  us: "D/3"},
-      {mm: 3.5,   us: "E/4"},
-      {mm: 3.75,  us: "F/5"},
-      {mm: 4.0,   us: "G/6"},
-      {mm: 5.0,   us: "H/8"},
-      {mm: 5.5,   us: "I/9"},
-      {mm: 6.0,   us: "J/10"},
-      {mm: 6.5,   us: "K/10.5"},
-      {mm: 8.0,   us: "L/11"},
-      {mm: 9.0,   us: "M/N/13"},
-      {mm: 10.0,  us: "N/P/15"},
-      {mm: 15.0,  us: "P/Q"},
-      {mm: 16.0,  us: "Q"},
-      {mm: 19.0,  us: "S"}
+      {mm: 2.25,  us: "B/1"}.freeze,
+      {mm: 2.75,  us: "C/2"}.freeze,
+      {mm: 3.25,  us: "D/3"}.freeze,
+      {mm: 3.5,   us: "E/4"}.freeze,
+      {mm: 3.75,  us: "F/5"}.freeze,
+      {mm: 4.0,   us: "G/6"}.freeze,
+      {mm: 5.0,   us: "H/8"}.freeze,
+      {mm: 5.5,   us: "I/9"}.freeze,
+      {mm: 6.0,   us: "J/10"}.freeze,
+      {mm: 6.5,   us: "K/10.5"}.freeze,
+      {mm: 8.0,   us: "L/11"}.freeze,
+      {mm: 9.0,   us: "M/N/13"}.freeze,
+      {mm: 10.0,  us: "N/P/15"}.freeze,
+      {mm: 15.0,  us: "P/Q"}.freeze,
+      {mm: 16.0,  us: "Q"}.freeze,
+      {mm: 19.0,  us: "S"}.freeze
     ].freeze
 
     SYSTEMS = %i[mm us].freeze
