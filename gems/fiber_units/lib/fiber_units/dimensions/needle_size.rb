@@ -37,7 +37,7 @@ module FiberUnits
       {mm: 19.0, us: 35,   uk: nil},
       {mm: 20.0, us: 36,   uk: nil},
       {mm: 25.0, us: 50,   uk: nil}
-    ].freeze
+    ].map(&:freeze).freeze
 
     SYSTEMS = %i[mm us uk].freeze
 
