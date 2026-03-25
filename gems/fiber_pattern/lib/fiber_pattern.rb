@@ -6,6 +6,7 @@ require_relative "fiber_pattern/version"
 require_relative "fiber_pattern/sizing"
 require_relative "fiber_pattern/repeat"
 require_relative "fiber_pattern/scaling"
+require_relative "fiber_pattern/shaping"
 
 # Utilities for generating fiber pattern measurements from gauge data.
 module FiberPattern

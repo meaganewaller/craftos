@@ -23,6 +23,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency "fiber_units", "~> 0.3.1"
   spec.add_dependency "fiber_gauge"
 
+  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "rake"
+
   spec.required_ruby_version = ">= 3.4"
 
   spec.authors = ["Meagan Waller"]
