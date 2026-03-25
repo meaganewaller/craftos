@@ -1,5 +1,7 @@
 ## Unreleased
 
+## [0.3.0] - 2026-03-25
+
 ### Added
 
 - Add `Shaping` class for evenly distributing increases and decreases across a span of rows, with paired shaping support and remainder distribution
