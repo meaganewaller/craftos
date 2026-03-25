@@ -101,7 +101,6 @@ module FiberUnits
     #   8.us_needle    # US 8 knitting needle
     #   5.0.mm_needle  # 5.0mm knitting needle
     #   5.0.mm_hook    # 5.0mm crochet hook
-    #   8.us_hook      # US H/8 crochet hook (by numeric part)
     #
     # @return [void]
     def self.install_tool_sizes
