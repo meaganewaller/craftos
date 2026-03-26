@@ -105,5 +105,4 @@ class GaugeCalculatorApp < Sinatra::Base
       unit: request_params["unit"]
     )
   end
-
 end

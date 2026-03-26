@@ -9,7 +9,8 @@ class StashEntryTest < Minitest::Test
   end
 
   def test_to_hash_includes_all_fields
-    entry = StashEntry.create(brand: "Test", line: "Yarn", colorway: "Blue", yardage: 210, skein_weight: 100, quantity: 2)
+    user = create_user
+    entry = StashEntry.create(brand: "Test", line: "Yarn", colorway: "Blue", yardage: 210, skein_weight: 100, quantity: 2, user_id: user.id)
     hash = entry.to_hash
 
     assert_equal "Test", hash[:brand]
