@@ -92,7 +92,8 @@ class YarnSubstitutionApp < Sinatra::Base
       brand: yarn.brand,
       line: yarn.line,
       weight_category: yarn.weight_category,
-      yards_per_100g: yarn.yards_per_100g.round(1)
+      yards_per_100g: yarn.yards_per_100g.round(1),
+      grist: yarn.grist.value.round(2)
     }
     if yarn.fiber_content
       result[:fiber_content] = yarn.fiber_content.fibers

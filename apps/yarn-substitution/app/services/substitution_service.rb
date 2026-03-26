@@ -16,11 +16,13 @@ class SubstitutionService
   end
 
   def target_info
-    {
+    info = {
       weight_category: target.weight_category,
       yards_per_100g: target.yards_per_100g.round(1),
       grist: target.grist.value.round(2)
     }
+    info[:fiber_content] = target.fiber_content.fibers if target.fiber_content
+    info
   end
 
   private
