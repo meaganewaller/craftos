@@ -73,7 +73,7 @@ class StashManagerApp < Sinatra::Base
 
     user = User.where(username: data["username"].to_s.strip).first
 
-    unless user && user.authenticate(data["password"].to_s)
+    unless user&.authenticate(data["password"].to_s)
       halt 401, {error: "Invalid username or password"}.to_json
     end
 
