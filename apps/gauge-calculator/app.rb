@@ -10,6 +10,10 @@ class GaugeCalculatorApp < Sinatra::Base
     set :environment, ENV.fetch("SINATRA_ENV", "development").to_sym
   end
 
+  configure :production do
+    set :protection, except: :host_authorization
+  end
+
   configure :test do
     set :protection, except: :host_authorization
   end
