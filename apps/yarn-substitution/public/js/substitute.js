@@ -131,7 +131,7 @@ async function findSubstitutes() {
   if (fiber) body.fiber = fiber;
 
   try {
-    const data = await apiPost("/api/substitute", body);
+    const data = await apiPost("/api/substitution", body);
 
     lastTarget = data.target;
 

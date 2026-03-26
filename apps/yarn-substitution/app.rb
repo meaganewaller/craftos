@@ -19,7 +19,7 @@ class YarnSubstitutionApp < Sinatra::Base
     erb :substitute
   end
 
-  post "/api/substitute" do
+  post "/api/substitution" do
     content_type :json
 
     validate_params!("yardage", "skein_weight")

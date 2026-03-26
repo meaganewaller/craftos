@@ -4,7 +4,7 @@ require "test_helper"
 
 class YarnSubstitutionApiTest < Minitest::Test
   def post_substitute(body)
-    request_post "/api/substitute",
+    request_post "/api/substitution",
       JSON.generate(body),
       {"CONTENT_TYPE" => "application/json"}
   end
