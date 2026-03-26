@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+### Added
+- `YarnSkein::YardageEstimator` for estimating total yarn yardage from gauge and dimensions
+- Rectangular piece estimation via `for_rectangle(width:, height:)`
+- Stitch/row count estimation via `for_piece(stitches:, rows:)`
+- Configurable safety margin (default 10%) for waste and joining
+- Added `fiber_gauge` as a runtime dependency
 
 ## [0.2.0] - 2026-03-21
 
