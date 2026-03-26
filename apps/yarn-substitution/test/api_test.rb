@@ -4,7 +4,7 @@ require "test_helper"
 
 class YarnSubstitutionApiTest < Minitest::Test
   def post_substitute(body)
-    request_post "/api/substitute",
+    request_post "/api/substitution",
       JSON.generate(body),
       {"CONTENT_TYPE" => "application/json"}
   end
@@ -99,6 +99,27 @@ class YarnSubstitutionApiTest < Minitest::Test
     post_substitute({yardage: 210, skein_weight: 100, brand: "Test", line: "Yarn"})
 
     assert last_response.ok?
+  end
+
+  def test_matches_include_grist
+    post_substitute({yardage: 210, skein_weight: 100})
+
+    assert last_response.ok?
+    match = json_response["matches"].first
+    assert match.key?("grist"), "Expected match to include grist"
+  end
+
+  def test_target_includes_fiber_content_when_provided
+    post_substitute({
+      yardage: 210,
+      skein_weight: 100,
+      fiber_content: {wool: 80, nylon: 20}
+    })
+
+    assert last_response.ok?
+    target = json_response["target"]
+    assert target.key?("fiber_content")
+    assert_equal 80, target["fiber_content"]["wool"]
   end
 
   def test_accepts_fiber_content_on_target

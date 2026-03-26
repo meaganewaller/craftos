@@ -1,4 +1,5 @@
 require "json"
+require "yaml"
 require "sinatra/base"
 
 class YarnSubstitutionApp < Sinatra::Base
@@ -18,7 +19,7 @@ class YarnSubstitutionApp < Sinatra::Base
     erb :substitute
   end
 
-  post "/api/substitute" do
+  post "/api/substitution" do
     content_type :json
 
     validate_params!("yardage", "skein_weight")
@@ -91,7 +92,8 @@ class YarnSubstitutionApp < Sinatra::Base
       brand: yarn.brand,
       line: yarn.line,
       weight_category: yarn.weight_category,
-      yards_per_100g: yarn.yards_per_100g.round(1)
+      yards_per_100g: yarn.yards_per_100g.round(1),
+      grist: yarn.grist.value.round(2)
     }
     if yarn.fiber_content
       result[:fiber_content] = yarn.fiber_content.fibers
@@ -100,22 +102,11 @@ class YarnSubstitutionApp < Sinatra::Base
   end
 
   def built_in_catalog
-    [
-      {brand: "Malabrigo", line: "Rios", yardage: 210, skein_weight: 100, fiber_content: {wool: 100}},
-      {brand: "Cascade", line: "220 Superwash", yardage: 220, skein_weight: 100, fiber_content: {wool: 100}},
-      {brand: "Berroco", line: "Vintage", yardage: 217, skein_weight: 100, fiber_content: {acrylic: 52, wool: 40, nylon: 8}},
-      {brand: "Knit Picks", line: "Swish Worsted", yardage: 110, skein_weight: 50, fiber_content: {wool: 100}},
-      {brand: "Lion Brand", line: "Wool-Ease", yardage: 197, skein_weight: 85, fiber_content: {acrylic: 80, wool: 20}},
-      {brand: "Malabrigo", line: "Mechita", yardage: 420, skein_weight: 100, fiber_content: {wool: 100}},
-      {brand: "Cascade", line: "Heritage", yardage: 437, skein_weight: 100, fiber_content: {wool: 75, nylon: 25}},
-      {brand: "Knit Picks", line: "Stroll", yardage: 462, skein_weight: 100, fiber_content: {wool: 75, nylon: 25}},
-      {brand: "Drops", line: "Baby Merino", yardage: 175, skein_weight: 50, fiber_content: {wool: 100}},
-      {brand: "Rowan", line: "Felted Tweed", yardage: 175, skein_weight: 50, fiber_content: {wool: 50, alpaca: 25, viscose: 25}},
-      {brand: "Malabrigo", line: "Arroyo", yardage: 335, skein_weight: 100, fiber_content: {wool: 100}},
-      {brand: "Cascade", line: "Ultra Pima", yardage: 220, skein_weight: 100, fiber_content: {cotton: 100}},
-      {brand: "Drops", line: "Safran", yardage: 160, skein_weight: 50, fiber_content: {cotton: 100}},
-      {brand: "Bernat", line: "Blanket", yardage: 220, skein_weight: 300, fiber_content: {polyester: 100}},
-      {brand: "Lion Brand", line: "Thick & Quick", yardage: 106, skein_weight: 170, fiber_content: {acrylic: 80, wool: 20}}
-    ]
+    catalog_path = File.join(settings.root, "data", "catalog.yml")
+    entries = YAML.safe_load_file(catalog_path, permitted_classes: [], symbolize_names: true)
+    entries.map do |entry|
+      entry[:fiber_content] = entry[:fiber_content]&.transform_keys(&:to_sym)
+      entry
+    end
   end
 end

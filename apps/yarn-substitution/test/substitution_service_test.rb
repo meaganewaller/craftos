@@ -64,6 +64,20 @@ class SubstitutionServiceTest < Minitest::Test
     assert_equal 0, service.matches(tolerance: 0.01).length
   end
 
+  def test_matches_ranked_by_grist_similarity
+    service = SubstitutionService.new(
+      target_attrs: {yardage: 210, skein_weight: 100},
+      catalog_data: [
+        {brand: "Far", line: "Match", yardage: 180, skein_weight: 100},
+        {brand: "Close", line: "Match", yardage: 205, skein_weight: 100},
+        {brand: "Mid", line: "Match", yardage: 195, skein_weight: 100}
+      ]
+    )
+
+    results = service.matches
+    assert_equal ["Close", "Mid", "Far"], results.map(&:brand)
+  end
+
   def test_builds_fiber_content_on_catalog_yarns
     service = SubstitutionService.new(
       target_attrs: {yardage: 210, skein_weight: 100},
