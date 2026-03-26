@@ -46,5 +46,25 @@ class Minitest::Test
 
   def setup
     StashEntry.dataset.delete
+    User.dataset.delete
+  end
+
+  def create_user(username: "testuser", password: "password123")
+    user = User.new(username: username)
+    user.password = password
+    user.save
+    user
+  end
+
+  def login_as(user, password: "password123")
+    request_post "/api/auth/login",
+      JSON.generate({username: user.username, password: password}),
+      {"CONTENT_TYPE" => "application/json"}
+  end
+
+  def create_and_login(username: "testuser", password: "password123")
+    user = create_user(username: username, password: password)
+    login_as(user, password: password)
+    user
   end
 end

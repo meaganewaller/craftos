@@ -1,5 +1,9 @@
 async function apiRequest(url, options = {}) {
   const resp = await fetch(url, options);
+  if (resp.status === 401) {
+    window.location.href = "/login";
+    throw new Error("Unauthorized");
+  }
   const data = await resp.json();
   if (!resp.ok) throw new Error(data.error || "Request failed");
   return data;

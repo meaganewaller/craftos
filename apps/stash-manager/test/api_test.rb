@@ -3,6 +3,11 @@
 require "test_helper"
 
 class StashManagerApiTest < Minitest::Test
+  def setup
+    super
+    @user = create_and_login
+  end
+
   def post_stash(body)
     request_post "/api/stash",
       JSON.generate(body),

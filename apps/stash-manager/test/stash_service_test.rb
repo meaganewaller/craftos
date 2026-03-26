@@ -3,8 +3,13 @@
 require "test_helper"
 
 class StashServiceTest < Minitest::Test
+  def setup
+    super
+    @user = create_user
+  end
+
   def service
-    StashService.new
+    StashService.new(@user)
   end
 
   def create_entry(attrs = {})
@@ -41,10 +46,10 @@ class StashServiceTest < Minitest::Test
 
   def test_remove_deletes_entry
     create_entry
-    id = StashEntry.first.id
+    id = @user.stash_entries_dataset.first.id
 
     assert service.remove(id)
-    assert_equal 0, StashEntry.count
+    assert_equal 0, @user.stash_entries_dataset.count
   end
 
   def test_remove_returns_false_for_missing
