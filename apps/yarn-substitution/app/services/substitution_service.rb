@@ -11,7 +11,8 @@ class SubstitutionService
     opts = {}
     opts[:tolerance] = tolerance if tolerance
     opts[:fiber] = fiber if fiber
-    sub.matches(**opts)
+    results = sub.matches(**opts)
+    results.sort_by { |yarn| grist_distance(yarn) }
   end
 
   def target_info
@@ -23,6 +24,10 @@ class SubstitutionService
   end
 
   private
+
+  def grist_distance(yarn)
+    (yarn.yards_per_100g - target.yards_per_100g).abs
+  end
 
   def build_yarn(yardage:, skein_weight:, brand: "Unknown", line: "Unknown", fiber_content: nil)
     fc = fiber_content ? YarnSkein::FiberBlend.new(fiber_content) : nil
