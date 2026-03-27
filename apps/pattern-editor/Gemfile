@@ -1,0 +1,35 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "sinatra", require: "sinatra/base"
+gem "puma"
+gem "dotenv"
+gem "fiber_units", "~> 0.3.1"
+gem "fiber_gauge", "~> 0.2.0"
+gem "fiber_pattern", "~> 0.5.0"
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "rake"
+  gem "appdev_support"
+end
+
+group :development, :test do
+  gem "grade_runner", "~> 0.0.13"
+  gem "pry"
+end
+
+group :test do
+  gem "capybara"
+  gem "draft_matchers"
+  gem "minitest"
+  gem "rack-test"
+  gem "simplecov", require: false
+  gem "simplecov-json", require: false
+  gem "webmock"
+  gem "webdrivers"
+end
+
+gem "rackup", "~> 2.3"
