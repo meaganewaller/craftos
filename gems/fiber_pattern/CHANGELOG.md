@@ -1,5 +1,7 @@
 ## Unreleased
 
+## [0.5.0] - 2026-03-26
+
 ### Added
 
 - Add `StitchPattern` class for modeling how stitch patterns affect fabric width and yarn consumption relative to stockinette
