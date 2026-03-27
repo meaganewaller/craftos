@@ -240,5 +240,34 @@ namespace :coverage do
   end
 end
 
+namespace :scraper do
+  desc "Run yarn catalog scraper"
+  task :run do
+    Dir.chdir("scripts/scraper") do
+      Bundler.with_unbundled_env do
+        system("bundle", "exec", "ruby", "scrape.rb") || abort("Scraper failed")
+      end
+    end
+  end
+
+  desc "Run yarn catalog scraper in dry-run mode"
+  task :dry_run do
+    Dir.chdir("scripts/scraper") do
+      Bundler.with_unbundled_env do
+        system("bundle", "exec", "ruby", "scrape.rb", "--dry-run") || abort("Scraper dry-run failed")
+      end
+    end
+  end
+
+  desc "Run scraper tests"
+  task :test do
+    Dir.chdir("scripts/scraper") do
+      Bundler.with_unbundled_env do
+        system("bundle", "exec", "rake", "test") || abort("Scraper tests failed")
+      end
+    end
+  end
+end
+
 desc "Run full CraftOS CI suite"
 task ci: ["lint:standard", "test:all"]

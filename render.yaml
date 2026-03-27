@@ -26,6 +26,8 @@ services:
         value: production
       - key: BUNDLE_WITHOUT
         value: development:test
+      - key: YARN_CATALOG_PATH
+        value: /opt/render/project/src/data/yarns
 
   - type: web
     name: stash-manager

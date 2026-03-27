@@ -1,0 +1,2179 @@
+---
+brand: Bernat
+slug: bernat
+yarns:
+- line: Alize Blanket EZ
+  slug: alize_blanket_ez
+  weight_category: Jumbo
+  yardage: 17
+  skein_weight: 180
+  fiber_content:
+    polyester: 100
+  texture: Fixed loops (to use without needles)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/alize_blanket_ez.jpg
+  colorways: []
+- line: Baby Blanket Sparkle
+  slug: baby_blanket_sparkle
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 99
+    metallic: 1
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_blanket_sparkle.jpg
+  colorways: []
+- line: Baby Sparkle
+  slug: baby_sparkle
+  weight_category: Fingering
+  yardage: 152
+  skein_weight: 43
+  fiber_content:
+    acrylic: 90
+    polyester: 10
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors with glossy thread
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_sparkle.jpg
+  colorways: []
+- line: Baby Sport Sparkle
+  slug: baby_sport_sparkle
+  weight_category: DK
+  yardage: 1178
+  skein_weight: 300
+  fiber_content:
+    acrylic: 86
+    polyester: 14
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_sport_sparkle.jpg
+  colorways: []
+- line: Baby Velvet
+  slug: baby_velvet
+  weight_category: Heavy Worsted
+  yardage: 492
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_velvet.jpg
+  colorways: []
+- line: Blanket Big
+  slug: blanket_big
+  weight_category: Jumbo
+  yardage: 32
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 2–3 sts / 10 cm (4") and 4 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_big.jpg
+  colorways: []
+- line: Blanket Extra
+  slug: blanket_extra
+  weight_category: Jumbo
+  yardage: 95
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 5 sts / 10 cm (4") and 7 rows
+  needle_size: 15 mm (18 US)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_extra.jpg
+  colorways: []
+- line: Blanket Ombré
+  slug: blanket_ombre
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 11 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_ombre.jpg
+  colorways: []
+- line: Blanket Pet
+  slug: blanket_pet
+  weight_category: Super Bulky
+  yardage: 269
+  skein_weight: 225
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 11–16 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_pet.jpg
+  colorways: []
+- line: Blanket Sparkle
+  slug: blanket_sparkle
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 99
+    metallic: 1
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_sparkle.jpg
+  colorways: []
+- line: Blanket Stripes
+  slug: blanket_stripes
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping (long)
+  image_url:
+  colorways: []
+- line: Blanket Tweeds
+  slug: blanket_tweeds
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_tweeds.jpg
+  colorways: []
+- line: Blanket Twist Yarn
+  slug: blanket_twist
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_twist.jpg
+  colorways: []
+- line: Cotton Terry
+  slug: cotton_terry
+  weight_category: Aran
+  yardage: 229
+  skein_weight: 120
+  fiber_content:
+    cotton: 47
+    acrylic: 32
+    nylon: 21
+  texture: Bouclé
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/cotton_terry.jpg
+  colorways: []
+- line: Crushed Velvet
+  slug: crushed_velvet
+  weight_category: Bulky
+  yardage: 315
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 15 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/crushed_velvet.jpg
+  colorways: []
+- line: Fabwoolous
+  slug: fabwoolous
+  weight_category: Aran
+  yardage: 306
+  skein_weight: 170
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: Felted
+  slug: felted
+  weight_category: Super Bulky
+  yardage: 249
+  skein_weight: 260
+  fiber_content:
+    acrylic: 62
+    wool: 21
+    nylon: 17
+  texture: Fuzzy chain
+  gauge: 11 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/felted.jpg
+  colorways: []
+- line: Fluffee
+  slug: fluffee
+  weight_category: Bulky
+  yardage: 416
+  skein_weight: 280
+  fiber_content:
+    polyester: 90
+    nylon: 10
+  texture: Fuzzy chain
+  gauge: 13 sts / 10 cm (4") and 17 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/fluffee.jpg
+  colorways: []
+- line: Forever Fleece
+  slug: forever_fleece
+  weight_category: Super Bulky
+  yardage: 194
+  skein_weight: 280
+  fiber_content:
+    polyester: 100
+  texture: Fleece-effect single ply
+  gauge: 10 sts / 10 cm (4") and 12 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/forever_fleece.jpg
+  colorways: []
+- line: Forever Fleece Tweeds
+  slug: forever_fleece_tweeds
+  weight_category: Super Bulky
+  yardage: 159
+  skein_weight: 250
+  fiber_content:
+    polyester: 90
+    nylon: 10
+  texture: Nubby / Tweedy
+  gauge: 10 sts / 10 cm (4") and 12 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/forever_fleece_tweeds.jpg
+  colorways: []
+- line: Giggles
+  slug: giggles
+  weight_category: Aran
+  yardage: 185
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Happy Holidays
+  slug: happy_holidays
+  weight_category: Aran
+  yardage: 240
+  skein_weight: 100
+  fiber_content:
+    acrylic: 98
+    metallic: 2
+  texture: Single ply wrapped with fine thread
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Lattice
+  slug: lattice
+  weight_category: Aran
+  yardage: 389
+  skein_weight: 220
+  fiber_content:
+    polyester: 54
+    acrylic: 28
+    nylon: 18
+  texture: Wrap around inner core
+  gauge: 19 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/lattice.jpg
+  colorways: []
+- line: Premium
+  slug: premium
+  weight_category: Aran
+  yardage: 360
+  skein_weight: 198
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/premium.jpg
+  colorways: []
+- line: Premium Tweeds
+  slug: premium_tweeds
+  weight_category: Aran
+  yardage: 360
+  skein_weight: 198
+  fiber_content:
+    acrylic: 97
+    viscose: 3
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/premium_tweeds.jpg
+  colorways: []
+- line: Sheepy
+  slug: sheepy
+  weight_category: Super Bulky
+  yardage: 149
+  skein_weight: 250
+  fiber_content:
+    nylon: 100
+  texture: Fleece style
+  gauge: 9 sts / 10 cm (4") and 10 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/sheepy.jpg
+  colorways: []
+- line: Softee Baby Cotton
+  slug: softee_baby_cotton
+  weight_category: DK
+  yardage: 254
+  skein_weight: 120
+  fiber_content:
+    cotton: 60
+    acrylic: 40
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/softee_baby_cotton.jpg
+  colorways: []
+- line: Softee Cotton
+  slug: softee_cotton
+  weight_category: DK
+  yardage: 254
+  skein_weight: 120
+  fiber_content:
+    cotton: 60
+    acrylic: 40
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/softee_cotton.jpg
+  colorways: []
+- line: Spark
+  slug: spark
+  weight_category: Super Bulky
+  yardage: 191
+  skein_weight: 225
+  fiber_content:
+    acrylic: 80
+    wool: 20
+  texture: 2 ply
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/spark.jpg
+  colorways: []
+- line: Sport Ombre Twist
+  slug: sport_ombre_twist
+  weight_category: DK
+  yardage: 1010
+  skein_weight: 280
+  fiber_content:
+    acrylic: 100
+  texture: 2 ply
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/sport_ombre_twist.jpg
+  colorways: []
+- line: Super Value Ombres
+  slug: super_value_ombres
+  weight_category: Aran
+  yardage: 274
+  skein_weight: 142
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping
+  image_url:
+  colorways: []
+- line: Symphony
+  slug: symphony
+  weight_category: Bulky
+  yardage: 308
+  skein_weight: 225
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Single ply
+  gauge: 13 sts / 10 cm (4") and 18 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Self-striping (gradient marl)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/symphony.jpg
+  colorways: []
+- line: Velvet
+  slug: velvet
+  weight_category: Bulky
+  yardage: 315
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/velvet.jpg
+  colorways: []
+- line: Velvet Plus
+  slug: velvet_plus
+  weight_category: Super Bulky
+  yardage: 78
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 7 sts / 10 cm (4") and 10 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/velvet_plus.jpg
+  colorways: []
+- line: Viva
+  slug: viva
+  weight_category: Super Bulky
+  yardage: 84
+  skein_weight: 100
+  fiber_content:
+    acrylic: 82
+    nylon: 18
+  texture: Fuzzy chain
+  gauge: 11 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/viva.jpg
+  colorways: []
+- line: Wavelength
+  slug: wavelength
+  weight_category: Bulky
+  yardage: 223
+  skein_weight: 140
+  fiber_content:
+    acrylic: 100
+  texture: 2 ply
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient marl)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/wavelength.jpg
+  colorways: []
+- line: |-
+    Alize Blanket EZ Graph-it
+    (DISCONTINUED)
+  slug: alize_blanket_ez_graph_it
+  weight_category: Jumbo
+  yardage: 14
+  skein_weight: 180
+  fiber_content:
+    polyester: 100
+  texture: Double fixed loops (to use without needles)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/alize_blanket_ez_graph_it.jpg
+  colorways: []
+- line: |-
+    Alize Blanket EZ Wool
+    (DISCONTINUED)
+  slug: alize_blanket_ez_wool
+  weight_category: Jumbo
+  yardage: 10
+  skein_weight: 150
+  fiber_content:
+    acrylic: 54
+    nylon: 24
+    superwash_wool: 20
+    polyester: 2
+  texture: Fixed loops (to use without needles)
+  gauge: 5 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/alize_blanket_ez_wool.jpg
+  colorways: []
+- line: |-
+    Alpaca
+    (DISCONTINUED)
+  slug: alpaca_natural_blends
+  weight_category: Heavy Worsted
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    acrylic: 70
+    alpaca: 30
+  texture: 2 ply
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/alpaca_natural_blends.jpg
+  colorways: []
+- line: |-
+    Baby Blanket Tiny
+    (DISCONTINUED)
+  slug: baby_blanket_tiny
+  weight_category: Aran
+  yardage: 315
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_blanket_tiny.jpg
+  colorways: []
+- line: |-
+    Baby Bouclé
+    (DISCONTINUED)
+  slug: baby_boucle
+  weight_category: Bulky
+  yardage: 180
+  skein_weight: 100
+  fiber_content:
+    acrylic: 97
+    polyester: 3
+  texture: Bouclé
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby Cakes
+    (DISCONTINUED)
+  slug: baby_cakes
+  weight_category: Worsted
+  yardage: 203
+  skein_weight: 100
+  fiber_content:
+    acrylic: 50
+    cotton: 50
+  texture: Plied (3 or more plies)
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby Coordinates Chunky
+    (DISCONTINUED)
+  slug: baby_coordinates_chunky
+  weight_category: Bulky
+  yardage: 161
+  skein_weight: 100
+  fiber_content:
+    acrylic: 86
+    rayon: 13
+    nylon: 1
+  texture: Single ply wrapped with fine thread
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby Crushed Velvet
+    (DISCONTINUED)
+  slug: baby_crushed_velvet
+  weight_category: Aran
+  yardage: 492
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_crushed_velvet.jpg
+  colorways: []
+- line: |-
+    Baby Jacquards
+    (DISCONTINUED)
+  slug: baby_jacquards
+  weight_category: DK
+  yardage: 346
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 23 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby Marly
+    (DISCONTINUED)
+  slug: baby_marly
+  weight_category: Super Bulky
+  yardage: 221
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Loosely plied
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/baby_marly.jpg
+  colorways: []
+- line: |-
+    Baby Soft
+    (DISCONTINUED)
+  slug: baby_soft
+  weight_category: Fingering
+  yardage: 287
+  skein_weight: 50
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby Stretch
+    (DISCONTINUED)
+  slug: baby_stretch
+  weight_category: Worsted
+  yardage: 173
+  skein_weight: 80
+  fiber_content:
+    acrylic: 46
+    cotton: 46
+    nylon: 3
+    polyester: 3
+    elastic: 2
+  texture: Single ply wrapped with fine thread
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bamboo
+    (DISCONTINUED)
+  slug: bamboo_natural_blends
+  weight_category: Bulky
+  yardage: 62
+  skein_weight: 60
+  fiber_content:
+    bamboo_rayon: 86
+    acrylic: 12
+    polyester: 2
+  texture: Single ply wrapped with fine thread
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Bargello
+    (DISCONTINUED)
+  slug: bargello
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Chained
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/bargello.jpg
+  colorways: []
+- line: |-
+    Berella Country Garden DK
+    (DISCONTINUED)
+  slug: berella_country_garden_ck
+  weight_category: DK
+  yardage: 135
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Beyond
+    (DISCONTINUED)
+  slug: beyond
+  weight_category: Super Bulky
+  yardage: 80
+  skein_weight: 120
+  fiber_content:
+    acrylic: 85
+    nylon: 15
+  texture: S on S plied
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/beyond.jpg
+  colorways: []
+- line: |-
+    Black Lites
+    (DISCONTINUED)
+  slug: black_lites
+  weight_category: Super Bulky
+  yardage: 60
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Blanket Bigger
+    (DISCONTINUED)
+  slug: blanket_bigger
+  weight_category: Jumbo
+  yardage: 30
+  skein_weight: 600
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_bigger.jpg
+  colorways: []
+- line: |-
+    Blanket Breezy
+    (DISCONTINUED)
+  slug: blanket_breezy
+  weight_category: Heavy Worsted
+  yardage: 530
+  skein_weight: 250
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_breezy.jpg
+  colorways: []
+- line: |-
+    Blanket Color Pooling
+    (DISCONTINUED)
+  slug: blanket_color_pooling
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Color pooling
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_color_pooling.jpg
+  colorways: []
+- line: |-
+    Blanket O'Go
+    (DISCONTINUED)
+  slug: blanket_o_go
+  weight_category: Super Bulky
+  yardage: 220
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blanket_o_go.jpg
+  colorways: []
+- line: |-
+    Blarney-Spun
+    (DISCONTINUED)
+  slug: blarney-spun
+  weight_category: Aran
+  yardage: 90
+  skein_weight: 57
+  fiber_content:
+    wool: 100
+  texture: Plied (woolen-spun)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blarney-spun.jpg
+  colorways: []
+- line: |-
+    Bling Bling
+    (DISCONTINUED)
+  slug: bling_bling
+  weight_category: Bulky
+  yardage: 90
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Eyelash
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Blissful
+    (DISCONTINUED)
+  slug: blissful
+  weight_category: Super Bulky
+  yardage: 106
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 10 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/blissful.jpg
+  colorways: []
+- line: |-
+    Boa
+    (DISCONTINUED)
+  slug: boa_solids
+  weight_category: Bulky
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    polyester: 100
+  texture: Eyelash
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bundle Up
+    (DISCONTINUED)
+  slug: bundle_up
+  weight_category: Worsted
+  yardage: 267
+  skein_weight: 140
+  fiber_content:
+    polyester: 100
+  texture: Fuzzy chain
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/bundle_up.jpg
+  colorways: []
+- line: |-
+    Cashmere Natural Blends
+    (DISCONTINUED)
+  slug: cashmere_natural_blends
+  weight_category: Aran
+  yardage: 103
+  skein_weight: 60
+  fiber_content:
+    acrylic: 65
+    nylon: 30
+    cashmere: 5
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Colorwhirl
+    (DISCONTINUED)
+  slug: colorwhirl
+  weight_category: Jumbo
+  yardage: 77
+  skein_weight: 250
+  fiber_content:
+    acrylic: 100
+  texture: Filled tube
+  gauge: 7 sts / 10 cm (4") and 10 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/colorwhirl.jpg
+  colorways: []
+- line: |-
+    Cool Crochet
+    (DISCONTINUED)
+  slug: cool_crochet
+  weight_category: Sport
+  yardage: 200
+  skein_weight: 50
+  fiber_content:
+    cotton: 70
+    nylon: 30
+  texture: Chained
+  gauge: 26 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cot'n Corn Natural Blends
+    (DISCONTINUED)
+  slug: cotn_corn_natural_blends
+  weight_category: Worsted
+  yardage: 129
+  skein_weight: 60
+  fiber_content:
+    cotton: 67
+    corn_/_maize: 33
+  texture: Chained
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Dazzle
+    (DISCONTINUED)
+  slug: dazzle
+  weight_category: Super Bulky
+  yardage: 117
+  skein_weight: 85
+  fiber_content:
+    acrylic: 76
+    metallic: 15
+    wool: 9
+  texture: Blown / Fiber-filled net
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url:
+  colorways: []
+- line: |-
+    Denimstyle
+    (DISCONTINUED)
+  slug: denimstyle
+  weight_category: Aran
+  yardage: 196
+  skein_weight: 100
+  fiber_content:
+    acrylic: 70
+    cotton: 30
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Dimensions
+    (DISCONTINUED)
+  slug: dimensions
+  weight_category: Bulky
+  yardage: 160
+  skein_weight: 80
+  fiber_content:
+    acrylic: 70
+    wool: 30
+  texture: Slubby single ply wrapped with thread.
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping
+  image_url:
+  colorways: []
+- line: |-
+    Dippity Dots
+    (DISCONTINUED)
+  slug: dippity_dots
+  weight_category: Worsted
+  yardage: 162
+  skein_weight: 80
+  fiber_content:
+    acrylic: 39
+    nylon: 32
+    polyester: 29
+  texture: Tufted
+  gauge: 19 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with colored tufts
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/dippity_dots.jpg
+  colorways: []
+- line: |-
+    Disco
+    (DISCONTINUED)
+  slug: disco
+  weight_category: Bulky
+  yardage: 52
+  skein_weight: 50
+  fiber_content:
+    acetate: 67
+    polyester: 33
+  texture: Eyelash
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Eye Lash
+    (DISCONTINUED)
+  slug: eye_lash
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Eyelash
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Fab Faux
+    (DISCONTINUED)
+  slug: fab_faux
+  weight_category: Super Bulky
+  yardage: 25
+  skein_weight: 70
+  fiber_content:
+    acrylic: 100
+  texture: Faux / Fake fur
+  gauge: 5 sts / 10 cm (4")
+  needle_size: 12.8 mm
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Felting Natural Wool
+    (DISCONTINUED)
+  slug: felting_natural_wool
+  weight_category: Bulky
+  yardage: 84
+  skein_weight: 75
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Fleurettes
+    (DISCONTINUED)
+  slug: fleurettes
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    acrylic: 96
+    polyester: 4
+  texture: Loopy
+  gauge: 17 sts / 10 cm (4") and 23 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Forever Fleece Finer
+    (DISCONTINUED)
+  slug: forever_fleece_finer
+  weight_category: Bulky
+  yardage: 385
+  skein_weight: 280
+  fiber_content:
+    polyester: 100
+  texture: Fleece-effect single ply
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/forever_fleece_finer.jpg
+  colorways: []
+- line: |-
+    Forever Fleece Finest
+    (DISCONTINUED)
+  slug: forever_fleece_finest
+  weight_category: Worsted
+  yardage: 888
+  skein_weight: 280
+  fiber_content:
+    polyester: 100
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/forever_fleece_finest.jpg
+  colorways: []
+- line: |-
+    Galaxy
+    (DISCONTINUED)
+  slug: galaxy
+  weight_category: Super Bulky
+  yardage: 60
+  skein_weight: 50
+  fiber_content:
+    acrylic: 77
+    alpaca: 8
+    polyester: 8
+    mohair: 7
+  texture: Bouclé
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Gazoom
+    (DISCONTINUED)
+  slug: gazoom
+  weight_category: Super Bulky
+  yardage: 9
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Loopy
+  gauge: 4 sts / 10 cm (4") and 4 rows
+  needle_size: 25 mm (50 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Gloucester Cotton
+    (DISCONTINUED)
+  slug: gloucester_cotton
+  weight_category: Aran
+  yardage: 145
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Glow In The Dark
+    (DISCONTINUED)
+  slug: glow_in_the_dark
+  weight_category: Aran
+  yardage: 90
+  skein_weight: 40
+  fiber_content:
+    acrylic: 70
+    polyester: 30
+  texture: Plied (3 or more plies)
+  gauge: 17–19 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Handicrafter Crochet Cotton
+    (DISCONTINUED)
+  slug: handicrafter_crochet_cotton
+  weight_category: Thread
+  yardage: 2450
+  skein_weight: 400
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Size 10 Crochet thread
+  gauge: 30 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Handicrafter Scrub Off
+    (DISCONTINUED)
+  slug: handicrafter_scrub_off
+  weight_category: Aran
+  yardage: 353
+  skein_weight: 250
+  fiber_content:
+    cotton: 100
+  texture: Scrubby
+  gauge: 18 sts / 10 cm (4") and 25 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/handicrafter_scrub_off.jpg
+  colorways: []
+- line: |-
+    Happy
+    (DISCONTINUED)
+  slug: happy
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 85
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/happy.jpg
+  colorways: []
+- line: |-
+    Harmony
+    (DISCONTINUED)
+  slug: harmony_solid
+  weight_category: Bulky
+  yardage: 184
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Haven
+    (DISCONTINUED)
+  slug: haven
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 50
+  fiber_content:
+    acrylic: 59
+    cotton: 22
+    alpaca: 16
+    nylon: 3
+  texture: Fuzzy / Fluffy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Hot Sox
+    (DISCONTINUED)
+  slug: hot_sox
+  weight_category: Fingering
+  yardage: 203
+  skein_weight: 50
+  fiber_content:
+    acrylic: 60
+    nylon: 40
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Jacquards
+    (DISCONTINUED)
+  slug: jacquards
+  weight_category: Worsted
+  yardage: 201
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Jr. Jacquards
+    (DISCONTINUED)
+  slug: jr_jacquards
+  weight_category: DK
+  yardage: 344
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 23 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Knit or Knot
+    (DISCONTINUED)
+  slug: knit_or_knot
+  weight_category: Bulky
+  yardage: 100
+  skein_weight: 80
+  fiber_content:
+    acrylic: 37
+    polyester: 36
+    nylon: 14
+    wool: 13
+  texture: Tufted
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Krysta
+    (DISCONTINUED)
+  slug: krysta
+  weight_category: Bulky
+  yardage: 85
+  skein_weight: 57
+  fiber_content:
+    acrylic: 90
+    nylon: 10
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/krysta.jpg
+  colorways: []
+- line: |-
+    Lana
+    (DISCONTINUED)
+  slug: lana
+  weight_category: Worsted
+  yardage: 217
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Li'l Tots
+    (DISCONTINUED)
+  slug: lil_tots
+  weight_category: Aran
+  yardage: 189
+  skein_weight: 100
+  fiber_content:
+    acrylic: 95
+    nylon: 5
+  texture: Single ply wrapped with fine thread
+  gauge: 17–23 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lovie
+    (DISCONTINUED)
+  slug: lovie
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 85
+  fiber_content:
+    polyester: 100
+  texture: Tufted
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/lovie.jpg
+  colorways: []
+- line: |-
+    Maker Big
+    (DISCONTINUED)
+  slug: maker_big
+  weight_category: Jumbo
+  yardage: 77
+  skein_weight: 250
+  fiber_content:
+    cotton: 50
+    nylon: 50
+  texture: Filled tube
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/maker_big.jpg
+  colorways: []
+- line: |-
+    Maker Outdoor
+    (DISCONTINUED)
+  slug: maker_outdoor
+  weight_category: Super Bulky
+  yardage: 249
+  skein_weight: 250
+  fiber_content:
+    acrylic: 68
+    nylon: 32
+  texture: Filled tube
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/maker_outdoor.jpg
+  colorways: []
+- line: |-
+    Matrix
+    (DISCONTINUED)
+  slug: matrix
+  weight_category: Sport
+  yardage: 140
+  skein_weight: 50
+  fiber_content:
+    nylon: 62
+    polyester: 38
+  texture: Ladder ribbon
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Max
+    (DISCONTINUED)
+  slug: max
+  weight_category: Super Bulky
+  yardage: 59
+  skein_weight: 75
+  fiber_content:
+    acrylic: 75
+    wool: 25
+  texture: Slubby / Thick and thin
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Mega Bulky
+    (DISCONTINUED)
+  slug: mega_bulky
+  weight_category: Jumbo
+  yardage: 63
+  skein_weight: 300
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 5 sts / 10 cm (4") and 7 rows
+  needle_size: |-
+    19 mm (35 US),
+    20 mm (36 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/mega_bulky.jpg
+  colorways: []
+- line: |-
+    Mega Bulky Sparkle
+    (DISCONTINUED)
+  slug: mega_bulky_sparkle
+  weight_category: Jumbo
+  yardage: 48
+  skein_weight: 250
+  fiber_content:
+    acrylic: 99
+    metallic: 1
+  texture: Plied (3 or more plies)
+  gauge: 5 sts / 10 cm (4") and 7 rows
+  needle_size: 20 mm (36 US)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/mega_bulky_sparkle.jpg
+  colorways: []
+- line: |-
+    Mix Home
+    (DISCONTINUED)
+  slug: mix_home
+  weight_category: Super Bulky
+  yardage: 183
+  skein_weight: 225
+  fiber_content:
+    acrylic: 60
+    cotton: 18
+    nylon: 13
+    superwash_wool: 7
+    polyester: 2
+  texture: Stripes of different textures
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/mix_home.jpg
+  colorways: []
+- line: |-
+    Mosaic
+    (DISCONTINUED)
+  slug: mosaic
+  weight_category: Aran
+  yardage: 209
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url:
+  colorways: []
+- line: |-
+    Organic Cotton
+    (DISCONTINUED)
+  slug: organic_cotton
+  weight_category: Worsted
+  yardage: 80
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Plentiful
+    (DISCONTINUED)
+  slug: plentiful
+  weight_category: Bulky
+  yardage: 953
+  skein_weight: 300
+  fiber_content:
+    acrylic: 60
+    wool: 26
+    polyester: 14
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 12–16 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/plentiful.jpg
+  colorways: []
+- line: |-
+    Plush
+    (DISCONTINUED)
+  slug: plush
+  weight_category: Super Bulky
+  yardage: 145
+  skein_weight: 250
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/plush.jpg
+  colorways: []
+- line: |-
+    Plush Big
+    (DISCONTINUED)
+  slug: plush_big
+  weight_category: Jumbo
+  yardage: 45
+  skein_weight: 500
+  fiber_content:
+    polyester: 100
+  texture: Filled tube
+  gauge: 4 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/plush_big.jpg
+  colorways: []
+- line: |-
+    Pop!
+    (DISCONTINUED)
+  slug: pop
+  weight_category: Heavy Worsted
+  yardage: 280
+  skein_weight: 140
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/pop.jpg
+  colorways: []
+- line: |-
+    Pop! Bulky
+    (DISCONTINUED)
+  slug: pop_bulky
+  weight_category: Super Bulky
+  yardage: 147
+  skein_weight: 280
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 8 sts / 10 cm (4") and 12 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/pop_bulky.jpg
+  colorways: []
+- line: |-
+    Premium Sparkle
+    (DISCONTINUED)
+  slug: premium_sparkle
+  weight_category: Aran
+  yardage: 258
+  skein_weight: 142
+  fiber_content:
+    acrylic: 97
+    metallic: 3
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/premium_sparkle.jpg
+  colorways: []
+- line: |-
+    Really Big
+    (DISCONTINUED)
+  slug: really_big
+  weight_category: Super Bulky
+  yardage: 27
+  skein_weight: 80
+  fiber_content:
+    acrylic: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 15 mm (18 US)
+  style_categories:
+  - Semi-solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Roving
+    (DISCONTINUED)
+  slug: roving
+  weight_category: Super Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    acrylic: 80
+    wool: 20
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/roving.jpg
+  colorways: []
+- line: |-
+    Satin
+    (DISCONTINUED)
+  slug: satin_solids
+  weight_category: Aran
+  yardage: 200
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/satin_solids.jpg
+  colorways: []
+- line: |-
+    Satin Sparkle
+    (DISCONTINUED)
+  slug: satin_sparkle
+  weight_category: Aran
+  yardage: 160
+  skein_weight: 80
+  fiber_content:
+    acrylic: 97
+    metallic: 3
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url:
+  colorways: []
+- line: |-
+    Satin Sport
+    (DISCONTINUED)
+  slug: satin_sport
+  weight_category: DK
+  yardage: 221
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Shimmer
+    (DISCONTINUED)
+  slug: shimmer
+  weight_category: Sport
+  yardage: 969
+  skein_weight: 300
+  fiber_content:
+    acrylic: 69
+    nylon: 19
+    polyester: 12
+  texture: Chained
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Silky Soft
+    (DISCONTINUED)
+  slug: silky_soft
+  weight_category: Aran
+  yardage: 233
+  skein_weight: 140
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    So Soft Solids
+    (DISCONTINUED)
+  slug: so_soft_solids
+  weight_category: Aran
+  yardage: 274
+  skein_weight: 140
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Soft Bouclé (new gauge=10sts)
+    (DISCONTINUED)
+  slug: soft_boucle
+  weight_category: Super Bulky
+  yardage: 143
+  skein_weight: 163
+  fiber_content:
+    acrylic: 100
+  texture: Bouclé
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/soft_boucle.jpg
+  colorways: []
+- line: |-
+    Soft Bouclé (old gauge=15sts)
+    (DISCONTINUED)
+  slug: soft_boucle_old_gauge
+  weight_category: Bulky
+  yardage: 255
+  skein_weight: 140
+  fiber_content:
+    acrylic: 97
+    polyester: 3
+  texture: Bouclé
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Softee Baby Sparkle
+    (DISCONTINUED)
+  slug: softee_baby_sparkle
+  weight_category: DK
+  yardage: 365
+  skein_weight: 120
+  fiber_content:
+    acrylic: 90
+    metallic: 10
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Solo
+    (DISCONTINUED)
+  slug: solo
+  weight_category: Super Bulky
+  yardage: 86
+  skein_weight: 80
+  fiber_content:
+    acrylic: 72
+    polyester: 28
+  texture: Plied with a soft haze
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Soy Natural Blends
+    (DISCONTINUED)
+  slug: soy_natural_blends
+  weight_category: Worsted
+  yardage: 135
+  skein_weight: 70
+  fiber_content:
+    acrylic: 50
+    soy_viscose: 50
+  texture: Plied (3 or more plies)
+  gauge: 19–24 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Sparkle Fur
+    (DISCONTINUED)
+  slug: sparkle_fur
+  weight_category: Heavy Worsted
+  yardage: 24
+  skein_weight: 50
+  fiber_content:
+    nylon: 67
+    polyester: 33
+  texture: Eyelash
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/sparkle_fur.jpg
+  colorways: []
+- line: |-
+    Spectrum
+    (DISCONTINUED)
+  slug: spectrum
+  weight_category: Super Bulky
+  yardage: 68
+  skein_weight: 120
+  fiber_content:
+    acrylic: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors with bright thread
+  image_url:
+  colorways: []
+- line: |-
+    Suede-Ish
+    (DISCONTINUED)
+  slug: suede_ish
+  weight_category: Bulky
+  yardage: 179
+  skein_weight: 100
+  fiber_content:
+    polyester: 70
+    viscose: 30
+  texture: Tape
+  gauge: 13–15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/suede_ish.jpg
+  colorways: []
+- line: |-
+    Super Stripes
+    (DISCONTINUED)
+  slug: super_stripes
+  weight_category: Heavy Worsted
+  yardage: 182
+  skein_weight: 100
+  fiber_content:
+    acrylic: 97
+    polyester: 3
+  texture: Nubby / Tweedy
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Tiny Tickles
+    (DISCONTINUED)
+  slug: tiny_tickles
+  weight_category: Aran
+  yardage: 317
+  skein_weight: 250
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Tizzy
+    (DISCONTINUED)
+  slug: tizzy
+  weight_category: Super Bulky
+  yardage: 52
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Loopy
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Tweedie
+    (DISCONTINUED)
+  slug: tweedie
+  weight_category: Super Bulky
+  yardage: 247
+  skein_weight: 180
+  fiber_content:
+    acrylic: 83
+    cotton: 17
+  texture: Bouclé
+  gauge: 11 sts / 10 cm (4") and 16 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Semi-solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/tweedie.jpg
+  colorways: []
+- line: |-
+    Twist & Twirl
+    (DISCONTINUED)
+  slug: twist_and_twirl
+  weight_category: Ruffle
+  yardage: 33
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Ruffle
+  gauge: "(Varies)"
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Velvet Twist
+    (DISCONTINUED)
+  slug: velvet_twist
+  weight_category: Super Bulky
+  yardage: 229
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/velvet_twist.jpg
+  colorways: []
+- line: |-
+    Vickie Howell Cotton-ish
+    (DISCONTINUED)
+  slug: vickie_howell_cotton_ish
+  weight_category: DK
+  yardage: 271
+  skein_weight: 70
+  fiber_content:
+    cotton: 55
+    acrylic: 45
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/vickie_howell_cotton_ish.jpg
+  colorways: []
+- line: |-
+    Waverly
+    (DISCONTINUED)
+  slug: waverly
+  weight_category: Aran
+  yardage: 197
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Wool Blend Natural Blends
+    (DISCONTINUED)
+  slug: wool_blend_natural_blends
+  weight_category: Worsted
+  yardage: 236
+  skein_weight: 100
+  fiber_content:
+    acrylic: 80
+    wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Wool-Up Bulky
+    (DISCONTINUED)
+  slug: wool-up_bulky
+  weight_category: Super Bulky
+  yardage: 120
+  skein_weight: 170
+  fiber_content:
+    acrylic: 80
+    wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/bernat/wool-up_bulky.jpg
+  colorways: []
+- line: |-
+    Worsted
+    (DISCONTINUED)
+  slug: worsted_solid
+  weight_category: Worsted
+  yardage: 402
+  skein_weight: 200
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []

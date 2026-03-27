@@ -1,0 +1,3821 @@
+---
+brand: Rowan
+slug: rowan
+yarns:
+- line: Alpaca Classic
+  slug: alpaca_classic
+  weight_category: DK
+  yardage: 131
+  skein_weight: 25
+  fiber_content:
+    alpaca: 57
+    cotton: 43
+  texture: Blown / Fiber-filled net
+  gauge: 23 sts / 10 cm (4") and 31 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_classic.jpg
+  colorways: []
+- line: Alpaca Soft DK
+  slug: alpaca_soft_dk
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    wool: 70
+    alpaca: 30
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_soft_dk.jpg
+  colorways: []
+- line: Alpaca Sparkle
+  slug: alpaca_sparkle
+  weight_category: Bulky
+  yardage: 103
+  skein_weight: 50
+  fiber_content:
+    polyester: 32
+    alpaca: 23
+    wool: 23
+    cotton: 22
+  texture: Fuzzy with sequins
+  gauge: 13 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_sparkle.jpg
+  colorways: []
+- line: Baby Cashsoft Merino
+  slug: baby_cashsoft_merino
+  weight_category: Sport
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 57
+    microfiber: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 24–26 sts / 10 cm (4") and 34 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/baby_cashsoft_merino.jpg
+  colorways: []
+- line: Baby Cashsoft Worsted
+  slug: baby_cashsoft_worsted
+  weight_category: Worsted
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 57
+    acrylic: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/baby_cashsoft_worsted.jpg
+  colorways: []
+- line: Big Wool
+  slug: big_wool
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 7.5–9 sts / 10 cm (4") and 10 rows
+  needle_size: |-
+    10 mm (15 US) (000 UK),
+    15 mm (18 US)
+  style_categories:
+  - Solid colors
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/big_wool.jpg
+  colorways: []
+- line: Brushed Fleece
+  slug: brushed_fleece
+  weight_category: Bulky
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    alpaca: 30
+    nylon: 5
+  texture: Fuzzy / Fluffy
+  gauge: 13 sts / 10 cm (4") and 19 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/brushed_fleece.jpg
+  colorways: []
+- line: Cotton Cashmere
+  slug: cotton_cashmere
+  weight_category: Worsted
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    cotton: 85
+    cashmere: 15
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cotton_cashmere.jpg
+  colorways: []
+- line: Cotton Glacé
+  slug: cotton_glace
+  weight_category: DK
+  yardage: 125
+  skein_weight: 50
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 23 sts / 10 cm (4") and 32 rows
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cotton_glace.jpg
+  colorways: []
+- line: Cotton Revive
+  slug: cotton_revive
+  weight_category: DK
+  yardage: 273
+  skein_weight: 100
+  fiber_content:
+    cotton: 80
+    unknown)_recycled_fibers: 20
+  texture: I-cord
+  gauge: 25 sts / 10 cm (4") and 34 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cotton_revive.jpg
+  colorways: []
+- line: Cotton Trio
+  slug: cotton_trio
+  weight_category: Sport
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    cotton: 84
+    alpaca: 8
+    wool: 8
+  texture: Single ply wrapped with fine thread
+  gauge: 24 sts / 10 cm (4") and 34 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cotton_trio.jpg
+  colorways: []
+- line: Creative Linen
+  slug: creative_linen
+  weight_category: DK
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    cotton: 50
+    linen: 50
+  texture: Crepe / Cable-plied
+  gauge: 21 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/creative_linen.jpg
+  colorways: []
+- line: Denim Revive
+  slug: denim_revive
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/denim_revive.jpg
+  colorways: []
+- line: Felted Tweed Aran
+  slug: felted_tweed_aran
+  weight_category: Aran
+  yardage: 95
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 50
+    alpaca: 25
+    viscose: 25
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/felted_tweed_aran.jpg
+  colorways: []
+- line: Felted Tweed DK
+  slug: felted_tweed_dk
+  weight_category: DK
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 50
+    alpaca: 25
+    viscose: 25
+  texture: Nubby / Tweedy
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/felted_tweed_dk.jpg
+  colorways: []
+- line: Felted Tweed Soft
+  slug: felted_tweed_soft
+  weight_category: Heavy Worsted
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    wool: 64
+    nylon: 20
+    alpaca: 8
+    viscose: 8
+  texture: Blown / Fiber-filled net
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/felted_tweed_soft.jpg
+  colorways: []
+- line: Fine Lace
+  slug: fine_lace
+  weight_category: Lace
+  yardage: 437
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 80
+    merino_wool: 20
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: 2 mm (0 US) (14 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_lace.jpg
+  colorways: []
+- line: Fine Tweed Haze
+  slug: fine_tweed_haze
+  weight_category: DK
+  yardage: 235
+  skein_weight: 50
+  fiber_content:
+    alpaca: 37
+    wool: 37
+    nylon: 13
+    cotton: 9
+    polyester: 4
+  texture: Fuzzy / Fluffy
+  gauge: 21 sts / 10 cm (4") and 29 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_tweed_haze.jpg
+  colorways: []
+- line: Four Seasons
+  slug: four_seasons
+  weight_category: Heavy Worsted
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 60
+    microfiber: 40
+  texture: S on S plied
+  gauge: 16–18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/four_seasons.jpg
+  colorways: []
+- line: Handknit Cotton
+  slug: handknit_cotton
+  weight_category: Worsted
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 19–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/handknit_cotton.jpg
+  colorways: []
+- line: Kid Classic
+  slug: kid_classic
+  weight_category: Aran
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    wool: 70
+    kid_mohair: 22
+    nylon: 8
+  texture: Plied with a soft haze
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kid_classic.jpg
+  colorways: []
+- line: Kidsilk Haze
+  slug: kidsilk_haze
+  weight_category: Lace
+  yardage: 229
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 70
+    silk: 30
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_haze.jpg
+  colorways: []
+- line: Kidsilk Haze Colour
+  slug: kidsilk_haze_colour
+  weight_category: Lace
+  yardage: 459
+  skein_weight: 50
+  fiber_content:
+    kid_mohair: 70
+    silk: 30
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_haze_colour.jpg
+  colorways: []
+- line: Mode Alpaca Cotton
+  slug: mode_alpaca_cotton
+  weight_category: DK
+  yardage: 131
+  skein_weight: 25
+  fiber_content:
+    alpaca: 57
+    cotton: 43
+  texture: Blown / Fiber-filled net
+  gauge: 23 sts / 10 cm (4") and 31 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_alpaca_cotton.jpg
+  colorways: []
+- line: Mode Alpaca Haze
+  slug: mode_alpaca_haze
+  weight_category: Lace
+  yardage: 232
+  skein_weight: 25
+  fiber_content:
+    alpaca: 58
+    wool: 22
+    nylon: 20
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 18–24 sts / 10 cm (4") and 27 rows
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_alpaca_haze.jpg
+  colorways: []
+- line: Mode Alpaca Wool
+  slug: mode_alpaca_wool
+  weight_category: DK
+  yardage: 127
+  skein_weight: 50
+  fiber_content:
+    alpaca: 50
+    wool: 50
+  texture: 2 ply
+  gauge: 23 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_alpaca_wool.jpg
+  colorways: []
+- line: Mode Chunky Wool
+  slug: mode_chunky_wool
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: 2 ply
+  gauge: 13 sts / 10 cm (4") and 16 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_chunky_wool.jpg
+  colorways: []
+- line: Mode Colourmix
+  slug: mode_colourmix
+  weight_category: Aran
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 47
+    wool: 30
+    alpaca: 23
+  texture: Blown / Fiber-filled net
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Dotted colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_colourmix.jpg
+  colorways: []
+- line: Mode Cotton DK
+  slug: mode_cotton_dk
+  weight_category: DK
+  yardage: 116
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_cotton_dk.jpg
+  colorways: []
+- line: Mode Merino Soft
+  slug: mode_merino_soft
+  weight_category: Heavy Worsted
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_merino_soft.jpg
+  colorways: []
+- line: Mode Mohair Soft
+  slug: mode_mohair_soft
+  weight_category: Heavy Worsted
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    mohair: 60
+    wool: 40
+  texture: Fuzzy / Fluffy
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_mohair_soft.jpg
+  colorways: []
+- line: Mode Softest Alpaca
+  slug: mode_softest_alpaca
+  weight_category: Aran
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    alpaca: 70
+    nylon: 23
+    wool: 7
+  texture: Blown / Fiber-filled net
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mode_softest_alpaca.jpg
+  colorways: []
+- line: Moordale
+  slug: moordale
+  weight_category: DK
+  yardage: 252
+  skein_weight: 100
+  fiber_content:
+    blue_faced_leicester_wool: 70
+    alpaca: 30
+  texture: Plied with a soft haze
+  gauge: 23 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/moordale.jpg
+  colorways: []
+- line: Norwegian Wool
+  slug: norwegian_wool
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: 2 ply
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/norwegian_wool.jpg
+  colorways: []
+- line: Pure Alpaca
+  slug: pure_alpaca
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied with a soft haze
+  gauge: 23 sts / 10 cm (4") and 29 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_alpaca.jpg
+  colorways: []
+- line: Pure Cashmere
+  slug: pure_cashmere
+  weight_category: DK
+  yardage: 150
+  skein_weight: 50
+  fiber_content:
+    cashmere: 100
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_cashmere.jpg
+  colorways: []
+- line: Pure Wool Superwash Worsted
+  slug: pure_wool_worsted
+  weight_category: Worsted
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_wool_worsted.jpg
+  colorways: []
+- line: Rowan Sock
+  slug: rowan_sock
+  weight_category: Fingering
+  yardage: 437
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Single ply
+  gauge: 28–32 sts / 10 cm (4")
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Gradient marl
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/rowan_sock.jpg
+  colorways: []
+- line: Soft Boucle
+  slug: soft_boucle
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 45
+    alpaca: 23
+    superwash_wool: 22
+    nylon: 10
+  texture: Bouclé
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/soft_boucle.jpg
+  colorways: []
+- line: Softyak DK
+  slug: softyak_dk
+  weight_category: DK
+  yardage: 148
+  skein_weight: 50
+  fiber_content:
+    cotton: 76
+    yak: 15
+    nylon: 9
+  texture: Chained
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/softyak_dk.jpg
+  colorways: []
+- line: Summerlite 4-ply
+  slug: summerlite_4-ply
+  weight_category: Fingering
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/summerlite_4-ply.jpg
+  colorways: []
+- line: Summerlite DK
+  slug: summerlite_dk
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/summerlite_dk.jpg
+  colorways: []
+- line: Tweed Haze
+  slug: tweed_haze
+  weight_category: Bulky
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    mohair: 40
+    alpaca: 39
+    polyester: 10
+    cotton: 8
+    nylon: 3
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/tweed_haze.jpg
+  colorways: []
+- line: |-
+    4-ply Cotton
+    (DISCONTINUED)
+  slug: 4-ply_cotton
+  weight_category: Fingering
+  yardage: 186
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    4-ply Soft
+    (DISCONTINUED)
+  slug: 4-ply_soft
+  weight_category: Fingering
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/4-ply_soft.jpg
+  colorways: []
+- line: |-
+    All Seasons Chunky
+    (DISCONTINUED)
+  slug: all_seasons_chunky
+  weight_category: Super Bulky
+  yardage: 93
+  skein_weight: 100
+  fiber_content:
+    cotton: 60
+    acrylic: 40
+  texture: S on S plied
+  gauge: 11 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/all_seasons_chunky.jpg
+  colorways: []
+- line: |-
+    All Seasons Cotton
+    (DISCONTINUED)
+  slug: all_seasons_cotton
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    cotton: 60
+    acrylic: 40
+  texture: S on S plied
+  gauge: 17 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/all_seasons_cotton.jpg
+  colorways: []
+- line: |-
+    Alpaca Chunky
+    (DISCONTINUED)
+  slug: alpaca_chunky
+  weight_category: Super Bulky
+  yardage: 75
+  skein_weight: 100
+  fiber_content:
+    alpaca: 98
+    nylon: 2
+  texture: Chained
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_chunky.jpg
+  colorways: []
+- line: |-
+    Alpaca Colour
+    (DISCONTINUED)
+  slug: alpaca_colour
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_colour.jpg
+  colorways: []
+- line: |-
+    Alpaca Cotton
+    (DISCONTINUED)
+  slug: alpaca_cotton
+  weight_category: Aran
+  yardage: 148
+  skein_weight: 50
+  fiber_content:
+    alpaca: 72
+    cotton: 28
+  texture: Fuzzy / Fluffy
+  gauge: 16 sts / 10 cm (4") and 23 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_cotton.jpg
+  colorways: []
+- line: |-
+    Alpaca Merino DK
+    (DISCONTINUED)
+  slug: alpaca_merino
+  weight_category: DK
+  yardage: 109
+  skein_weight: 25
+  fiber_content:
+    alpaca: 83
+    nylon: 10
+    wool: 7
+  texture: Chained
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/alpaca_merino.jpg
+  colorways: []
+- line: |-
+    Amy Butler Belle Organic Aran
+    (DISCONTINUED)
+  slug: amy_butler_belle_organic_aran
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 50
+    wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Amy Butler Belle Organic DK
+    (DISCONTINUED)
+  slug: amy_butler_belle_organic_dk
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 50
+    wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Amy Butler Sweet Harmony
+    (DISCONTINUED)
+  slug: amy_butler_sweet_harmony
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Chained
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/amy_butler_sweet_harmony.jpg
+  colorways: []
+- line: |-
+    Angora Haze
+    (DISCONTINUED)
+  slug: angora_haze
+  weight_category: Fingering
+  yardage: 150
+  skein_weight: 25
+  fiber_content:
+    angora: 69
+    nylon: 20
+    wool: 11
+  texture: Fuzzy / Fluffy
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/angora_haze.jpg
+  colorways: []
+- line: |-
+    BIG Big Wool
+    (DISCONTINUED)
+  slug: big_big_wool
+  weight_category: Super Bulky
+  yardage: 44
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/big_big_wool.jpg
+  colorways: []
+- line: |-
+    Baby Alpaca DK
+    (DISCONTINUED)
+  slug: baby_alpaca_dk
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby Merino Silk DK
+    (DISCONTINUED)
+  slug: baby_merino_silk_dk
+  weight_category: DK
+  yardage: 147
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 66
+    silk: 34
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/baby_merino_silk_dk.jpg
+  colorways: []
+- line: |-
+    Bamboo Tape
+    (DISCONTINUED)
+  slug: bamboo_tape
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    bamboo_rayon: 100
+  texture: Tape
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Big Wool Colour
+    (DISCONTINUED)
+  slug: big_wool_colour
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    wool: 96
+    polyester: 4
+  texture: Single ply wrapped with fine thread
+  gauge: 9 sts / 10 cm (4") and 12.5 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/big_wool_colour.jpg
+  colorways: []
+- line: |-
+    Big Wool Silk
+    (DISCONTINUED)
+  slug: big_wool_silk
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    silk: 30
+  texture: Plied (3 or more plies)
+  gauge: 7.5–9 sts / 10 cm (4") and 10 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/big_wool_silk.jpg
+  colorways: []
+- line: |-
+    Big Wool Tuft
+    (DISCONTINUED)
+  slug: big_wool_tuft
+  weight_category: Super Bulky
+  yardage: 27
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 97
+    nylon: 3
+  texture: Tufted
+  gauge: 6 sts / 10 cm (4")
+  needle_size: 19 mm (35 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Biggy Print
+    (DISCONTINUED)
+  slug: biggy_print
+  weight_category: Super Bulky
+  yardage: 32
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Slubby / Thick and thin
+  gauge: 5.5 sts / 10 cm (4") and 7 rows
+  needle_size: 19 mm (35 US)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/biggy_print.jpg
+  colorways: []
+- line: |-
+    Bright Tweed
+    (DISCONTINUED)
+  slug: bright_tweed
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 13–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/bright_tweed.jpg
+  colorways: []
+- line: |-
+    British Sheep Breeds Bouclé
+    (DISCONTINUED)
+  slug: british_sheep_breeds_boucle
+  weight_category: Super Bulky
+  yardage: 66
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Bouclé
+  gauge: 8–9 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/british_sheep_breeds_boucle.jpg
+  colorways: []
+- line: |-
+    British Sheep Breeds Chunky Undyed
+    (DISCONTINUED)
+  slug: british_sheep_breeds_chunky_undyed
+  weight_category: Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied with a woolly haze
+  gauge: 13 sts / 10 cm (4") and 18 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/british_sheep_breeds_chunky_undyed.jpg
+  colorways: []
+- line: |-
+    British Sheep Breeds DK Undyed
+    (DISCONTINUED)
+  slug: british_sheep_breeds_dk_undyed
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Plied with a woolly haze
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/british_sheep_breeds_dk_undyed.jpg
+  colorways: []
+- line: |-
+    British Sheep Breeds Fine Bouclé
+    (DISCONTINUED)
+  slug: british_sheep_breeds_fine_boucle
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    wool: 91
+    nylon: 9
+  texture: Bouclé
+  gauge: 15 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/british_sheep_breeds_fine_boucle.jpg
+  colorways: []
+- line: |-
+    Calmer
+    (DISCONTINUED)
+  slug: calmer
+  weight_category: Worsted
+  yardage: 175
+  skein_weight: 50
+  fiber_content:
+    cotton: 75
+    acrylic: 25
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Cashmere Haze
+    (DISCONTINUED)
+  slug: cashmere_haze
+  weight_category: Lace
+  yardage: 252
+  skein_weight: 25
+  fiber_content:
+    alpaca: 40
+    cashmere: 30
+    mulberry_silk: 30
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 23 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cashmere_haze.jpg
+  colorways: []
+- line: |-
+    Cashmere Tweed
+    (DISCONTINUED)
+  slug: cashmere_tweed
+  weight_category: DK
+  yardage: 137
+  skein_weight: 25
+  fiber_content:
+    wool: 80
+    cashmere: 20
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cashmere_tweed.jpg
+  colorways: []
+- line: |-
+    Chenille
+    (DISCONTINUED)
+  slug: chenille
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Chenille
+  gauge: 21 sts / 10 cm (4") and 33 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/chenille.jpg
+  colorways: []
+- line: |-
+    Chunky Chenille
+    (DISCONTINUED)
+  slug: chunky_chenille
+  weight_category: Bulky
+  yardage: 152
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Chenille
+  gauge: 13–18 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Chunky Print
+    (DISCONTINUED)
+  slug: chunky_print
+  weight_category: Super Bulky
+  yardage: 110
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Multi-color
+  image_url:
+  colorways: []
+- line: |-
+    Chunky Tweed
+    (DISCONTINUED)
+  slug: chunky_tweed
+  weight_category: Bulky
+  yardage: 108
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 13–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Cocoon
+    (DISCONTINUED)
+  slug: cocoon
+  weight_category: Bulky
+  yardage: 126
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 80
+    kid_mohair: 20
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4") and 16 rows
+  needle_size: |-
+    6.5 mm (10.5 US) (3 UK),
+    7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cocoon.jpg
+  colorways: []
+- line: |-
+    Colourscape Chunky
+    (DISCONTINUED)
+  slug: colourscape_chunky
+  weight_category: Bulky
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4") and 18 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Colourspun
+    (DISCONTINUED)
+  slug: colourspun
+  weight_category: DK
+  yardage: 148
+  skein_weight: 50
+  fiber_content:
+    wool: 72
+    mohair: 14
+    nylon: 14
+  texture: Single ply wrapped with fine thread
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/colourspun.jpg
+  colorways: []
+- line: |-
+    Cork
+    (DISCONTINUED)
+  slug: cork
+  weight_category: Bulky
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 90
+    nylon: 10
+  texture: Chained
+  gauge: 12–15 sts / 10 cm (4") and 19 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Heather colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cork.jpg
+  colorways: []
+- line: |-
+    Cotton Braid
+    (DISCONTINUED)
+  slug: cotton_braid
+  weight_category: Super Bulky
+  yardage: 54
+  skein_weight: 50
+  fiber_content:
+    cotton: 68
+    rayon: 22
+    linen: 10
+  texture: Looped ladder tape
+  gauge: 10 sts / 10 cm (4")
+  needle_size: |-
+    8 mm (11 US) (0 UK),
+    10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton Lustre
+    (DISCONTINUED)
+  slug: cotton_lustre
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    cotton: 55
+    modal_rayon: 35
+    linen: 10
+  texture: Tape
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cotton_lustre.jpg
+  colorways: []
+- line: |-
+    Cotton Rope
+    (DISCONTINUED)
+  slug: cotton_rope
+  weight_category: Bulky
+  yardage: 63
+  skein_weight: 50
+  fiber_content:
+    cotton: 55
+    acrylic: 45
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton Tape
+    (DISCONTINUED)
+  slug: cotton_tape
+  weight_category: Bulky
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Tape
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton Wool
+    (DISCONTINUED)
+  slug: cotton_wool
+  weight_category: Worsted
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 60
+    wool: 40
+  texture: Fleecy chain
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cotton_wool.jpg
+  colorways: []
+- line: |-
+    Country
+    (DISCONTINUED)
+  slug: country
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 8 sts / 10 cm (4")
+  needle_size: |-
+    9 mm (13 US) (00 UK),
+    12.8 mm
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Creative Focus Worsted
+    (DISCONTINUED)
+  slug: creative_focus_worsted
+  weight_category: Worsted
+  yardage: 220
+  skein_weight: 100
+  fiber_content:
+    wool: 75
+    alpaca: 25
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/creative_focus_worsted.jpg
+  colorways: []
+- line: |-
+    DK Soft
+    (DISCONTINUED)
+  slug: dk_soft
+  weight_category: DK
+  yardage: 190
+  skein_weight: 50
+  fiber_content:
+    wool: 80
+    nylon: 20
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DK Tweed
+    (DISCONTINUED)
+  slug: dk_tweed
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Damask
+    (DISCONTINUED)
+  slug: damask
+  weight_category: DK
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    rayon: 57
+    linen: 22
+    acrylic: 21
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Denim
+    (DISCONTINUED)
+  slug: denim
+  weight_category: Worsted
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Loosely plied
+  gauge: 20 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Donegal Lambswool Tweed
+    (DISCONTINUED)
+  slug: donegal_lambswool_tweed
+  weight_category: Fingering
+  yardage: 124
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 26–28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Drift
+    (DISCONTINUED)
+  slug: drift
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 7.5–9 sts / 10 cm (4")
+  needle_size: |-
+    10 mm (15 US) (000 UK),
+    15 mm (18 US)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/drift.jpg
+  colorways: []
+- line: |-
+    Fazed Tweed
+    (DISCONTINUED)
+  slug: fazed_tweed
+  weight_category: Bulky
+  yardage: 77
+  skein_weight: 50
+  fiber_content:
+    wool: 72
+    alpaca: 22
+    nylon: 6
+  texture: Fuzzy chain
+  gauge: 15 sts / 10 cm (4") and 19 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fazed_tweed.jpg
+  colorways: []
+- line: |-
+    Felted Tweed Chunky
+    (DISCONTINUED)
+  slug: felted_tweed_chunky
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 50
+    alpaca: 25
+    viscose: 25
+  texture: Nubby / Tweedy
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Fine Art
+    (DISCONTINUED)
+  slug: fine_art
+  weight_category: Light Fingering
+  yardage: 437
+  skein_weight: 100
+  fiber_content:
+    wool: 45
+    nylon: 25
+    mohair: 20
+    silk: 10
+  texture: Plied with a woolly haze
+  gauge: 32 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_art.jpg
+  colorways: []
+- line: |-
+    Fine Art Aran
+    (DISCONTINUED)
+  slug: fine_art_aran
+  weight_category: Aran
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 50
+    alpaca: 25
+    kid_mohair: 20
+    mulberry_silk: 5
+  texture: 2 ply
+  gauge: 19–25 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_art_aran.jpg
+  colorways: []
+- line: |-
+    Fine Cotton Chenille
+    (DISCONTINUED)
+  slug: fine_cotton_chenille
+  weight_category: DK
+  yardage: 175
+  skein_weight: 50
+  fiber_content:
+    cotton: 89
+    polyester: 11
+  texture: Chenille
+  gauge: 20–25 sts / 10 cm (4") and 40 rows
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_cotton_chenille.jpg
+  colorways: []
+- line: |-
+    Fine Milk Cotton
+    (DISCONTINUED)
+  slug: fine_milk_cotton
+  weight_category: Fingering
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    cotton: 70
+    milk_protein: 30
+  texture: Plied (3 or more plies)
+  gauge: 30 sts / 10 cm (4")
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Fine Tweed
+    (DISCONTINUED)
+  slug: fine_tweed
+  weight_category: Fingering
+  yardage: 98
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 27 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_tweed.jpg
+  colorways: []
+- line: |-
+    Finest
+    (DISCONTINUED)
+  slug: finest
+  weight_category: Fingering
+  yardage: 95
+  skein_weight: 25
+  fiber_content:
+    merino_superwash_wool: 50
+    alpaca: 30
+    cashmere: 20
+  texture: Plied with a soft haze
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/finest.jpg
+  colorways: []
+- line: |-
+    Frost
+    (DISCONTINUED)
+  slug: frost
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    viscose: 80
+    alpaca: 20
+  texture: Fuzzy chain
+  gauge: 16 sts / 10 cm (4") and 23 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/frost.jpg
+  colorways: []
+- line: |-
+    Fur
+    (DISCONTINUED)
+  slug: fur
+  weight_category: Super Bulky
+  yardage: 66
+  skein_weight: 50
+  fiber_content:
+    wool: 97
+    nylon: 3
+  texture: Faux / Fake fur
+  gauge: 12.5 sts / 10 cm (4") and 17 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fur.jpg
+  colorways: []
+- line: |-
+    Harris Tweed 4-ply
+    (DISCONTINUED)
+  slug: harris_tweed_4-ply
+  weight_category: Fingering
+  yardage: 120
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 26–28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Hemp Tweed
+    (DISCONTINUED)
+  slug: hemp_tweed
+  weight_category: Worsted
+  yardage: 104
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    hemp: 25
+  texture: Plied with a fibrous haze
+  gauge: 19 sts / 10 cm (4") and 25 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/hemp_tweed.jpg
+  colorways: []
+- line: |-
+    Hemp Tweed Chunky
+    (DISCONTINUED)
+  slug: hemp_tweed_chunky
+  weight_category: Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 75
+    hemp: 25
+  texture: Plied with a fibrous haze
+  gauge: 14 sts / 10 cm (4") and 19 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/hemp_tweed_chunky.jpg
+  colorways: []
+- line: |-
+    Island Blend
+    (DISCONTINUED)
+  slug: island_blend
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    falklands_wool: 70
+    baby_alpaca: 15
+    mulberry_silk: 15
+  texture: 2 ply
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/island_blend.jpg
+  colorways: []
+- line: |-
+    Island Blend Fine
+    (DISCONTINUED)
+  slug: island_blend_fine
+  weight_category: Sport
+  yardage: 180
+  skein_weight: 50
+  fiber_content:
+    falklands_wool: 70
+    baby_alpaca: 15
+    mulberry_silk: 15
+  texture: 2 ply
+  gauge: 26 sts / 10 cm (4") and 34 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/island_blend_fine.jpg
+  colorways: []
+- line: |-
+    Kidsilk Amore
+    (DISCONTINUED)
+  slug: kidsilk_amore
+  weight_category: Super Bulky
+  yardage: 46
+  skein_weight: 50
+  fiber_content:
+    kid_mohair: 70
+    silk: 30
+  texture: Chained
+  gauge: 7.5–9 sts / 10 cm (4")
+  needle_size: |-
+    10 mm (15 US) (000 UK),
+    15 mm (18 US)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_amore.jpg
+  colorways: []
+- line: |-
+    Kidsilk Amore Shimmer
+    (DISCONTINUED)
+  slug: kidsilk_amore_shimmer
+  weight_category: Super Bulky
+  yardage: 40
+  skein_weight: 50
+  fiber_content:
+    kid_mohair: 66
+    silk: 27
+    metallic: 4
+    nylon: 3
+  texture: Fuzzy chain
+  gauge: 7.5–9 sts / 10 cm (4")
+  needle_size: |-
+    10 mm (15 US) (000 UK),
+    15 mm (18 US)
+  style_categories:
+  - Multicolored with metallic thread
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_amore_shimmer.jpg
+  colorways: []
+- line: |-
+    Kidsilk Aura
+    (DISCONTINUED)
+  slug: kidsilk_aura
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 75
+    silk: 25
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kidsilk Creation
+    (DISCONTINUED)
+  slug: kidsilk_creation
+  weight_category: Bulky
+  yardage: 10
+  skein_weight: 50
+  fiber_content:
+    kid_mohair: 70
+    silk: 30
+  texture: Ruffle
+  gauge: "(Unknown)"
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_creation.jpg
+  colorways: []
+- line: |-
+    Kidsilk Haze Eclipse
+    (DISCONTINUED)
+  slug: kidsilk_haze_eclipse
+  weight_category: Lace
+  yardage: 219
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 66
+    silk: 27
+    metallic: 4
+    nylon: 3
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_haze_eclipse.jpg
+  colorways: []
+- line: |-
+    Kidsilk Haze Glamour
+    (DISCONTINUED)
+  slug: kidsilk_haze_glamour
+  weight_category: Lace
+  yardage: 177
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 55
+    silk: 22
+    nylon: 20
+    polyester: 3
+  texture: Fuzzy with sequins
+  gauge: "(Varies)"
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_haze_glamour.jpg
+  colorways: []
+- line: |-
+    Kidsilk Haze Shine
+    (DISCONTINUED)
+  slug: kidsilk_haze_shine
+  weight_category: Worsted
+  yardage: 10
+  skein_weight: 6
+  fiber_content:
+    kid_mohair: 45
+    wool: 28
+    silk: 20
+    cotton: 7
+  texture: Beaded
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors with crystals
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_haze_shine.jpg
+  colorways: []
+- line: |-
+    Kidsilk Haze Trio
+    (DISCONTINUED)
+  slug: kidsilk_haze_trio
+  weight_category: Bulky
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    kid_mohair: 70
+    silk: 30
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 17 sts / 10 cm (4") and 20 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/kidsilk_haze_trio.jpg
+  colorways: []
+- line: |-
+    Kidsilk Night
+    (DISCONTINUED)
+  slug: kidsilk_night
+  weight_category: Lace
+  yardage: 227
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 67
+    silk: 18
+    metallic: 10
+    nylon: 5
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kidsilk Spray
+    (DISCONTINUED)
+  slug: kidsilk_spray
+  weight_category: Lace
+  yardage: 229
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 70
+    silk: 30
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Multi-color
+  image_url:
+  colorways: []
+- line: |-
+    Lenpur Linen
+    (DISCONTINUED)
+  slug: lenpur_linen
+  weight_category: DK
+  yardage: 126
+  skein_weight: 50
+  fiber_content:
+    rayon: 75
+    linen: 25
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lightweight DK
+    (DISCONTINUED)
+  slug: lightweight_dk
+  weight_category: Sport
+  yardage: 73
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 23–25 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lima
+    (DISCONTINUED)
+  slug: lima
+  weight_category: Worsted
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    alpaca: 84
+    merino_wool: 8
+    nylon: 8
+  texture: Chained
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/lima.jpg
+  colorways: []
+- line: |-
+    Linen Drape
+    (DISCONTINUED)
+  slug: linen_drape
+  weight_category: DK
+  yardage: 108
+  skein_weight: 50
+  fiber_content:
+    linen: 55
+    viscose: 45
+  texture: Loosely plied
+  gauge: 22–24 sts / 10 cm (4") and 29 rows
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/linen_drape.jpg
+  colorways: []
+- line: |-
+    Linen Print
+    (DISCONTINUED)
+  slug: linen_print
+  weight_category: Bulky
+  yardage: 60
+  skein_weight: 50
+  fiber_content:
+    rayon: 70
+    linen: 30
+  texture: Chained
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Little Big Wool
+    (DISCONTINUED)
+  slug: little_big_wool
+  weight_category: Super Bulky
+  yardage: 66
+  skein_weight: 50
+  fiber_content:
+    wool: 67
+    nylon: 33
+  texture: Single ply
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lurex Shimmer
+    (DISCONTINUED)
+  slug: lurex_shimmer
+  weight_category: Fingering
+  yardage: 103
+  skein_weight: 25
+  fiber_content:
+    rayon: 80
+    metallic: 20
+  texture: Metallic chainette
+  gauge: 24–30 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/lurex_shimmer.jpg
+  colorways: []
+- line: |-
+    Magpie Aran
+    (DISCONTINUED)
+  slug: magpie_aran
+  weight_category: Aran
+  yardage: 153
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Magpie Tweed
+    (DISCONTINUED)
+  slug: magpie_tweed
+  weight_category: Aran
+  yardage: 187
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 17–18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/magpie_tweed.jpg
+  colorways: []
+- line: |-
+    Merino Aria
+    (DISCONTINUED)
+  slug: merino_aria
+  weight_category: Bulky
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 93
+    nylon: 7
+  texture: Chained
+  gauge: 14 sts / 10 cm (4") and 21 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/merino_aria.jpg
+  colorways: []
+- line: |-
+    Milk Cotton DK
+    (DISCONTINUED)
+  slug: milk_cotton_dk
+  weight_category: DK
+  yardage: 124
+  skein_weight: 50
+  fiber_content:
+    cotton: 70
+    milk_protein: 30
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Mohair Haze
+    (DISCONTINUED)
+  slug: mohair_haze
+  weight_category: Fingering
+  yardage: 112
+  skein_weight: 25
+  fiber_content:
+    mohair: 70
+    wool: 30
+  texture: Fuzzy / Fluffy
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mohair_haze.jpg
+  colorways: []
+- line: |-
+    Original Denim
+    (DISCONTINUED)
+  slug: original_denim
+  weight_category: Worsted
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/original_denim.jpg
+  colorways: []
+- line: |-
+    Panama
+    (DISCONTINUED)
+  slug: panama
+  weight_category: Fingering
+  yardage: 148
+  skein_weight: 50
+  fiber_content:
+    rayon: 55
+    cotton: 33
+    linen: 12
+  texture: Chained
+  gauge: 27 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/panama.jpg
+  colorways: []
+- line: |-
+    Pebble Island
+    (DISCONTINUED)
+  slug: pebble_island
+  weight_category: Worsted
+  yardage: 118
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pebble_island.jpg
+  colorways: []
+- line: |-
+    Pima Cotton DK
+    (DISCONTINUED)
+  slug: pima_cotton_dk
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Plaid
+    (DISCONTINUED)
+  slug: plaid
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 42
+    acrylic: 30
+    alpaca: 28
+  texture: Plied (3 or more plies)
+  gauge: 11–12 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/plaid.jpg
+  colorways: []
+- line: |-
+    Polar
+    (DISCONTINUED)
+  slug: polar
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 60
+    alpaca: 30
+    acrylic: 10
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Pure Cashmere DK (discontinued)
+    (DISCONTINUED)
+  slug: pure_cashmere_dk
+  weight_category: DK
+  yardage: 122
+  skein_weight: 25
+  fiber_content:
+    cashmere: 100
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Pure Linen
+    (DISCONTINUED)
+  slug: pure_linen
+  weight_category: Aran
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    linen: 100
+  texture: Single ply
+  gauge: 17 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_linen.jpg
+  colorways: []
+- line: |-
+    Pure Wool 4-ply
+    (DISCONTINUED)
+  slug: pure_wool_4-ply
+  weight_category: Fingering
+  yardage: 174
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_wool_4-ply.jpg
+  colorways: []
+- line: |-
+    Pure Wool Aran
+    (DISCONTINUED)
+  slug: pure_wool_aran
+  weight_category: Aran
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 17–19 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_wool_aran.jpg
+  colorways: []
+- line: |-
+    Pure Wool DK
+    (DISCONTINUED)
+  slug: pure_wool_dk
+  weight_category: DK
+  yardage: 136
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_wool_dk.jpg
+  colorways: []
+- line: |-
+    Pure Wool Superwash DK
+    (DISCONTINUED)
+  slug: pure_wool_superwash_dk
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/pure_wool_superwash_dk.jpg
+  colorways: []
+- line: |-
+    Purelife Organic Cotton 4-ply
+    (DISCONTINUED)
+  slug: purelife_organic_cotton_4-ply
+  weight_category: Fingering
+  yardage: 180
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Purelife Organic Cotton DK
+    (DISCONTINUED)
+  slug: purelife_organic_cotton_dk
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Purelife Organic Wool
+    (DISCONTINUED)
+  slug: purelife_organic_wool
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Purelife Renew
+    (DISCONTINUED)
+  slug: purelife_renew
+  weight_category: Bulky
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    wool: 93
+    nylon: 7
+  texture: Single ply wrapped with fine thread
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/purelife_renew.jpg
+  colorways: []
+- line: |-
+    Purelife Revive
+    (DISCONTINUED)
+  slug: purelife_revive
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    cotton: 36
+    silk: 36
+    rayon: 28
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/purelife_revive.jpg
+  colorways: []
+- line: |-
+    RYC Alpaca Soft
+    (DISCONTINUED)
+  slug: ryc_alpaca_soft
+  weight_category: Super Bulky
+  yardage: 60
+  skein_weight: 50
+  fiber_content:
+    alpaca: 50
+    cotton: 50
+  texture: Bouclé
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    RYC Baby Alpaca DK
+    (DISCONTINUED)
+  slug: ryc_baby_alpaca_dk
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    RYC Bamboo Soft
+    (DISCONTINUED)
+  slug: ryc_bamboo_soft
+  weight_category: Sport
+  yardage: 112
+  skein_weight: 50
+  fiber_content:
+    bamboo_rayon: 100
+  texture: Plied (3 or more plies)
+  gauge: 25 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashcotton 4-Ply
+    (DISCONTINUED)
+  slug: ryc_cashcotton_4-ply
+  weight_category: Fingering
+  yardage: 197
+  skein_weight: 50
+  fiber_content:
+    cotton: 35
+    nylon: 25
+    angora: 18
+    rayon: 13
+    cashmere: 9
+  texture: Plied with a soft haze
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashcotton DK
+    (DISCONTINUED)
+  slug: ryc_cashcotton_dk
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    cotton: 35
+    nylon: 25
+    angora: 18
+    rayon: 13
+    cashmere: 9
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashmere Tweed
+    (DISCONTINUED)
+  slug: ryc_cashmere_tweed
+  weight_category: Aran
+  yardage: 60
+  skein_weight: 25
+  fiber_content:
+    cashmere: 90
+    silk: 10
+  texture: Plied with a soft haze
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashsoft 4-ply
+    (DISCONTINUED)
+  slug: ryc_cashsoft_4-ply
+  weight_category: Fingering
+  yardage: 197
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 57
+    microfiber: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashsoft Aran
+    (DISCONTINUED)
+  slug: ryc_cashsoft_aran
+  weight_category: Aran
+  yardage: 95
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 57
+    microfiber: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashsoft Baby DK
+    (DISCONTINUED)
+  slug: ryc_cashsoft_baby_dk
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 57
+    microfiber: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashsoft Chunky
+    (DISCONTINUED)
+  slug: ryc_cashsoft_chunky
+  weight_category: Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 57
+    microfiber: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Cashsoft DK
+    (DISCONTINUED)
+  slug: ryc_cashsoft_dk
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 57
+    microfiber: 33
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/ryc_cashsoft_dk.jpg
+  colorways: []
+- line: |-
+    RYC Cotton Jeans
+    (DISCONTINUED)
+  slug: ryc_cotton_jeans
+  weight_category: Worsted
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    RYC Extra Fine Merino DK
+    (DISCONTINUED)
+  slug: ryc_extra_fine_merino_dk
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Luxury Cotton DK
+    (DISCONTINUED)
+  slug: ryc_luxury_cotton_dk
+  weight_category: DK
+  yardage: 104
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    viscose: 45
+    silk: 5
+  texture: Crepe / Cable-plied
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/ryc_luxury_cotton_dk.jpg
+  colorways: []
+- line: |-
+    RYC Natural Silk Aran
+    (DISCONTINUED)
+  slug: ryc_natural_silk_aran
+  weight_category: Aran
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    rayon: 73
+    silk: 15
+    linen: 12
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Pure Silk DK
+    (DISCONTINUED)
+  slug: ryc_pure_silk_dk
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    silk: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Siena
+    (DISCONTINUED)
+  slug: ryc_siena
+  weight_category: Fingering
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Silk Cotton
+    (DISCONTINUED)
+  slug: ryc_silk_cotton
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    silk: 53
+    cotton: 47
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Silk Wool DK
+    (DISCONTINUED)
+  slug: ryc_silk_wool_dk
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 50
+    silk: 50
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/ryc_silk_wool_dk.jpg
+  colorways: []
+- line: |-
+    RYC Soft Lux
+    (DISCONTINUED)
+  slug: ryc_soft_lux
+  weight_category: Worsted
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 64
+    nylon: 24
+    angora: 10
+    metallic: 2
+  texture: Single ply wrapped with fine thread
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    RYC Soft Tweed
+    (DISCONTINUED)
+  slug: ryc_soft_tweed
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    wool: 56
+    rayon: 20
+    nylon: 14
+    silk: 10
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    RYC Wool Tweed
+    (DISCONTINUED)
+  slug: ryc_wool_tweed
+  weight_category: Aran
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 90
+    rayon: 10
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Ribbon Twist
+    (DISCONTINUED)
+  slug: ribbon_twist
+  weight_category: Super Bulky
+  yardage: 66
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    acrylic: 25
+    nylon: 5
+  texture: Tape
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 12.8 mm
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Romance
+    (DISCONTINUED)
+  slug: romance
+  weight_category: Super Bulky
+  yardage: 60
+  skein_weight: 50
+  fiber_content:
+    acrylic: 36
+    nylon: 27
+    mohair: 26
+    metallic: 8
+    wool: 3
+  texture: Fuzzy chain
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Rowan Spray
+    (DISCONTINUED)
+  slug: rowan_spray
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    wool: 60
+    acrylic: 40
+  texture: Single ply
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Rowanfleck DK Tweed
+    (DISCONTINUED)
+  slug: rowanfleck_dk_tweed
+  weight_category: DK
+  yardage: 130
+  skein_weight: 50
+  fiber_content:
+    wool: 85
+    cotton: 15
+  texture: Nubby / Tweedy
+  gauge: 24–32 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Rowanspun 4-ply
+    (DISCONTINUED)
+  slug: rowanspun_4-ply
+  weight_category: Fingering
+  yardage: 162
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 26–28 sts / 10 cm (4") and 39 rows
+  needle_size: |-
+    3 mm (2.5 US) (11 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Marled Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/rowanspun_4-ply.jpg
+  colorways: []
+- line: |-
+    Rowanspun Aran
+    (DISCONTINUED)
+  slug: rowanspun_aran
+  weight_category: Aran
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Rowanspun Chunky
+    (DISCONTINUED)
+  slug: rowanspun_chunky
+  weight_category: Bulky
+  yardage: 142
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 12–13 sts / 10 cm (4") and 16.5 rows
+  needle_size: |-
+    7 mm (2 UK),
+    7.5 mm (1 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/rowanspun_chunky.jpg
+  colorways: []
+- line: |-
+    Rowanspun DK
+    (DISCONTINUED)
+  slug: rowanspun_dk
+  weight_category: DK
+  yardage: 218
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 20–21 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Savannah
+    (DISCONTINUED)
+  slug: savannah
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    cotton: 94
+    silk: 6
+  texture: Wrap around inner core
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/savannah.jpg
+  colorways: []
+- line: |-
+    Scottish Tweed 4-ply
+    (DISCONTINUED)
+  slug: scottish_tweed_4-ply
+  weight_category: Fingering
+  yardage: 120
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 26–28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Scottish Tweed Aran
+    (DISCONTINUED)
+  slug: scottish_tweed_aran
+  weight_category: Aran
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Scottish Tweed Chunky
+    (DISCONTINUED)
+  slug: scottish_tweed_chunky
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Scottish Tweed DK
+    (DISCONTINUED)
+  slug: scottish_tweed_dk
+  weight_category: DK
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Selects Breezed
+    (DISCONTINUED)
+  slug: breezed
+  weight_category: Heavy Worsted
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    cotton: 80
+    linen: 20
+  texture: Slubby tweed
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/breezed.jpg
+  colorways: []
+- line: |-
+    Selects Camello
+    (DISCONTINUED)
+  slug: camello
+  weight_category: Fingering
+  yardage: 191
+  skein_weight: 25
+  fiber_content:
+    wool: 68
+    camel: 18
+    nylon: 14
+  texture: Chained
+  gauge: 27 sts / 10 cm (4") and 41 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/camello.jpg
+  colorways: []
+- line: |-
+    Selects Cashmere
+    (DISCONTINUED)
+  slug: cashmere
+  weight_category: Worsted
+  yardage: 82
+  skein_weight: 25
+  fiber_content:
+    cashmere: 95
+    wool: 5
+  texture: Plied with a soft haze
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cashmere.jpg
+  colorways: []
+- line: |-
+    Selects Chunky Cashmere
+    (DISCONTINUED)
+  slug: chunky_cashmere
+  weight_category: Bulky
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    cashmere: 100
+  texture: Chained
+  gauge: 15 sts / 10 cm (4") and 21 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/chunky_cashmere.jpg
+  colorways: []
+- line: |-
+    Selects Chunky Twist
+    (DISCONTINUED)
+  slug: chunky_twist
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 90
+    yak: 10
+  texture: Single ply wrapped with fine thread
+  gauge: 8 sts / 10 cm (4") and 11 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/chunky_twist.jpg
+  colorways: []
+- line: |-
+    Selects Cosy Merino
+    (DISCONTINUED)
+  slug: cosy_merino
+  weight_category: Bulky
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    wool: 73
+    cashmere: 15
+    yak: 7
+    nylon: 5
+  texture: Bouclé
+  gauge: 13 sts / 10 cm (4") and 20 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/cosy_merino.jpg
+  colorways: []
+- line: |-
+    Selects Denim Lace
+    (DISCONTINUED)
+  slug: denim_lace
+  weight_category: Lace
+  yardage: 437
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Nubby / Tweedy
+  gauge: 30 sts / 10 cm (4") and 47 rows
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/denim_lace.jpg
+  colorways: []
+- line: |-
+    Selects Fine Silk
+    (DISCONTINUED)
+  slug: fine_silk
+  weight_category: Lace
+  yardage: 164
+  skein_weight: 25
+  fiber_content:
+    silk: 40
+    viscose: 30
+    wool: 30
+  texture: Single ply
+  gauge: 35 sts / 10 cm (4") and 45 rows
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/fine_silk.jpg
+  colorways: []
+- line: |-
+    Selects Mako Cotton
+    (DISCONTINUED)
+  slug: mako_cotton
+  weight_category: Worsted
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 63
+    tencel_/_lyocell: 37
+  texture: Filled tube
+  gauge: 19 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/mako_cotton.jpg
+  colorways: []
+- line: |-
+    Selects Patina
+    (DISCONTINUED)
+  slug: patina
+  weight_category: DK
+  yardage: 273
+  skein_weight: 50
+  fiber_content:
+    mohair: 46
+    nylon: 24
+    merino_superwash_wool: 20
+    metallic: 10
+  texture: Fuzzy chain
+  gauge: 22 sts / 10 cm (4") and 31 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/patina.jpg
+  colorways: []
+- line: |-
+    Selects Silky Lace
+    (DISCONTINUED)
+  slug: silky_lace
+  weight_category: Lace
+  yardage: 394
+  skein_weight: 50
+  fiber_content:
+    cotton: 65
+    silk: 35
+  texture: Loosely plied
+  gauge: 29 sts / 10 cm (4") and 42 rows
+  needle_size: "(Varies)"
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/silky_lace.jpg
+  colorways: []
+- line: |-
+    Selects Soffili Yak
+    (DISCONTINUED)
+  slug: soffili_yak
+  weight_category: Aran
+  yardage: 180
+  skein_weight: 50
+  fiber_content:
+    nylon: 32
+    wool: 27
+    alpaca: 25
+    yak: 16
+  texture: Blown / Fiber-filled net
+  gauge: 18 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/soffili_yak.jpg
+  colorways: []
+- line: |-
+    Selects Softest Merino Wool
+    (DISCONTINUED)
+  slug: softest_merino_wool
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 13–14 sts / 10 cm (4") and 19 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/softest_merino_wool.jpg
+  colorways: []
+- line: |-
+    Selects Stone Washed
+    (DISCONTINUED)
+  slug: stone_washed
+  weight_category: Heavy Worsted
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Tape
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/stone_washed.jpg
+  colorways: []
+- line: |-
+    Selects Sultano
+    (DISCONTINUED)
+  slug: sultano
+  weight_category: Heavy Worsted
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    mohair: 38
+    silk: 38
+    cashmere: 24
+  texture: Tape
+  gauge: 16–17 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/sultano.jpg
+  colorways: []
+- line: |-
+    Selects Sultano Fine
+    (DISCONTINUED)
+  slug: selects_sultano_fine
+  weight_category: DK
+  yardage: 279
+  skein_weight: 50
+  fiber_content:
+    silk: 54
+    mohair: 28
+    cashmere: 18
+  texture: Tape
+  gauge: 23 sts / 10 cm (4") and 29 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/selects_sultano_fine.jpg
+  colorways: []
+- line: |-
+    Shimmer
+    (DISCONTINUED)
+  slug: shimmer
+  weight_category: Lace
+  yardage: 191
+  skein_weight: 25
+  fiber_content:
+    rayon: 60
+    metallic: 40
+  texture: Metallic chainette
+  gauge: "(Varies)"
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Metallic
+  image_url:
+  colorways: []
+- line: |-
+    Siena 4-ply
+    (DISCONTINUED)
+  slug: siena_4-ply
+  weight_category: Fingering
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/siena_4-ply.jpg
+  colorways: []
+- line: |-
+    Silk Twist
+    (DISCONTINUED)
+  slug: silk_twist
+  weight_category: Aran
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    silk: 53
+    wool: 30
+    mohair: 12
+    nylon: 5
+  texture: 2 ply
+  gauge: 17–22 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/silk_twist.jpg
+  colorways: []
+- line: |-
+    Silky Tweed
+    (DISCONTINUED)
+  slug: silky_tweed
+  weight_category: Aran
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    wool: 80
+    silk: 20
+  texture: Nubby / Tweedy
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Silkystones
+    (DISCONTINUED)
+  slug: silkystones
+  weight_category: Worsted
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    tussah_silk: 52
+    linen: 48
+  texture: Single ply wrapped with fine thread
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/silkystones.jpg
+  colorways: []
+- line: |-
+    Soft Baby
+    (DISCONTINUED)
+  slug: soft_baby
+  weight_category: Worsted
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    wool: 50
+    nylon: 30
+    cotton: 20
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Softknit Cotton
+    (DISCONTINUED)
+  slug: softknit_cotton
+  weight_category: Worsted
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    cotton: 92
+    nylon: 8
+  texture: Chained
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/softknit_cotton.jpg
+  colorways: []
+- line: |-
+    Summer Tweed
+    (DISCONTINUED)
+  slug: summer_tweed
+  weight_category: Aran
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    silk: 70
+    cotton: 30
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/summer_tweed.jpg
+  colorways: []
+- line: |-
+    Summerspun
+    (DISCONTINUED)
+  slug: summerspun
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    wool: 50
+  texture: Loosely plied
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/summerspun.jpg
+  colorways: []
+- line: |-
+    Super Fine Merino 4-ply
+    (DISCONTINUED)
+  slug: super_fine_merino_4-ply
+  weight_category: Fingering
+  yardage: 180
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/super_fine_merino_4-ply.jpg
+  colorways: []
+- line: |-
+    Super Fine Merino Aran
+    (DISCONTINUED)
+  slug: super_fine_merino_aran
+  weight_category: Aran
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 19 sts / 10 cm (4") and 25 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/super_fine_merino_aran.jpg
+  colorways: []
+- line: |-
+    Super Fine Merino DK
+    (DISCONTINUED)
+  slug: super_fine_merino_dk
+  weight_category: DK
+  yardage: 126
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/super_fine_merino_dk.jpg
+  colorways: []
+- line: |-
+    Tapestry
+    (DISCONTINUED)
+  slug: tapestry
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    wool: 70
+    soy_viscose: 30
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/tapestry.jpg
+  colorways: []
+- line: |-
+    Tetra Cotton
+    (DISCONTINUED)
+  slug: tetra_cotton
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Chained
+  gauge: 23 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Multi-color
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/tetra_cotton.jpg
+  colorways: []
+- line: |-
+    Thick n Thin
+    (DISCONTINUED)
+  slug: thick-n-thin
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Slubby / Thick and thin
+  gauge: 10 sts / 10 cm (4") and 13 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/thick-n-thin.jpg
+  colorways: []
+- line: |-
+    True 4-ply Botany
+    (DISCONTINUED)
+  slug: true_4-ply_botany
+  weight_category: Fingering
+  yardage: 185
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/true_4-ply_botany.jpg
+  colorways: []
+- line: |-
+    Truesilk
+    (DISCONTINUED)
+  slug: truesilk
+  weight_category: DK
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    mulberry_silk: 100
+  texture: Chained
+  gauge: 23 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/truesilk.jpg
+  colorways: []
+- line: |-
+    Tumble
+    (DISCONTINUED)
+  slug: tumble
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 100
+  fiber_content:
+    alpaca: 90
+    cotton: 10
+  texture: Fuzzy / Fluffy
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 12.8 mm
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/tumble.jpg
+  colorways: []
+- line: |-
+    Tweed
+    (DISCONTINUED)
+  slug: tweed
+  weight_category: DK
+  yardage: 129
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 21 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/tweed.jpg
+  colorways: []
+- line: |-
+    Tweed Aran
+    (DISCONTINUED)
+  slug: tweed_aran
+  weight_category: Aran
+  yardage: 105
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 17–19 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/tweed_aran.jpg
+  colorways: []
+- line: |-
+    Valley Tweed
+    (DISCONTINUED)
+  slug: valley_tweed
+  weight_category: Sport
+  yardage: 226
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 24 sts / 10 cm (4") and 36 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/valley_tweed.jpg
+  colorways: []
+- line: |-
+    Wool Cotton
+    (DISCONTINUED)
+  slug: wool_cotton
+  weight_category: DK
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    merino_superwash_wool: 50
+  texture: S on S plied
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/wool_cotton.jpg
+  colorways: []
+- line: |-
+    Wool Cotton 4-ply
+    (DISCONTINUED)
+  slug: wool_cotton_4-ply
+  weight_category: Fingering
+  yardage: 197
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    merino_superwash_wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/rowan/wool_cotton_4-ply.jpg
+  colorways: []
+- line: |-
+    Wool and Cotton
+    (DISCONTINUED)
+  slug: wool_and_cotton
+  weight_category: Fingering
+  yardage: 131
+  skein_weight: 40
+  fiber_content:
+    cotton: 50
+    wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Yorkshire Tweed 4-ply
+    (DISCONTINUED)
+  slug: yorkshire_tweed_4-ply
+  weight_category: Fingering
+  yardage: 120
+  skein_weight: 25
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Yorkshire Tweed Aran
+    (DISCONTINUED)
+  slug: yorkshire_tweed_aran
+  weight_category: Aran
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 16–18 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Yorkshire Tweed Chunky
+    (DISCONTINUED)
+  slug: yorkshire_tweed_chunky
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []
+- line: |-
+    Yorkshire Tweed DK
+    (DISCONTINUED)
+  slug: yorkshire_tweed_dk
+  weight_category: DK
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url:
+  colorways: []

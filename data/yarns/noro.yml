@@ -1,0 +1,2190 @@
+---
+brand: Noro
+slug: noro
+yarns:
+- line: Akari
+  slug: akari
+  weight_category: Heavy Worsted
+  yardage: 528
+  skein_weight: 200
+  fiber_content:
+    silk: 26
+    nylon: 24
+    cotton: 21
+    viscose: 15
+    mohair: 14
+  texture: Single ply
+  gauge: 16 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Semi-solid colors
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/akari.jpg
+  colorways: []
+- line: Haunui
+  slug: haunui
+  weight_category: Heavy Worsted
+  yardage: 436
+  skein_weight: 200
+  fiber_content:
+    romney_wool: 50
+    wool: 50
+  texture: Single ply
+  gauge: 14–15 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/haunui.jpg
+  colorways: []
+- line: Haunui Cotton
+  slug: haunui_cotton
+  weight_category: Aran
+  yardage: 410
+  skein_weight: 150
+  fiber_content:
+    wool: 60
+    cotton: 40
+  texture: Nubby / Tweedy
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/haunui_cotton.jpg
+  colorways: []
+- line: Haunui Silk
+  slug: haunui_silk
+  weight_category: Aran
+  yardage: 361
+  skein_weight: 150
+  fiber_content:
+    wool: 65
+    silk: 35
+  texture: Nubby / Tweedy
+  gauge: 16–18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/haunui_silk.jpg
+  colorways: []
+- line: Ito
+  slug: ito
+  weight_category: Aran
+  yardage: 436
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 16–20 sts / 10 cm (4") and 24 rows
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping (tweedy)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/ito.jpg
+  colorways: []
+- line: Kakigori
+  slug: kakigori
+  weight_category: DK
+  yardage: 659
+  skein_weight: 200
+  fiber_content:
+    cotton: 50
+    silk: 30
+    nylon: 10
+    viscose: 10
+  texture: Slubby tweed
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kakigori.jpg
+  colorways: []
+- line: Koma
+  slug: koma
+  weight_category: DK
+  yardage: 443
+  skein_weight: 150
+  fiber_content:
+    wool: 45
+    kid_mohair: 35
+    silk: 20
+  texture: Single ply
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/koma.jpg
+  colorways: []
+- line: Kompeito
+  slug: kompeito
+  weight_category: DK
+  yardage: 492
+  skein_weight: 150
+  fiber_content:
+    cotton: 35
+    silk: 35
+    nylon: 30
+  texture: Nubby / Tweedy
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kompeito.jpg
+  colorways: []
+- line: Kureyon
+  slug: kureyon
+  weight_category: Worsted
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Z-plied
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kureyon.jpg
+  colorways: []
+- line: Madara
+  slug: madara
+  weight_category: Heavy Worsted
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    wool: 60
+    silk: 30
+    alpaca: 10
+  texture: Nubby / Tweedy
+  gauge: 15–17 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweedy colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/madara.jpg
+  colorways: []
+- line: Malvinas
+  slug: malvinas
+  weight_category: Heavy Worsted
+  yardage: 328
+  skein_weight: 150
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 14–18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/malvinas.jpg
+  colorways: []
+- line: Ohajiki
+  slug: ohajiki
+  weight_category: Worsted
+  yardage: 459
+  skein_weight: 150
+  fiber_content:
+    cotton: 50
+    silk: 20
+    viscose: 15
+    wool: 15
+  texture: Single ply
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/ohajiki.jpg
+  colorways: []
+- line: Rikka
+  slug: rikka
+  weight_category: Bulky
+  yardage: 350
+  skein_weight: 200
+  fiber_content:
+    wool: 57
+    alpaca: 22
+    silk: 21
+  texture: Single ply
+  gauge: 12–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping (tweedy)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/rikka.jpg
+  colorways: []
+- line: Rittou
+  slug: rittou
+  weight_category: Aran
+  yardage: 361
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    mohair: 15
+    silk: 15
+  texture: Single ply
+  gauge: 16–18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/rittou.jpg
+  colorways: []
+- line: Saiun
+  slug: saiun
+  weight_category: DK
+  yardage: 492
+  skein_weight: 150
+  fiber_content:
+    wool: 70
+    nylon: 30
+  texture: Single ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/saiun.jpg
+  colorways: []
+- line: Silk Garden
+  slug: silk_garden
+  weight_category: Aran
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    mohair: 45
+    silk: 45
+    wool: 10
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden.jpg
+  colorways: []
+- line: Silk Garden Sock
+  slug: silk_garden_sock
+  weight_category: Sport
+  yardage: 328
+  skein_weight: 100
+  fiber_content:
+    wool: 40
+    nylon: 25
+    silk: 25
+    mohair: 10
+  texture: Single ply
+  gauge: 26 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden_sock.jpg
+  colorways: []
+- line: Silk Garden Sock Solo
+  slug: silk_garden_sock_solo
+  weight_category: DK
+  yardage: 327
+  skein_weight: 100
+  fiber_content:
+    wool: 40
+    nylon: 25
+    silk: 25
+    mohair: 10
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  - Tweed colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden_sock_solo.jpg
+  colorways: []
+- line: Silk Garden Solo
+  slug: silk_garden_solo
+  weight_category: Aran
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    mohair: 45
+    silk: 45
+    wool: 10
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden_solo.jpg
+  colorways: []
+- line: Sonata
+  slug: sonata
+  weight_category: Sport
+  yardage: 394
+  skein_weight: 100
+  fiber_content:
+    cotton: 35
+    viscose: 25
+    nylon: 20
+    silk: 20
+  texture: Single ply
+  gauge: 23–26 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Heathered colors
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/sonata.jpg
+  colorways: []
+- line: Tensan
+  slug: tensan
+  weight_category: Aran
+  yardage: 328
+  skein_weight: 150
+  fiber_content:
+    silk: 68
+    wool: 32
+  texture: Nubby / Tweedy
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tensan.jpg
+  colorways: []
+- line: |-
+    A La Mode
+    (DISCONTINUED)
+  slug: a_la_mode
+  weight_category: Heavy Worsted
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    kid_mohair: 25
+    nylon: 10
+  texture: Single ply
+  gauge: 14–16 sts / 10 cm (4") and 22 rows
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/a_la_mode.jpg
+  colorways: []
+- line: |-
+    Asaginu
+    (DISCONTINUED)
+  slug: asaginu
+  weight_category: Sport
+  yardage: 153
+  skein_weight: 40
+  fiber_content:
+    linen: 69
+    paper_/_wood_pulp: 30
+    nylon: 1
+  texture: Raffia / Paper-effect
+  gauge: "(Unknown)"
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/asaginu.jpg
+  colorways: []
+- line: |-
+    Aurora
+    (DISCONTINUED)
+  slug: aurora
+  weight_category: DK
+  yardage: 114
+  skein_weight: 40
+  fiber_content:
+    wool: 55
+    mohair: 20
+    silk: 20
+    polyester: 5
+  texture: Wrap around inner core
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Aya
+    (DISCONTINUED)
+  slug: aya
+  weight_category: Worsted
+  yardage: 147
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    silk: 35
+    wool: 15
+  texture: Nubby / Tweedy
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Ayatori
+    (DISCONTINUED)
+  slug: ayatori
+  weight_category: Sport
+  yardage: 155
+  skein_weight: 50
+  fiber_content:
+    wool: 60
+    silk: 40
+  texture: Single ply
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bachi
+    (DISCONTINUED)
+  slug: bachi
+  weight_category: Super Bulky
+  yardage: 264
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping (gradient marl)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/bachi.jpg
+  colorways: []
+- line: |-
+    Big Kureyon
+    (DISCONTINUED)
+  slug: big_kureyon
+  weight_category: Super Bulky
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Blossom
+    (DISCONTINUED)
+  slug: blossom
+  weight_category: Bulky
+  yardage: 77
+  skein_weight: 40
+  fiber_content:
+    wool: 40
+    mohair: 30
+    silk: 20
+    nylon: 10
+  texture: Nubby / Tweedy
+  gauge: 14–16 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bonbori
+    (DISCONTINUED)
+  slug: bonbori
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    wool: 94
+    nylon: 6
+  texture: Single ply wrapped with fine thread
+  gauge: 10–12 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cash Iroha
+    (DISCONTINUED)
+  slug: cash_iroha
+  weight_category: Aran
+  yardage: 100
+  skein_weight: 40
+  fiber_content:
+    silk: 40
+    wool: 30
+    cashmere: 20
+    nylon: 10
+  texture: Single ply
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/cash_iroha.jpg
+  colorways: []
+- line: |-
+    Cash Island
+    (DISCONTINUED)
+  slug: cash_island
+  weight_category: DK
+  yardage: 109
+  skein_weight: 40
+  fiber_content:
+    wool: 60
+    cashmere: 30
+    nylon: 10
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cashmere Flavor
+    (DISCONTINUED)
+  slug: cashmere_flavor
+  weight_category: Lace
+  yardage: 492
+  skein_weight: 50
+  fiber_content:
+    rayon: 60
+    nylon: 35
+    cashmere: 5
+  texture: Plied (3 or more plies)
+  gauge: "(Varies)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cashmere Island
+    (DISCONTINUED)
+  slug: cashmere_island
+  weight_category: DK
+  yardage: 110
+  skein_weight: 40
+  fiber_content:
+    wool: 60
+    cashmere: 30
+    nylon: 10
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Chirimen
+    (DISCONTINUED)
+  slug: chirimen
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    cotton: 60
+    silk: 24
+    wool: 16
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cyochin
+    (DISCONTINUED)
+  slug: cyochin
+  weight_category: Aran
+  yardage: 198
+  skein_weight: 100
+  fiber_content:
+    wool: 86
+    mohair: 7
+    silk: 7
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/cyochin.jpg
+  colorways: []
+- line: |-
+    Daria Multi
+    (DISCONTINUED)
+  slug: daria_multi
+  weight_category: DK
+  yardage: 54
+  skein_weight: 50
+  fiber_content:
+    cotton: 55
+    rayon: 45
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Enka
+    (DISCONTINUED)
+  slug: enka
+  weight_category: DK
+  yardage: 549
+  skein_weight: 200
+  fiber_content:
+    cotton: 50
+    silk: 20
+    nylon: 15
+    wool: 15
+  texture: Single ply
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient marl)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/enka.jpg
+  colorways: []
+- line: |-
+    Flower Bed
+    (DISCONTINUED)
+  slug: flower_bed
+  weight_category: Fingering
+  yardage: 393
+  skein_weight: 100
+  fiber_content:
+    mohair: 35
+    silk: 35
+    wool: 30
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Furin
+    (DISCONTINUED)
+  slug: furin
+  weight_category: Aran
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    cotton: 52
+    silk: 17
+    wool: 17
+    rayon: 9
+    nylon: 5
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Furisode
+    (DISCONTINUED)
+  slug: furisode
+  weight_category: Bulky
+  yardage: 165
+  skein_weight: 100
+  fiber_content:
+    silk: 45
+    cotton: 40
+    wool: 15
+  texture: Single ply
+  gauge: 12–16 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Geshi
+    (DISCONTINUED)
+  slug: geshi
+  weight_category: DK
+  yardage: 656
+  skein_weight: 200
+  fiber_content:
+    cotton: 35
+    rayon: 35
+    silk: 20
+    wool: 10
+  texture: Single ply
+  gauge: 21–25 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (long transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/geshi.jpg
+  colorways: []
+- line: |-
+    Ginga
+    (DISCONTINUED)
+  slug: ginga
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    cotton: 40
+    silk: 30
+    nylon: 15
+    wool: 15
+  texture: Single ply
+  gauge: 10–12 sts / 10 cm (4")
+  needle_size: |-
+    6.5 mm (10.5 US) (3 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/ginga.jpg
+  colorways: []
+- line: |-
+    Hakone
+    (DISCONTINUED)
+  slug: hakone
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/hakone.jpg
+  colorways: []
+- line: |-
+    Hanabatake
+    (DISCONTINUED)
+  slug: hanabatake
+  weight_category: Aran
+  yardage: 125
+  skein_weight: 50
+  fiber_content:
+    wool: 55
+    silk: 35
+    mohair: 10
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/hanabatake.jpg
+  colorways: []
+- line: |-
+    Haniwa
+    (DISCONTINUED)
+  slug: haniwa
+  weight_category: Worsted
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    silk: 50
+    wool: 30
+    nylon: 20
+  texture: Slubby / Thick and thin
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/haniwa.jpg
+  colorways: []
+- line: |-
+    Haruito
+    (DISCONTINUED)
+  slug: haruito
+  weight_category: Aran
+  yardage: 410
+  skein_weight: 150
+  fiber_content:
+    cotton: 40
+    silk: 40
+    nylon: 20
+  texture: Nubby / Tweedy
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/haruito.jpg
+  colorways: []
+- line: |-
+    Hitsuji
+    (DISCONTINUED)
+  slug: hitsuji
+  weight_category: Super Bulky
+  yardage: 110
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Iro
+    (DISCONTINUED)
+  slug: iro
+  weight_category: Super Bulky
+  yardage: 132
+  skein_weight: 100
+  fiber_content:
+    wool: 75
+    silk: 25
+  texture: Nubby / Tweedy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Janome
+    (DISCONTINUED)
+  slug: janome
+  weight_category: Sport
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    silk: 60
+    wool: 40
+  texture: Nubby / Tweedy
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/janome.jpg
+  colorways: []
+- line: |-
+    Kagayaki
+    (DISCONTINUED)
+  slug: kagayaki
+  weight_category: Bulky
+  yardage: 218
+  skein_weight: 100
+  fiber_content:
+    wool: 40
+    cotton: 24
+    silk: 18
+    viscose: 18
+  texture: Nubby / Tweedy
+  gauge: 14–16 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kagayaki.jpg
+  colorways: []
+- line: |-
+    Kama
+    (DISCONTINUED)
+  slug: kama
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    wool: 26
+    alpaca: 25
+    silk: 25
+    angora: 12
+    kid_mohair: 12
+  texture: Single ply
+  gauge: 15 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url:
+  colorways: []
+- line: |-
+    Kanzashi
+    (DISCONTINUED)
+  slug: kanzashi
+  weight_category: Bulky
+  yardage: 232
+  skein_weight: 150
+  fiber_content:
+    mohair: 30
+    silk: 30
+    wool: 23
+    rayon: 14
+    nylon: 3
+  texture: Bouclé
+  gauge: 12 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient change)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kanzashi.jpg
+  colorways: []
+- line: |-
+    Karuta
+    (DISCONTINUED)
+  slug: karuta
+  weight_category: Bulky
+  yardage: 164
+  skein_weight: 100
+  fiber_content:
+    silk: 40
+    cotton: 30
+    wool: 30
+  texture: Slubby / Thick and thin
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kashirukuru
+    (DISCONTINUED)
+  slug: kashirukuru
+  weight_category: Aran
+  yardage: 179
+  skein_weight: 75
+  fiber_content:
+    mulberry_silk: 40
+    merino_wool: 30
+    cashmere: 20
+    nylon: 10
+  texture: Single ply
+  gauge: 16–18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kashirukuru.jpg
+  colorways: []
+- line: |-
+    King
+    (DISCONTINUED)
+  slug: king
+  weight_category: Fingering
+  yardage: 250
+  skein_weight: 50
+  fiber_content:
+    microfiber: 33
+    kid_mohair: 23
+    silk: 23
+    wool: 20
+    nylon: 1
+  texture: Single ply wrapped with fine thread
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kirameki Singles
+    (DISCONTINUED)
+  slug: kirameki_singles
+  weight_category: Lace
+  yardage: 495
+  skein_weight: 50
+  fiber_content:
+    rayon: 60
+    nylon: 25
+    wool: 10
+    cashmere: 5
+  texture: Single ply
+  gauge: 32–40 sts / 10 cm (4")
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kirara
+    (DISCONTINUED)
+  slug: kirara
+  weight_category: DK
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    wool: 51
+    cotton: 29
+    angora: 10
+    silk: 10
+  texture: Nubby / Tweedy
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kiri
+    (DISCONTINUED)
+  slug: kiri
+  weight_category: Sport
+  yardage: 382
+  skein_weight: 100
+  fiber_content:
+    silk: 47
+    wool: 39
+    mohair: 14
+  texture: Nubby / Tweedy
+  gauge: 23–26 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kiri.jpg
+  colorways: []
+- line: |-
+    Kiso
+    (DISCONTINUED)
+  slug: kiso
+  weight_category: Heavy Worsted
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    alpaca: 15
+    silk: 15
+  texture: Single ply
+  gauge: 14–16 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kiso.jpg
+  colorways: []
+- line: |-
+    Kochoran
+    (DISCONTINUED)
+  slug: kochoran
+  weight_category: Bulky
+  yardage: 176
+  skein_weight: 100
+  fiber_content:
+    wool: 50
+    angora: 30
+    silk: 20
+  texture: Single ply
+  gauge: 12–14 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kogarashi
+    (DISCONTINUED)
+  slug: kogarashi
+  weight_category: Bulky
+  yardage: 165
+  skein_weight: 100
+  fiber_content:
+    silk: 51
+    wool: 49
+  texture: Nubby / Tweedy
+  gauge: 14 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Koromo
+    (DISCONTINUED)
+  slug: koromo
+  weight_category: Aran
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    cotton: 39
+    wool: 35
+    silk: 26
+  texture: Slubby / Thick and thin
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kotori
+    (DISCONTINUED)
+  slug: kotori
+  weight_category: Aran
+  yardage: 305
+  skein_weight: 100
+  fiber_content:
+    wool: 75
+    cotton: 10
+    viscose: 8
+    silk: 7
+  texture: Nubby / Tweedy
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (nubby)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kotori.jpg
+  colorways: []
+- line: |-
+    Kujaku
+    (DISCONTINUED)
+  slug: kujaku
+  weight_category: Aran
+  yardage: 100
+  skein_weight: 50
+  fiber_content:
+    wool: 85
+    polyester: 15
+  texture: Single ply wrapped with fine thread
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kumo
+    (DISCONTINUED)
+  slug: kumo
+  weight_category: DK
+  yardage: 394
+  skein_weight: 100
+  fiber_content:
+    viscose: 41
+    cotton: 35
+    silk: 12
+    wool: 12
+  texture: Single ply
+  gauge: 21–26 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal-colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kumo.jpg
+  colorways: []
+- line: |-
+    Kureopatora
+    (DISCONTINUED)
+  slug: kureopatora_dk
+  weight_category: Worsted
+  yardage: 295
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kureopatora_dk.jpg
+  colorways: []
+- line: |-
+    Kureopatora Aran
+    (DISCONTINUED)
+  slug: kureopatora_aran
+  weight_category: Aran
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kureopatora_aran.jpg
+  colorways: []
+- line: |-
+    Kureopatora Plus
+    (DISCONTINUED)
+  slug: kureopatora_plus
+  weight_category: DK
+  yardage: 121
+  skein_weight: 50
+  fiber_content:
+    wool: 75
+    cotton: 25
+  texture: Single ply
+  gauge: 22–23 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Kureyon Air
+    (DISCONTINUED)
+  slug: kureyon_air
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/kureyon_air.jpg
+  colorways: []
+- line: |-
+    Kureyon Sock
+    (DISCONTINUED)
+  slug: kureyon_sock
+  weight_category: Light Fingering
+  yardage: 462
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    nylon: 30
+  texture: Single ply
+  gauge: 30 sts / 10 cm (4")
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url:
+  colorways: []
+- line: |-
+    Lily
+    (DISCONTINUED)
+  slug: lily_solid
+  weight_category: DK
+  yardage: 119
+  skein_weight: 40
+  fiber_content:
+    cotton: 70
+    silk: 30
+  texture: Chained
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Maiko
+    (DISCONTINUED)
+  slug: maiko
+  weight_category: DK
+  yardage: 132
+  skein_weight: 40
+  fiber_content:
+    silk: 35
+    wool: 35
+    mohair: 30
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Matsuri
+    (DISCONTINUED)
+  slug: matsuri
+  weight_category: DK
+  yardage: 159
+  skein_weight: 50
+  fiber_content:
+    cotton: 87
+    wool: 13
+  texture: Chained
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Mirai
+    (DISCONTINUED)
+  slug: mirai
+  weight_category: DK
+  yardage: 328
+  skein_weight: 100
+  fiber_content:
+    cotton: 40
+    silk: 25
+    viscose: 25
+    nylon: 10
+  texture: Nubby / Tweedy
+  gauge: 21 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/mirai.jpg
+  colorways: []
+- line: |-
+    Miyabi
+    (DISCONTINUED)
+  slug: miyabi
+  weight_category: Aran
+  yardage: 271
+  skein_weight: 100
+  fiber_content:
+    wool: 65
+    cashmere: 35
+  texture: Single ply
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/miyabi.jpg
+  colorways: []
+- line: |-
+    Mossa
+    (DISCONTINUED)
+  slug: mossa
+  weight_category: Bulky
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    wool: 52
+    rayon: 16
+    kid_mohair: 11
+    silk: 11
+    nylon: 10
+  texture: Slubby / Thick and thin
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/mossa.jpg
+  colorways: []
+- line: |-
+    Nadeshiko
+    (DISCONTINUED)
+  slug: nadeshiko
+  weight_category: Super Bulky
+  yardage: 142
+  skein_weight: 100
+  fiber_content:
+    angora: 40
+    wool: 39
+    silk: 21
+  texture: Nubby / Tweedy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Natsumeki
+    (DISCONTINUED)
+  slug: natsumeki
+  weight_category: DK
+  yardage: 525
+  skein_weight: 150
+  fiber_content:
+    cotton: 60
+    silk: 25
+    nylon: 15
+  texture: Single ply
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/natsumeki.jpg
+  colorways: []
+- line: |-
+    Niji
+    (DISCONTINUED)
+  slug: niji
+  weight_category: Worsted
+  yardage: 96
+  skein_weight: 50
+  fiber_content:
+    wool: 45
+    kid_mohair: 25
+    silk: 25
+    nylon: 5
+  texture: Bouclé
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Nishiki
+    (DISCONTINUED)
+  slug: nishiki
+  weight_category: Worsted
+  yardage: 261
+  skein_weight: 100
+  fiber_content:
+    cotton: 77
+    nylon: 23
+  texture: Slubby tweed
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/nishiki.jpg
+  colorways: []
+- line: |-
+    Nobori
+    (DISCONTINUED)
+  slug: nobori
+  weight_category: Bulky
+  yardage: 182
+  skein_weight: 100
+  fiber_content:
+    cotton: 42
+    nylon: 31
+    wool: 14
+    silk: 13
+  texture: Single ply wrapped with fine thread
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (semi-solid)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/nobori.jpg
+  colorways: []
+- line: |-
+    Obi
+    (DISCONTINUED)
+  slug: obi
+  weight_category: Bulky
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    wool: 55
+    silk: 35
+    mohair: 10
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/obi.jpg
+  colorways: []
+- line: |-
+    Odori
+    (DISCONTINUED)
+  slug: odori
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    silk: 40
+    angora: 25
+    wool: 25
+    mohair: 10
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: |-
+    6.5 mm (10.5 US) (3 UK),
+    8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Okunoshima
+    (DISCONTINUED)
+  slug: okunoshima
+  weight_category: Aran
+  yardage: 242
+  skein_weight: 100
+  fiber_content:
+    silk: 35
+    wool: 28
+    angora: 20
+    mohair: 17
+  texture: Nubby / Tweedy
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/okunoshima.jpg
+  colorways: []
+- line: |-
+    Retro
+    (DISCONTINUED)
+  slug: retro
+  weight_category: Aran
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    wool: 64
+    silk: 24
+    angora: 12
+  texture: Single ply
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Sakura
+    (DISCONTINUED)
+  slug: sakura
+  weight_category: Sport
+  yardage: 147
+  skein_weight: 40
+  fiber_content:
+    rayon: 36
+    polyester: 28
+    nylon: 18
+    silk: 11
+    wool: 7
+  texture: Wrap around inner core
+  gauge: 24 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Sekku
+    (DISCONTINUED)
+  slug: sekku
+  weight_category: Lace
+  yardage: 460
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    nylon: 17
+    wool: 17
+    silk: 16
+  texture: Single ply
+  gauge: 32–36 sts / 10 cm (4")
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Shinano
+    (DISCONTINUED)
+  slug: shinano
+  weight_category: Aran
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    silk: 35
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Shinryoku
+    (DISCONTINUED)
+  slug: shinryoku
+  weight_category: Aran
+  yardage: 197
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    silk: 30
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/shinryoku.jpg
+  colorways: []
+- line: |-
+    Shiraito
+    (DISCONTINUED)
+  slug: shiraito
+  weight_category: Fingering
+  yardage: 198
+  skein_weight: 50
+  fiber_content:
+    angora: 45
+    cashmere: 45
+    wool: 10
+  texture: Single ply
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/shiraito.jpg
+  colorways: []
+- line: |-
+    Shirakaba
+    (DISCONTINUED)
+  slug: shirakaba
+  weight_category: Worsted
+  yardage: 136
+  skein_weight: 50
+  fiber_content:
+    silk: 42
+    cotton: 40
+    wool: 18
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Shiro
+    (DISCONTINUED)
+  slug: shiro
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    wool: 40
+    cashmere: 30
+    silk: 30
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/shiro.jpg
+  colorways: []
+- line: |-
+    Silk Garden 4-ply
+    (DISCONTINUED)
+  slug: silk_garden_4-ply
+  weight_category: Fingering
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    mohair: 45
+    silk: 45
+    wool: 10
+  texture: Single ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden_4-ply.jpg
+  colorways: []
+- line: |-
+    Silk Garden Chunky
+    (DISCONTINUED)
+  slug: silk_garden_chunky
+  weight_category: Bulky
+  yardage: 66
+  skein_weight: 50
+  fiber_content:
+    mohair: 45
+    silk: 45
+    wool: 10
+  texture: Slubby / Thick and thin
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url:
+  colorways: []
+- line: |-
+    Silk Garden Lite
+    (DISCONTINUED)
+  slug: silk_garden_lite
+  weight_category: DK
+  yardage: 136
+  skein_weight: 50
+  fiber_content:
+    mohair: 45
+    silk: 45
+    wool: 10
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden_lite.jpg
+  colorways: []
+- line: |-
+    Silk Garden Sock Tweed
+    (DISCONTINUED)
+  slug: silk_garden_sock_tweed
+  weight_category: Sport
+  yardage: 328
+  skein_weight: 100
+  fiber_content:
+    wool: 40
+    nylon: 25
+    silk: 25
+    mohair: 10
+  texture: Single ply
+  gauge: 23–26 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/silk_garden_sock_tweed.jpg
+  colorways: []
+- line: |-
+    Silk Mountain
+    (DISCONTINUED)
+  slug: silk_mountain
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    silk: 25
+    mohair: 10
+  texture: Bouclé
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Silver Thaw
+    (DISCONTINUED)
+  slug: silver_thaw
+  weight_category: Aran
+  yardage: 240
+  skein_weight: 100
+  fiber_content:
+    wool: 50
+    angora: 25
+    nylon: 25
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Tabi
+    (DISCONTINUED)
+  slug: tabi
+  weight_category: DK
+  yardage: 410
+  skein_weight: 150
+  fiber_content:
+    wool: 65
+    nylon: 35
+  texture: Single ply
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tabi.jpg
+  colorways: []
+- line: |-
+    Taiyo
+    (DISCONTINUED)
+  slug: taiyo
+  weight_category: Aran
+  yardage: 220
+  skein_weight: 100
+  fiber_content:
+    cotton: 40
+    silk: 30
+    nylon: 15
+    wool: 15
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/taiyo.jpg
+  colorways: []
+- line: |-
+    Taiyo Lace
+    (DISCONTINUED)
+  slug: taiyo_lace
+  weight_category: Lace
+  yardage: 920
+  skein_weight: 100
+  fiber_content:
+    cotton: 50
+    nylon: 17
+    wool: 17
+    silk: 16
+  texture: Single ply
+  gauge: 40 sts / 10 cm (4")
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url:
+  colorways: []
+- line: |-
+    Taiyo Sock
+    (DISCONTINUED)
+  slug: taiyo_sock
+  weight_category: Fingering
+  yardage: 462
+  skein_weight: 100
+  fiber_content:
+    cotton: 50
+    nylon: 17
+    wool: 17
+    silk: 16
+  texture: Single ply
+  gauge: 24–26 sts / 10 cm (4") and 36 rows
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/taiyo_sock.jpg
+  colorways: []
+- line: |-
+    Taiyo Sport
+    (DISCONTINUED)
+  slug: taiyo_sport
+  weight_category: Sport
+  yardage: 352
+  skein_weight: 100
+  fiber_content:
+    cotton: 60
+    silk: 15
+    wool: 15
+    nylon: 10
+  texture: Single ply
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Takeuma
+    (DISCONTINUED)
+  slug: takeuma
+  weight_category: Aran
+  yardage: 148
+  skein_weight: 50
+  fiber_content:
+    wool: 50
+    silk: 32
+    viscose: 18
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Tasogare
+    (DISCONTINUED)
+  slug: tasogare
+  weight_category: Aran
+  yardage: 410
+  skein_weight: 150
+  fiber_content:
+    wool: 60
+    mohair: 20
+    silk: 20
+  texture: Nubby / Tweedy
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self- striping (tweed colors)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tasogare.jpg
+  colorways: []
+- line: |-
+    Tennen
+    (DISCONTINUED)
+  slug: tennen
+  weight_category: Heavy Worsted
+  yardage: 274
+  skein_weight: 100
+  fiber_content:
+    wool: 50
+    alpaca: 25
+    silk: 25
+  texture: Single ply
+  gauge: 16–17 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Undyed marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tennen.jpg
+  colorways: []
+- line: |-
+    Tokonatsu
+    (DISCONTINUED)
+  slug: tokonatsu
+  weight_category: Worsted
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    cotton: 40
+    silk: 30
+    viscose: 30
+  texture: Nubby / Tweedy
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tokonatsu.jpg
+  colorways: []
+- line: |-
+    Transitions
+    (DISCONTINUED)
+  slug: transitions
+  weight_category: Super Bulky
+  yardage: 132
+  skein_weight: 100
+  fiber_content:
+    wool: 51
+    mohair: 21
+    silk: 14
+    camel: 7
+    cashmere: 7
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    7 mm (2 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/transitions.jpg
+  colorways: []
+- line: |-
+    Tsubame
+    (DISCONTINUED)
+  slug: tsubame
+  weight_category: Aran
+  yardage: 656
+  skein_weight: 200
+  fiber_content:
+    silk: 50
+    nylon: 25
+    wool: 25
+  texture: Single ply
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tsubame.jpg
+  colorways: []
+- line: |-
+    Tsuido
+    (DISCONTINUED)
+  slug: tsuido
+  weight_category: Bulky
+  yardage: 351
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 12–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/tsuido.jpg
+  colorways: []
+- line: |-
+    Uchiwa
+    (DISCONTINUED)
+  slug: uchiwa
+  weight_category: Aran
+  yardage: 547
+  skein_weight: 200
+  fiber_content:
+    cotton: 50
+    viscose: 30
+    silk: 20
+  texture: Slubby tweed
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Multicolored tweeds
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/uchiwa.jpg
+  colorways: []
+- line: |-
+    Vintage
+    (DISCONTINUED)
+  slug: vintage
+  weight_category: Aran
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    wool: 64
+    silk: 24
+    angora: 12
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Viola
+    (DISCONTINUED)
+  slug: viola
+  weight_category: Bulky
+  yardage: 436
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 14–16 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/viola.jpg
+  colorways: []
+- line: |-
+    Yoroi
+    (DISCONTINUED)
+  slug: yoroi
+  weight_category: Super Bulky
+  yardage: 131
+  skein_weight: 100
+  fiber_content:
+    wool: 87
+    cotton: 7
+    silk: 6
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Yukata
+    (DISCONTINUED)
+  slug: yukata
+  weight_category: Sport
+  yardage: 786
+  skein_weight: 200
+  fiber_content:
+    silk: 50
+    nylon: 25
+    wool: 25
+  texture: Single ply
+  gauge: 23–26 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/noro/yukata.jpg
+  colorways: []
+- line: |-
+    Yuzen
+    (DISCONTINUED)
+  slug: yuzen
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    wool: 56
+    silk: 34
+    mohair: 10
+  texture: Single ply
+  gauge: 20–24 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []

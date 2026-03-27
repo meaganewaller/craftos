@@ -1,0 +1,1308 @@
+---
+brand: Debbie Bliss
+slug: debbie_bliss
+yarns:
+- line: Angel
+  slug: angel
+  weight_category: Lace
+  yardage: 219
+  skein_weight: 25
+  fiber_content:
+    mohair: 76
+    silk: 24
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/angel.jpg
+  colorways: []
+- line: Aymara
+  slug: aymara
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/aymara.jpg
+  colorways: []
+- line: Baby Cashmerino
+  slug: baby_cashmerino
+  weight_category: Sport
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 55
+    microfiber: 33
+    cashmere: 12
+  texture: S on S plied
+  gauge: 25 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Tonals
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/baby_cashmerino.jpg
+  colorways: []
+- line: British Wool Aran
+  slug: british_wool_aran
+  weight_category: Aran
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    blue_faced_leicester_wool: 50
+    masham_wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/british_wool_aran.jpg
+  colorways: []
+- line: Cashmerino Aran
+  slug: cashmerino_aran
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 55
+    microfiber: 33
+    cashmere: 12
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cashmerino_aran.jpg
+  colorways: []
+- line: Cashmerino Chunky
+  slug: cashmerino_chunky
+  weight_category: Bulky
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 55
+    microfiber: 33
+    cashmere: 12
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cashmerino_chunky.jpg
+  colorways: []
+- line: Cashmerino DK
+  slug: cashmerino_dk
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 55
+    microfiber: 33
+    cashmere: 12
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: Cotton DK
+  slug: cotton_dk
+  weight_category: DK
+  yardage: 92
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied with a tight twist
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cotton_dk.jpg
+  colorways: []
+- line: Donegal Luxury Tweed Aran
+  slug: donegal_luxury_tweed_aran
+  weight_category: Aran
+  yardage: 96
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/donegal_luxury_tweed_aran.jpg
+  colorways: []
+- line: Dulcie
+  slug: dulcie
+  weight_category: Bulky
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    acrylic: 47
+    cotton: 47
+    nylon: 6
+  texture: Fleecy chain
+  gauge: 14 sts / 10 cm (4") and 22 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/dulcie.jpg
+  colorways: []
+- line: Eco Baby
+  slug: eco_baby
+  weight_category: Sport
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 100
+  texture: S on S plied
+  gauge: 25 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/eco_baby.jpg
+  colorways: []
+- line: Eco Baby Wool
+  slug: eco_baby_wool
+  weight_category: Sport
+  yardage: 136
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 24–27 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/eco_baby_wool.jpg
+  colorways: []
+- line: Merion
+  slug: merion
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    acrylic: 50
+    merino_wool: 50
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/merion.jpg
+  colorways: []
+- line: Nell
+  slug: nell
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    mohair: 78
+    merino_wool: 13
+    nylon: 9
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/nell.jpg
+  colorways: []
+- line: Paloma
+  slug: paloma
+  weight_category: Super Bulky
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 60
+    merino_wool: 40
+  texture: Chained
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/paloma.jpg
+  colorways: []
+- line: Piper
+  slug: piper
+  weight_category: DK
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    cotton: 50
+    viscose: 50
+  texture: Crepe / Cable-plied
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/piper.jpg
+  colorways: []
+- line: Rialto 4-ply
+  slug: rialto_4-ply
+  weight_category: Fingering
+  yardage: 198
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/rialto_4-ply.jpg
+  colorways: []
+- line: Rialto Aran
+  slug: rialto_aran
+  weight_category: Aran
+  yardage: 85
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/rialto_aran.jpg
+  colorways: []
+- line: Rialto DK
+  slug: rialto_dk
+  weight_category: DK
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/rialto_dk.jpg
+  colorways: []
+- line: Saphia
+  slug: saphia
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    baby_alpaca: 43
+    merino_wool: 42
+    linen: 15
+  texture: Plied with a fibrous haze
+  gauge: 10–12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/saphia.jpg
+  colorways: []
+- line: Super Chunky Merino
+  slug: super_chunky_merino
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 11 sts / 10 cm (4") and 15 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/super_chunky_merino.jpg
+  colorways: []
+- line: |-
+    Alpaca Silk Aran
+    (DISCONTINUED)
+  slug: alpaca_silk_aran
+  weight_category: Aran
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    alpaca: 80
+    silk: 20
+  texture: 2 ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Alpaca Silk DK
+    (DISCONTINUED)
+  slug: alpaca_silk_dk
+  weight_category: DK
+  yardage: 114
+  skein_weight: 50
+  fiber_content:
+    alpaca: 80
+    silk: 20
+  texture: 2 ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Amalfi
+    (DISCONTINUED)
+  slug: amalfi
+  weight_category: DK
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    cotton: 70
+    rayon: 15
+    linen: 10
+    silk: 5
+  texture: Loosely plied
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Andes
+    (DISCONTINUED)
+  slug: andes
+  weight_category: DK
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    alpaca: 65
+    silk: 35
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Aran Tweed
+    (DISCONTINUED)
+  slug: aran_tweed
+  weight_category: Aran
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bella
+    (DISCONTINUED)
+  slug: bella
+  weight_category: DK
+  yardage: 105
+  skein_weight: 50
+  fiber_content:
+    cotton: 85
+    silk: 10
+    cashmere: 5
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Blue Faced Leicester Aran
+    (DISCONTINUED)
+  slug: blue_faced_leicester_aran
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    blue_faced_leicester_superwash_wool: 100
+  texture: Plied with a woolly haze
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/blue_faced_leicester_aran.jpg
+  colorways: []
+- line: |-
+    Blue Faced Leicester DK
+    (DISCONTINUED)
+  slug: blue_faced_leicester_dk
+  weight_category: DK
+  yardage: 118
+  skein_weight: 50
+  fiber_content:
+    blue_faced_leicester_superwash_wool: 100
+  texture: Plied with a woolly haze
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/blue_faced_leicester_dk.jpg
+  colorways: []
+- line: |-
+    Bohème
+    (DISCONTINUED)
+  slug: boheme
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    wool: 52
+    acrylic: 34
+    nylon: 14
+  texture: Chained
+  gauge: 12 sts / 10 cm (4") and 15 rows
+  needle_size: |-
+    9 mm (13 US) (00 UK),
+    10 mm (15 US) (000 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/boheme.jpg
+  colorways: []
+- line: |-
+    Botany Lace
+    (DISCONTINUED)
+  slug: botany_lace
+  weight_category: Fingering
+  yardage: 448
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 29 sts / 10 cm (4") and 40 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/botany_lace.jpg
+  colorways: []
+- line: |-
+    Cashmerino Astrakhan
+    (DISCONTINUED)
+  slug: cashmerino_astrakhan
+  weight_category: Aran
+  yardage: 75
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 60
+    microfiber: 30
+    cashmere: 10
+  texture: Bouclé
+  gauge: 18–19 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Cashmerino Superchunky
+    (DISCONTINUED)
+  slug: cashmerino_superchunky
+  weight_category: Super Bulky
+  yardage: 82
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 55
+    microfiber: 33
+    cashmere: 12
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cashmerino_superchunky.jpg
+  colorways: []
+- line: |-
+    Cathay
+    (DISCONTINUED)
+  slug: cathay
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    rayon: 35
+    silk: 15
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Como
+    (DISCONTINUED)
+  slug: como
+  weight_category: Super Bulky
+  yardage: 46
+  skein_weight: 50
+  fiber_content:
+    wool: 90
+    cashmere: 10
+  texture: Single ply
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton Angora
+    (DISCONTINUED)
+  slug: cotton_angora
+  weight_category: Aran
+  yardage: 86
+  skein_weight: 50
+  fiber_content:
+    cotton: 80
+    angora: 20
+  texture: Plied with a soft haze
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cotton_angora.jpg
+  colorways: []
+- line: |-
+    Cotton Cashmere
+    (DISCONTINUED)
+  slug: cotton_cashmere
+  weight_category: DK
+  yardage: 103
+  skein_weight: 50
+  fiber_content:
+    cotton: 85
+    cashmere: 15
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton Denim Aran
+    (DISCONTINUED)
+  slug: cotton_denim_aran
+  weight_category: Aran
+  yardage: 74
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton Denim DK
+    (DISCONTINUED)
+  slug: cotton_denim_dk
+  weight_category: DK
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cotton_denim_dk.jpg
+  colorways: []
+- line: |-
+    Cotton Silk Aran
+    (DISCONTINUED)
+  slug: cotton_silk_aran
+  weight_category: Aran
+  yardage: 69
+  skein_weight: 50
+  fiber_content:
+    cotton: 80
+    silk: 20
+  texture: Crepe / Cable-plied
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/cotton_silk_aran.jpg
+  colorways: []
+- line: |-
+    Delphi
+    (DISCONTINUED)
+  slug: delphi
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Tape
+  gauge: 13 sts / 10 cm (4") and 18 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/delphi.jpg
+  colorways: []
+- line: |-
+    Donegal Aran Tweed
+    (DISCONTINUED)
+  slug: donegal_aran_tweed
+  weight_category: Aran
+  yardage: 96
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Donegal Chunky Tweed
+    (DISCONTINUED)
+  slug: donegal_chunky_tweed
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Nubby / Tweedy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: |-
+    6.5 mm (10.5 US) (3 UK),
+    7 mm (2 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Donegal Luxury Tweed Chunky
+    (DISCONTINUED)
+  slug: donegal_luxury_tweed_chunky
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 85
+    angora: 15
+  texture: Nubby / Tweedy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Eco Aran
+    (DISCONTINUED)
+  slug: eco_aran
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Eco Cotton
+    (DISCONTINUED)
+  slug: eco_cotton
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Erin Tweed
+    (DISCONTINUED)
+  slug: erin_tweed
+  weight_category: Sport
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 50
+    alpaca: 25
+    viscose: 25
+  texture: Nubby / Tweedy
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/erin_tweed.jpg
+  colorways: []
+- line: |-
+    Falkland Aran
+    (DISCONTINUED)
+  slug: falkland_aran
+  weight_category: Aran
+  yardage: 197
+  skein_weight: 100
+  fiber_content:
+    falklands_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/falkland_aran.jpg
+  colorways: []
+- line: |-
+    Fez
+    (DISCONTINUED)
+  slug: fez
+  weight_category: Aran
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 85
+    camel: 15
+  texture: 2 ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Glen
+    (DISCONTINUED)
+  slug: glen
+  weight_category: Bulky
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    acrylic: 40
+    alpaca: 30
+    merino_wool: 30
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Marled
+  image_url:
+  colorways: []
+- line: |-
+    Iris
+    (DISCONTINUED)
+  slug: iris
+  weight_category: Aran
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    wool: 95
+    cashmere: 5
+  texture: Single ply
+  gauge: 18–20 sts / 10 cm (4") and 26 rows
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/iris.jpg
+  colorways: []
+- line: |-
+    Juliet
+    (DISCONTINUED)
+  slug: juliet
+  weight_category: Sport
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    cotton: 52
+    acrylic: 48
+  texture: Plied (3 or more plies)
+  gauge: 25 sts / 10 cm (4") and 34 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/juliet.jpg
+  colorways: []
+- line: |-
+    Lara
+    (DISCONTINUED)
+  slug: lara
+  weight_category: Super Bulky
+  yardage: 66
+  skein_weight: 100
+  fiber_content:
+    wool: 58
+    alpaca: 42
+  texture: Single ply wrapped with fine thread
+  gauge: 8 sts / 10 cm (4") and 12 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/lara.jpg
+  colorways: []
+- line: |-
+    Luna
+    (DISCONTINUED)
+  slug: luna
+  weight_category: Fingering
+  yardage: 82
+  skein_weight: 25
+  fiber_content:
+    cashmere: 100
+  texture: S on S plied
+  gauge: 28 sts / 10 cm (4") and 36 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/luna.jpg
+  colorways: []
+- line: |-
+    Luxury Silk DK
+    (DISCONTINUED)
+  slug: luxury_silk_dk
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    silk: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/luxury_silk_dk.jpg
+  colorways: []
+- line: |-
+    Maya
+    (DISCONTINUED)
+  slug: maya
+  weight_category: Heavy Worsted
+  yardage: 137
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Slubby / Thick and thin
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/maya.jpg
+  colorways: []
+- line: |-
+    Merino Aran
+    (DISCONTINUED)
+  slug: merino_aran
+  weight_category: Aran
+  yardage: 85
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Merino Chunky
+    (DISCONTINUED)
+  slug: merino_chunky
+  weight_category: Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Merino DK
+    (DISCONTINUED)
+  slug: merino_dk
+  weight_category: DK
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/merino_dk.jpg
+  colorways: []
+- line: |-
+    Mia
+    (DISCONTINUED)
+  slug: mia
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    wool: 50
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/mia.jpg
+  colorways: []
+- line: |-
+    Milano
+    (DISCONTINUED)
+  slug: milano
+  weight_category: Aran
+  yardage: 104
+  skein_weight: 50
+  fiber_content:
+    wool: 40
+    nylon: 28
+    silk: 18
+    polyester: 8
+    acrylic: 6
+  texture: Wrap around inner core
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/milano.jpg
+  colorways: []
+- line: |-
+    Paloma Tweed
+    (DISCONTINUED)
+  slug: paloma_tweed
+  weight_category: Super Bulky
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 50
+    merino_wool: 30
+    acrylic: 14
+    viscose: 6
+  texture: Chained
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/paloma_tweed.jpg
+  colorways: []
+- line: |-
+    Party Angel
+    (DISCONTINUED)
+  slug: party_angel
+  weight_category: Lace
+  yardage: 218
+  skein_weight: 25
+  fiber_content:
+    mohair: 72
+    silk: 24
+    metallic: 4
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic thread
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/party_angel.jpg
+  colorways: []
+- line: |-
+    Prima
+    (DISCONTINUED)
+  slug: prima
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    bamboo_rayon: 80
+    merino_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Pure Bliss Collection Lhasa
+    (DISCONTINUED)
+  slug: lhasa
+  weight_category: Heavy Worsted
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cashmere: 50
+    yak: 50
+  texture: Chained
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/lhasa.jpg
+  colorways: []
+- line: |-
+    Pure Cashmere
+    (DISCONTINUED)
+  slug: pure_cashmere
+  weight_category: Aran
+  yardage: 49
+  skein_weight: 25
+  fiber_content:
+    cashmere: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Pure Cotton
+    (DISCONTINUED)
+  slug: pure_cotton
+  weight_category: Aran
+  yardage: 90
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: 2 ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Pure Silk
+    (DISCONTINUED)
+  slug: pure_silk
+  weight_category: DK
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    silk: 100
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Rialto Chunky
+    (DISCONTINUED)
+  slug: rialto_chunky
+  weight_category: Bulky
+  yardage: 66
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/rialto_chunky.jpg
+  colorways: []
+- line: |-
+    Rialto Lace
+    (DISCONTINUED)
+  slug: rialto_lace
+  weight_category: Lace
+  yardage: 427
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/rialto_lace.jpg
+  colorways: []
+- line: |-
+    Rialto Luxury Sock
+    (DISCONTINUED)
+  slug: rialto_luxury_sock
+  weight_category: Fingering
+  yardage: 437
+  skein_weight: 100
+  fiber_content:
+    wool: 75
+    nylon: 25
+  texture: Single ply
+  gauge: 30 sts / 10 cm (4") and 40 rows
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Self-striping (gradient marls)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/rialto_luxury_sock.jpg
+  colorways: []
+- line: |-
+    Riva
+    (DISCONTINUED)
+  slug: riva
+  weight_category: Bulky
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    wool: 70
+    acrylic: 30
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/riva.jpg
+  colorways: []
+- line: |-
+    Roma
+    (DISCONTINUED)
+  slug: roma
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    wool: 70
+    alpaca: 30
+  texture: Plied (3 or more plies)
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/roma.jpg
+  colorways: []
+- line: |-
+    Sita
+    (DISCONTINUED)
+  slug: sita
+  weight_category: Worsted
+  yardage: 55
+  skein_weight: 115
+  fiber_content:
+    silk: 45
+    cotton: 40
+    nylon: 15
+  texture: Crepe / Cable-plied
+  gauge: 20 sts / 10 cm (4") and 30 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/sita.jpg
+  colorways: []
+- line: |-
+    SoHo
+    (DISCONTINUED)
+  slug: soho
+  weight_category: Bulky
+  yardage: 72
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Slubby / Thick and thin
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Stella
+    (DISCONTINUED)
+  slug: stella
+  weight_category: Aran
+  yardage: 91
+  skein_weight: 50
+  fiber_content:
+    silk: 60
+    cotton: 20
+    rayon: 20
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Toast 4-ply
+    (DISCONTINUED)
+  slug: toast_4-ply
+  weight_category: Fingering
+  yardage: 459
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 65
+    nylon: 25
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 30 sts / 10 cm (4") and 42 rows
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/toast_4-ply.jpg
+  colorways: []
+- line: |-
+    Winter Garden
+    (DISCONTINUED)
+  slug: winter_garden
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    llama: 30
+    merino_wool: 30
+    linen: 20
+    silk: 20
+  texture: Nubby / Tweedy
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/debbie_bliss/winter_garden.jpg
+  colorways: []
+- line: |-
+    Wool/Cotton
+    (DISCONTINUED)
+  slug: wool_cotton
+  weight_category: Sport
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    superwash_wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 25 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.5 mm (4 US)
+  style_categories: []
+  image_url:
+  colorways: []

@@ -1,0 +1,5067 @@
+---
+brand: Lion Brand
+slug: lion_brand
+yarns:
+- line: 24/7 Cotton
+  slug: 24_7_cotton
+  weight_category: Worsted
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Crepe / Cable-plied
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/24_7_cotton.jpg
+  colorways: []
+- line: 24/7 Cotton DK
+  slug: 24_7_cotton_dk
+  weight_category: DK
+  yardage: 273
+  skein_weight: 100
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22–24 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/24_7_cotton_dk.jpg
+  colorways: []
+- line: AR Workshop Chunky Knit
+  slug: ar_workshop
+  weight_category: Jumbo
+  yardage: 28
+  skein_weight: 226
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 3 sts / 10 cm (4")
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/ar_workshop.jpg
+  colorways: []
+- line: Baby Soft
+  slug: babysoft_solid
+  weight_category: DK
+  yardage: 459
+  skein_weight: 140
+  fiber_content:
+    acrylic: 60
+    nylon: 40
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/babysoft_solid.jpg
+  colorways: []
+- line: Babysoft Pompadour
+  slug: babysoft_pompadour
+  weight_category: DK
+  yardage: 367
+  skein_weight: 112
+  fiber_content:
+    acrylic: 62
+    nylon: 27
+    rayon: 11
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Babysoft Print
+  slug: babysoft_print
+  weight_category: DK
+  yardage: 367
+  skein_weight: 113
+  fiber_content:
+    acrylic: 60
+    nylon: 40
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/babysoft_print.jpg
+  colorways: []
+- line: Bonbons Acrylic
+  slug: bonbons_acrylic
+  weight_category: DK
+  yardage: 28
+  skein_weight: 10
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/bonbons_acrylic.jpg
+  colorways: []
+- line: Bonbons Cotton
+  slug: bonbons_cotton
+  weight_category: Sport
+  yardage: 28
+  skein_weight: 10
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/bonbons_cotton.jpg
+  colorways: []
+- line: Bonbons Metallic
+  slug: bonbons_metallic
+  weight_category: Sport
+  yardage: 38
+  skein_weight: 10
+  fiber_content:
+    acrylic: 96
+    metallic: 4
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/bonbons_metallic.jpg
+  colorways: []
+- line: Bundle of Love
+  slug: bundle_of_love
+  weight_category: Worsted
+  yardage: 688
+  skein_weight: 312
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/bundle_of_love.jpg
+  colorways: []
+- line: Chenille Appeal
+  slug: chenille_appeal
+  weight_category: Aran
+  yardage: 284
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 18 sts / 10 cm (4") and 19 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/chenille_appeal.jpg
+  colorways: []
+- line: Coboo
+  slug: coboo
+  weight_category: DK
+  yardage: 232
+  skein_weight: 100
+  fiber_content:
+    bamboo_rayon: 50
+    cotton: 50
+  texture: S on S plied
+  gauge: 23 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/coboo.jpg
+  colorways: []
+- line: Cotton Hemp
+  slug: cotton_hemp
+  weight_category: Worsted
+  yardage: 164
+  skein_weight: 100
+  fiber_content:
+    cotton: 70
+    hemp: 30
+  texture: Plied with a fibrous haze
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cotton_hemp.jpg
+  colorways: []
+- line: Cover Story
+  slug: cover_story
+  weight_category: Super Bulky
+  yardage: 547
+  skein_weight: 1000
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 7 sts / 10 cm (4") and 11 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story.jpg
+  colorways: []
+- line: Cover Story Chainette
+  slug: cover_story_chainette
+  weight_category: Super Bulky
+  yardage: 68
+  skein_weight: 250
+  fiber_content:
+    polyester: 100
+  texture: Fuzzy chain
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_chainette.jpg
+  colorways: []
+- line: Cover Story Cozy Luxe
+  slug: cover_story_cozy_luxe
+  weight_category: Jumbo
+  yardage: 16
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Velvet tube
+  gauge: 3 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_cozy_luxe.jpg
+  colorways: []
+- line: Cover Story Dreamland
+  slug: cover_story_dreamland
+  weight_category: Super Bulky
+  yardage: 148
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 7 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_dreamland.jpg
+  colorways: []
+- line: Cover Story Favorite Blanket
+  slug: cover_story_favorite_blanket
+  weight_category: Super Bulky
+  yardage: 223
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 13 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_favorite_blanket.jpg
+  colorways: []
+- line: Cover Story Lazy Days Thick & Quick®
+  slug: cover_story_lazy_days_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 125
+  skein_weight: 250
+  fiber_content:
+    polyester: 100
+  texture: Filled tube
+  gauge: 10 sts / 10 cm (4") and 15 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_lazy_days_thick_and_quick.jpg
+  colorways: []
+- line: Cover Story Posh Twist
+  slug: cover_story_posh_twist
+  weight_category: Super Bulky
+  yardage: 233
+  skein_weight: 200
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 10 sts / 10 cm (4") and 9 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_posh_twist.jpg
+  colorways: []
+- line: Cover Story Squish Stitch
+  slug: cover_story_squish_stitch
+  weight_category: Jumbo
+  yardage: 26
+  skein_weight: 550
+  fiber_content:
+    polyester: 100
+  texture: Filled tube
+  gauge: 3 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_squish_stitch.jpg
+  colorways: []
+- line: Cover Story Thick & Quick
+  slug: cover_story_thick_quick
+  weight_category: Jumbo
+  yardage: 39
+  skein_weight: 300
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 3 sts / 10 cm (4") and 4 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cover_story_thick_quick.jpg
+  colorways: []
+- line: DIY Glow
+  slug: diy_glow
+  weight_category: Aran
+  yardage: 71
+  skein_weight: 50
+  fiber_content:
+    glow-in-the-dark_polyester: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Glow-in-the-dark Solids
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/diy_glow.jpg
+  colorways: []
+- line: DIY Glow Chenille
+  slug: diy_glow_chenille
+  weight_category: Super Bulky
+  yardage: 32
+  skein_weight: 50
+  fiber_content:
+    glow-in-the-dark_polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Glow-in-the-dark Solids
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/diy_glow_chenille.jpg
+  colorways: []
+- line: DIY Glow Cozy
+  slug: diy_glow_cozy
+  weight_category: Aran
+  yardage: 79
+  skein_weight: 60
+  fiber_content:
+    polyester: 100
+  texture: Filled tube
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Glow-in-the-dark Solids
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/diy_glow_cozy.jpg
+  colorways: []
+- line: DIY Glow Twist
+  slug: diy_glow_twist
+  weight_category: Bulky
+  yardage: 103
+  skein_weight: 70
+  fiber_content:
+    polyester: 100
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4") and 21 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Glow-in-the-dark marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/diy_glow_twist.jpg
+  colorways: []
+- line: DIYarn
+  slug: diyarn
+  weight_category: Heavy Worsted
+  yardage: 66
+  skein_weight: 30
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/diyarn.jpg
+  colorways: []
+- line: Feels Like A Dream
+  slug: feels_like_a_dream
+  weight_category: Bulky
+  yardage: 208
+  skein_weight: 100
+  fiber_content:
+    nylon: 100
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4") and 18 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_a_dream.jpg
+  colorways: []
+- line: Feels Like Alpaca
+  slug: feels_like_alpaca
+  weight_category: DK
+  yardage: 273
+  skein_weight: 100
+  fiber_content:
+    acrylic: 87
+    polyester: 7
+    nylon: 6
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_alpaca.jpg
+  colorways: []
+- line: Feels Like Bliss
+  slug: feels_like_bliss
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    nylon: 100
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4") and 18 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_bliss.jpg
+  colorways: []
+- line: Feels Like Butta Thick & Quick
+  slug: feels_like_butta_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Fuzzy chain
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_butta_thick_and_quick.jpg
+  colorways: []
+- line: Feels Like Cuddles
+  slug: feels_like_cuddles
+  weight_category: Bulky
+  yardage: 164
+  skein_weight: 150
+  fiber_content:
+    polyester: 100
+  texture: Chained
+  gauge: 14 sts / 10 cm (4") and 24 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_cuddles.jpg
+  colorways: []
+- line: Feels Like Sherpa
+  slug: feels_like_sherpa
+  weight_category: Super Bulky
+  yardage: 69
+  skein_weight: 100
+  fiber_content:
+    acrylic: 92
+    polyester: 8
+  texture: Bouclé
+  gauge: 8 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_sherpa.jpg
+  colorways: []
+- line: Ferris Wheel
+  slug: ferris_wheel
+  weight_category: Worsted
+  yardage: 270
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/ferris_wheel.jpg
+  colorways: []
+- line: Fishermen's Wool
+  slug: fishermens_wool
+  weight_category: Aran
+  yardage: 465
+  skein_weight: 227
+  fiber_content:
+    wool: 100
+  texture: Plied with a woolly haze
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Undyed
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/fishermens_wool.jpg
+  colorways: []
+- line: Go For Faux
+  slug: go_for_faux
+  weight_category: Super Bulky
+  yardage: 66
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Faux / Fake fur
+  gauge: 11 sts / 10 cm (4") and 12 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/go_for_faux.jpg
+  colorways: []
+- line: Go For Fleece Sherpa
+  slug: go_for_fleece_sherpa
+  weight_category: Super Bulky
+  yardage: 89
+  skein_weight: 184
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/go_for_fleece_sherpa.jpg
+  colorways: []
+- line: Haute Stitches Faux Leather
+  slug: haute_stitches_faux_leather
+  weight_category: Super Bulky
+  yardage: 39
+  skein_weight: 120
+  fiber_content:
+    polyester: 100
+  texture: Leather-look tape
+  gauge: 11 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Metallic colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/haute_stitches_faux_leather.jpg
+  colorways: []
+- line: Haute Stitches Shaggy Chic
+  slug: haute_stitches_shaggy_chic
+  weight_category: Jumbo
+  yardage: 35
+  skein_weight: 200
+  fiber_content:
+    polyester: 100
+  texture: Faux / Fake fur
+  gauge: 4.5 sts / 10 cm (4") and 5 rows
+  needle_size: 19 mm (35 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/haute_stitches_shaggy_chic.jpg
+  colorways: []
+- line: Heartland
+  slug: heartland
+  weight_category: Aran
+  yardage: 252
+  skein_weight: 142
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Heathered colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/heartland.jpg
+  colorways: []
+- line: Heartland Thick & Quick
+  slug: heartland_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 125
+  skein_weight: 142
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 11 sts / 10 cm (4") and 14.5 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Heathered colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/heartland_thick_and_quick.jpg
+  colorways: []
+- line: Homespun
+  slug: homespun
+  weight_category: Bulky
+  yardage: 185
+  skein_weight: 170
+  fiber_content:
+    acrylic: 98
+    polyester: 2
+  texture: Bouclé
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/homespun.jpg
+  colorways: []
+- line: Hue + Me
+  slug: hue_and_me
+  weight_category: Bulky
+  yardage: 137
+  skein_weight: 125
+  fiber_content:
+    acrylic: 80
+    wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4") and 18 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/hue_and_me.jpg
+  colorways: []
+- line: InstaKnit
+  slug: instaknit
+  weight_category: Super Bulky
+  yardage: 122
+  skein_weight: 225
+  fiber_content:
+    acrylic: 80
+    wool: 19
+    polyester: 1
+  texture: Plied (with cast-on loops included)
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/instaknit.jpg
+  colorways: []
+- line: Jeans
+  slug: jeans
+  weight_category: Worsted
+  yardage: 246
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 27 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/jeans.jpg
+  colorways: []
+- line: Jiffy
+  slug: jiffy_solid
+  weight_category: Bulky
+  yardage: 135
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Plied with a soft haze
+  gauge: 14.5 sts / 10 cm (4") and 18 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/jiffy_solid.jpg
+  colorways: []
+- line: LB Collection 100% Superwash Merino
+  slug: lb_collection_superwash_merino
+  weight_category: DK
+  yardage: 306
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_superwash_merino.jpg
+  colorways: []
+- line: LB Collection Baby Alpaca
+  slug: lb_collection_baby_alpaca
+  weight_category: DK
+  yardage: 147
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied with a soft haze
+  gauge: 24 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_baby_alpaca.jpg
+  colorways: []
+- line: LB Collection Botanic
+  slug: lb_collection_botanic
+  weight_category: Worsted
+  yardage: 157
+  skein_weight: 85
+  fiber_content:
+    tencel_/_lyocell: 100
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_botanic.jpg
+  colorways: []
+- line: LB Collection Chainette
+  slug: lb_collection_chainette_2023
+  weight_category: Aran
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 65
+    nylon: 35
+  texture: Fuzzy chain
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_chainette_2023.jpg
+  colorways: []
+- line: LB Collection Cotton Bamboo
+  slug: lb_collection_cotton_bamboo
+  weight_category: DK
+  yardage: 245
+  skein_weight: 100
+  fiber_content:
+    cotton: 52
+    bamboo_rayon: 48
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4") and 25 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_cotton_bamboo.jpg
+  colorways: []
+- line: LB Collection Cotton Bamboo Linen
+  slug: lb_collection_cotton_bamboo_linen
+  weight_category: Sport
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    cotton: 40
+    bamboo_rayon: 35
+    linen: 25
+  texture: Crepe / Cable-plied
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_cotton_bamboo_linen.jpg
+  colorways: []
+- line: LB Collection Cotton Jeans
+  slug: lb_collection_cotton_jeans
+  weight_category: DK
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url:
+  colorways: []
+- line: LB Collection Fifty Fifty
+  slug: lb_collection_fifty_fifty
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 200
+  fiber_content:
+    alpaca: 50
+    wool: 50
+  texture: Single ply
+  gauge: 8 sts / 10 cm (4") and 11 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_fifty_fifty.jpg
+  colorways: []
+- line: LB Collection Mako Cotton
+  slug: lb_collection_mako_cotton
+  weight_category: Worsted
+  yardage: 126
+  skein_weight: 50
+  fiber_content:
+    cotton: 94
+    nylon: 6
+  texture: Fleecy chain
+  gauge: 20 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_mako_cotton.jpg
+  colorways: []
+- line: LB Collection Merino Yak Alpaca
+  slug: lb_collection_merino_yak_alpaca
+  weight_category: Aran
+  yardage: 126
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 70
+    alpaca: 15
+    yak: 15
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_merino_yak_alpaca.jpg
+  colorways: []
+- line: LB Collection Wool
+  slug: lb_collection_wool
+  weight_category: Super Bulky
+  yardage: 21
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 3.5 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_wool.jpg
+  colorways: []
+- line: Landscapes
+  slug: landscapes
+  weight_category: Heavy Worsted
+  yardage: 147
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 16.5 sts / 10 cm (4") and 22 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/landscapes.jpg
+  colorways: []
+- line: Landscapes Breeze
+  slug: landscapes_breeze
+  weight_category: Heavy Worsted
+  yardage: 157
+  skein_weight: 90
+  fiber_content:
+    modal_rayon: 68
+    acrylic: 26
+    wool: 6
+  texture: Blown / Fiber-filled net
+  gauge: 16.5 sts / 10 cm (4") and 22 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/landscapes_breeze.jpg
+  colorways: []
+- line: Landscapes Renewed
+  slug: landscapes_renewed
+  weight_category: Heavy Worsted
+  yardage: 232
+  skein_weight: 150
+  fiber_content:
+    polyester: 100
+  texture: Blown / Fiber-filled net
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/landscapes_renewed.jpg
+  colorways: []
+- line: 'Let''s Get Cozy: Lazy Days'
+  slug: let_s_get_cozy_lazy_days
+  weight_category: Heavy Worsted
+  yardage: 179
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Filled tube
+  gauge: 16 sts / 10 cm (4") and 26 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/let_s_get_cozy_lazy_days.jpg
+  colorways: []
+- line: Local Grown
+  slug: local_grown
+  weight_category: Heavy Worsted
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/local_grown.jpg
+  colorways: []
+- line: Mac-Re-Me
+  slug: mac-re-me
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 200
+  fiber_content:
+    cotton: 100
+  texture: Loosely plied
+  gauge: 10 sts / 10 cm (4") and 13 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mac-re-me.jpg
+  colorways: []
+- line: Mandala Gradient
+  slug: mandala_gradient
+  weight_category: Worsted
+  yardage: 295
+  skein_weight: 150
+  fiber_content:
+    acrylic: 90
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_gradient.jpg
+  colorways: []
+- line: Mandala Impressions
+  slug: mandala_impressions
+  weight_category: Super Bulky
+  yardage: 164
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_impressions.jpg
+  colorways: []
+- line: Mandala Ombre
+  slug: mandala_ombre
+  weight_category: Worsted
+  yardage: 344
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 27 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (long transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_ombre.jpg
+  colorways: []
+- line: Mandala Sparkle
+  slug: mandala_sparkle
+  weight_category: DK
+  yardage: 328
+  skein_weight: 100
+  fiber_content:
+    acrylic: 94
+    metallic: 6
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping (long transition) with metallic thread
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_sparkle.jpg
+  colorways: []
+- line: Mandala String
+  slug: mandala_string
+  weight_category: Fingering
+  yardage: 350
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_string.jpg
+  colorways: []
+- line: Mandala Thick & Quick
+  slug: mandala_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 86
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 8 sts / 10 cm (4") and 11 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Self-striping (long transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_thick_and_quick.jpg
+  colorways: []
+- line: North Pole Yarn Co Candy Cake Metallic
+  slug: north_pole_candy_cake_metallic
+  weight_category: Aran
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    acrylic: 96
+    metallic: 4
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/north_pole_candy_cake_metallic.jpg
+  colorways: []
+- line: Pima Cotton
+  slug: pima_cotton
+  weight_category: Worsted
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/pima_cotton.jpg
+  colorways: []
+- line: Pound of Love
+  slug: pound_of_love
+  weight_category: Worsted
+  yardage: 1020
+  skein_weight: 448
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/pound_of_love.jpg
+  colorways: []
+- line: Re-Make
+  slug: re_make
+  weight_category: Aran
+  yardage: 218
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Plied with a soft haze
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re_make.jpg
+  colorways: []
+- line: Re-Spun
+  slug: re-spun
+  weight_category: Aran
+  yardage: 658
+  skein_weight: 284
+  fiber_content:
+    polyester: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-spun.jpg
+  colorways: []
+- line: Re-Spun Thick & Quick
+  slug: re-spun_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 223
+  skein_weight: 340
+  fiber_content:
+    polyester: 100
+  texture: Plied (3 or more plies)
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-spun_thick_and_quick.jpg
+  colorways: []
+- line: Re-Tweed
+  slug: re-tweed
+  weight_category: Heavy Worsted
+  yardage: 202
+  skein_weight: 100
+  fiber_content:
+    polyester: 40
+    superwash_wool: 40
+    acrylic: 20
+  texture: Nubby / Tweedy
+  gauge: 16 sts / 10 cm (4") and 23 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-tweed.jpg
+  colorways: []
+- line: Re-Up
+  slug: re-up
+  weight_category: Worsted
+  yardage: 115
+  skein_weight: 70
+  fiber_content:
+    cotton: 85
+    polyester: 15
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 21 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-up.jpg
+  colorways: []
+- line: Rewind
+  slug: rewind
+  weight_category: Bulky
+  yardage: 242
+  skein_weight: 100
+  fiber_content:
+    polyester: 70
+    rayon: 30
+  texture: Ribbon
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Semi-solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/rewind.jpg
+  colorways: []
+- line: Scarfie
+  slug: scarfie
+  weight_category: Bulky
+  yardage: 312
+  skein_weight: 150
+  fiber_content:
+    acrylic: 78
+    superwash_wool: 22
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/scarfie.jpg
+  colorways: []
+- line: Scarfie Lite
+  slug: scarfie_lite
+  weight_category: Heavy Worsted
+  yardage: 350
+  skein_weight: 100
+  fiber_content:
+    acrylic: 43
+    polyester: 41
+    nylon: 9
+    superwash_wool: 7
+  texture: Fuzzy chain
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/scarfie_lite.jpg
+  colorways: []
+- line: Stitch Soak Scrub
+  slug: stitch_soak_scrub
+  weight_category: Aran
+  yardage: 92
+  skein_weight: 40
+  fiber_content:
+    nylon: 100
+  texture: Scrubby
+  gauge: 18 sts / 10 cm (4") and 20 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/stitch_soak_scrub.jpg
+  colorways: []
+- line: Thick & Quick
+  slug: thick_and_quick
+  weight_category: Super Bulky
+  yardage: 223
+  skein_weight: 340
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/thick_and_quick.jpg
+  colorways: []
+- line: Touch of Alpaca
+  slug: touch_of_alpaca
+  weight_category: Aran
+  yardage: 208
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    alpaca: 10
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_alpaca.jpg
+  colorways: []
+- line: Touch of Linen
+  slug: touch_of_linen
+  weight_category: Worsted
+  yardage: 197
+  skein_weight: 100
+  fiber_content:
+    cotton: 51
+    linen: 49
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_linen.jpg
+  colorways: []
+- line: Truboo
+  slug: truboo
+  weight_category: DK
+  yardage: 241
+  skein_weight: 100
+  fiber_content:
+    bamboo_rayon: 100
+  texture: S on S plied
+  gauge: 23 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/truboo.jpg
+  colorways: []
+- line: Truboo Sparkle
+  slug: truboo_sparkle
+  weight_category: DK
+  yardage: 195
+  skein_weight: 85
+  fiber_content:
+    bamboo_rayon: 96
+    metallic: 4
+  texture: S on S plied
+  gauge: 23 sts / 10 cm (4") and 16 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/truboo_sparkle.jpg
+  colorways: []
+- line: Two of Wands Color Theory
+  slug: color_theory
+  weight_category: Worsted
+  yardage: 246
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 27 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/color_theory.jpg
+  colorways: []
+- line: Two of Wands Cottino
+  slug: cottino
+  weight_category: DK
+  yardage: 296
+  skein_weight: 100
+  fiber_content:
+    cotton: 55
+    merino_superwash_wool: 45
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cottino.jpg
+  colorways: []
+- line: Vanna's Choice
+  slug: vannas_choice_solids_heathers_and_twists
+  weight_category: Aran
+  yardage: 171
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vannas_choice_solids_heathers_and_twists.jpg
+  colorways: []
+- line: Wool-Ease Aire
+  slug: wool_ease_aire
+  weight_category: Super Bulky
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    acrylic: 74
+    polyester: 13
+    wool: 13
+  texture: Fuzzy / Fluffy
+  gauge: 11 sts / 10 cm (4") and 16 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool_ease_aire.jpg
+  colorways: []
+- line: Wool-Ease DK
+  slug: wool_ease_dk
+  weight_category: DK
+  yardage: 232
+  skein_weight: 85
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool_ease_dk.jpg
+  colorways: []
+- line: Wool-Ease Recycled
+  slug: wool_ease_recycled
+  weight_category: Aran
+  yardage: 196
+  skein_weight: 85
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool_ease_recycled.jpg
+  colorways: []
+- line: Wool-Ease Roving Origins
+  slug: wool_ease_roving_origins
+  weight_category: Heavy Worsted
+  yardage: 299
+  skein_weight: 140
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool_ease_roving_origins.jpg
+  colorways: []
+- line: Wool-Ease® Thick & Quick® Recycled
+  slug: wool_ease_thick_quick_recycled
+  weight_category: Super Bulky
+  yardage: 106
+  skein_weight: 170
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    A Star Is Born - Oh Baby Organic
+    (DISCONTINUED)
+  slug: oh_baby_organic
+  weight_category: Sport
+  yardage: 180
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 100
+  texture: S on S plied
+  gauge: 25 sts / 10 cm (4") and 33 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/oh_baby_organic.jpg
+  colorways: []
+- line: |-
+    A Star Is Born - Warm & Fuzzy
+    (DISCONTINUED)
+  slug: warm_and_fuzzy
+  weight_category: Heavy Worsted
+  yardage: 245
+  skein_weight: 142
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/warm_and_fuzzy.jpg
+  colorways: []
+- line: |-
+    Al-Pa-Ka
+    (DISCONTINUED)
+  slug: al-pa-ka
+  weight_category: Aran
+  yardage: 107
+  skein_weight: 50
+  fiber_content:
+    acrylic: 40
+    alpaca: 30
+    wool: 30
+  texture: Plied with a soft haze
+  gauge: 16 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Undyed
+  - Solid colors
+  - Marls
+  image_url:
+  colorways: []
+- line: |-
+    Alpine Wool
+    (DISCONTINUED)
+  slug: alpine_wool
+  weight_category: Bulky
+  yardage: 93
+  skein_weight: 85
+  fiber_content:
+    wool: 77
+    acrylic: 15
+    rayon: 8
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/alpine_wool.jpg
+  colorways: []
+- line: |-
+    Amazing
+    (DISCONTINUED)
+  slug: amazing
+  weight_category: Aran
+  yardage: 147
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 53
+    acrylic: 47
+  texture: Single ply
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/amazing.jpg
+  colorways: []
+- line: |-
+    Amazing Lace
+    (DISCONTINUED)
+  slug: amazing_lace
+  weight_category: Lace
+  yardage: 1017
+  skein_weight: 150
+  fiber_content:
+    acrylic: 70
+    nylon: 30
+  texture: Plied with a soft haze
+  gauge: 32 sts / 10 cm (4") and 48 rows
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/amazing_lace.jpg
+  colorways: []
+- line: |-
+    Baby Soft Boucle
+    (DISCONTINUED)
+  slug: baby_soft_boucle
+  weight_category: Bulky
+  yardage: 119
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Bouclé
+  gauge: 12 sts / 10 cm (4") and 12 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/baby_soft_boucle.jpg
+  colorways: []
+- line: |-
+    Baby Soft Light
+    (DISCONTINUED)
+  slug: baby_soft_light
+  weight_category: DK
+  yardage: 339
+  skein_weight: 100
+  fiber_content:
+    acrylic: 70
+    nylon: 30
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/baby_soft_light.jpg
+  colorways: []
+- line: |-
+    Baby Wool
+    (DISCONTINUED)
+  slug: baby_wool_solids
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Baby's First
+    (DISCONTINUED)
+  slug: babys_first
+  weight_category: Super Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    acrylic: 55
+    cotton: 45
+  texture: S on S plied
+  gauge: 9–12 sts / 10 cm (4") and 14 rows
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/babys_first.jpg
+  colorways: []
+- line: |-
+    Basic Stitch Anti-Microbial
+    (DISCONTINUED)
+  slug: basic_stitch_anti_microbial
+  weight_category: Aran
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    polyester: 65
+    amicor: 35
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathered colord
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/basic_stitch_anti_microbial.jpg
+  colorways: []
+- line: |-
+    Basic Stitch Anti-Microbial Thick & Quick
+    (DISCONTINUED)
+  slug: basic_stitch_anti_microbial_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    polyester: 65
+    amicor: 35
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/basic_stitch_anti_microbial_thick_and_quick.jpg
+  colorways: []
+- line: |-
+    Basic Stitch Premium
+    (DISCONTINUED)
+  slug: basic_stitch_premium
+  weight_category: Heavy Worsted
+  yardage: 241
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/basic_stitch_premium.jpg
+  colorways: []
+- line: |-
+    Beautiful You
+    (DISCONTINUED)
+  slug: beautiful_you
+  weight_category: Sport
+  yardage: 326
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 26 sts / 10 cm (4") and 34 rows
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/beautiful_you.jpg
+  colorways: []
+- line: |-
+    Bellini
+    (DISCONTINUED)
+  slug: bellini
+  weight_category: Super Bulky
+  yardage: 10
+  skein_weight: 100
+  fiber_content:
+    acrylic: 65
+    wool: 20
+    polyester: 15
+  texture: Faux / Fake fur
+  gauge: 5 sts / 10 cm (4") and 10 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Boogie Nights
+    (DISCONTINUED)
+  slug: boogie_nights
+  weight_category: Bulky
+  yardage: 149
+  skein_weight: 85
+  fiber_content:
+    polyester: 95
+    metallic: 5
+  texture: Chained
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Marled with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/boogie_nights.jpg
+  colorways: []
+- line: |-
+    Bouclé All The Way
+    (DISCONTINUED)
+  slug: boucle_all_the_way
+  weight_category: Super Bulky
+  yardage: 98
+  skein_weight: 100
+  fiber_content:
+    microfiber: 100
+  texture: Bouclé
+  gauge: 12–13 sts / 10 cm (4") and 18 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/boucle_all_the_way.jpg
+  colorways: []
+- line: |-
+    Chenille
+    (DISCONTINUED)
+  slug: chenille
+  weight_category: Super Bulky
+  yardage: 100
+  skein_weight: 70
+  fiber_content:
+    acrylic: 75
+    polyester: 18
+    nylon: 7
+  texture: Chenille
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/chenille.jpg
+  colorways: []
+- line: |-
+    Chenille Sensations
+    (DISCONTINUED)
+  slug: chenille_sensations
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 40
+  fiber_content:
+    acrylic: 100
+  texture: Chenille
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Chenille Thick & Quick
+    (DISCONTINUED)
+  slug: chenille_thick_and_quick_solid
+  weight_category: Super Bulky
+  yardage: 100
+  skein_weight: 141
+  fiber_content:
+    acrylic: 91
+    rayon: 9
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Chunky Chill
+    (DISCONTINUED)
+  slug: chunky_chill
+  weight_category: Super Bulky
+  yardage: 98
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 9 sts / 10 cm (4") and 12 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/chunky_chill.jpg
+  colorways: []
+- line: |-
+    Chunky USA
+    (DISCONTINUED)
+  slug: chunky_usa
+  weight_category: Super Bulky
+  yardage: 155
+  skein_weight: 113
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cobblestone
+    (DISCONTINUED)
+  slug: cobblestone
+  weight_category: Aran
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: S on S plied
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cobblestone.jpg
+  colorways: []
+- line: |-
+    Color Clouds
+    (DISCONTINUED)
+  slug: color_clouds
+  weight_category: Jumbo
+  yardage: 55
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: 2 ply
+  gauge: 6 sts / 10 cm (4") and 10 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/color_clouds.jpg
+  colorways: []
+- line: |-
+    Color Made Easy
+    (DISCONTINUED)
+  slug: color_made_easy
+  weight_category: Bulky
+  yardage: 247
+  skein_weight: 200
+  fiber_content:
+    acrylic: 100
+  texture: S on S plied
+  gauge: 13 sts / 10 cm (4") and 20 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/color_made_easy.jpg
+  colorways: []
+- line: |-
+    Color Waves (old - bouclé)
+    (DISCONTINUED)
+  slug: color_waves_old
+  weight_category: Bulky
+  yardage: 129
+  skein_weight: 85
+  fiber_content:
+    acrylic: 83
+    polyester: 17
+  texture: Bouclé
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Color Waves DK
+    (DISCONTINUED)
+  slug: color_waves
+  weight_category: DK
+  yardage: 306
+  skein_weight: 100
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/color_waves.jpg
+  colorways: []
+- line: |-
+    Comfy Cotton Blend
+    (DISCONTINUED)
+  slug: comfy_cotton
+  weight_category: Worsted
+  yardage: 392
+  skein_weight: 200
+  fiber_content:
+    cotton: 50
+    polyester: 50
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/comfy_cotton.jpg
+  colorways: []
+- line: |-
+    Cotton Blend No 5
+    (DISCONTINUED)
+  slug: cotton_blend_5
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    cotton: 55
+    acrylic: 45
+  texture: Single ply wrapped with fine thread
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cotton_blend_5.jpg
+  colorways: []
+- line: |-
+    Cotton Candy Blend
+    (DISCONTINUED)
+  slug: cotton_candy_blend
+  weight_category: Worsted
+  yardage: 271
+  skein_weight: 142
+  fiber_content:
+    polyester: 52
+    cotton: 48
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 20 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cotton_candy_blend.jpg
+  colorways: []
+- line: |-
+    Cotton Thick & Quick
+    (DISCONTINUED)
+  slug: cotton_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 79
+  skein_weight: 170
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Cotton-Ease
+    (DISCONTINUED)
+  slug: cotton-ease
+  weight_category: Aran
+  yardage: 207
+  skein_weight: 100
+  fiber_content:
+    acrylic: 50
+    cotton: 50
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cotton-ease.jpg
+  colorways: []
+- line: |-
+    Cotton-Fetti Blend
+    (DISCONTINUED)
+  slug: cotton-fetti_blend
+  weight_category: DK
+  yardage: 350
+  skein_weight: 100
+  fiber_content:
+    acrylic: 50
+    cotton: 50
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cotton-fetti_blend.jpg
+  colorways: []
+- line: |-
+    Country
+    (DISCONTINUED)
+  slug: country
+  weight_category: Super Bulky
+  yardage: 156
+  skein_weight: 142
+  fiber_content:
+    acrylic: 100
+  texture: 2 ply
+  gauge: 9–10 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/country.jpg
+  colorways: []
+- line: |-
+    Crayola™ Cake
+    (DISCONTINUED)
+  slug: crayola_cake
+  weight_category: Aran
+  yardage: 177
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/crayola_cake.jpg
+  colorways: []
+- line: |-
+    Cupcake (disc in 2016)
+    (DISCONTINUED)
+  slug: cupcake_disc
+  weight_category: Aran
+  yardage: 140
+  skein_weight: 50
+  fiber_content:
+    acrylic: 96
+    nylon: 4
+  texture: Bouclé
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Cupcake (disc in 2021)
+    (DISCONTINUED)
+  slug: cupcake
+  weight_category: DK
+  yardage: 591
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/cupcake.jpg
+  colorways: []
+- line: |-
+    Cute As A Button
+    (DISCONTINUED)
+  slug: cute_as_a_button
+  weight_category: Super Bulky
+  yardage: 103
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Da Vinci
+    (DISCONTINUED)
+  slug: da_vinci
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    wool: 53
+    acrylic: 47
+  texture: Single ply
+  gauge: 9 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/da_vinci.jpg
+  colorways: []
+- line: |-
+    Date Nights
+    (DISCONTINUED)
+  slug: date_nights
+  weight_category: Worsted
+  yardage: 273
+  skein_weight: 100
+  fiber_content:
+    acrylic: 82
+    metallic: 18
+  texture: Chained
+  gauge: 19 sts / 10 cm (4") and 27 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/date_nights.jpg
+  colorways: []
+- line: |-
+    Dotted Line
+    (DISCONTINUED)
+  slug: dotted_line
+  weight_category: Sport
+  yardage: 410
+  skein_weight: 125
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/dotted_line.jpg
+  colorways: []
+- line: |-
+    Dream Maker
+    (DISCONTINUED)
+  slug: dream_maker
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    acrylic: 74
+    nylon: 26
+  texture: Tape
+  gauge: 12 sts / 10 cm (4") and 17 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/dream_maker.jpg
+  colorways: []
+- line: |-
+    Fancy Fur
+    (DISCONTINUED)
+  slug: fancy_fur
+  weight_category: Super Bulky
+  yardage: 39
+  skein_weight: 50
+  fiber_content:
+    nylon: 55
+    polyester: 45
+  texture: Eyelash
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Fast Track
+    (DISCONTINUED)
+  slug: fast_track
+  weight_category: Super Bulky
+  yardage: 149
+  skein_weight: 227
+  fiber_content:
+    cotton: 60
+    polyester: 40
+  texture: Tape
+  gauge: 10 sts / 10 cm (4") and 12 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/fast_track.jpg
+  colorways: []
+- line: |-
+    Faux Mo
+    (DISCONTINUED)
+  slug: faux_mo
+  weight_category: Aran
+  yardage: 328
+  skein_weight: 50
+  fiber_content:
+    viscose: 53
+    acrylic: 37
+    nylon: 10
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/faux_mo.jpg
+  colorways: []
+- line: |-
+    Faye
+    (DISCONTINUED)
+  slug: faye
+  weight_category: Fingering
+  yardage: 361
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4") and 44 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/faye.jpg
+  colorways: []
+- line: |-
+    Feels Like Heaven
+    (DISCONTINUED)
+  slug: feels_like_heaven
+  weight_category: DK
+  yardage: 246
+  skein_weight: 100
+  fiber_content:
+    nylon: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/feels_like_heaven.jpg
+  colorways: []
+- line: |-
+    Festive Fur
+    (DISCONTINUED)
+  slug: festive_fur
+  weight_category: Heavy Worsted
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    polyester: 80
+    metallic: 20
+  texture: Tinsel
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Metallic colors
+  image_url:
+  colorways: []
+- line: |-
+    Flikka
+    (DISCONTINUED)
+  slug: flikka
+  weight_category: Worsted
+  yardage: 196
+  skein_weight: 100
+  fiber_content:
+    cotton: 50
+    polyester: 50
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 20 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/flikka.jpg
+  colorways: []
+- line: |-
+    Frothy
+    (DISCONTINUED)
+  slug: frothy
+  weight_category: Super Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    acrylic: 87
+    polyester: 13
+  texture: Bouclé
+  gauge: 11 sts / 10 cm (4") and 10 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/frothy.jpg
+  colorways: []
+- line: |-
+    Fun
+    (DISCONTINUED)
+  slug: fun
+  weight_category: Bulky
+  yardage: 85
+  skein_weight: 50
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Fun Fur
+    (DISCONTINUED)
+  slug: fun_fur_solid
+  weight_category: Heavy Worsted
+  yardage: 65
+  skein_weight: 50
+  fiber_content:
+    polyester: 100
+  texture: Eyelash
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/fun_fur_solid.jpg
+  colorways: []
+- line: |-
+    Glitterspun
+    (DISCONTINUED)
+  slug: glitterspun
+  weight_category: Aran
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    acrylic: 60
+    metallic: 27
+    polyester: 13
+  texture: Chained
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/glitterspun.jpg
+  colorways: []
+- line: |-
+    Gold Leaf
+    (DISCONTINUED)
+  slug: gold_leaf
+  weight_category: Super Bulky
+  yardage: 49
+  skein_weight: 75
+  fiber_content:
+    acrylic: 89
+    wool: 10
+    metallic: 1
+  texture: Plied (3 or more plies)
+  gauge: 10.5 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/gold_leaf.jpg
+  colorways: []
+- line: |-
+    Hand Dyed Heaven
+    (DISCONTINUED)
+  slug: hand_dyed_heaven
+  weight_category: DK
+  yardage: 175
+  skein_weight: 70
+  fiber_content:
+    nylon: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/hand_dyed_heaven.jpg
+  colorways: []
+- line: |-
+    Holiday Homespun
+    (DISCONTINUED)
+  slug: holiday_homespun
+  weight_category: Bulky
+  yardage: 154
+  skein_weight: 140
+  fiber_content:
+    acrylic: 98
+    metallic: 2
+  texture: Bouclé
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/holiday_homespun.jpg
+  colorways: []
+- line: |-
+    Homespun Baby
+    (DISCONTINUED)
+  slug: homespun_baby
+  weight_category: Bulky
+  yardage: 93
+  skein_weight: 85
+  fiber_content:
+    acrylic: 98
+    polyester: 2
+  texture: Bouclé
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Homespun Thick & Quick
+    (DISCONTINUED)
+  slug: homespun_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 160
+  skein_weight: 227
+  fiber_content:
+    acrylic: 88
+    polyester: 12
+  texture: Bouclé
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/homespun_thick_and_quick.jpg
+  colorways: []
+- line: |-
+    I Like Big Yarn
+    (DISCONTINUED)
+  slug: i_like_big_yarn
+  weight_category: Jumbo
+  yardage: 33
+  skein_weight: 250
+  fiber_content:
+    acrylic: 100
+  texture: Chained
+  gauge: 5 sts / 10 cm (4") and 8 rows
+  needle_size: 19 mm (35 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/i_like_big_yarn.jpg
+  colorways: []
+- line: |-
+    I Wanna Make A Blankie
+    (DISCONTINUED)
+  slug: i_wanna_make_a_blankie
+  weight_category: Super Bulky
+  yardage: 437
+  skein_weight: 800
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 7 sts / 10 cm (4") and 11 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/i_wanna_make_a_blankie.jpg
+  colorways: []
+- line: |-
+    Ice Cream Cotton Blend
+    (DISCONTINUED)
+  slug: ice_cream_cotton_blend
+  weight_category: Aran
+  yardage: 225
+  skein_weight: 100
+  fiber_content:
+    acrylic: 53
+    cotton: 47
+  texture: S on S plied
+  gauge: 19 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/ice_cream_cotton_blend.jpg
+  colorways: []
+- line: |-
+    Ice Cream Deluxe
+    (DISCONTINUED)
+  slug: ice_cream_deluxe
+  weight_category: Super Bulky
+  yardage: 155
+  skein_weight: 142
+  fiber_content:
+    acrylic: 100
+  texture: Chenille
+  gauge: 10 sts / 10 cm (4") and 18 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/ice_cream_deluxe.jpg
+  colorways: []
+- line: |-
+    Ice Cream Roving
+    (DISCONTINUED)
+  slug: ice_cream_roving
+  weight_category: Heavy Worsted
+  yardage: 437
+  skein_weight: 200
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping (gradient marl)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/ice_cream_roving.jpg
+  colorways: []
+- line: |-
+    Imagine Metallics
+    (DISCONTINUED)
+  slug: imagine_metallics
+  weight_category: Jumbo
+  yardage: 77
+  skein_weight: 40
+  fiber_content:
+    acrylic: 40
+    nylon: 30
+    wool: 30
+  texture: Fuzzy chain
+  gauge: 4 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/imagine_metallics.jpg
+  colorways: []
+- line: |-
+    Incredible
+    (DISCONTINUED)
+  slug: incredible
+  weight_category: Super Bulky
+  yardage: 110
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Ribbon
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/incredible.jpg
+  colorways: []
+- line: |-
+    It's So Fluffy
+    (DISCONTINUED)
+  slug: its_so_fluffy
+  weight_category: Super Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 11 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/its_so_fluffy.jpg
+  colorways: []
+- line: |-
+    Jamie Baby
+    (DISCONTINUED)
+  slug: jamie_baby
+  weight_category: Sport
+  yardage: 196
+  skein_weight: 50
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Jamie Classic
+    (DISCONTINUED)
+  slug: jamie_classic
+  weight_category: Bulky
+  yardage: 114
+  skein_weight: 70
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4") and 21 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Jamie Pompadour Solid
+    (DISCONTINUED)
+  slug: jamie_pompadour_solid
+  weight_category: Worsted
+  yardage: 196
+  skein_weight: 50
+  fiber_content:
+    acrylic: 85
+    rayon: 15
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Jamie Stripes
+    (DISCONTINUED)
+  slug: jamie_stripes
+  weight_category: DK
+  yardage: 109
+  skein_weight: 40
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4") and 29 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Jiffy Thick & Quick
+    (DISCONTINUED)
+  slug: jiffy_thick_and_quick
+  weight_category: Super Bulky
+  yardage: 84
+  skein_weight: 140
+  fiber_content:
+    acrylic: 100
+  texture: Plied with a soft haze
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/jiffy_thick_and_quick.jpg
+  colorways: []
+- line: |-
+    Just Hemp
+    (DISCONTINUED)
+  slug: just_hemp
+  weight_category: Bulky
+  yardage: 93
+  skein_weight: 100
+  fiber_content:
+    hemp: 100
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/just_hemp.jpg
+  colorways: []
+- line: |-
+    Just My Stripe
+    (DISCONTINUED)
+  slug: just_my_stripe
+  weight_category: Aran
+  yardage: 177
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping (long)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/just_my_stripe.jpg
+  colorways: []
+- line: |-
+    Kitchen Cotton
+    (DISCONTINUED)
+  slug: kitchen_cotton
+  weight_category: Aran
+  yardage: 100
+  skein_weight: 57
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/kitchen_cotton.jpg
+  colorways: []
+- line: |-
+    Kitchen Cotton Cone
+    (DISCONTINUED)
+  slug: kitchen_cotton_cone
+  weight_category: Aran
+  yardage: 755
+  skein_weight: 453
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kool Wool
+    (DISCONTINUED)
+  slug: kool_wool
+  weight_category: Super Bulky
+  yardage: 60
+  skein_weight: 50
+  fiber_content:
+    acrylic: 50
+    merino_wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    LB 1878
+    (DISCONTINUED)
+  slug: lb_1878
+  weight_category: Sport
+  yardage: 2045
+  skein_weight: 500
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 26 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Angora Merino
+    (DISCONTINUED)
+  slug: lb_collection_angora_merino
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 80
+    angora: 20
+  texture: Plied with a soft haze
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_angora_merino.jpg
+  colorways: []
+- line: |-
+    LB Collection Cashmere
+    (DISCONTINUED)
+  slug: lb_collection_cashmere
+  weight_category: DK
+  yardage: 82
+  skein_weight: 25
+  fiber_content:
+    cashmere: 100
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_cashmere.jpg
+  colorways: []
+- line: |-
+    LB Collection Chainette (old version with Wool)
+    (DISCONTINUED)
+  slug: lb_collection_chainette
+  weight_category: Aran
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 70
+    wool: 18
+    nylon: 12
+  texture: Fuzzy chain
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_chainette.jpg
+  colorways: []
+- line: |-
+    LB Collection Crepe Melange
+    (DISCONTINUED)
+  slug: lb_collection_crepe_melange
+  weight_category: Aran
+  yardage: 83
+  skein_weight: 50
+  fiber_content:
+    wool: 68
+    nylon: 32
+  texture: Single ply wrapped with fine thread
+  gauge: 18 sts / 10 cm (4") and 28 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Crepe Twist
+    (DISCONTINUED)
+  slug: lb_collection_crepe_twist
+  weight_category: Worsted
+  yardage: 112
+  skein_weight: 50
+  fiber_content:
+    wool: 88
+    nylon: 12
+  texture: Crepe / Cable-plied
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Hand Dyed Silk
+    (DISCONTINUED)
+  slug: lb_collection_hand_dyed_silk
+  weight_category: Worsted
+  yardage: 151
+  skein_weight: 100
+  fiber_content:
+    silk: 100
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_hand_dyed_silk.jpg
+  colorways: []
+- line: |-
+    LB Collection Hand-Dyed Superwash Merino
+    (DISCONTINUED)
+  slug: lb_collection_anya
+  weight_category: Worsted
+  yardage: 240
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolord
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_anya.jpg
+  colorways: []
+- line: |-
+    LB Collection Jumbo Alpaca Blend
+    (DISCONTINUED)
+  slug: lb_collection_jumbo_alpaca_blend
+  weight_category: Jumbo
+  yardage: 62
+  skein_weight: 250
+  fiber_content:
+    baby_alpaca: 43
+    merino_wool: 43
+    nylon: 14
+  texture: Chained
+  gauge: 4 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Merino Camel
+    (DISCONTINUED)
+  slug: lb_collection_merino_camel
+  weight_category: Sport
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 80
+    camel: 20
+  texture: S on S plied
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_merino_camel.jpg
+  colorways: []
+- line: |-
+    LB Collection Merino Silk Cotton
+    (DISCONTINUED)
+  slug: merino_silk_cotton
+  weight_category: Fingering
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 50
+    cotton: 25
+    silk: 25
+  texture: Nubby / Tweedy
+  gauge: 28 sts / 10 cm (4") and 44 rows
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/merino_silk_cotton.jpg
+  colorways: []
+- line: |-
+    LB Collection Mulberry Silk
+    (DISCONTINUED)
+  slug: lb_collection_mulberry_silk
+  weight_category: Worsted
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    mulberry_silk: 100
+  texture: Crepe / Cable-plied
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Natural Wool
+    (DISCONTINUED)
+  slug: lb_collection_natural_wool
+  weight_category: Super Bulky
+  yardage: 143
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 7.5 sts / 10 cm (4") and 11 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Undyed
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Organic Wool
+    (DISCONTINUED)
+  slug: lb_collection_organic_wool
+  weight_category: Aran
+  yardage: 185
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Penelope
+    (DISCONTINUED)
+  slug: lb_collection_penelope
+  weight_category: Fingering
+  yardage: 459
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 28–32 sts / 10 cm (4") and 40 rows
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Pure Wool
+    (DISCONTINUED)
+  slug: lb_collection_pure_wool
+  weight_category: Worsted
+  yardage: 180
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Silk
+    (DISCONTINUED)
+  slug: lb_collection_silk
+  weight_category: Sport
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    silk: 100
+  texture: Plied (3 or more plies)
+  gauge: 23 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Silk Chiffon Ribbon
+    (DISCONTINUED)
+  slug: lb_collection_silk_chiffon_ribbon
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 100
+  fiber_content:
+    silk: 100
+  texture: Rag ribbon
+  gauge: 6 sts / 10 cm (4") and 7 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_silk_chiffon_ribbon.jpg
+  colorways: []
+- line: |-
+    LB Collection Silk Mohair
+    (DISCONTINUED)
+  slug: lb_collection_silk_mohair
+  weight_category: Lace
+  yardage: 231
+  skein_weight: 25
+  fiber_content:
+    mohair: 70
+    silk: 30
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url:
+  colorways: []
+- line: |-
+    LB Collection Soft Spoken
+    (DISCONTINUED)
+  slug: lb_collection_soft_spoken
+  weight_category: Bulky
+  yardage: 394
+  skein_weight: 200
+  fiber_content:
+    nylon: 40
+    wool: 40
+    acrylic: 20
+  texture: Plied with a soft haze
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Self-striping (long)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lb_collection_soft_spoken.jpg
+  colorways: []
+- line: |-
+    LB Collection Wool Stainless Steel
+    (DISCONTINUED)
+  slug: lb_collection_wool_stainless_steel
+  weight_category: Lace
+  yardage: 267
+  skein_weight: 14
+  fiber_content:
+    wool: 75
+    metallic: 25
+  texture: Metal Core
+  gauge: "(Varies)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Landscapes Fusion
+    (DISCONTINUED)
+  slug: landscapes_fusion
+  weight_category: Heavy Worsted
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 16.5 sts / 10 cm (4") and 22 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/landscapes_fusion.jpg
+  colorways: []
+- line: |-
+    Let's Get Cozy: Re-Spekt
+    (DISCONTINUED)
+  slug: re_spekt
+  weight_category: DK
+  yardage: 262
+  skein_weight: 100
+  fiber_content:
+    polyester: 45
+    acrylic: 30
+    cotton: 25
+  texture: Chained
+  gauge: 21 sts / 10 cm (4") and 26 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re_spekt.jpg
+  colorways: []
+- line: |-
+    Limited Edition
+    (DISCONTINUED)
+  slug: limited_edition
+  weight_category: Heavy Worsted
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Crepe / Cable-plied
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/limited_edition.jpg
+  colorways: []
+- line: |-
+    Lion Bouclé Multi
+    (DISCONTINUED)
+  slug: lion_boucle_multi
+  weight_category: Super Bulky
+  yardage: 57
+  skein_weight: 70
+  fiber_content:
+    acrylic: 79
+    mohair: 20
+    nylon: 1
+  texture: Bouclé
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lion Bouclé Solid
+    (DISCONTINUED)
+  slug: lion_boucle_solid
+  weight_category: Super Bulky
+  yardage: 57
+  skein_weight: 70
+  fiber_content:
+    acrylic: 79
+    mohair: 20
+    nylon: 1
+  texture: Bouclé
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lion Cashmere Blend
+    (DISCONTINUED)
+  slug: lion_cashmere_blend
+  weight_category: Aran
+  yardage: 84
+  skein_weight: 40
+  fiber_content:
+    merino_superwash_wool: 72
+    nylon: 15
+    cashmere: 13
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 25 rows
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Lion Chenille Solid
+    (DISCONTINUED)
+  slug: lion_chenille_solid
+  weight_category: Heavy Worsted
+  yardage: 174
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Chenille
+  gauge: 14 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lion Cotton
+    (DISCONTINUED)
+  slug: lion_cotton_solid
+  weight_category: Aran
+  yardage: 236
+  skein_weight: 140
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lion Organic Cotton
+    (DISCONTINUED)
+  slug: lion_organic_cotton
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    organic_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lion Wool
+    (DISCONTINUED)
+  slug: lion_wool_solids
+  weight_category: Aran
+  yardage: 157
+  skein_weight: 85
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 16–18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lion's Pride Woolspun
+    (DISCONTINUED)
+  slug: lions_pride_woolspun
+  weight_category: Bulky
+  yardage: 127
+  skein_weight: 100
+  fiber_content:
+    acrylic: 80
+    wool: 20
+  texture: S on S plied
+  gauge: 13 sts / 10 cm (4") and 19 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/lions_pride_woolspun.jpg
+  colorways: []
+- line: |-
+    Local Grown Cotton
+    (DISCONTINUED)
+  slug: local_grown_cotton
+  weight_category: Worsted
+  yardage: 184
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    London Kaye LKYC
+    (DISCONTINUED)
+  slug: london_kaye_lkyc
+  weight_category: Super Bulky
+  yardage: 19
+  skein_weight: 40
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 7–12 sts / 10 cm (4")
+  needle_size: |-
+    9 mm (13 US) (00 UK),
+    20 mm (36 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/london_kaye_lkyc.jpg
+  colorways: []
+- line: |-
+    Low Tide
+    (DISCONTINUED)
+  slug: low_tide
+  weight_category: Worsted
+  yardage: 306
+  skein_weight: 100
+  fiber_content:
+    acrylic: 81
+    polyester: 19
+  texture: Chained
+  gauge: 19 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/low_tide.jpg
+  colorways: []
+- line: |-
+    Luxe Fur
+    (DISCONTINUED)
+  slug: luxe_fur_yarn
+  weight_category: Super Bulky
+  yardage: 44
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 48
+    acrylic: 47
+    nylon: 5
+  texture: Faux / Fake fur
+  gauge: 7 sts / 10 cm (4") and 13 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Magic Stripes
+    (DISCONTINUED)
+  slug: magic_stripes
+  weight_category: Sport
+  yardage: 330
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Mandala Craft Cake
+    (DISCONTINUED)
+  slug: mandala_craft_cake
+  weight_category: DK
+  yardage: 89
+  skein_weight: 35
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 26 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_craft_cake.jpg
+  colorways: []
+- line: |-
+    Mandala Fluffy
+    (DISCONTINUED)
+  slug: mandala_fluffy
+  weight_category: Jumbo
+  yardage: 77
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Fuzzy / Fluffy
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Self-striping (long transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_fluffy.jpg
+  colorways: []
+- line: |-
+    Mandala Roving
+    (DISCONTINUED)
+  slug: mandala_roving
+  weight_category: DK
+  yardage: 416
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 22 sts / 10 cm (4") and 33 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping (long transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_roving.jpg
+  colorways: []
+- line: |-
+    Mandala Sequins
+    (DISCONTINUED)
+  slug: mandala_sequins
+  weight_category: DK
+  yardage: 295
+  skein_weight: 100
+  fiber_content:
+    acrylic: 98
+    polyester: 2
+  texture: Sequinned
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_sequins.jpg
+  colorways: []
+- line: |-
+    Mandala Tweed
+    (DISCONTINUED)
+  slug: mandala_tweed
+  weight_category: Worsted
+  yardage: 569
+  skein_weight: 200
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_tweed.jpg
+  colorways: []
+- line: |-
+    Mandala Tweed Stripes
+    (DISCONTINUED)
+  slug: mandala_tweed_stripes
+  weight_category: Worsted
+  yardage: 427
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_tweed_stripes.jpg
+  colorways: []
+- line: |-
+    Mandala Watercolors
+    (DISCONTINUED)
+  slug: mandala_watercolors
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 150
+  fiber_content:
+    acrylic: 75
+    superwash_wool: 15
+    nylon: 10
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4") and 20 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_watercolors.jpg
+  colorways: []
+- line: |-
+    Mandala Wool Blend
+    (DISCONTINUED)
+  slug: mandala_wool_blend
+  weight_category: DK
+  yardage: 591
+  skein_weight: 150
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 30 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mandala_wool_blend.jpg
+  colorways: []
+- line: |-
+    Mani-Pedi
+    (DISCONTINUED)
+  slug: mani-pedi
+  weight_category: Fingering
+  yardage: 219
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 30 sts / 10 cm (4") and 40 rows
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/mani-pedi.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Alpaca Blend
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_alpaca_blend
+  weight_category: Bulky
+  yardage: 115
+  skein_weight: 100
+  fiber_content:
+    acrylic: 40
+    wool: 40
+    alpaca: 20
+  texture: Plied (3 or more plies)
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Cotton Hemp
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_cotton_hemp
+  weight_category: Heavy Worsted
+  yardage: 66
+  skein_weight: 50
+  fiber_content:
+    cotton: 65
+    hemp: 35
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_cotton_hemp.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Extra Soft Wool Blend
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_extra_soft_wool_blend
+  weight_category: Aran
+  yardage: 165
+  skein_weight: 100
+  fiber_content:
+    acrylic: 65
+    wool: 35
+  texture: S on S plied
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_extra_soft_wool_blend.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Glitter Eyelash
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_glitter_eyelash
+  weight_category: Bulky
+  yardage: 39
+  skein_weight: 25
+  fiber_content:
+    polyester: 78
+    metallic: 22
+  texture: Eyelash
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_glitter_eyelash.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Glitter Ribbon
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_glitter_ribbon
+  weight_category: Bulky
+  yardage: 69
+  skein_weight: 50
+  fiber_content:
+    polyester: 62
+    metallic: 38
+  texture: Tape
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Metallic colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_glitter_ribbon.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Lofty Wool Blend
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_lofty_wool_blend
+  weight_category: Super Bulky
+  yardage: 28
+  skein_weight: 100
+  fiber_content:
+    wool: 75
+    acrylic: 25
+  texture: Single ply wrapped with fine thread
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 12 mm (17 US)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_lofty_wool_blend.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Mambo
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_mambo
+  weight_category: Super Bulky
+  yardage: 5
+  skein_weight: 25
+  fiber_content:
+    acrylic: 75
+    nylon: 9
+    wool: 7
+    viscose: 6
+    angora: 3
+  texture: Single ply wrapped with fine thread
+  gauge: 4 sts / 10 cm (4") and 6 rows
+  needle_size: 15 mm (18 US)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_mambo.jpg
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Merino
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_merino
+  weight_category: Aran
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 25 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Martha Stewart Crafts Roving Wool
+    (DISCONTINUED)
+  slug: martha_stewart_crafts_roving_wool
+  weight_category: Bulky
+  yardage: 58
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 13 sts / 10 cm (4") and 19 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/martha_stewart_crafts_roving_wool.jpg
+  colorways: []
+- line: |-
+    Microspun
+    (DISCONTINUED)
+  slug: microspun
+  weight_category: Sport
+  yardage: 168
+  skein_weight: 70
+  fiber_content:
+    microfiber: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Misty Nights
+    (DISCONTINUED)
+  slug: misty_nights
+  weight_category: Aran
+  yardage: 164
+  skein_weight: 100
+  fiber_content:
+    cotton: 36
+    polyester: 35
+    acrylic: 29
+  texture: Sequinned
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/misty_nights.jpg
+  colorways: []
+- line: |-
+    Modern Baby
+    (DISCONTINUED)
+  slug: modern_baby
+  weight_category: DK
+  yardage: 173
+  skein_weight: 75
+  fiber_content:
+    acrylic: 50
+    nylon: 50
+  texture: Chained
+  gauge: 21–22 sts / 10 cm (4") and 32 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/modern_baby.jpg
+  colorways: []
+- line: |-
+    Moonlight Mohair
+    (DISCONTINUED)
+  slug: moonlight_mohair
+  weight_category: Bulky
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    acrylic: 57
+    mohair: 28
+    cotton: 9
+    metallic: 6
+  texture: Fuzzy / Fluffy
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/moonlight_mohair.jpg
+  colorways: []
+- line: |-
+    Moroccan Nights
+    (DISCONTINUED)
+  slug: moroccan_nights
+  weight_category: DK
+  yardage: 273
+  skein_weight: 100
+  fiber_content:
+    acrylic: 98
+    metallic: 2
+  texture: 2 ply
+  gauge: 23 sts / 10 cm (4") and 29 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Self-striping (marl transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/moroccan_nights.jpg
+  colorways: []
+- line: |-
+    My Boo
+    (DISCONTINUED)
+  slug: my_boo
+  weight_category: Aran
+  yardage: 98
+  skein_weight: 100
+  fiber_content:
+    viscose: 69
+    polyester: 31
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/my_boo.jpg
+  colorways: []
+- line: |-
+    Neck's Best Thing
+    (DISCONTINUED)
+  slug: necks_best_thing
+  weight_category: Sport
+  yardage: 525
+  skein_weight: 150
+  fiber_content:
+    acrylic: 90
+    superwash_wool: 10
+  texture: Single ply
+  gauge: 26 sts / 10 cm (4") and 36 rows
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Self-striping (long transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/necks_best_thing.jpg
+  colorways: []
+- line: |-
+    New Basic 175
+    (DISCONTINUED)
+  slug: basic_175
+  weight_category: Heavy Worsted
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    acrylic: 75
+    superwash_wool: 25
+  texture: Single ply
+  gauge: 16 sts / 10 cm (4") and 20 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/basic_175.jpg
+  colorways: []
+- line: |-
+    North Pole Yarn Co Candy Cake
+    (DISCONTINUED)
+  slug: north_pole_candy_cake
+  weight_category: Aran
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (long)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/north_pole_candy_cake.jpg
+  colorways: []
+- line: |-
+    North Pole Yarn Co Sparkle
+    (DISCONTINUED)
+  slug: north_pole_sparkle
+  weight_category: Heavy Worsted
+  yardage: 164
+  skein_weight: 100
+  fiber_content:
+    acrylic: 56
+    polyester: 44
+  texture: Fuzzy with sequins
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/north_pole_sparkle.jpg
+  colorways: []
+- line: |-
+    North Pole Yarn Co Tinsel
+    (DISCONTINUED)
+  slug: north_pole_tinsel
+  weight_category: Worsted
+  yardage: 191
+  skein_weight: 85
+  fiber_content:
+    polyester: 100
+  texture: Tinsel
+  gauge: 20 sts / 10 cm (4") and 24 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Metallic colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/north_pole_tinsel.jpg
+  colorways: []
+- line: |-
+    Nuboo
+    (DISCONTINUED)
+  slug: nuboo
+  weight_category: Worsted
+  yardage: 157
+  skein_weight: 85
+  fiber_content:
+    tencel_/_lyocell: 100
+  texture: S on S plied
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/nuboo.jpg
+  colorways: []
+- line: |-
+    Off The Hook Ombré
+    (DISCONTINUED)
+  slug: off_the_hook_ombre
+  weight_category: Jumbo
+  yardage: 30
+  skein_weight: 397
+  fiber_content:
+    polyester: 100
+  texture: Fixed loops (to use without needles)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/off_the_hook_ombre.jpg
+  colorways: []
+- line: |-
+    Ombré Life
+    (DISCONTINUED)
+  slug: ombre_life
+  weight_category: Sport
+  yardage: 437
+  skein_weight: 100
+  fiber_content:
+    acrylic: 50
+    cotton: 50
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 36 rows
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/ombre_life.jpg
+  colorways: []
+- line: |-
+    Pelt
+    (DISCONTINUED)
+  slug: pelt
+  weight_category: Bulky
+  yardage: 47
+  skein_weight: 50
+  fiber_content:
+    nylon: 68
+    polyester: 32
+  texture: Faux / Fake fur
+  gauge: 14 sts / 10 cm (4") and 17 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/pelt.jpg
+  colorways: []
+- line: |-
+    Quick & Cozy
+    (DISCONTINUED)
+  slug: quick_and_cozy
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 100
+  fiber_content:
+    nylon: 100
+  texture: Chenille
+  gauge: 6 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/quick_and_cozy.jpg
+  colorways: []
+- line: |-
+    Quickie
+    (DISCONTINUED)
+  slug: quickie
+  weight_category: Super Bulky
+  yardage: 21
+  skein_weight: 85
+  fiber_content:
+    acrylic: 74
+    wool: 22
+    nylon: 4
+  texture: Single ply wrapped with fine thread
+  gauge: 3.5 sts / 10 cm (4") and 5 rows
+  needle_size: 25 mm (50 US)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/quickie.jpg
+  colorways: []
+- line: |-
+    Re-Line
+    (DISCONTINUED)
+  slug: re-line
+  weight_category: Aran
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    linen: 53
+    cotton: 47
+  texture: Crepe / Cable-plied
+  gauge: 18 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-line.jpg
+  colorways: []
+- line: |-
+    Re-Play
+    (DISCONTINUED)
+  slug: re-play
+  weight_category: Aran
+  yardage: 164
+  skein_weight: 100
+  fiber_content:
+    tencel_/_lyocell: 100
+  texture: Tape
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-play.jpg
+  colorways: []
+- line: |-
+    Re-Spun Roving Jumbo
+    (DISCONTINUED)
+  slug: re-spun_roving_jumbo
+  weight_category: Jumbo
+  yardage: 33
+  skein_weight: 340
+  fiber_content:
+    polyester: 100
+  texture: Single ply
+  gauge: 2–3 sts / 10 cm (4")
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/re-spun_roving_jumbo.jpg
+  colorways: []
+- line: |-
+    Rebound
+    (DISCONTINUED)
+  slug: rebound
+  weight_category: Aran
+  yardage: 175
+  skein_weight: 100
+  fiber_content:
+    nylon: 100
+  texture: Chained
+  gauge: 19 sts / 10 cm (4") and 30 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/rebound.jpg
+  colorways: []
+- line: |-
+    Recycled Cotton
+    (DISCONTINUED)
+  slug: recycled_cotton
+  weight_category: Aran
+  yardage: 185
+  skein_weight: 100
+  fiber_content:
+    cotton: 75
+    acrylic: 25
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Romance
+    (DISCONTINUED)
+  slug: romance
+  weight_category: Super Bulky
+  yardage: 27
+  skein_weight: 50
+  fiber_content:
+    nylon: 84
+    polyester: 16
+  texture: Eyelash
+  gauge: 9 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/romance.jpg
+  colorways: []
+- line: |-
+    Romance Brushed Mohair
+    (DISCONTINUED)
+  slug: romance_brushed_mohair
+  weight_category: Super Bulky
+  yardage: 481
+  skein_weight: 224
+  fiber_content:
+    acrylic: 85
+    mohair: 15
+  texture: Plied with a soft haze
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Roving Tweed
+    (DISCONTINUED)
+  slug: roving_tweed
+  weight_category: Super Bulky
+  yardage: 155
+  skein_weight: 150
+  fiber_content:
+    acrylic: 100
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/roving_tweed.jpg
+  colorways: []
+- line: |-
+    Ruffles
+    (DISCONTINUED)
+  slug: ruffles
+  weight_category: Super Bulky
+  yardage: 20
+  skein_weight: 50
+  fiber_content:
+    acrylic: 50
+    merino_superwash_wool: 50
+  texture: Ruffle
+  gauge: "(Varies)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Sayelle
+    (DISCONTINUED)
+  slug: sayelle
+  weight_category: Aran
+  yardage: 240
+  skein_weight: 114
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Schitt's Creek
+    (DISCONTINUED)
+  slug: schitts_creek
+  weight_category: Aran
+  yardage: 372
+  skein_weight: 200
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/schitts_creek.jpg
+  colorways: []
+- line: |-
+    Sesame Street Fuzzy Friends
+    (DISCONTINUED)
+  slug: sesame_st_fuzzy_friends
+  weight_category: Jumbo
+  yardage: 33
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Faux / Fake fur
+  gauge: 6–7 sts / 10 cm (4") and 8 rows
+  needle_size: 15 mm (18 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/sesame_st_fuzzy_friends.jpg
+  colorways: []
+- line: |-
+    Shawl in a Ball
+    (DISCONTINUED)
+  slug: shawl_in_a_ball
+  weight_category: Aran
+  yardage: 481
+  skein_weight: 150
+  fiber_content:
+    cotton: 58
+    acrylic: 39
+    metallic: 3
+  texture: Single ply wrapped with fine thread
+  gauge: 17 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/shawl_in_a_ball.jpg
+  colorways: []
+- line: |-
+    Shawl in a Ball Fab!
+    (DISCONTINUED)
+  slug: shawl_in_a_ball_fab
+  weight_category: Worsted
+  yardage: 459
+  skein_weight: 150
+  fiber_content:
+    cotton: 40
+    polyester: 30
+    acrylic: 20
+    superwash_wool: 10
+  texture: Plied with a soft haze
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/shawl_in_a_ball_fab.jpg
+  colorways: []
+- line: |-
+    Shawl in a Ball Metallic
+    (DISCONTINUED)
+  slug: shawl_in_a_ball_metallic
+  weight_category: Aran
+  yardage: 481
+  skein_weight: 150
+  fiber_content:
+    cotton: 61
+    acrylic: 34
+    metallic: 5
+  texture: Single ply wrapped with fine thread
+  gauge: 17 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/shawl_in_a_ball_metallic.jpg
+  colorways: []
+- line: |-
+    Shawl in a Cake
+    (DISCONTINUED)
+  slug: shawl_in_a_cake
+  weight_category: Aran
+  yardage: 481
+  skein_weight: 150
+  fiber_content:
+    cotton: 58
+    acrylic: 39
+    metallic: 3
+  texture: Single ply wrapped with fine thread
+  gauge: 17 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition) with metallic
+  - Semi-solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/shawl_in_a_cake.jpg
+  colorways: []
+- line: |-
+    Shimmerie
+    (DISCONTINUED)
+  slug: shimmerie
+  weight_category: Bulky
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    acrylic: 99
+    metallic: 1
+  texture: Single ply
+  gauge: 15 sts / 10 cm (4") and 21 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Gradient
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/shimmerie.jpg
+  colorways: []
+- line: |-
+    Side Dish
+    (DISCONTINUED)
+  slug: side_dish
+  weight_category: Super Bulky
+  yardage: 46
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/side_dish.jpg
+  colorways: []
+- line: |-
+    Silky Twist
+    (DISCONTINUED)
+  slug: silky_twist
+  weight_category: Super Bulky
+  yardage: 130
+  skein_weight: 140
+  fiber_content:
+    acrylic: 99
+    polyester: 1
+  texture: Bouclé
+  gauge: 7 sts / 10 cm (4") and 13 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Semi-solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/silky_twist.jpg
+  colorways: []
+- line: |-
+    Sock-Ease
+    (DISCONTINUED)
+  slug: sock-ease_solids
+  weight_category: Fingering
+  yardage: 439
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 30 sts / 10 cm (4")
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/sock-ease_solids.jpg
+  colorways: []
+- line: |-
+    Softball
+    (DISCONTINUED)
+  slug: softball
+  weight_category: Super Bulky
+  yardage: 83
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/softball.jpg
+  colorways: []
+- line: |-
+    Spektacular
+    (DISCONTINUED)
+  slug: spektacular
+  weight_category: Jumbo
+  yardage: 63
+  skein_weight: 180
+  fiber_content:
+    polyester: 51
+    acrylic: 38
+    wool: 10
+    metallic: 1
+  texture: Slubby / Thick and thin
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 15 mm (18 US)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/spektacular.jpg
+  colorways: []
+- line: |-
+    Spinella
+    (DISCONTINUED)
+  slug: spinella
+  weight_category: Bulky
+  yardage: 230
+  skein_weight: 150
+  fiber_content:
+    polyester: 100
+  texture: Faux / Fake fur
+  gauge: 13 sts / 10 cm (4") and 16 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/spinella.jpg
+  colorways: []
+- line: |-
+    Sponge Cake
+    (DISCONTINUED)
+  slug: sponge_cake
+  weight_category: Bulky
+  yardage: 96
+  skein_weight: 80
+  fiber_content:
+    cotton: 81
+    nylon: 19
+  texture: Filled tube
+  gauge: 13 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/sponge_cake.jpg
+  colorways: []
+- line: |-
+    Summer Kiss
+    (DISCONTINUED)
+  slug: summer_kiss
+  weight_category: Worsted
+  yardage: 262
+  skein_weight: 100
+  fiber_content:
+    cotton: 80
+    polyester: 20
+  texture: Chained
+  gauge: 19 sts / 10 cm (4") and 27 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Color dashes
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/summer_kiss.jpg
+  colorways: []
+- line: |-
+    Sunset Nights
+    (DISCONTINUED)
+  slug: sunset_nights
+  weight_category: Worsted
+  yardage: 273
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    polyester: 10
+  texture: Sequinned
+  gauge: 19 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (marl transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/sunset_nights.jpg
+  colorways: []
+- line: |-
+    Superwash Merino Cashmere
+    (DISCONTINUED)
+  slug: superwash_merino_cashmere
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 40
+  fiber_content:
+    merino_superwash_wool: 72
+    nylon: 15
+    cashmere: 13
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 25 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/superwash_merino_cashmere.jpg
+  colorways: []
+- line: |-
+    Terryspun
+    (DISCONTINUED)
+  slug: terryspun
+  weight_category: Bulky
+  yardage: 350
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Fleece style
+  gauge: 14 sts / 10 cm (4") and 18 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/terryspun.jpg
+  colorways: []
+- line: |-
+    Textures
+    (DISCONTINUED)
+  slug: textures
+  weight_category: Heavy Worsted
+  yardage: 149
+  skein_weight: 85
+  fiber_content:
+    acrylic: 90
+    nylon: 10
+  texture: Bouclé
+  gauge: 16 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Self-striping
+  image_url:
+  colorways: []
+- line: |-
+    That 70's Yarn
+    (DISCONTINUED)
+  slug: that_70s_yarn
+  weight_category: Jumbo
+  yardage: 38
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    polyester: 10
+  texture: Faux / Fake fur
+  gauge: 7 sts / 10 cm (4") and 6 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/that_70s_yarn.jpg
+  colorways: []
+- line: |-
+    Tiffany
+    (DISCONTINUED)
+  slug: tiffany
+  weight_category: Sport
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Eyelash
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Totally Tubular
+    (DISCONTINUED)
+  slug: totally_tubular
+  weight_category: Jumbo
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    acrylic: 89
+    nylon: 11
+  texture: Filled tube
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/totally_tubular.jpg
+  colorways: []
+- line: |-
+    Touch of Alpaca Thick & Quick
+    (DISCONTINUED)
+  slug: touch_of_alpaca_thick_and_quick
+  weight_category: Jumbo
+  yardage: 44
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    alpaca: 10
+  texture: 2 ply
+  gauge: 7 sts / 10 cm (4") and 8 rows
+  needle_size: 15 mm (18 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_alpaca_thick_and_quick.jpg
+  colorways: []
+- line: |-
+    Touch of Cashmere
+    (DISCONTINUED)
+  slug: touch_of_cashmere
+  weight_category: Aran
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_cashmere.jpg
+  colorways: []
+- line: |-
+    Touch of Merino
+    (DISCONTINUED)
+  slug: touch_of_merino
+  weight_category: Sport
+  yardage: 257
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    merino_wool: 10
+  texture: S on S plied
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: |-
+    3.5 mm (4 US),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_merino.jpg
+  colorways: []
+- line: |-
+    Touch of Mohair
+    (DISCONTINUED)
+  slug: touch_of_mohair
+  weight_category: DK
+  yardage: 339
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    mohair: 10
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4") and 32 rows
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_mohair.jpg
+  colorways: []
+- line: |-
+    Touch of Silk
+    (DISCONTINUED)
+  slug: touch_of_silk
+  weight_category: Aran
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    polyester: 60
+    cotton: 20
+    silk: 20
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4") and 26 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_silk.jpg
+  colorways: []
+- line: |-
+    Touch of Yak
+    (DISCONTINUED)
+  slug: touch_of_yak
+  weight_category: Worsted
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    acrylic: 90
+    yak: 10
+  texture: Plied (3 or more plies)
+  gauge: 19 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/touch_of_yak.jpg
+  colorways: []
+- line: |-
+    Trellis
+    (DISCONTINUED)
+  slug: trellis
+  weight_category: Bulky
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Ladder ribbon
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Turnstyles
+    (DISCONTINUED)
+  slug: turnstyles
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    acrylic: 48
+    wool: 34
+    nylon: 18
+  texture: Fuzzy chain
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/turnstyles.jpg
+  colorways: []
+- line: |-
+    Tweed Stripes
+    (DISCONTINUED)
+  slug: tweed_stripes
+  weight_category: Bulky
+  yardage: 144
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Nubby / Tweedy
+  gauge: 14–15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Self-striping (gradient marl)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/tweed_stripes.jpg
+  colorways: []
+- line: |-
+    Tweedle Dee
+    (DISCONTINUED)
+  slug: tweedle_dee
+  weight_category: DK
+  yardage: 312
+  skein_weight: 150
+  fiber_content:
+    acrylic: 75
+    cotton: 25
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/tweedle_dee.jpg
+  colorways: []
+- line: |-
+    Twisted Cotton Blend
+    (DISCONTINUED)
+  slug: twisted_cotton_blend
+  weight_category: Bulky
+  yardage: 98
+  skein_weight: 100
+  fiber_content:
+    cotton: 69
+    acrylic: 31
+  texture: Slubby tweed
+  gauge: 13 sts / 10 cm (4") and 21 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/twisted_cotton_blend.jpg
+  colorways: []
+- line: |-
+    Unique
+    (DISCONTINUED)
+  slug: unique
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/unique.jpg
+  colorways: []
+- line: |-
+    Vanna's Choice Baby
+    (DISCONTINUED)
+  slug: vannas_choice_baby
+  weight_category: Aran
+  yardage: 170
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vannas_choice_baby.jpg
+  colorways: []
+- line: |-
+    Vanna's Choice Tweeds
+    (DISCONTINUED)
+  slug: vannas_choice_tweeds
+  weight_category: Aran
+  yardage: 145
+  skein_weight: 85
+  fiber_content:
+    acrylic: 92
+    rayon: 8
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Vanna's Colors
+    (DISCONTINUED)
+  slug: vannas_colors
+  weight_category: Bulky
+  yardage: 101
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Vanna's Complement
+    (DISCONTINUED)
+  slug: vannas_complement
+  weight_category: Worsted
+  yardage: 186
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Fuzzy / Fluffy
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Vanna's Glamour
+    (DISCONTINUED)
+  slug: vannas_glamour
+  weight_category: Sport
+  yardage: 202
+  skein_weight: 50
+  fiber_content:
+    acrylic: 96
+    metallic: 4
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vannas_glamour.jpg
+  colorways: []
+- line: |-
+    Vanna's Sequins
+    (DISCONTINUED)
+  slug: vannas_sequins
+  weight_category: DK
+  yardage: 157
+  skein_weight: 50
+  fiber_content:
+    acrylic: 93
+    polyester: 7
+  texture: Sequinned
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vannas_sequins.jpg
+  colorways: []
+- line: |-
+    Vanna's Style
+    (DISCONTINUED)
+  slug: vannas_style
+  weight_category: DK
+  yardage: 254
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: S on S plied
+  gauge: 22 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vannas_style.jpg
+  colorways: []
+- line: |-
+    Vanna's Tapestry
+    (DISCONTINUED)
+  slug: vannas_tapestry
+  weight_category: Aran
+  yardage: 145
+  skein_weight: 85
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vannas_tapestry.jpg
+  colorways: []
+- line: |-
+    Vel-Luxe
+    (DISCONTINUED)
+  slug: vel-luxe
+  weight_category: Heavy Worsted
+  yardage: 246
+  skein_weight: 150
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 16 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vel-luxe.jpg
+  colorways: []
+- line: |-
+    Vel-Luxe Jumbo
+    (DISCONTINUED)
+  slug: vel-luxe_jumbo
+  weight_category: Jumbo
+  yardage: 20
+  skein_weight: 200
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 4 sts / 10 cm (4") and 5 rows
+  needle_size: 19 mm (35 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/vel-luxe_jumbo.jpg
+  colorways: []
+- line: |-
+    Velvetspun
+    (DISCONTINUED)
+  slug: velvetspun
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 85
+  fiber_content:
+    polyester: 100
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Watercolors
+    (DISCONTINUED)
+  slug: watercolors
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    acrylic: 65
+    wool: 35
+  texture: Bouclé
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Winter Nights
+    (DISCONTINUED)
+  slug: winter_nights
+  weight_category: Heavy Worsted
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    acrylic: 65
+    polyester: 35
+  texture: Fuzzy with sequins
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/winter_nights.jpg
+  colorways: []
+- line: |-
+    Wool-Ease Chunky
+    (DISCONTINUED)
+  slug: wool-ease_chunky
+  weight_category: Bulky
+  yardage: 153
+  skein_weight: 140
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4") and 18 rows
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool-ease_chunky.jpg
+  colorways: []
+- line: |-
+    Wool-Ease Glitter / Multi
+    (DISCONTINUED)
+  slug: wool-ease_glitter_multi
+  weight_category: Aran
+  yardage: 162
+  skein_weight: 70
+  fiber_content:
+    acrylic: 78
+    superwash_wool: 19
+    polyester: 3
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool-ease_glitter_multi.jpg
+  colorways: []
+- line: |-
+    Wool-Ease Roving
+    (DISCONTINUED)
+  slug: wool-ease_roving
+  weight_category: Super Bulky
+  yardage: 58
+  skein_weight: 100
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Single ply
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool-ease_roving.jpg
+  colorways: []
+- line: |-
+    Wool-Ease Roving Bonus Bundle
+    (DISCONTINUED)
+  slug: wool_ease_roving_bonus_bundle
+  weight_category: Super Bulky
+  yardage: 179
+  skein_weight: 312
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Single ply
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 12.8 mm
+  style_categories:
+  - Solid colors
+  - Marled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool_ease_roving_bonus_bundle.jpg
+  colorways: []
+- line: |-
+    Wool-Ease Sportweight
+    (DISCONTINUED)
+  slug: wool-ease_sportweight
+  weight_category: Sport
+  yardage: 435
+  skein_weight: 140
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Wool-Ease Sprinkles
+    (DISCONTINUED)
+  slug: wool-ease_sprinkles
+  weight_category: Aran
+  yardage: 162
+  skein_weight: 70
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Wool-Ease Thick & Quick Metallics
+    (DISCONTINUED)
+  slug: wool-ease_thick_and_quick_metallics
+  weight_category: Super Bulky
+  yardage: 92
+  skein_weight: 140
+  fiber_content:
+    acrylic: 79
+    superwash_wool: 20
+    metallic: 1
+  texture: 2 ply
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool-ease_thick_and_quick_metallics.jpg
+  colorways: []
+- line: |-
+    Wool-Ease Thick & Quick Tweeds
+    (DISCONTINUED)
+  slug: wool-ease_thick_and_quick_tweeds
+  weight_category: Super Bulky
+  yardage: 106
+  skein_weight: 170
+  fiber_content:
+    acrylic: 86
+    superwash_wool: 10
+    rayon: 4
+  texture: Nubby / Tweedy
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Wool-Ease Wow!
+    (DISCONTINUED)
+  slug: wool-ease_wow
+  weight_category: Jumbo
+  yardage: 66
+  skein_weight: 240
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 5 sts / 10 cm (4") and 7 rows
+  needle_size: 19 mm (35 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wool-ease_wow.jpg
+  colorways: []
+- line: |-
+    Woolspun
+    (DISCONTINUED)
+  slug: woolspun
+  weight_category: Bulky
+  yardage: 127
+  skein_weight: 100
+  fiber_content:
+    acrylic: 80
+    superwash_wool: 20
+  texture: S on S plied
+  gauge: 13 sts / 10 cm (4") and 19 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/woolspun.jpg
+  colorways: []
+- line: |-
+    Wow!
+    (DISCONTINUED)
+  slug: wow
+  weight_category: Jumbo
+  yardage: 20
+  skein_weight: 250
+  fiber_content:
+    acrylic: 70
+    wool: 30
+  texture: Single ply
+  gauge: 2–3 sts / 10 cm (4") and 3 rows
+  needle_size: 25 mm (50 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/wow.jpg
+  colorways: []
+- line: |-
+    Wrap Star
+    (DISCONTINUED)
+  slug: wrap_star
+  weight_category: Sport
+  yardage: 437
+  skein_weight: 100
+  fiber_content:
+    acrylic: 70
+    wool: 30
+  texture: 2 ply
+  gauge: 22–28 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Gradient
+  image_url:
+  colorways: []
+- line: |-
+    Yarnado
+    (DISCONTINUED)
+  slug: yarnado
+  weight_category: Worsted
+  yardage: 186
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 20 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (long)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/yarnado.jpg
+  colorways: []
+- line: |-
+    ZZ Twist
+    (DISCONTINUED)
+  slug: zz_twist
+  weight_category: Worsted
+  yardage: 246
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Z-plied
+  gauge: 20 sts / 10 cm (4") and 28 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/zz_twist.jpg
+  colorways: []
+- line: |-
+    Zaps
+    (DISCONTINUED)
+  slug: zaps
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 10 sts / 10 cm (4") and 5 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/lion_brand/zaps.jpg
+  colorways: []

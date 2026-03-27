@@ -1,9 +1,13 @@
 class SubstitutionService
   attr_reader :target, :catalog
 
-  def initialize(target_attrs:, catalog_data:)
+  def initialize(target_attrs:, catalog: nil, catalog_data: nil)
     @target = build_yarn(**target_attrs)
-    @catalog = catalog_data.map { |attrs| build_yarn(**attrs) }
+    @catalog = if catalog
+      catalog.select { |y| y.is_a?(YarnSkein::Yarn) }
+    else
+      (catalog_data || []).map { |attrs| build_yarn(**attrs) }
+    end
   end
 
   def matches(tolerance: nil, fiber: nil)

@@ -11,6 +11,7 @@ gemspec path: "gems/yarn_skein"
 group :development do
   gem "rake"
   gem "irb"
+  gem "nokogiri"
 end
 
 group :test do
