@@ -1,6 +1,9 @@
 ## [Unreleased]
 
+## [0.3.0] - 2026-03-26
+
 ### Added
+- `YarnSkein::Catalog` for loading yarn data from YAML seed files with filtering by brand, weight category, and fiber content
 - `YarnSkein::YardageEstimator` for estimating total yarn yardage from gauge and dimensions
 - Rectangular piece estimation via `for_rectangle(width:, height:)`
 - Stitch/row count estimation via `for_piece(stitches:, rows:)`
