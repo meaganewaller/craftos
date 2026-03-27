@@ -83,6 +83,51 @@ module FiberPattern
       )
     end
 
+    # Crochet preset definitions.
+
+    def self.single_crochet
+      new(name: "Single Crochet", width_factor: 1.0, yarn_factor: 1.0)
+    end
+
+    def self.half_double_crochet
+      new(name: "Half Double Crochet", width_factor: 1.05, yarn_factor: 1.15)
+    end
+
+    def self.double_crochet
+      new(name: "Double Crochet", width_factor: 1.10, yarn_factor: 1.25)
+    end
+
+    def self.treble_crochet
+      new(name: "Treble Crochet", width_factor: 1.15, yarn_factor: 1.35)
+    end
+
+    def self.moss_stitch
+      new(
+        name: "Moss Stitch",
+        repeat: Repeat.new(multiple: 2.stitches),
+        width_factor: 1.05,
+        yarn_factor: 1.10
+      )
+    end
+
+    def self.shell_stitch
+      new(
+        name: "Shell Stitch",
+        repeat: Repeat.new(multiple: 6.stitches, offset: 1.stitches),
+        width_factor: 1.15,
+        yarn_factor: 1.30
+      )
+    end
+
+    def self.v_stitch
+      new(
+        name: "V-Stitch",
+        repeat: Repeat.new(multiple: 2.stitches),
+        width_factor: 1.10,
+        yarn_factor: 0.90
+      )
+    end
+
     private
 
     def validate!

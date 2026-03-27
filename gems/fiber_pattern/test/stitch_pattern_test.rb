@@ -152,6 +152,74 @@ class StitchPatternTest < Minitest::Test
   end
 
   # -----------------------------
+  # crochet presets
+  # -----------------------------
+
+  def test_single_crochet_preset
+    sp = FiberPattern::StitchPattern.single_crochet
+
+    assert_equal "Single Crochet", sp.name
+    assert_equal 1.0, sp.width_factor
+    assert_equal 1.0, sp.yarn_factor
+    assert_nil sp.repeat
+  end
+
+  def test_half_double_crochet_preset
+    sp = FiberPattern::StitchPattern.half_double_crochet
+
+    assert_equal "Half Double Crochet", sp.name
+    assert_equal 1.05, sp.width_factor
+    assert_equal 1.15, sp.yarn_factor
+    assert_nil sp.repeat
+  end
+
+  def test_double_crochet_preset
+    sp = FiberPattern::StitchPattern.double_crochet
+
+    assert_equal "Double Crochet", sp.name
+    assert_equal 1.10, sp.width_factor
+    assert_equal 1.25, sp.yarn_factor
+    assert_nil sp.repeat
+  end
+
+  def test_treble_crochet_preset
+    sp = FiberPattern::StitchPattern.treble_crochet
+
+    assert_equal "Treble Crochet", sp.name
+    assert_equal 1.15, sp.width_factor
+    assert_equal 1.35, sp.yarn_factor
+    assert_nil sp.repeat
+  end
+
+  def test_moss_stitch_preset
+    sp = FiberPattern::StitchPattern.moss_stitch
+
+    assert_equal "Moss Stitch", sp.name
+    assert_equal 1.05, sp.width_factor
+    assert_equal 1.10, sp.yarn_factor
+    assert_equal 2.stitches, sp.repeat.multiple
+  end
+
+  def test_shell_stitch_preset
+    sp = FiberPattern::StitchPattern.shell_stitch
+
+    assert_equal "Shell Stitch", sp.name
+    assert_equal 1.15, sp.width_factor
+    assert_equal 1.30, sp.yarn_factor
+    assert_equal 6.stitches, sp.repeat.multiple
+    assert_equal 1.stitches, sp.repeat.offset
+  end
+
+  def test_v_stitch_preset
+    sp = FiberPattern::StitchPattern.v_stitch
+
+    assert_equal "V-Stitch", sp.name
+    assert_equal 1.10, sp.width_factor
+    assert_equal 0.90, sp.yarn_factor
+    assert_equal 2.stitches, sp.repeat.multiple
+  end
+
+  # -----------------------------
   # Sizing integration
   # -----------------------------
 
