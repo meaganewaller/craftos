@@ -9,11 +9,16 @@ module FiberPattern
     # @return [FiberPattern::Repeat, nil] optional stitch repeat to round stitch counts to
     attr_reader :repeat
 
+    # @return [FiberPattern::StitchPattern, nil] optional stitch pattern for width adjustment
+    attr_reader :stitch_pattern
+
     # @param gauge [Object] gauge object used to derive stitch counts
     # @param repeat [FiberPattern::Repeat, nil] optional stitch repeat to round stitch counts to
-    def initialize(gauge:, repeat: nil)
+    # @param stitch_pattern [FiberPattern::StitchPattern, nil] optional stitch pattern for width adjustment
+    def initialize(gauge:, repeat: nil, stitch_pattern: nil)
       @gauge = gauge
       @repeat = repeat
+      @stitch_pattern = stitch_pattern
     end
 
     # Calculates the number of stitches required to reach a given width, based on the provided gauge.
@@ -21,7 +26,8 @@ module FiberPattern
     # @param width [Object] desired finished width in units accepted by the gauge
     # @return [Integer] number of stitches required to reach the requested width
     def cast_on_for(width)
-      stitches = gauge.required_stitches(width)
+      adjusted_width = stitch_pattern ? stitch_pattern.adjust_width(width) : width
+      stitches = gauge.required_stitches(adjusted_width)
 
       return stitches unless repeat
 
