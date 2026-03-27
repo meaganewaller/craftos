@@ -1,0 +1,1004 @@
+---
+brand: The Plucky Knitter
+slug: the_plucky_knitter
+yarns:
+- line: Aran Cashmere
+  slug: aran_cashmere
+  weight_category: Aran
+  yardage: 100
+  skein_weight: 55
+  fiber_content:
+    cashmere: 100
+  texture: Plied with a soft haze
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Beauregard Aran
+  slug: beauregard_aran
+  weight_category: Aran
+  yardage: 160
+  skein_weight: 100
+  fiber_content:
+    yak: 60
+    cashmere: 40
+  texture: Plied with a soft haze
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/beauregard_aran.jpg
+  colorways: []
+- line: Beauregard DK
+  slug: beauregard
+  weight_category: DK
+  yardage: 300
+  skein_weight: 100
+  fiber_content:
+    yak: 60
+    cashmere: 40
+  texture: Plied with a soft haze
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/beauregard.jpg
+  colorways: []
+- line: Bello DK
+  slug: bello_dk
+  weight_category: Aran
+  yardage: 200
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 55
+    cashmere: 45
+  texture: Plied (3 or more plies)
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/bello_dk.jpg
+  colorways: []
+- line: Legacy Aran
+  slug: legacy_aran
+  weight_category: Aran
+  yardage: 248
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: 2 ply
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/legacy_aran.jpg
+  colorways: []
+- line: Legacy Bulky
+  slug: legacy_bulky
+  weight_category: Bulky
+  yardage: 125
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/legacy_bulky.jpg
+  colorways: []
+- line: Legacy DK
+  slug: legacy_dk
+  weight_category: DK
+  yardage: 260
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/legacy_dk.jpg
+  colorways: []
+- line: Legacy Fingering
+  slug: legacy_fingering
+  weight_category: Fingering
+  yardage: 449
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/legacy_fingering.jpg
+  colorways: []
+- line: Legacy Sport
+  slug: legacy_sport
+  weight_category: Sport
+  yardage: 312
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/legacy_sport.jpg
+  colorways: []
+- line: Legacy Worsted
+  slug: legacy_worsted
+  weight_category: Worsted
+  yardage: 240
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/legacy_worsted.jpg
+  colorways: []
+- line: Luxe Merino Worsted
+  slug: luxe_merino_worsted
+  weight_category: Worsted
+  yardage: 227
+  skein_weight: 105
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Tonal colors
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/luxe_merino_worsted.jpg
+  colorways: []
+- line: Oxford 3.0
+  slug: oxford
+  weight_category: Sport
+  yardage: 354
+  skein_weight: 100
+  fiber_content:
+    cashmere: 25
+    merino_wool: 25
+    rambouillet_wool: 25
+    targhee_wool: 25
+  texture: 2 ply
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/oxford.jpg
+  colorways: []
+- line: Oxford Worsted
+  slug: oxford_worsted
+  weight_category: Worsted
+  yardage: 245
+  skein_weight: 100
+  fiber_content:
+    cashmere: 25
+    merino_wool: 25
+    rambouillet_wool: 25
+    targhee_wool: 25
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url:
+  colorways: []
+- line: Pippi Fingering
+  slug: pippi_fingering
+  weight_category: Fingering
+  yardage: 449
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 95
+    nylon: 5
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.5 mm (4 US),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/pippi_fingering.jpg
+  colorways: []
+- line: Pippi Worsted
+  slug: pippi_worsted
+  weight_category: Worsted
+  yardage: 224
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 94
+    nylon: 6
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/pippi_worsted.jpg
+  colorways: []
+- line: Plucky Feet
+  slug: plucky_feet
+  weight_category: Fingering
+  yardage: 425
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 90
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 28–32 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Plucky Single
+  slug: plucky_single
+  weight_category: Fingering
+  yardage: 430
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 80
+    silk: 20
+  texture: Single ply
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Plume DK
+  slug: plume_dk
+  weight_category: DK
+  yardage: 246
+  skein_weight: 100
+  fiber_content:
+    suri_alpaca: 90
+    silk: 10
+  texture: Fuzzy / Fluffy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/plume_dk.jpg
+  colorways: []
+- line: Plume Lace
+  slug: plume_lace
+  weight_category: Lace
+  yardage: 328
+  skein_weight: 50
+  fiber_content:
+    suri_alpaca: 74
+    silk: 26
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/plume_lace.jpg
+  colorways: []
+- line: Plush DK
+  slug: plush_dk
+  weight_category: DK
+  yardage: 245
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 80
+    nylon: 20
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/plush_dk.jpg
+  colorways: []
+- line: Plush Fingering
+  slug: plush_fingering
+  weight_category: Fingering
+  yardage: 447
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 80
+    nylon: 20
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/plush_fingering.jpg
+  colorways: []
+- line: Primo Aran
+  slug: primo_aran
+  weight_category: Aran
+  yardage: 200
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 75
+    cashmere: 20
+    nylon: 5
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Primo Fingering
+  slug: primo_fingering
+  weight_category: Fingering
+  yardage: 390
+  skein_weight: 101
+  fiber_content:
+    merino_superwash_wool: 75
+    cashmere: 20
+    nylon: 5
+  texture: Plied with a tight twist
+  gauge: 28–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3 mm (2.5 US) (11 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Primo Worsted
+  slug: primo_worsted
+  weight_category: Worsted
+  yardage: 200
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 75
+    cashmere: 20
+    nylon: 5
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/primo_worsted.jpg
+  colorways: []
+- line: Sophisticate Fingering
+  slug: sophisticate
+  weight_category: Fingering
+  yardage: 510
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 50
+    mohair: 30
+    silk: 20
+  texture: Plied with a soft haze
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Speckled
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/sophisticate.jpg
+  colorways: []
+- line: Spiffy Lace
+  slug: spiffy_lace
+  weight_category: Lace
+  yardage: 766
+  skein_weight: 105
+  fiber_content:
+    cashmere: 60
+    silk: 40
+  texture: Plied with a soft haze
+  gauge: "(Unknown)"
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    2.25 mm (1 US) (13 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Speckled
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/spiffy_lace.jpg
+  colorways: []
+- line: Spiffy Sport
+  slug: spiffy_sport
+  weight_category: Sport
+  yardage: 330
+  skein_weight: 105
+  fiber_content:
+    cashmere: 60
+    silk: 40
+  texture: Plied with a soft haze
+  gauge: 24 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Speckled
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/spiffy_sport.jpg
+  colorways: []
+- line: Tandem Lace
+  slug: tandem_lace
+  weight_category: Lace
+  yardage: 679
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 40
+    rambouillet_wool: 40
+    cashmere: 20
+  texture: 2 ply
+  gauge: "(Unknown)"
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/tandem_lace.jpg
+  colorways: []
+- line: Traveler Aran
+  slug: traveler_aran
+  weight_category: Aran
+  yardage: 220
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 65
+    silk: 20
+    yak: 15
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Tweedy DK
+  slug: tweedy_dk
+  weight_category: DK
+  yardage: 246
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 87
+    viscose: 13
+  texture: Nubby / Tweedy
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/tweedy_dk.jpg
+  colorways: []
+- line: Tweedy Fingering
+  slug: tweedy_fingering
+  weight_category: Fingering
+  yardage: 436
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 87
+    viscose: 13
+  texture: Nubby / Tweedy
+  gauge: "(Unknown)"
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/tweedy_fingering.jpg
+  colorways: []
+- line: Yakkity DK
+  slug: yakkity_dk
+  weight_category: DK
+  yardage: 355
+  skein_weight: 100
+  fiber_content:
+    yak: 100
+  texture: Plied with a soft haze
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/yakkity_dk.jpg
+  colorways: []
+- line: |-
+    Bello Fingering
+    (DISCONTINUED)
+  slug: bello
+  weight_category: Fingering
+  yardage: 379
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 55
+    cashmere: 45
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/bello.jpg
+  colorways: []
+- line: |-
+    Bulky
+    (DISCONTINUED)
+  slug: bulky
+  weight_category: Bulky
+  yardage: 135
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 13–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/bulky.jpg
+  colorways: []
+- line: |-
+    Cashmere DK
+    (DISCONTINUED)
+  slug: cashmere_dk
+  weight_category: DK
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    cashmere: 100
+  texture: Plied with a soft haze
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/cashmere_dk.jpg
+  colorways: []
+- line: |-
+    Cashmere Sport
+    (DISCONTINUED)
+  slug: cashmere_sport
+  weight_category: Sport
+  yardage: 280
+  skein_weight: 105
+  fiber_content:
+    cashmere: 100
+  texture: S on S plied
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/cashmere_sport.jpg
+  colorways: []
+- line: |-
+    Groovy Aran
+    (DISCONTINUED)
+  slug: groovy
+  weight_category: Aran
+  yardage: 195
+  skein_weight: 100
+  fiber_content:
+    cashmere: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 18 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories:
+  - Tonal colors
+  image_url:
+  colorways: []
+- line: |-
+    Haven
+    (DISCONTINUED)
+  slug: haven
+  weight_category: Aran
+  yardage: 195
+  skein_weight: 115
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/haven.jpg
+  colorways: []
+- line: |-
+    Lace
+    (DISCONTINUED)
+  slug: lace
+  weight_category: Lace
+  yardage: 750
+  skein_weight: 115
+  fiber_content:
+    merino_wool: 70
+    silk: 20
+    camel: 10
+  texture: Plied (3 or more plies)
+  gauge: "(Varies)"
+  needle_size: |-
+    1.75 mm (00 US),
+    3.5 mm (4 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lodge Fingering
+    (DISCONTINUED)
+  slug: lodge_fingering
+  weight_category: Fingering
+  yardage: 410
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 60
+    cotton: 20
+    linen: 10
+    silk: 10
+  texture: Plied with a fibrous haze
+  gauge: 24–28 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/lodge_fingering.jpg
+  colorways: []
+- line: |-
+    MCN Lite
+    (DISCONTINUED)
+  slug: mcn_lite
+  weight_category: Worsted
+  yardage: 230
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 80
+    cashmere: 10
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Merino Cashmere Nylon Fingering
+    (DISCONTINUED)
+  slug: merino_cashmere_nylon_fingering
+  weight_category: Fingering
+  yardage: 385
+  skein_weight: 101
+  fiber_content:
+    merino_superwash_wool: 80
+    cashmere: 10
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 28–32 sts / 10 cm (4")
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Merino Cashmere Nylon Sport
+    (DISCONTINUED)
+  slug: merino_cashmere_nylon_sport
+  weight_category: Sport
+  yardage: 250
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 80
+    cashmere: 10
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 24–32 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.5 mm (4 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Merino Cashmere Nylon Worsted Weight
+    (DISCONTINUED)
+  slug: merino_cashmere_nylon_worsted_weight
+  weight_category: Worsted
+  yardage: 185
+  skein_weight: 100
+  fiber_content:
+    wool: 75
+    cashmere: 20
+    nylon: 5
+  texture: Plied (3 or more plies)
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Phoebe
+    (DISCONTINUED)
+  slug: phoebe
+  weight_category: Fingering
+  yardage: 230
+  skein_weight: 60
+  fiber_content:
+    cashmere: 100
+  texture: Plied with a soft haze
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Gradient sets
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/phoebe.jpg
+  colorways: []
+- line: |-
+    Scholar Worsted 1.0
+    (DISCONTINUED)
+  slug: scholar_worsted_1_0
+  weight_category: Worsted
+  yardage: 249
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 75
+    cashmere: 25
+  texture: 2 ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/scholar_worsted_1_0.jpg
+  colorways: []
+- line: |-
+    Scholar Worsted 2.0
+    (DISCONTINUED)
+  slug: scholar_worsted_2_0
+  weight_category: Worsted
+  yardage: 249
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 75
+    cashmere: 25
+  texture: 2 ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/scholar_worsted_2_0.jpg
+  colorways: []
+- line: |-
+    Scholar Worsted 3.0
+    (DISCONTINUED)
+  slug: scholar_worsted_3_0
+  weight_category: Worsted
+  yardage: 300
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 75
+    cashmere: 25
+  texture: 2 ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/scholar_worsted_3_0.jpg
+  colorways: []
+- line: |-
+    Solo Fingering
+    (DISCONTINUED)
+  slug: solo
+  weight_category: Fingering
+  yardage: 475
+  skein_weight: 115
+  fiber_content:
+    merino_wool: 80
+    silk: 20
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Gradient sets
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/solo.jpg
+  colorways: []
+- line: |-
+    Superwash Merino Wool Handpainted Fingering
+    (DISCONTINUED)
+  slug: superwash_merino_wool_handpainted_fingering
+  weight_category: Fingering
+  yardage: 400
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied with a tight twist
+  gauge: 28–32 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Superwash Merino Worsted
+    (DISCONTINUED)
+  slug: superwash_merino_worsted
+  weight_category: Worsted
+  yardage: 215
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Sweater Aran
+    (DISCONTINUED)
+  slug: plucky_sweater
+  weight_category: DK
+  yardage: 270
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 90
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4") and 25 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/plucky_sweater.jpg
+  colorways: []
+- line: |-
+    Terra DK
+    (DISCONTINUED)
+  slug: terra_dk
+  weight_category: DK
+  yardage: 325
+  skein_weight: 115
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/terra_dk.jpg
+  colorways: []
+- line: |-
+    Trusty Worsted
+    (DISCONTINUED)
+  slug: trusty
+  weight_category: Worsted
+  yardage: 250
+  skein_weight: 115
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/the_plucky_knitter/trusty.jpg
+  colorways: []
+- line: |-
+    Worsted Merino
+    (DISCONTINUED)
+  slug: worsted_merino
+  weight_category: Aran
+  yardage: 215
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []

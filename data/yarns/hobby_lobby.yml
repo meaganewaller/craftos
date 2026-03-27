@@ -1,0 +1,195 @@
+---
+brand: Hobby Lobby
+slug: hobby_lobby
+yarns:
+- line: Crafter's Secret Big Idea
+  slug: crafter_s_secret_big_idea
+  weight_category: Aran
+  yardage: 810
+  skein_weight: 454
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 23 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/hobby_lobby/crafter_s_secret_big_idea.jpg
+  colorways: []
+- line: I Love This Chunky!
+  slug: i_love_this_chunky
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  - Self-striping
+  - Multicolored
+  image_url:
+  colorways: []
+- line: I Love This Cotton!
+  slug: i_love_this_cotton_solids
+  weight_category: Aran
+  yardage: 180
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18–22 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  - Multicolored
+  - Dotted
+  image_url:
+  colorways: []
+- line: I Love This Yarn!
+  slug: i_love_this_yarn_solids
+  weight_category: Aran
+  yardage: 355
+  skein_weight: 198
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Self-striping
+  image_url:
+  colorways: []
+- line: I Love This Yarn! Metallic
+  slug: metallic_i_love_this_yarn
+  weight_category: Aran
+  yardage: 252
+  skein_weight: 142
+  fiber_content:
+    acrylic: 97
+    metallic: 3
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4") and 23 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  - Multicolored with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/hobby_lobby/metallic_i_love_this_yarn.jpg
+  colorways: []
+- line: I Love This Yarn! Sport
+  slug: i_love_this_yarn_sport
+  weight_category: DK
+  yardage: 184
+  skein_weight: 57
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: I Love This Yarn! Sport Tweed
+  slug: i_love_this_yarn_sport_tweed
+  weight_category: DK
+  yardage: 184
+  skein_weight: 57
+  fiber_content:
+    acrylic: 97
+    rayon: 3
+  texture: Nubby / Tweedy
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: I Love This Yarn! Tweed
+  slug: i_love_this_yarn_tweed
+  weight_category: Aran
+  yardage: 252
+  skein_weight: 140
+  fiber_content:
+    acrylic: 97
+    viscose: 3
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Epais
+    (DISCONTINUED)
+  slug: epais
+  weight_category: Bulky
+  yardage: 393
+  skein_weight: 397
+  fiber_content:
+    acrylic: 96
+    polyester: 4
+  texture: Single ply wrapped with fine thread
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    I Love This Cotton! Spark
+    (DISCONTINUED)
+  slug: i_love_this_cotton_sparkle
+  weight_category: Aran
+  yardage: 153
+  skein_weight: 85
+  fiber_content:
+    cotton: 97
+    metallic: 3
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url:
+  colorways: []
+- line: |-
+    I Love This Wool! Naturals
+    (DISCONTINUED)
+  slug: i_love_this_wool_naturals
+  weight_category: Heavy Worsted
+  yardage: 220
+  skein_weight: 113
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4") and 22 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Undyed
+  - Undyed marls
+  image_url:
+  colorways: []
+- line: |-
+    I Love This Yarn! Sparkle
+    (DISCONTINUED)
+  slug: i_love_this_yarn_sparkle
+  weight_category: Aran
+  yardage: 252
+  skein_weight: 142
+  fiber_content:
+    acrylic: 97
+    metallic: 3
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors with metallic
+  image_url:
+  colorways: []

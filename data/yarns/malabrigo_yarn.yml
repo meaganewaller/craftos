@@ -1,0 +1,563 @@
+---
+brand: Malabrigo Yarn
+slug: malabrigo_yarn
+yarns:
+- line: Arroyo
+  slug: arroyo
+  weight_category: Sport
+  yardage: 335
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20–26 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/arroyo.jpg
+  colorways: []
+- line: Caprino
+  slug: caprino
+  weight_category: Sport
+  yardage: 159
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 80
+    cashmere: 20
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  - Speckled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/caprino.jpg
+  colorways: []
+- line: Caracol
+  slug: caracol
+  weight_category: Super Bulky
+  yardage: 95
+  skein_weight: 150
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Slubby single ply wrapped with thread.
+  gauge: 9 sts / 10 cm (4")
+  needle_size: |-
+    9 mm (13 US) (00 UK),
+    15 mm (18 US)
+  style_categories:
+  - Multi-colored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/caracol.jpg
+  colorways: []
+- line: Chunky
+  slug: chunky
+  weight_category: Bulky
+  yardage: 104
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 12–14 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/chunky.jpg
+  colorways: []
+- line: Dos Tierras
+  slug: dos_tierras
+  weight_category: Worsted
+  yardage: 211
+  skein_weight: 100
+  fiber_content:
+    alpaca: 50
+    merino_wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Semi-solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/dos_tierras.jpg
+  colorways: []
+- line: Finito
+  slug: finito
+  weight_category: Fingering
+  yardage: 200
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 24–26 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Multi-colored
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/finito.jpg
+  colorways: []
+- line: Lace
+  slug: lace
+  weight_category: Lace
+  yardage: 470
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 32 sts / 10 cm (4")
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/lace.jpg
+  colorways: []
+- line: Mecha
+  slug: mecha
+  weight_category: Bulky
+  yardage: 131
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 11–13 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/mecha.jpg
+  colorways: []
+- line: Mechita
+  slug: mechita
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Semi-solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/mechita.jpg
+  colorways: []
+- line: Metamorphosis Sock
+  slug: metamorphosis_sock
+  weight_category: Fingering
+  yardage: 400
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Self-striping (long)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/metamorphosis_sock.jpg
+  colorways: []
+- line: Mohair
+  slug: mohair
+  weight_category: Lace
+  yardage: 230
+  skein_weight: 25
+  fiber_content:
+    kid_mohair: 72
+    silk: 28
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Unknown)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/mohair.jpg
+  colorways: []
+- line: Mora
+  slug: mora
+  weight_category: Fingering
+  yardage: 224
+  skein_weight: 50
+  fiber_content:
+    mulberry_silk: 100
+  texture: 2 ply
+  gauge: 28–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/mora.jpg
+  colorways: []
+- line: Noventa
+  slug: noventa
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 125
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 9–11 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    9 mm (13 US) (00 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/noventa.jpg
+  colorways: []
+- line: Rasta
+  slug: rasta
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 150
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 8–10 sts / 10 cm (4")
+  needle_size: |-
+    8 mm (11 US) (0 UK),
+    12 mm (17 US)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/rasta.jpg
+  colorways: []
+- line: Rios
+  slug: rios
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/rios.jpg
+  colorways: []
+- line: Seis Cabos
+  slug: seis_cabos
+  weight_category: Worsted
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied with a tight twist
+  gauge: 18–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/seis_cabos.jpg
+  colorways: []
+- line: Silkpaca
+  slug: silkpaca
+  weight_category: Lace
+  yardage: 420
+  skein_weight: 50
+  fiber_content:
+    baby_alpaca: 70
+    silk: 30
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/silkpaca.jpg
+  colorways: []
+- line: Silky Merino
+  slug: silky_merino
+  weight_category: DK
+  yardage: 150
+  skein_weight: 50
+  fiber_content:
+    silk: 51
+    merino_wool: 49
+  texture: Single ply
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/silky_merino.jpg
+  colorways: []
+- line: Sock
+  slug: sock
+  weight_category: Light Fingering
+  yardage: 440
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 32 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/sock.jpg
+  colorways: []
+- line: Susurro
+  slug: susurro
+  weight_category: Sport
+  yardage: 325
+  skein_weight: 100
+  fiber_content:
+    silk: 50
+    linen: 25
+    merino_wool: 25
+  texture: Single ply
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/susurro.jpg
+  colorways: []
+- line: Ultimate Sock
+  slug: ultimate_sock
+  weight_category: Fingering
+  yardage: 421
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 30–32 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/ultimate_sock.jpg
+  colorways: []
+- line: Verano
+  slug: verano
+  weight_category: Worsted
+  yardage: 202
+  skein_weight: 100
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 18–22 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/verano.jpg
+  colorways: []
+- line: Vientos
+  slug: vientos
+  weight_category: Bulky
+  yardage: 131
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: 2 ply
+  gauge: 12–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Speckles
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/vientos.jpg
+  colorways: []
+- line: Washted
+  slug: washted
+  weight_category: Aran
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/washted.jpg
+  colorways: []
+- line: Worsted
+  slug: worsted
+  weight_category: Aran
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  - Gradient sets
+  - Mini skein sets
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/worsted.jpg
+  colorways: []
+- line: |-
+    100% Organic Cotton
+    (DISCONTINUED)
+  slug: 100_organic_cotton
+  weight_category: Worsted
+  yardage: 232
+  skein_weight: 100
+  fiber_content:
+    organic_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/100_organic_cotton.jpg
+  colorways: []
+- line: |-
+    Angora
+    (DISCONTINUED)
+  slug: angora
+  weight_category: Aran
+  yardage: 50
+  skein_weight: 60
+  fiber_content:
+    angora: 100
+  texture: Fuzzy / Fluffy
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Aquarella
+    (DISCONTINUED)
+  slug: aquarella
+  weight_category: Super Bulky
+  yardage: 65
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Slubby / Thick and thin
+  gauge: 9 sts / 10 cm (4") and 13 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/aquarella.jpg
+  colorways: []
+- line: |-
+    Dos
+    (DISCONTINUED)
+  slug: dos
+  weight_category: DK
+  yardage: 150
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Gruesa
+    (DISCONTINUED)
+  slug: gruesa
+  weight_category: Super Bulky
+  yardage: 65
+  skein_weight: 100
+  fiber_content:
+    corriedale_wool: 100
+  texture: Slubby / Thick and thin
+  gauge: 9 sts / 10 cm (4") and 13 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/gruesa.jpg
+  colorways: []
+- line: |-
+    Rastita
+    (DISCONTINUED)
+  slug: rastita
+  weight_category: DK
+  yardage: 309
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Single ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/rastita.jpg
+  colorways: []
+- line: |-
+    Superfine Merino
+    (DISCONTINUED)
+  slug: superfine_merino
+  weight_category: Sport
+  yardage: 168
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 24–26 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/superfine_merino.jpg
+  colorways: []
+- line: |-
+    Twist
+    (DISCONTINUED)
+  slug: twist
+  weight_category: Aran
+  yardage: 150
+  skein_weight: 100
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 16–20 sts / 10 cm (4")
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/malabrigo_yarn/twist.jpg
+  colorways: []

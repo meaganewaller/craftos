@@ -35,7 +35,7 @@ class YarnSubstitutionApp < Sinatra::Base
 
     service = SubstitutionService.new(
       target_attrs: target_attrs,
-      catalog_data: built_in_catalog
+      catalog: built_in_catalog
     )
 
     tolerance = request_params["tolerance"]&.to_f
@@ -102,11 +102,31 @@ class YarnSubstitutionApp < Sinatra::Base
   end
 
   def built_in_catalog
+    @built_in_catalog ||= begin
+      if defined?(YarnSkein::Catalog)
+        yarns = YarnSkein::Catalog.new.all
+        yarns.empty? ? legacy_catalog : yarns
+      else
+        legacy_catalog
+      end
+    end
+  end
+
+  def legacy_catalog
     catalog_path = File.join(settings.root, "data", "catalog.yml")
+    return [] unless File.exist?(catalog_path)
+
     entries = YAML.safe_load_file(catalog_path, permitted_classes: [], symbolize_names: true)
     entries.map do |entry|
-      entry[:fiber_content] = entry[:fiber_content]&.transform_keys(&:to_sym)
-      entry
+      fc = entry[:fiber_content]&.transform_keys(&:to_sym)
+      fc = fc ? YarnSkein::FiberBlend.new(fc) : nil
+      YarnSkein::Yarn.new(
+        brand: entry[:brand],
+        line: entry[:line],
+        yardage: entry[:yardage].to_f.yards,
+        skein_weight: entry[:skein_weight].to_f.grams,
+        fiber_content: fc
+      )
     end
   end
 end

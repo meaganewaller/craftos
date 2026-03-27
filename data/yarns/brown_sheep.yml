@@ -1,0 +1,482 @@
+---
+brand: Brown Sheep
+slug: brown_sheep
+yarns:
+- line: Cotton Fine
+  slug: cotton_fine
+  weight_category: Sport
+  yardage: 222
+  skein_weight: 50
+  fiber_content:
+    cotton: 80
+    merino_superwash_wool: 20
+  texture: Plied (3 or more plies)
+  gauge: 26 sts / 10 cm (4")
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/cotton_fine.jpg
+  colorways: []
+- line: Cotton Fleece
+  slug: cotton_fleece
+  weight_category: Worsted
+  yardage: 215
+  skein_weight: 100
+  fiber_content:
+    cotton: 80
+    merino_wool: 20
+  texture: Plied with a tight twist
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/cotton_fleece.jpg
+  colorways: []
+- line: Harborside Aran
+  slug: harborside_aran
+  weight_category: Heavy Worsted
+  yardage: 162
+  skein_weight: 100
+  fiber_content:
+    columbia_wool: 50
+    rambouillet_wool: 50
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/harborside_aran.jpg
+  colorways: []
+- line: Lamb's Pride Bulky
+  slug: lambs_pride_bulky
+  weight_category: Super Bulky
+  yardage: 125
+  skein_weight: 113
+  fiber_content:
+    wool: 85
+    mohair: 15
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4") and 18 rows
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  - Tonals
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/lambs_pride_bulky.jpg
+  colorways: []
+- line: Lamb's Pride Worsted
+  slug: lambs_pride_worsted
+  weight_category: Aran
+  yardage: 189
+  skein_weight: 113
+  fiber_content:
+    wool: 85
+    mohair: 15
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  - Tonals
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/lambs_pride_worsted.jpg
+  colorways: []
+- line: Lana Bouclé
+  slug: lana_boucle
+  weight_category: Aran
+  yardage: 179
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Lanaloft Bulky
+  slug: lanaloft_bulky_solids
+  weight_category: Super Bulky
+  yardage: 160
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/lanaloft_bulky_solids.jpg
+  colorways: []
+- line: Lanaloft Sports Weight
+  slug: lanaloft_sports_weight
+  weight_category: Sport
+  yardage: 145
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Lanaloft Worsted
+  slug: lanaloft_worsted
+  weight_category: Aran
+  yardage: 160
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Nature Spun Chunky
+  slug: nature_spun_chunky
+  weight_category: Bulky
+  yardage: 155
+  skein_weight: 200
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/nature_spun_chunky.jpg
+  colorways: []
+- line: Nature Spun Fingering
+  slug: nature_spun_fingering
+  weight_category: Fingering
+  yardage: 309
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/nature_spun_fingering.jpg
+  colorways: []
+- line: Nature Spun Sport
+  slug: nature_spun_sport
+  weight_category: Sport
+  yardage: 184
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/nature_spun_sport.jpg
+  colorways: []
+- line: Nature Spun Worsted
+  slug: nature_spun_worsted
+  weight_category: Worsted
+  yardage: 245
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/nature_spun_worsted.jpg
+  colorways: []
+- line: Prairie Spun DK
+  slug: prairie_spun_dk
+  weight_category: DK
+  yardage: 255
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/prairie_spun_dk.jpg
+  colorways: []
+- line: Shepherd's Shades
+  slug: shepherds_shades
+  weight_category: Bulky
+  yardage: 131
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Stratosphere DK
+  slug: stratosphere_dk
+  weight_category: DK
+  yardage: 260
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Tonal colors
+  - Multicolored
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/stratosphere_dk.jpg
+  colorways: []
+- line: Top of the Lamb Worsted
+  slug: top_of_the_lamb_worsted
+  weight_category: Worsted
+  yardage: 190
+  skein_weight: 113
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/top_of_the_lamb_worsted.jpg
+  colorways: []
+- line: Waverly Wool
+  slug: waverly_wool
+  weight_category: Bulky
+  yardage: 163
+  skein_weight: 113
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: Wildfoote Luxury Sock
+  slug: wildfoote_luxury_sock
+  weight_category: Fingering
+  yardage: 214
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 28–32 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Marled
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/wildfoote_luxury_sock.jpg
+  colorways: []
+- line: |-
+    Burly Spun
+    (DISCONTINUED)
+  slug: burly_spun
+  weight_category: Super Bulky
+  yardage: 132
+  skein_weight: 226
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/burly_spun.jpg
+  colorways: []
+- line: |-
+    Handpaint Originals
+    (DISCONTINUED)
+  slug: handpaint_originals
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    mohair: 70
+    wool: 30
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Heritage Aran
+    (DISCONTINUED)
+  slug: heritage_aran
+  weight_category: Heavy Worsted
+  yardage: 162
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Knitting Worsted
+    (DISCONTINUED)
+  slug: knitting_worsted
+  weight_category: Aran
+  yardage: 190
+  skein_weight: 113
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lamb's Pride Superwash Bulky
+    (DISCONTINUED)
+  slug: lambs_pride_superwash_bulky
+  weight_category: Bulky
+  yardage: 110
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/lambs_pride_superwash_bulky.jpg
+  colorways: []
+- line: |-
+    Lamb's Pride Superwash Sport
+    (DISCONTINUED)
+  slug: lambs_pride_superwash_sport
+  weight_category: Sport
+  yardage: 180
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lamb's Pride Superwash Worsted
+    (DISCONTINUED)
+  slug: lambs_pride_superwash_worsted
+  weight_category: Worsted
+  yardage: 200
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/lambs_pride_superwash_worsted.jpg
+  colorways: []
+- line: |-
+    Legacy Lace
+    (DISCONTINUED)
+  slug: legacy_lace
+  weight_category: Lace
+  yardage: 1500
+  skein_weight: 170
+  fiber_content:
+    wool: 75
+    nylon: 25
+  texture: 2 ply
+  gauge: 40 sts / 10 cm (4")
+  needle_size: "(Varies)"
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Prairie Silks
+    (DISCONTINUED)
+  slug: prairie_silks
+  weight_category: Aran
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    wool: 72
+    mohair: 18
+    silk: 10
+  texture: Single ply
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Serendipity Tweed
+    (DISCONTINUED)
+  slug: serendipity_tweed
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    cotton: 60
+    wool: 40
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Sport Weight
+    (DISCONTINUED)
+  slug: sport_weight
+  weight_category: Sport
+  yardage: 350
+  skein_weight: 113
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Synchrony
+    (DISCONTINUED)
+  slug: synchrony
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    cotton: 60
+    wool: 40
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brown_sheep/synchrony.jpg
+  colorways: []

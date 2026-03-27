@@ -1,0 +1,721 @@
+---
+brand: Madelinetosh
+slug: madelinetosh
+yarns:
+- line: ASAP
+  slug: asap
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 127
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 8–10 sts / 10 cm (4")
+  needle_size: |-
+    9 mm (13 US) (00 UK),
+    12.8 mm
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/asap.jpg
+  colorways: []
+- line: Farm Twist
+  slug: farm_twist
+  weight_category: DK
+  yardage: 224
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: 2 ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/farm_twist.jpg
+  colorways: []
+- line: Pashmina
+  slug: pashmina
+  weight_category: Sport
+  yardage: 360
+  skein_weight: 117
+  fiber_content:
+    merino_superwash_wool: 75
+    silk: 15
+    cashmere: 10
+  texture: Plied with a tight twist
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/pashmina.jpg
+  colorways: []
+- line: Tosh Biggie
+  slug: tosh_biggie
+  weight_category: Super Bulky
+  yardage: 90
+  skein_weight: 150
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 8–10 sts / 10 cm (4")
+  needle_size: |-
+    9 mm (13 US) (00 UK),
+    15 mm (18 US)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_biggie.jpg
+  colorways: []
+- line: Tosh DK
+  slug: tosh_dk
+  weight_category: DK
+  yardage: 225
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_dk.jpg
+  colorways: []
+- line: Tosh Lunar
+  slug: tosh_lunar
+  weight_category: Lace
+  yardage: 400
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 60
+    mulberry_silk: 40
+  texture: 2 ply
+  gauge: 28–30 sts / 10 cm (4")
+  needle_size: |-
+    3 mm (2.5 US) (11 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_lunar.jpg
+  colorways: []
+- line: Tosh Merino Light
+  slug: tosh_merino_light
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_merino_light.jpg
+  colorways: []
+- line: Tosh Pebble
+  slug: tosh_pebble
+  weight_category: Fingering
+  yardage: 224
+  skein_weight: 25
+  fiber_content:
+    silk: 48
+    merino_wool: 36
+    cashmere: 16
+  texture: Nubby / Tweedy
+  gauge: 27–32 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_pebble.jpg
+  colorways: []
+- line: Tosh Silk Cloud
+  slug: tosh_silk_cloud
+  weight_category: Lace
+  yardage: 330
+  skein_weight: 25
+  fiber_content:
+    mohair: 60
+    silk: 40
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Unknown)"
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_silk_cloud.jpg
+  colorways: []
+- line: Tosh Sock
+  slug: tosh_sock
+  weight_category: Fingering
+  yardage: 395
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: 2 ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_sock.jpg
+  colorways: []
+- line: Tosh Vintage
+  slug: tosh_vintage
+  weight_category: Worsted
+  yardage: 200
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_vintage.jpg
+  colorways: []
+- line: Tosh Wool + Cotton
+  slug: wool_and_cotton
+  weight_category: Worsted
+  yardage: 219
+  skein_weight: 100
+  fiber_content:
+    cotton: 50
+    merino_superwash_wool: 50
+  texture: S on S plied
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/wool_and_cotton.jpg
+  colorways: []
+- line: Triple Twist
+  slug: tml_triple_twist
+  weight_category: Heavy Worsted
+  yardage: 129
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 12–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tml_triple_twist.jpg
+  colorways: []
+- line: Twist Light
+  slug: twist_light
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 113
+  fiber_content:
+    merino_superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/twist_light.jpg
+  colorways: []
+- line: Unicorn Tails
+  slug: unicorn_tails
+  weight_category: Fingering
+  yardage: 51
+  skein_weight: 12
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/unicorn_tails.jpg
+  colorways: []
+- line: Unwind DK
+  slug: unwind_dk
+  weight_category: DK
+  yardage: 205
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/unwind_dk.jpg
+  colorways: []
+- line: Woolcycle Sport
+  slug: woolcycle_sport
+  weight_category: Sport
+  yardage: 327
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 23–26 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  - Speckled colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/woolcycle_sport.jpg
+  colorways: []
+- line: |-
+    80/10/10 Worsted MCN
+    (DISCONTINUED)
+  slug: 80_10_10_worsted_mcn
+  weight_category: Worsted
+  yardage: 187
+  skein_weight: 113
+  fiber_content:
+    merino_superwash_wool: 80
+    cashmere: 10
+    nylon: 10
+  texture: Plied (3 or more plies)
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/80_10_10_worsted_mcn.jpg
+  colorways: []
+- line: |-
+    BFL Sock
+    (DISCONTINUED)
+  slug: bfl_sock
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    blue_faced_leicester_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 32–40 sts / 10 cm (4")
+  needle_size: 2.25 mm (1 US) (13 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/bfl_sock.jpg
+  colorways: []
+- line: |-
+    Dandelion
+    (DISCONTINUED)
+  slug: dandelion
+  weight_category: Fingering
+  yardage: 325
+  skein_weight: 90
+  fiber_content:
+    merino_superwash_wool: 90
+    linen: 10
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/dandelion.jpg
+  colorways: []
+- line: |-
+    Erin Heritage Wool Series
+    (DISCONTINUED)
+  slug: erin_heritage_wool_series
+  weight_category: Worsted
+  yardage: 240
+  skein_weight: 116
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 21–25 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Euro Sock
+    (DISCONTINUED)
+  slug: euro_sock
+  weight_category: Fingering
+  yardage: 434
+  skein_weight: 105
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/euro_sock.jpg
+  colorways: []
+- line: |-
+    Feather
+    (DISCONTINUED)
+  slug: feather
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 102
+  fiber_content:
+    merino_superwash_wool: 80
+    alpaca: 10
+    nylon: 10
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/feather.jpg
+  colorways: []
+- line: |-
+    Home
+    (DISCONTINUED)
+  slug: home
+  weight_category: Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: 2 ply
+  gauge: 10–14 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/home.jpg
+  colorways: []
+- line: |-
+    Pashmina Worsted
+    (DISCONTINUED)
+  slug: pashmina_worsted
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 75
+    silk: 15
+    cashmere: 10
+  texture: Plied (3 or more plies)
+  gauge: 18–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/pashmina_worsted.jpg
+  colorways: []
+- line: |-
+    Prairie
+    (DISCONTINUED)
+  slug: prairie
+  weight_category: Lace
+  yardage: 840
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: "(Varies)"
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/prairie.jpg
+  colorways: []
+- line: |-
+    Pure Silk Lace
+    (DISCONTINUED)
+  slug: pure_silk_lace
+  weight_category: Lace
+  yardage: 1000
+  skein_weight: 100
+  fiber_content:
+    mulberry_silk: 100
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/pure_silk_lace.jpg
+  colorways: []
+- line: |-
+    Silk Merino
+    (DISCONTINUED)
+  slug: silk_merino
+  weight_category: DK
+  yardage: 205
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 50
+    mulberry_silk: 50
+  texture: Plied (3 or more plies)
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/silk_merino.jpg
+  colorways: []
+- line: |-
+    TML + Copper
+    (DISCONTINUED)
+  slug: tml_copper
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 90
+    acrylic: 8
+    metallic: 2
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors with metallic
+  - Multicolored with metallic
+  - Speckled with metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tml_copper.jpg
+  colorways: []
+- line: |-
+    TML + Glitter
+    (DISCONTINUED)
+  slug: tosh_merino_light_glitter
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 90
+    acrylic: 8
+    metallic: 2
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_merino_light_glitter.jpg
+  colorways: []
+- line: |-
+    TML + Holo
+    (DISCONTINUED)
+  slug: tml_plus_holo
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 90
+    acrylic: 8
+    metallic: 2
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tml_plus_holo.jpg
+  colorways: []
+- line: |-
+    TML + Tweed
+    (DISCONTINUED)
+  slug: tosh_tweed
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 90
+    viscose: 8
+    nylon: 2
+  texture: Nubby / Tweedy
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_tweed.jpg
+  colorways: []
+- line: |-
+    Tosh Chunky
+    (DISCONTINUED)
+  slug: tosh_chunky
+  weight_category: Bulky
+  yardage: 164
+  skein_weight: 115
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 14–16 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_chunky.jpg
+  colorways: []
+- line: |-
+    Tosh Lace
+    (DISCONTINUED)
+  slug: tosh_lace
+  weight_category: Lace
+  yardage: 949
+  skein_weight: 113
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url:
+  colorways: []
+- line: |-
+    Tosh Merino
+    (DISCONTINUED)
+  slug: tosh_merino
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_merino.jpg
+  colorways: []
+- line: |-
+    Tosh Merino DK
+    (DISCONTINUED)
+  slug: tosh_merino_dk
+  weight_category: DK
+  yardage: 225
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Single ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_merino_dk.jpg
+  colorways: []
+- line: |-
+    Tosh Mo Light
+    (DISCONTINUED)
+  slug: tosh_mo_light
+  weight_category: Fingering
+  yardage: 420
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 80
+    mohair: 20
+  texture: Single ply
+  gauge: 26–30 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_mo_light.jpg
+  colorways: []
+- line: |-
+    Tosh Sport
+    (DISCONTINUED)
+  slug: tosh_sport
+  weight_category: Sport
+  yardage: 270
+  skein_weight: 100
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22–24 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/tosh_sport.jpg
+  colorways: []
+- line: |-
+    Work Sock Sport
+    (DISCONTINUED)
+  slug: work_sock
+  weight_category: Sport
+  yardage: 400
+  skein_weight: 197
+  fiber_content:
+    merino_superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 22–25 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Tonal colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/madelinetosh/work_sock.jpg
+  colorways: []

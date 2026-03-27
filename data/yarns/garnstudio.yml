@@ -1,0 +1,1097 @@
+---
+brand: DROPS Design
+slug: garnstudio
+yarns:
+- line: DROPS Air
+  slug: drops_air
+  weight_category: Aran
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    alpaca: 65
+    nylon: 28
+    wool: 7
+  texture: Blown / Fiber-filled net
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_air.jpg
+  colorways: []
+- line: DROPS Alaska
+  slug: drops_alaska
+  weight_category: Aran
+  yardage: 75
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_alaska.jpg
+  colorways: []
+- line: DROPS Alpaca
+  slug: drops_alpaca
+  weight_category: Sport
+  yardage: 183
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied with a soft haze
+  gauge: 23 sts / 10 cm (4")
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_alpaca.jpg
+  colorways: []
+- line: DROPS Alpaca Bouclé
+  slug: drops_alpaca_boucle
+  weight_category: Aran
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    alpaca: 80
+    wool: 15
+    nylon: 5
+  texture: Bouclé
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_alpaca_boucle.jpg
+  colorways: []
+- line: DROPS Andes
+  slug: drops_andes
+  weight_category: Super Bulky
+  yardage: 98
+  skein_weight: 100
+  fiber_content:
+    wool: 65
+    alpaca: 35
+  texture: Plied with a soft haze
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: |-
+    8 mm (11 US) (0 UK),
+    9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_andes.jpg
+  colorways: []
+- line: DROPS Baby Merino
+  slug: drops_baby_merino
+  weight_category: Sport
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 24–26 sts / 10 cm (4") and 32 rows
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_baby_merino.jpg
+  colorways: []
+- line: DROPS Belle
+  slug: drops_belle
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    cotton: 53
+    viscose: 33
+    linen: 14
+  texture: Loosely plied
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_belle.jpg
+  colorways: []
+- line: DROPS Big Merino
+  slug: drops_big_merino
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_big_merino.jpg
+  colorways: []
+- line: DROPS Bomull-Lin
+  slug: drops_bomull-lin
+  weight_category: Aran
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    cotton: 53
+    linen: 47
+  texture: Crepe / Cable-plied
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_bomull-lin.jpg
+  colorways: []
+- line: DROPS Brushed Alpaca Silk
+  slug: drops_alpaca_silk
+  weight_category: Lace
+  yardage: 153
+  skein_weight: 25
+  fiber_content:
+    alpaca: 77
+    silk: 23
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_alpaca_silk.jpg
+  colorways: []
+- line: DROPS Cotton Light
+  slug: drops_cotton_light
+  weight_category: DK
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    cotton: 50
+    polyester: 50
+  texture: Loosely plied
+  gauge: 21 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_cotton_light.jpg
+  colorways: []
+- line: DROPS Cotton Merino
+  slug: drops_cotton_merino
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 52
+    cotton: 48
+  texture: S on S plied
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_cotton_merino.jpg
+  colorways: []
+- line: DROPS Daisy
+  slug: drops_daisy
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_daisy.jpg
+  colorways: []
+- line: DROPS Fabel
+  slug: drops_fabel
+  weight_category: Fingering
+  yardage: 224
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 26 sts / 10 cm (4") and 34 rows
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Self-striping
+  - Fair-isle effect
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_fabel.jpg
+  colorways: []
+- line: DROPS Fiesta
+  slug: drops_fiesta
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathered colors
+  - Multicolored
+  - Self-striping (fair-isle effect)
+  - Self-striping (speckled)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_fiesta.jpg
+  colorways: []
+- line: DROPS Flora
+  slug: drops_flora
+  weight_category: Sport
+  yardage: 230
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    alpaca: 35
+  texture: Plied with a soft haze
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_flora.jpg
+  colorways: []
+- line: DROPS Glitter
+  slug: drops_glitter
+  weight_category: Lace
+  yardage: 766
+  skein_weight: 10
+  fiber_content:
+    cupro: 60
+    metallic: 40
+  texture: Metallic chainette
+  gauge: "(Varies)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Metallic
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_glitter.jpg
+  colorways: []
+- line: DROPS Karisma
+  slug: drops_karisma_classic
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_karisma_classic.jpg
+  colorways: []
+- line: DROPS Kid-silk
+  slug: drops_kid-silk
+  weight_category: Lace
+  yardage: 219
+  skein_weight: 25
+  fiber_content:
+    mohair: 75
+    silk: 25
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: "(Varies)"
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  - Self-striping (gradient color change)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_kid-silk.jpg
+  colorways: []
+- line: DROPS Lima
+  slug: drops_lima
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    alpaca: 35
+  texture: Plied with a soft haze
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_lima.jpg
+  colorways: []
+- line: DROPS Loves You 7
+  slug: drops_loves_you_7
+  weight_category: Sport
+  yardage: 186
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 23–26 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: DROPS Loves You 9
+  slug: drops_loves_you_9
+  weight_category: Sport
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_loves_you_9.jpg
+  colorways: []
+- line: DROPS Melody
+  slug: drops_melody
+  weight_category: Bulky
+  yardage: 153
+  skein_weight: 50
+  fiber_content:
+    superfine_alpaca: 71
+    wool: 25
+    nylon: 4
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4") and 19 rows
+  needle_size: 7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_melody.jpg
+  colorways: []
+- line: DROPS Merino Extra Fine
+  slug: drops_merino_extra_fine
+  weight_category: DK
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: S on S plied
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_merino_extra_fine.jpg
+  colorways: []
+- line: DROPS Muskat
+  slug: drops_muskat
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Loosely plied
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: |-
+    3.5 mm (4 US),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_muskat.jpg
+  colorways: []
+- line: DROPS Nepal
+  slug: drops_nepal
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    wool: 65
+    alpaca: 35
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_nepal.jpg
+  colorways: []
+- line: DROPS Nord
+  slug: drops_nord
+  weight_category: Sport
+  yardage: 186
+  skein_weight: 50
+  fiber_content:
+    alpaca: 45
+    nylon: 30
+    wool: 25
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_nord.jpg
+  colorways: []
+- line: DROPS Paris
+  slug: drops_paris
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Loosely plied
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_paris.jpg
+  colorways: []
+- line: DROPS Paris Recycled Denim
+  slug: drops_paris_recycled_denim
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Loosely plied
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_paris_recycled_denim.jpg
+  colorways: []
+- line: DROPS Polaris
+  slug: drops_polaris
+  weight_category: Super Bulky
+  yardage: 39
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 12 mm (17 US)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_polaris.jpg
+  colorways: []
+- line: DROPS Puna
+  slug: drops_puna
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied with a soft haze
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Undyed
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_puna.jpg
+  colorways: []
+- line: DROPS Safran
+  slug: drops_safran
+  weight_category: Sport
+  yardage: 176
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: S on S plied
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_safran.jpg
+  colorways: []
+- line: DROPS Sky
+  slug: drops_sky
+  weight_category: DK
+  yardage: 208
+  skein_weight: 50
+  fiber_content:
+    alpaca: 74
+    nylon: 18
+    wool: 8
+  texture: Chained
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_sky.jpg
+  colorways: []
+- line: DROPS Snow
+  slug: drops_snow
+  weight_category: Super Bulky
+  yardage: 55
+  skein_weight: 50
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 10–14 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Tweed colors
+  - Heathers
+  - Self-striping (gradient color change)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_snow.jpg
+  colorways: []
+- line: DROPS Soft Tweed
+  slug: drops_soft_tweed
+  weight_category: DK
+  yardage: 142
+  skein_weight: 50
+  fiber_content:
+    wool: 50
+    alpaca: 25
+    viscose: 25
+  texture: Nubby / Tweedy
+  gauge: 21 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_soft_tweed.jpg
+  colorways: []
+- line: |-
+    DROPS Angora-Tweed
+    (DISCONTINUED)
+  slug: drops_angora-tweed
+  weight_category: Worsted
+  yardage: 157
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 70
+    angora: 30
+  texture: Plied with a soft haze
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Baby Alpaca Silk
+    (DISCONTINUED)
+  slug: drops_baby_alpaca_silk
+  weight_category: Sport
+  yardage: 183
+  skein_weight: 50
+  fiber_content:
+    alpaca: 70
+    silk: 30
+  texture: Plied (3 or more plies)
+  gauge: 23–28 sts / 10 cm (4") and 30 rows
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_baby_alpaca_silk.jpg
+  colorways: []
+- line: |-
+    DROPS Baby Ull Superwash
+    (DISCONTINUED)
+  slug: drops_baby_ull_superwash
+  weight_category: Fingering
+  yardage: 190
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Big Delight
+    (DISCONTINUED)
+  slug: drops_big_delight
+  weight_category: Aran
+  yardage: 208
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_big_delight.jpg
+  colorways: []
+- line: |-
+    DROPS Big Fabel
+    (DISCONTINUED)
+  slug: drops_big_fabel
+  weight_category: Aran
+  yardage: 164
+  skein_weight: 100
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_big_fabel.jpg
+  colorways: []
+- line: |-
+    DROPS Classic Alpaca
+    (DISCONTINUED)
+  slug: drops_classic_alpaca
+  weight_category: DK
+  yardage: 95
+  skein_weight: 50
+  fiber_content:
+    alpaca: 100
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Cloud
+    (DISCONTINUED)
+  slug: drops_cloud
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    alpaca: 72
+    nylon: 21
+    wool: 7
+  texture: Blown / Fiber-filled net
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_cloud.jpg
+  colorways: []
+- line: |-
+    DROPS Cotton Viscose
+    (DISCONTINUED)
+  slug: drops_cotton_viscose
+  weight_category: DK
+  yardage: 120
+  skein_weight: 50
+  fiber_content:
+    cotton: 54
+    viscose: 46
+  texture: Plied (3 or more plies)
+  gauge: 23 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_cotton_viscose.jpg
+  colorways: []
+- line: |-
+    DROPS Delight
+    (DISCONTINUED)
+  slug: drops_delight
+  weight_category: Sport
+  yardage: 191
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Single ply
+  gauge: 26 sts / 10 cm (4")
+  needle_size: |-
+    2.25 mm (1 US) (13 UK),
+    2.75 mm (2 US) (12 UK)
+  style_categories:
+  - Self-striping (gradient color change)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_delight.jpg
+  colorways: []
+- line: |-
+    DROPS Highlander
+    (DISCONTINUED)
+  slug: drops_highlander
+  weight_category: Super Bulky
+  yardage: 87
+  skein_weight: 50
+  fiber_content:
+    wool: 90
+    nylon: 10
+  texture: Fuzzy / Fluffy
+  gauge: 10 sts / 10 cm (4")
+  needle_size: |-
+    8 mm (11 US) (0 UK),
+    9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Ice
+    (DISCONTINUED)
+  slug: drops_ice
+  weight_category: Super Bulky
+  yardage: 54
+  skein_weight: 50
+  fiber_content:
+    cotton: 55
+    acrylic: 45
+  texture: Plied (3 or more plies)
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Lace
+    (DISCONTINUED)
+  slug: drops_lace
+  weight_category: Lace
+  yardage: 875
+  skein_weight: 100
+  fiber_content:
+    alpaca: 70
+    silk: 30
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_lace.jpg
+  colorways: []
+- line: |-
+    DROPS Lin
+    (DISCONTINUED)
+  slug: drops_lin
+  weight_category: Worsted
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    linen: 100
+  texture: Single ply
+  gauge: 17–21 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Loves You 2
+    (DISCONTINUED)
+  slug: drops_loves_you_ii
+  weight_category: Super Bulky
+  yardage: 109
+  skein_weight: 100
+  fiber_content:
+    alpaca: 50
+    wool: 40
+    linen: 10
+  texture: Plied (3 or more plies)
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Loves You 3
+    (DISCONTINUED)
+  slug: drops_loves_you_iii
+  weight_category: DK
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    alpaca: 50
+    wool: 50
+  texture: Single ply
+  gauge: 20–22 sts / 10 cm (4")
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Loves You 4
+    (DISCONTINUED)
+  slug: drops_loves_you_iv
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    alpaca: 55
+    wool: 40
+    linen: 5
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: |-
+    5 mm (8 US) (6 UK),
+    6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Loves You 5
+    (DISCONTINUED)
+  slug: drops_loves_you_5
+  weight_category: Aran
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_loves_you_5.jpg
+  colorways: []
+- line: |-
+    DROPS Loves You 6
+    (DISCONTINUED)
+  slug: drops_loves_you_6
+  weight_category: DK
+  yardage: 131
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 23 sts / 10 cm (4") and 30 rows
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_loves_you_6.jpg
+  colorways: []
+- line: |-
+    DROPS Loves You 8
+    (DISCONTINUED)
+  slug: drops_loves_you_8
+  weight_category: Aran
+  yardage: 93
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Loosely plied
+  gauge: 17 sts / 10 cm (4") and 22 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_loves_you_8.jpg
+  colorways: []
+- line: |-
+    DROPS Merino
+    (DISCONTINUED)
+  slug: drops_merino
+  weight_category: DK
+  yardage: 115
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 21 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Muskat Soft
+    (DISCONTINUED)
+  slug: drops_muskat_soft
+  weight_category: DK
+  yardage: 109
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 20–21 sts / 10 cm (4")
+  needle_size: |-
+    3 mm (2.5 US) (11 UK),
+    4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Peak
+    (DISCONTINUED)
+  slug: drops_peak
+  weight_category: Super Bulky
+  yardage: 49
+  skein_weight: 50
+  fiber_content:
+    acrylic: 70
+    superwash_wool: 30
+  texture: S on S plied
+  gauge: 11 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_peak.jpg
+  colorways: []
+- line: |-
+    DROPS Puddel
+    (DISCONTINUED)
+  slug: drops_puddel
+  weight_category: Super Bulky
+  yardage: 54
+  skein_weight: 50
+  fiber_content:
+    mohair: 94
+    polyester: 6
+  texture: Bouclé
+  gauge: 10 sts / 10 cm (4")
+  needle_size: |-
+    7 mm (2 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_puddel.jpg
+  colorways: []
+- line: |-
+    DROPS Silke Alpaca
+    (DISCONTINUED)
+  slug: drops_silke_alpaca
+  weight_category: Aran
+  yardage: 65
+  skein_weight: 50
+  fiber_content:
+    alpaca: 80
+    silk: 20
+  texture: 2 ply
+  gauge: 17 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Silke Tweed
+    (DISCONTINUED)
+  slug: drops_silke-tweed
+  weight_category: Sport
+  yardage: 218
+  skein_weight: 50
+  fiber_content:
+    silk: 52
+    wool: 48
+  texture: Nubby / Tweedy
+  gauge: 23 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    DROPS Symphony
+    (DISCONTINUED)
+  slug: drops_symphony
+  weight_category: Bulky
+  yardage: 77
+  skein_weight: 50
+  fiber_content:
+    merino_superwash_wool: 65
+    nylon: 35
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4")
+  needle_size: |-
+    6.5 mm (10.5 US) (3 UK),
+    8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_symphony.jpg
+  colorways: []
+- line: |-
+    DROPS Verdi
+    (DISCONTINUED)
+  slug: drops_verdi
+  weight_category: Bulky
+  yardage: 1340
+  skein_weight: 350
+  fiber_content:
+    acrylic: 48
+    wool: 20
+    polyester: 17
+    mohair: 15
+  texture: Fuzzy / Fluffy
+  gauge: 14 sts / 10 cm (4") and 16 rows
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    7 mm (2 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_verdi.jpg
+  colorways: []
+- line: |-
+    DROPS Vienna
+    (DISCONTINUED)
+  slug: drops_vienna
+  weight_category: Bulky
+  yardage: 103
+  skein_weight: 50
+  fiber_content:
+    mohair: 90
+    polyester: 10
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 14 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    7 mm (2 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_vienna.jpg
+  colorways: []
+- line: |-
+    DROPS Vivaldi
+    (DISCONTINUED)
+  slug: drops_vivaldi
+  weight_category: Lace
+  yardage: 305
+  skein_weight: 50
+  fiber_content:
+    mohair: 56
+    acrylic: 30
+    wool: 14
+  texture: Brushed bouclé (fuzzy / fluffy)
+  gauge: 19 sts / 10 cm (4")
+  needle_size: |-
+    3.5 mm (4 US),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_vivaldi.jpg
+  colorways: []
+- line: |-
+    DROPS Wish
+    (DISCONTINUED)
+  slug: drops_wish
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 50
+  fiber_content:
+    alpaca: 50
+    cotton: 33
+    wool: 17
+  texture: Blown / Fiber-filled net
+  gauge: 10 sts / 10 cm (4") and 14 rows
+  needle_size: 9 mm (13 US) (00 UK)
+  style_categories:
+  - Solid colors
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/garnstudio/drops_wish.jpg
+  colorways: []

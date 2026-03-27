@@ -1,0 +1,1296 @@
+---
+brand: Patons (North America)
+slug: patons_north_america
+yarns:
+- line: Canadiana
+  slug: canadiana_solids
+  weight_category: Worsted
+  yardage: 205
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/canadiana_solids.jpg
+  colorways: []
+- line: Classic Wool Worsted
+  slug: classic_wool_worsted
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Marls
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/classic_wool_worsted.jpg
+  colorways: []
+- line: Grace
+  slug: grace
+  weight_category: Sport
+  yardage: 137
+  skein_weight: 50
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: |-
+    3.5 mm (4 US),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/grace.jpg
+  colorways: []
+- line: Inspired
+  slug: inspired
+  weight_category: Bulky
+  yardage: 222
+  skein_weight: 150
+  fiber_content:
+    acrylic: 75
+    superwash_wool: 25
+  texture: Plied (3 or more plies)
+  gauge: 14 sts / 10 cm (4") and 19 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/inspired.jpg
+  colorways: []
+- line: Kroy Socks
+  slug: kroy_socks_4-ply
+  weight_category: Fingering
+  yardage: 166
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 75
+    nylon: 25
+  texture: Plied (3 or more plies)
+  gauge: 28–32 sts / 10 cm (4")
+  needle_size: 3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Self-striping marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/kroy_socks_4-ply.jpg
+  colorways: []
+- line: Moxie
+  slug: moxie
+  weight_category: Bulky
+  yardage: 96
+  skein_weight: 100
+  fiber_content:
+    polyester: 100
+  texture: Eyelash
+  gauge: 16 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Allure
+    (DISCONTINUED)
+  slug: allure
+  weight_category: Super Bulky
+  yardage: 47
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Fuzzy / Fluffy
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Alpaca Blend
+    (DISCONTINUED)
+  slug: alpaca_blend
+  weight_category: Bulky
+  yardage: 155
+  skein_weight: 100
+  fiber_content:
+    acrylic: 60
+    superwash_wool: 22
+    nylon: 10
+    alpaca: 8
+  texture: Single ply
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/alpaca_blend.jpg
+  colorways: []
+- line: |-
+    Angora Bamboo
+    (DISCONTINUED)
+  slug: angora_bamboo
+  weight_category: Worsted
+  yardage: 80
+  skein_weight: 50
+  fiber_content:
+    bamboo_rayon: 55
+    wool: 35
+    angora: 10
+  texture: Plied with a soft haze
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bamboo Baby
+    (DISCONTINUED)
+  slug: bamboo_baby
+  weight_category: Worsted
+  yardage: 95
+  skein_weight: 50
+  fiber_content:
+    acrylic: 55
+    bamboo_rayon: 45
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Be Mine
+    (DISCONTINUED)
+  slug: be_mine
+  weight_category: Bulky
+  yardage: 89
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Fleece style
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Beehive Baby Chunky
+    (DISCONTINUED)
+  slug: beehive_baby_chunky
+  weight_category: Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    acrylic: 70
+    nylon: 30
+  texture: 2 ply
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/beehive_baby_chunky.jpg
+  colorways: []
+- line: |-
+    Beehive Baby Fingering
+    (DISCONTINUED)
+  slug: beehive_baby
+  weight_category: Light Fingering
+  yardage: 287
+  skein_weight: 50
+  fiber_content:
+    acrylic: 100
+  texture: Plied (3 or more plies)
+  gauge: 32 sts / 10 cm (4") and 40 rows
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Beehive Baby Sport
+    (DISCONTINUED)
+  slug: beehive_baby_sport
+  weight_category: Sport
+  yardage: 359
+  skein_weight: 100
+  fiber_content:
+    acrylic: 70
+    nylon: 30
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/beehive_baby_sport.jpg
+  colorways: []
+- line: |-
+    Beehive Baby Wool
+    (DISCONTINUED)
+  slug: beehive_baby_wool
+  weight_category: Light Fingering
+  yardage: 207
+  skein_weight: 28
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 34 sts / 10 cm (4")
+  needle_size: |-
+    2.5 mm (1.5 US),
+    3 mm (2.5 US) (11 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Beehive Shetland Chunky
+    (DISCONTINUED)
+  slug: beehive_shetland_chunky
+  weight_category: Super Bulky
+  yardage: 82
+  skein_weight: 50
+  fiber_content:
+    acrylic: 75
+    wool: 25
+  texture: Plied (3 or more plies)
+  gauge: 12–15 sts / 10 cm (4")
+  needle_size: |-
+    5.5 mm (9 US) (5 UK),
+    8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Big Bouclé
+    (DISCONTINUED)
+  slug: big_boucle
+  weight_category: Super Bulky
+  yardage: 72
+  skein_weight: 100
+  fiber_content:
+    acrylic: 75
+    mohair: 25
+  texture: Bouclé
+  gauge: 6 sts / 10 cm (4") and 9 rows
+  needle_size: 12 mm (17 US)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Bohemian
+    (DISCONTINUED)
+  slug: bohemian
+  weight_category: Super Bulky
+  yardage: 68
+  skein_weight: 80
+  fiber_content:
+    polyester: 81
+    acrylic: 19
+  texture: Chenille
+  gauge: 8 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Brilliant
+    (DISCONTINUED)
+  slug: brilliant
+  weight_category: Sport
+  yardage: 166
+  skein_weight: 50
+  fiber_content:
+    acrylic: 69
+    nylon: 19
+    polyester: 12
+  texture: Chained
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    BumbleBee Baby Cotton
+    (DISCONTINUED)
+  slug: bumblebee_baby_cotton
+  weight_category: DK
+  yardage: 122
+  skein_weight: 50
+  fiber_content:
+    cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Canadiana Knitting Worsted (Old)
+    (DISCONTINUED)
+  slug: canadiana_knitting_worsted
+  weight_category: Worsted
+  yardage: 110
+  skein_weight: 56
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Carmen
+    (DISCONTINUED)
+  slug: carmen
+  weight_category: Bulky
+  yardage: 65
+  skein_weight: 50
+  fiber_content:
+    nylon: 64
+    polyester: 36
+  texture: Eyelash
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cha Cha
+    (DISCONTINUED)
+  slug: cha_cha
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 50
+  fiber_content:
+    nylon: 100
+  texture: Eyelash
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Classic Wool Bulky
+    (DISCONTINUED)
+  slug: classic_wool_bulky
+  weight_category: Super Bulky
+  yardage: 78
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/classic_wool_bulky.jpg
+  colorways: []
+- line: |-
+    Classic Wool DK Superwash
+    (DISCONTINUED)
+  slug: classic_wool_dk_superwash
+  weight_category: DK
+  yardage: 125
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  - Marls
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/classic_wool_dk_superwash.jpg
+  colorways: []
+- line: |-
+    Classic Wool Merino
+    (DISCONTINUED)
+  slug: classic_wool_merino
+  weight_category: Worsted
+  yardage: 223
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: |-
+    4 mm (6 US) (8 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Classic Wool Roving
+    (DISCONTINUED)
+  slug: classic_wool_roving
+  weight_category: Bulky
+  yardage: 120
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/classic_wool_roving.jpg
+  colorways: []
+- line: |-
+    Classic Wool Tweeds
+    (DISCONTINUED)
+  slug: classic_wool_tweeds
+  weight_category: Worsted
+  yardage: 210
+  skein_weight: 100
+  fiber_content:
+    wool: 90
+    acrylic: 7
+    rayon: 3
+  texture: Nubby / Tweedy
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cobbles
+    (DISCONTINUED)
+  slug: cobbles
+  weight_category: Super Bulky
+  yardage: 40
+  skein_weight: 100
+  fiber_content:
+    acrylic: 49
+    wool: 49
+    polyester: 2
+  texture: Single ply wrapped with fine thread
+  gauge: 8 sts / 10 cm (4") and 10 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/cobbles.jpg
+  colorways: []
+- line: |-
+    ColorWul
+    (DISCONTINUED)
+  slug: colorwul
+  weight_category: Bulky
+  yardage: 90
+  skein_weight: 85
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Cotton DK Mercerized
+    (DISCONTINUED)
+  slug: cotton_dk_mercerized
+  weight_category: DK
+  yardage: 116
+  skein_weight: 50
+  fiber_content:
+    mercerized_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Country Garden DK
+    (DISCONTINUED)
+  slug: country_garden_dk
+  weight_category: DK
+  yardage: 128
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4")
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Decor
+    (DISCONTINUED)
+  slug: decor
+  weight_category: Worsted
+  yardage: 208
+  skein_weight: 100
+  fiber_content:
+    acrylic: 75
+    wool: 25
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4") and 26 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  - Self-striping
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/decor.jpg
+  colorways: []
+- line: |-
+    Delish
+    (DISCONTINUED)
+  slug: delish
+  weight_category: Super Bulky
+  yardage: 77
+  skein_weight: 100
+  fiber_content:
+    acrylic: 65
+    wool: 35
+  texture: Chained
+  gauge: 8–10 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories:
+  - Tonal colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/delish.jpg
+  colorways: []
+- line: |-
+    Denim-y
+    (DISCONTINUED)
+  slug: denim-y
+  weight_category: Aran
+  yardage: 144
+  skein_weight: 85
+  fiber_content:
+    cotton: 68
+    acrylic: 16
+    wool: 16
+  texture: Blown / Fiber-filled net
+  gauge: 17 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/denim-y.jpg
+  colorways: []
+- line: |-
+    Diana
+    (DISCONTINUED)
+  slug: diana
+  weight_category: Bulky
+  yardage: 85
+  skein_weight: 50
+  fiber_content:
+    acrylic: 70
+    nylon: 30
+  texture: Fuzzy / Fluffy
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/diana.jpg
+  colorways: []
+- line: |-
+    Divine
+    (DISCONTINUED)
+  slug: divine
+  weight_category: Super Bulky
+  yardage: 141
+  skein_weight: 100
+  fiber_content:
+    acrylic: 77
+    mohair: 10
+    wool: 10
+    polyester: 3
+  texture: Fuzzy / Fluffy
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Evermore
+    (DISCONTINUED)
+  slug: evermore
+  weight_category: Aran
+  yardage: 212
+  skein_weight: 100
+  fiber_content:
+    wool: 90
+    polyester: 10
+  texture: Nubby / Tweedy
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/evermore.jpg
+  colorways: []
+- line: |-
+    Glam Stripes
+    (DISCONTINUED)
+  slug: glam_stripes
+  weight_category: Sport
+  yardage: 261
+  skein_weight: 60
+  fiber_content:
+    acrylic: 90
+    metallic: 10
+  texture: Chained
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors with metallic stripes
+  image_url:
+  colorways: []
+- line: |-
+    Glittallic
+    (DISCONTINUED)
+  slug: glittallic
+  weight_category: Bulky
+  yardage: 61
+  skein_weight: 50
+  fiber_content:
+    polyester: 95
+    metallic: 5
+  texture: Eyelash
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Hempster
+    (DISCONTINUED)
+  slug: hempster
+  weight_category: DK
+  yardage: 190
+  skein_weight: 100
+  fiber_content:
+    hemp: 55
+    cotton: 45
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Highland Bulky
+    (DISCONTINUED)
+  slug: highland_bulky
+  weight_category: Super Bulky
+  yardage: 83
+  skein_weight: 100
+  fiber_content:
+    acrylic: 75
+    superwash_wool: 25
+  texture: Plied (3 or more plies)
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/highland_bulky.jpg
+  colorways: []
+- line: |-
+    Highland Bulky Tweeds
+    (DISCONTINUED)
+  slug: highland_bulky_tweeds
+  weight_category: Super Bulky
+  yardage: 68
+  skein_weight: 85
+  fiber_content:
+    acrylic: 75
+    superwash_wool: 25
+  texture: Nubby / Tweedy
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/highland_bulky_tweeds.jpg
+  colorways: []
+- line: |-
+    Iced
+    (DISCONTINUED)
+  slug: iced
+  weight_category: Super Bulky
+  yardage: 84
+  skein_weight: 100
+  fiber_content:
+    acrylic: 68
+    wool: 29
+    polyester: 3
+  texture: Single ply
+  gauge: 11 sts / 10 cm (4") and 14 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Marled colors with glossy haze
+  image_url:
+  colorways: []
+- line: |-
+    Katrina
+    (DISCONTINUED)
+  slug: katrina
+  weight_category: Aran
+  yardage: 163
+  skein_weight: 100
+  fiber_content:
+    rayon: 92
+    polyester: 8
+  texture: Plied (3 or more plies)
+  gauge: 18 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kroy 3-ply
+    (DISCONTINUED)
+  slug: kroy_3-ply
+  weight_category: Light Fingering
+  yardage: 274
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 85
+    nylon: 15
+  texture: Plied (3 or more plies)
+  gauge: 32 sts / 10 cm (4")
+  needle_size: 2.75 mm (2 US) (12 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Kroy 4-ply
+    (DISCONTINUED)
+  slug: kroy_4-ply
+  weight_category: Fingering
+  yardage: 203
+  skein_weight: 50
+  fiber_content:
+    superwash_wool: 85
+    nylon: 15
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lace
+    (DISCONTINUED)
+  slug: lace
+  weight_category: Lace
+  yardage: 498
+  skein_weight: 85
+  fiber_content:
+    acrylic: 80
+    mohair: 10
+    wool: 10
+  texture: Plied with a soft haze
+  gauge: "(Varies)"
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  - Self-striping (gradient transition)
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/lace.jpg
+  colorways: []
+- line: |-
+    Lace Sequin
+    (DISCONTINUED)
+  slug: lace_sequin
+  weight_category: Fingering
+  yardage: 344
+  skein_weight: 70
+  fiber_content:
+    acrylic: 68
+    polyester: 14
+    mohair: 9
+    wool: 9
+  texture: Fuzzy with sequins
+  gauge: 26–32 sts / 10 cm (4")
+  needle_size: 3.5 mm (4 US)
+  style_categories:
+  - Solid colors with sequins
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/lace_sequin.jpg
+  colorways: []
+- line: |-
+    Lacette
+    (DISCONTINUED)
+  slug: lacette
+  weight_category: Fingering
+  yardage: 235
+  skein_weight: 50
+  fiber_content:
+    nylon: 39
+    acrylic: 36
+    mohair: 25
+  texture: Plied (3 or more plies)
+  gauge: 26 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Lincoln Fog
+    (DISCONTINUED)
+  slug: lincoln_fog
+  weight_category: Bulky
+  yardage: 190
+  skein_weight: 100
+  fiber_content:
+    acrylic: 75
+    lincoln_longwool_wool: 25
+  texture: Plied with a soft haze
+  gauge: 15 sts / 10 cm (4") and 19 rows
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/lincoln_fog.jpg
+  colorways: []
+- line: |-
+    Linen
+    (DISCONTINUED)
+  slug: linen
+  weight_category: Sport
+  yardage: 274
+  skein_weight: 100
+  fiber_content:
+    cotton: 65
+    linen: 35
+  texture: Plied with a fibrous haze
+  gauge: 24 sts / 10 cm (4") and 32 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/linen.jpg
+  colorways: []
+- line: |-
+    Look At Me!
+    (DISCONTINUED)
+  slug: look_at_me
+  weight_category: Sport
+  yardage: 150
+  skein_weight: 50
+  fiber_content:
+    acrylic: 60
+    nylon: 40
+  texture: Plied (3 or more plies)
+  gauge: 24 sts / 10 cm (4")
+  needle_size: 3.75 mm (5 US) (9 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Melody
+    (DISCONTINUED)
+  slug: melody_solids
+  weight_category: Super Bulky
+  yardage: 85
+  skein_weight: 100
+  fiber_content:
+    acrylic: 100
+  texture: Single ply wrapped with fine thread
+  gauge: 9 sts / 10 cm (4")
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Metallic
+    (DISCONTINUED)
+  slug: metallic
+  weight_category: Worsted
+  yardage: 252
+  skein_weight: 85
+  fiber_content:
+    nylon: 63
+    acrylic: 28
+    wool: 9
+  texture: Tape
+  gauge: 20 sts / 10 cm (4")
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories:
+  - Solid shiny colors
+  - Multicolored shiny
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/metallic.jpg
+  colorways: []
+- line: |-
+    Misty
+    (DISCONTINUED)
+  slug: misty
+  weight_category: Super Bulky
+  yardage: 143
+  skein_weight: 100
+  fiber_content:
+    acrylic: 48
+    nylon: 32
+    mohair: 10
+    wool: 10
+  texture: Plied with a soft haze
+  gauge: 12 sts / 10 cm (4") and 16 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  - Marls
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/misty.jpg
+  colorways: []
+- line: |-
+    Norse
+    (DISCONTINUED)
+  slug: norse
+  weight_category: Super Bulky
+  yardage: 211
+  skein_weight: 100
+  fiber_content:
+    acrylic: 54
+    wool: 28
+    nylon: 18
+  texture: Blown / Fiber-filled net
+  gauge: 11 sts / 10 cm (4") and 15 rows
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/norse.jpg
+  colorways: []
+- line: |-
+    Nuance
+    (DISCONTINUED)
+  slug: nuance
+  weight_category: Super Bulky
+  yardage: 89
+  skein_weight: 50
+  fiber_content:
+    acrylic: 77
+    mohair: 11
+    wool: 11
+    metallic: 1
+  texture: Fuzzy / Fluffy
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Peak
+    (DISCONTINUED)
+  slug: peak
+  weight_category: Bulky
+  yardage: 168
+  skein_weight: 90
+  fiber_content:
+    acrylic: 83
+    nylon: 17
+  texture: Slubby / Thick and thin
+  gauge: 15 sts / 10 cm (4") and 20 rows
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors with colored slubs
+  image_url:
+  colorways: []
+- line: |-
+    Pebbles
+    (DISCONTINUED)
+  slug: pebbles
+  weight_category: Super Bulky
+  yardage: 54
+  skein_weight: 50
+  fiber_content:
+    acrylic: 46
+    polyester: 45
+    wool: 9
+  texture: Slubby / Thick and thin
+  gauge: 10 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Pirouette
+    (DISCONTINUED)
+  slug: pirouette
+  weight_category: Ruffle
+  yardage: 24
+  skein_weight: 100
+  fiber_content:
+    acrylic: 84
+    nylon: 16
+  texture: Ruffle
+  gauge: "(Varies)"
+  needle_size: 4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/pirouette.jpg
+  colorways: []
+- line: |-
+    Pooch
+    (DISCONTINUED)
+  slug: pooch
+  weight_category: Super Bulky
+  yardage: 36
+  skein_weight: 70
+  fiber_content:
+    acrylic: 63
+    wool: 27
+    nylon: 10
+  texture: Bouclé
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Pure Organic Cotton
+    (DISCONTINUED)
+  slug: pure_organic_cotton
+  weight_category: Worsted
+  yardage: 117
+  skein_weight: 80
+  fiber_content:
+    organic_cotton: 100
+  texture: Plied (3 or more plies)
+  gauge: 20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Rumor
+    (DISCONTINUED)
+  slug: rumor
+  weight_category: Bulky
+  yardage: 84
+  skein_weight: 80
+  fiber_content:
+    acrylic: 84
+    alpaca: 15
+    polyester: 1
+  texture: Plied (3 or more plies)
+  gauge: 12 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    SWS Soy Wool Solids
+    (DISCONTINUED)
+  slug: sws_soy_wool_solids
+  weight_category: Aran
+  yardage: 110
+  skein_weight: 80
+  fiber_content:
+    wool: 70
+    soy_viscose: 30
+  texture: Single ply
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Shetland Chunky
+    (DISCONTINUED)
+  slug: shetland_chunky
+  weight_category: Bulky
+  yardage: 148
+  skein_weight: 100
+  fiber_content:
+    acrylic: 75
+    wool: 25
+  texture: Plied (3 or more plies)
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Solid colors
+  - Multicolored
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/shetland_chunky.jpg
+  colorways: []
+- line: |-
+    Shetland Chunky Tweeds
+    (DISCONTINUED)
+  slug: shetland_chunky_tweeds
+  weight_category: Bulky
+  yardage: 125
+  skein_weight: 85
+  fiber_content:
+    acrylic: 75
+    wool: 25
+  texture: Nubby / Tweedy
+  gauge: 15 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories:
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/shetland_chunky_tweeds.jpg
+  colorways: []
+- line: |-
+    Silk Bamboo
+    (DISCONTINUED)
+  slug: silk_bamboo
+  weight_category: DK
+  yardage: 102
+  skein_weight: 65
+  fiber_content:
+    bamboo_rayon: 70
+    silk: 30
+  texture: Plied (3 or more plies)
+  gauge: 22 sts / 10 cm (4") and 28 rows
+  needle_size: 4 mm (6 US) (8 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/patons_north_america/silk_bamboo.jpg
+  colorways: []
+- line: |-
+    Silverlash
+    (DISCONTINUED)
+  slug: silverlash
+  weight_category: Aran
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    polyester: 95
+    metallic: 5
+  texture: Eyelash
+  gauge: 19 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Soy Wool Stripes
+    (DISCONTINUED)
+  slug: soy_wool_stripes
+  weight_category: Aran
+  yardage: 110
+  skein_weight: 80
+  fiber_content:
+    wool: 70
+    soy_viscose: 30
+  texture: Single ply
+  gauge: 17 sts / 10 cm (4")
+  needle_size: 5.5 mm (9 US) (5 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Stretch Socks
+    (DISCONTINUED)
+  slug: stretch_socks
+  weight_category: Fingering
+  yardage: 240
+  skein_weight: 50
+  fiber_content:
+    cotton: 41
+    wool: 39
+    nylon: 13
+    elastic: 7
+  texture: Plied (3 or more plies)
+  gauge: 28 sts / 10 cm (4")
+  needle_size: 3.25 mm (3 US) (10 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Theo
+    (DISCONTINUED)
+  slug: theo
+  weight_category: Super Bulky
+  yardage: 38
+  skein_weight: 100
+  fiber_content:
+    acrylic: 45
+    wool: 45
+    nylon: 10
+  texture: Faux / Fake fur
+  gauge: 6 sts / 10 cm (4") and 8 rows
+  needle_size: 10 mm (15 US) (000 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Twister
+    (DISCONTINUED)
+  slug: twister
+  weight_category: Super Bulky
+  yardage: 47
+  skein_weight: 50
+  fiber_content:
+    polyester: 65
+    acrylic: 35
+  texture: Eyelash
+  gauge: 11 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    UpCountry
+    (DISCONTINUED)
+  slug: upcountry
+  weight_category: Bulky
+  yardage: 78
+  skein_weight: 100
+  fiber_content:
+    wool: 100
+  texture: Single ply
+  gauge: 13 sts / 10 cm (4")
+  needle_size: 6 mm (10 US) (4 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Uplands
+    (DISCONTINUED)
+  slug: uplands
+  weight_category: Bulky
+  yardage: 98
+  skein_weight: 90
+  fiber_content:
+    acrylic: 50
+    wool: 50
+  texture: Slubby / Thick and thin
+  gauge: 14 sts / 10 cm (4")
+  needle_size: 6.5 mm (10.5 US) (3 UK)
+  style_categories:
+  - Semi-solid colors
+  image_url:
+  colorways: []
+- line: |-
+    Venus
+    (DISCONTINUED)
+  slug: venus
+  weight_category: Aran
+  yardage: 119
+  skein_weight: 50
+  fiber_content:
+    cotton: 55
+    acrylic: 40
+    nylon: 5
+  texture: Slubby / Thick and thin
+  gauge: 18 sts / 10 cm (4") and 24 rows
+  needle_size: 5 mm (8 US) (6 UK)
+  style_categories: []
+  image_url:
+  colorways: []
+- line: |-
+    Wild Child
+    (DISCONTINUED)
+  slug: wild_child
+  weight_category: Super Bulky
+  yardage: 36
+  skein_weight: 70
+  fiber_content:
+    wool: 63
+    acrylic: 32
+    polyester: 5
+  texture: Tufted
+  gauge: 8–12 sts / 10 cm (4")
+  needle_size: 8 mm (11 US) (0 UK)
+  style_categories: []
+  image_url:
+  colorways: []

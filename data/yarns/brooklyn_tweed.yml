@@ -1,0 +1,259 @@
+---
+brand: Brooklyn Tweed
+slug: brooklyn_tweed
+yarns:
+- line: |-
+    Arbor
+    (DISCONTINUED)
+  slug: arbor
+  weight_category: DK
+  yardage: 144
+  skein_weight: 50
+  fiber_content:
+    targhee_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/arbor.jpg
+  colorways: []
+- line: |-
+    Arbor Lodge
+    (DISCONTINUED)
+  slug: arbor_lodge
+  weight_category: Bulky
+  yardage: 125
+  skein_weight: 100
+  fiber_content:
+    targhee_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 12–14 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/arbor_lodge.jpg
+  colorways: []
+- line: |-
+    Dapple
+    (DISCONTINUED)
+  slug: dapple
+  weight_category: DK
+  yardage: 164
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 60
+    organic_cotton: 40
+  texture: Nubby / Tweedy
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Semi-solid colors
+  - Gradient sets
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/dapple.jpg
+  colorways: []
+- line: |-
+    Imbue Sport
+    (DISCONTINUED)
+  slug: imbue_sport
+  weight_category: Sport
+  yardage: 190
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 23–27 sts / 10 cm (4")
+  needle_size: |-
+    3.25 mm (3 US) (10 UK),
+    4 mm (6 US) (8 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/imbue_sport.jpg
+  colorways: []
+- line: |-
+    Imbue Worsted
+    (DISCONTINUED)
+  slug: imbue
+  weight_category: Worsted
+  yardage: 104
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/imbue.jpg
+  colorways: []
+- line: |-
+    Loft
+    (DISCONTINUED)
+  slug: loft
+  weight_category: Fingering
+  yardage: 274
+  skein_weight: 50
+  fiber_content:
+    targhee-columbia_wool: 100
+  texture: Plied (woolen-spun)
+  gauge: 24–30 sts / 10 cm (4")
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    3.75 mm (5 US) (9 UK)
+  style_categories:
+  - Heathers
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/loft.jpg
+  colorways: []
+- line: |-
+    Peerie
+    (DISCONTINUED)
+  slug: peerie
+  weight_category: Fingering
+  yardage: 210
+  skein_weight: 50
+  fiber_content:
+    merino_wool: 100
+  texture: Plied (3 or more plies)
+  gauge: 25–32 sts / 10 cm (4")
+  needle_size: |-
+    2.75 mm (2 US) (12 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/peerie.jpg
+  colorways: []
+- line: |-
+    Plains
+    (DISCONTINUED)
+  slug: plains
+  weight_category: Lace
+  yardage: 440
+  skein_weight: 50
+  fiber_content:
+    rambouillet_wool: 100
+  texture: 2 ply
+  gauge: "(Varies)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/plains.jpg
+  colorways: []
+- line: |-
+    Quarry
+    (DISCONTINUED)
+  slug: quarry
+  weight_category: Bulky
+  yardage: 199
+  skein_weight: 100
+  fiber_content:
+    targhee-columbia_wool: 100
+  texture: Nubby / Tweedy
+  gauge: 12–14 sts / 10 cm (4")
+  needle_size: |-
+    6 mm (10 US) (4 UK),
+    8 mm (11 US) (0 UK)
+  style_categories:
+  - Heathers
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/quarry.jpg
+  colorways: []
+- line: |-
+    Re.Ply Rambouillet
+    (DISCONTINUED)
+  slug: re_ply_rambouillet
+  weight_category: DK
+  yardage: 130
+  skein_weight: 45
+  fiber_content:
+    rambouillet_wool: 100
+  texture: Crepe / Cable-plied
+  gauge: 21–24 sts / 10 cm (4")
+  needle_size: |-
+    3.75 mm (5 US) (9 UK),
+    4.5 mm (7 US) (7 UK)
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/re_ply_rambouillet.jpg
+  colorways: []
+- line: |-
+    Shelter
+    (DISCONTINUED)
+  slug: shelter
+  weight_category: Worsted
+  yardage: 140
+  skein_weight: 50
+  fiber_content:
+    targhee-columbia_wool: 100
+  texture: Plied (woolen-spun)
+  gauge: 18–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Heathers
+  - Tweed colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/shelter.jpg
+  colorways: []
+- line: |-
+    Tones
+    (DISCONTINUED)
+  slug: tones
+  weight_category: Worsted
+  yardage: 140
+  skein_weight: 50
+  fiber_content:
+    columbia_wool: 100
+  texture: Plied (woolen-spun)
+  gauge: 17–20 sts / 10 cm (4")
+  needle_size: |-
+    4.5 mm (7 US) (7 UK),
+    5.5 mm (9 US) (5 UK)
+  style_categories:
+  - Solid colors
+  - Heathers
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/tones.jpg
+  colorways: []
+- line: |-
+    Tones Light
+    (DISCONTINUED)
+  slug: tones_light
+  weight_category: Fingering
+  yardage: 225
+  skein_weight: 50
+  fiber_content:
+    columbia_wool: 100
+  texture: Plied (woolen-spun)
+  gauge: 24–30 sts / 10 cm (4")
+  needle_size: |-
+    2 mm (0 US) (14 UK),
+    3.5 mm (4 US)
+  style_categories:
+  - Solid colors
+  - Heathered colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/tones_light.jpg
+  colorways: []
+- line: |-
+    Vale
+    (DISCONTINUED)
+  slug: vale
+  weight_category: Lace
+  yardage: 449
+  skein_weight: 50
+  fiber_content:
+    rambouillet_wool: 100
+  texture: 2 ply
+  gauge: "(Unknown)"
+  needle_size: "(Varies)"
+  style_categories:
+  - Solid colors
+  image_url: https://pub-abde83d61ad95e7b3609c63e2a950656.r2.dev/yarn-images/brooklyn_tweed/vale.jpg
+  colorways: []
