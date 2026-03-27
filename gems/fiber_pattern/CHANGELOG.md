@@ -1,5 +1,12 @@
 ## Unreleased
 
+### Added
+
+- Add `StitchPattern` class for modeling how stitch patterns affect fabric width and yarn consumption relative to stockinette
+- Add knitting presets: stockinette, garter, 1x1 rib, 2x2 rib, seed stitch
+- Add crochet presets: single crochet, half double crochet, double crochet, treble crochet, moss stitch, shell stitch, v-stitch
+- Add `stitch_pattern` option to `Sizing` for width-adjusted cast-on calculations
+
 ## [0.4.0] - 2026-03-26
 
 ### Added
