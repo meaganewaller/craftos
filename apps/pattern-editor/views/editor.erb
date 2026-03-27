@@ -1,0 +1,164 @@
+<div class="max-w-lg w-full bg-white/80 backdrop-blur rounded-3xl shadow-xl p-6 border border-pink-100">
+  <h1 class="text-2xl font-bold text-center text-pink-600 mb-6">
+    pattern editor
+  </h1>
+
+  <p class="text-sm text-gray-500 text-center mb-6">
+    define your gauge and piece dimensions, and we'll calculate the stitches and rows you need!
+  </p>
+
+  <div id="errorBanner" class="hidden bg-red-50 border border-red-200 text-red-600 text-sm rounded-xl p-3 mb-4"></div>
+
+  <!-- Gauge Section -->
+  <div class="mb-4">
+    <label for="unit" class="block text-sm font-semibold text-gray-700 mb-1">units</label>
+    <select id="unit" onchange="updateUnitLabels()"
+      class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300 bg-white">
+      <option value="inches" selected>inches</option>
+      <option value="centimeters">centimeters</option>
+    </select>
+  </div>
+
+  <div class="space-y-5">
+    <p class="text-sm text-gray-500 mb-2">your gauge swatch</p>
+
+    <div>
+      <label for="gaugeStitches" class="block text-sm font-semibold text-gray-700">
+        stitches in your swatch
+      </label>
+      <p class="text-xs text-gray-400 mb-1">count how many stitches in your measured section</p>
+      <input id="gaugeStitches" type="number" value="18"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
+
+    <div>
+      <label for="gaugeRows" class="block text-sm font-semibold text-gray-700">
+        rows in your swatch
+      </label>
+      <p class="text-xs text-gray-400 mb-1">count the rows in the same section</p>
+      <input id="gaugeRows" type="number" value="24"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
+
+    <div>
+      <label for="gaugeWidth" class="block text-sm font-semibold text-gray-700">
+        swatch width (<span class="unitLabel">inches</span>)
+      </label>
+      <p class="text-xs text-gray-400 mb-1">measure your swatch area</p>
+      <input id="gaugeWidth" type="number" value="4"
+        class="w-full p-3 rounded-xl border border-pink-200 focus:outline-none focus:ring-2 focus:ring-pink-300">
+    </div>
+  </div>
+
+  <div class="my-6 border-t border-dashed border-pink-200"></div>
+
+  <!-- Piece Dimensions -->
+  <div class="space-y-5">
+    <p class="text-sm text-gray-500 mb-2">piece dimensions</p>
+
+    <div>
+      <label for="pieceWidth" class="block text-sm font-semibold text-gray-700">
+        desired width (<span class="unitLabel">inches</span>)
+      </label>
+      <p class="text-xs text-gray-400 mb-1">how wide should your piece be?</p>
+      <input id="pieceWidth" type="number" value="20"
+        class="w-full p-3 rounded-xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-300">
+    </div>
+
+    <div>
+      <label for="pieceHeight" class="block text-sm font-semibold text-gray-700">
+        desired height (<span class="unitLabel">inches</span>)
+      </label>
+      <p class="text-xs text-gray-400 mb-1">how tall should your piece be?</p>
+      <input id="pieceHeight" type="number" value="25"
+        class="w-full p-3 rounded-xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-300">
+    </div>
+  </div>
+
+  <div class="my-6 border-t border-dashed border-pink-200"></div>
+
+  <!-- Stitch Pattern -->
+  <div class="space-y-5">
+    <p class="text-sm text-gray-500 mb-2">stitch pattern (optional)</p>
+
+    <div>
+      <label for="stitchPattern" class="block text-sm font-semibold text-gray-700">
+        stitch pattern
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        select a stitch pattern to adjust stitch counts for fabric behavior
+      </p>
+      <select id="stitchPattern"
+        class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white">
+        <option value="">None (plain stockinette gauge)</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="repeatMultiple" class="block text-sm font-semibold text-gray-700">
+        custom repeat multiple
+      </label>
+      <p class="text-xs text-gray-400 mb-1">
+        override the stitch repeat if your pattern has a specific multiple<br>
+        <span class="text-gray-500">example: k2, p2 = repeat of 4</span>
+      </p>
+      <input id="repeatMultiple" type="number" placeholder="optional"
+        class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
+    </div>
+
+    <div>
+      <label for="repeatOffset" class="block text-sm font-semibold text-gray-700">
+        extra stitches outside the repeat
+      </label>
+      <p class="text-xs text-gray-400 mb-1">edge or border stitches</p>
+      <input id="repeatOffset" type="number" value="0"
+        class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
+    </div>
+  </div>
+
+  <div class="mt-6">
+    <button onclick="calculatePiece()"
+      class="w-full bg-pink-500 hover:bg-pink-600 text-white font-medium p-3 rounded-xl transition">
+      calculate my piece!
+    </button>
+  </div>
+
+  <!-- Results -->
+  <div id="resultsPanel" class="hidden mt-6 space-y-4">
+    <p class="text-sm text-gray-500">your piece</p>
+
+    <div class="grid grid-cols-2 gap-3">
+      <div class="bg-pink-50 rounded-xl p-4 text-center">
+        <p class="text-xs text-gray-500">cast on</p>
+        <p id="castOnResult" class="text-lg font-bold text-pink-600"></p>
+        <p class="text-xs text-gray-400">stitches</p>
+      </div>
+      <div class="bg-blue-50 rounded-xl p-4 text-center">
+        <p class="text-xs text-gray-500">work</p>
+        <p id="totalRowsResult" class="text-lg font-bold text-blue-600"></p>
+        <p class="text-xs text-gray-400">rows</p>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3">
+      <div class="bg-pink-50 rounded-xl p-4 text-center">
+        <p class="text-xs text-gray-500">finished width</p>
+        <p id="finishedWidthResult" class="text-lg font-bold text-pink-600"></p>
+        <p class="text-xs text-gray-400"><span class="unitLabel">inches</span></p>
+      </div>
+      <div class="bg-blue-50 rounded-xl p-4 text-center">
+        <p class="text-xs text-gray-500">finished height</p>
+        <p id="finishedHeightResult" class="text-lg font-bold text-blue-600"></p>
+        <p class="text-xs text-gray-400"><span class="unitLabel">inches</span></p>
+      </div>
+    </div>
+
+    <!-- Schematic -->
+    <div class="bg-white rounded-xl p-4 border border-gray-200">
+      <p class="text-xs text-gray-500 text-center mb-2">schematic</p>
+      <div id="schematic" class="flex justify-center"></div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/editor.js"></script>

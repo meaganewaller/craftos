@@ -17,6 +17,7 @@ jobs:
       gauge-calculator: ${{ steps.changes.outputs.gauge-calculator }}
       yarn-substitution: ${{ steps.changes.outputs.yarn-substitution }}
       stash-manager: ${{ steps.changes.outputs.stash-manager }}
+      pattern-editor: ${{ steps.changes.outputs.pattern-editor }}
     steps:
       - uses: actions/checkout@v6
       - uses: dorny/paths-filter@v3
@@ -35,6 +36,11 @@ jobs:
               - 'apps/stash-manager/**'
               - 'gems/fiber_units/**'
               - 'gems/yarn_skein/**'
+            pattern-editor:
+              - 'apps/pattern-editor/**'
+              - 'gems/fiber_units/**'
+              - 'gems/fiber_gauge/**'
+              - 'gems/fiber_pattern/**'
 
   test:
     runs-on: ubuntu-latest
@@ -99,3 +105,11 @@ jobs:
     steps:
       - name: Deploy to Render
         run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_STASH_MANAGER }}"
+
+  deploy-pattern-editor:
+    needs: [test, detect-changes]
+    if: github.ref == 'refs/heads/main' && needs.detect-changes.outputs.pattern-editor == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        run: curl -s "${{ secrets.RENDER_DEPLOY_HOOK_PATTERN_EDITOR }}"
