@@ -107,7 +107,7 @@ class PieceService
     end_width = @shaping_params["end_width"]
     return false if end_width.nil?
 
-    end_width.to_f > 0 && end_width.to_f != @piece_width.value
+    end_width.to_f > 0 && (end_width.to_f - @piece_width.value).abs > Float::EPSILON
   end
 
   def build_gauge(params)
