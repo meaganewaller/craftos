@@ -52,7 +52,7 @@ class PieceService
     end_width = @shaping_params.fetch("end_width").to_f.public_send(@unit)
     end_stitches = @sizing.cast_on_for(end_width).value
     start_stitches = cast_on
-    shaping_method = end_stitches > start_stitches ? :increase : :decrease
+    shaping_method = (end_stitches > start_stitches) ? :increase : :decrease
 
     shaping = FiberPattern::Shaping.new(
       from: start_stitches.stitches,
