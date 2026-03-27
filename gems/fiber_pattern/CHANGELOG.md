@@ -1,5 +1,14 @@
 ## Unreleased
 
+## [0.4.0] - 2026-03-26
+
+### Added
+
+- Add `BodyMeasurements` class for storing and querying standard body measurement sets
+- Add `Ease` class for defining ease allowances by measurement type with preset profiles (close-fitting, standard, oversized)
+- Add `GarmentSizing` class for computing garment dimensions from body measurements plus ease
+- Add `SizeChart` class for generating full size charts across multiple sizes with grade rule scaling
+
 ## [0.3.0] - 2026-03-25
 
 ### Added
