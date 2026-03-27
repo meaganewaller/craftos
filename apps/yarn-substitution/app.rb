@@ -102,13 +102,11 @@ class YarnSubstitutionApp < Sinatra::Base
   end
 
   def built_in_catalog
-    @built_in_catalog ||= begin
-      if defined?(YarnSkein::Catalog)
-        yarns = YarnSkein::Catalog.new.all
-        yarns.empty? ? legacy_catalog : yarns
-      else
-        legacy_catalog
-      end
+    @built_in_catalog ||= if defined?(YarnSkein::Catalog)
+      yarns = YarnSkein::Catalog.new.all
+      yarns.empty? ? legacy_catalog : yarns
+    else
+      legacy_catalog
     end
   end
 

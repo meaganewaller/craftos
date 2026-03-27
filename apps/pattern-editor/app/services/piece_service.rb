@@ -18,7 +18,7 @@ class PieceService
 
   attr_reader :gauge, :sizing
 
-  def initialize(gauge_params:, piece_params:, stitch_pattern_name: nil, repeat_params: nil, unit: nil)
+  def initialize(gauge_params:, piece_params:, stitch_pattern_name: nil, repeat_params: nil, unit: nil, shaping_params: nil)
     @unit = unit || "inches"
     @gauge = build_gauge(gauge_params)
     @stitch_pattern = build_stitch_pattern(stitch_pattern_name)
@@ -26,6 +26,7 @@ class PieceService
     @piece_width = piece_params.fetch("width").to_f.public_send(@unit)
     @piece_height = piece_params.fetch("height").to_f.public_send(@unit)
     @sizing = FiberPattern::Sizing.new(gauge: @gauge, repeat: @repeat, stitch_pattern: @stitch_pattern)
+    @shaping_params = shaping_params
   end
 
   def cast_on
@@ -45,6 +46,35 @@ class PieceService
     (total_rows.to_f / @gauge.rpi).round(2)
   end
 
+  def shaping_results
+    return {enabled: false} unless shaping_enabled?
+
+    end_width = @shaping_params.fetch("end_width").to_f.public_send(@unit)
+    end_stitches = @sizing.cast_on_for(end_width).value
+    start_stitches = cast_on
+    shaping_method = (end_stitches > start_stitches) ? :increase : :decrease
+
+    shaping = FiberPattern::Shaping.new(
+      from: start_stitches.stitches,
+      to: end_stitches.stitches,
+      over: total_rows.rows,
+      method: shaping_method,
+      stitches_per_event: (@shaping_params["stitches_per_event"] || 2).to_i
+    )
+
+    end_width_value = @gauge.width_for_stitches(end_stitches.stitches).to(@unit.to_sym).value.round(2)
+
+    {
+      enabled: true,
+      method: shaping_method,
+      end_stitches: end_stitches,
+      end_width: end_width_value,
+      total_changes: shaping.total_changes,
+      every_n_rows: shaping.every_n_rows,
+      schedule: shaping.schedule
+    }
+  end
+
   def results
     co = cast_on
     rows = total_rows
@@ -52,7 +82,8 @@ class PieceService
       cast_on: co,
       total_rows: rows,
       finished_width: finished_width,
-      finished_height: finished_height
+      finished_height: finished_height,
+      shaping: shaping_results
     }
   end
 
@@ -69,6 +100,15 @@ class PieceService
   end
 
   private
+
+  def shaping_enabled?
+    return false if @shaping_params.nil?
+
+    end_width = @shaping_params["end_width"]
+    return false if end_width.nil?
+
+    end_width.to_f > 0 && (end_width.to_f - @piece_width.value).abs > Float::EPSILON
+  end
 
   def build_gauge(params)
     gauge_opts = {

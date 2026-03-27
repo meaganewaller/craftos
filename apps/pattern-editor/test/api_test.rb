@@ -144,4 +144,78 @@ class PatternEditorApiTest < Minitest::Test
     assert last_response.ok?
     assert_equal 90, json_response["cast_on"]
   end
+
+  # ----- shaping -----
+
+  def test_post_api_piece_with_shaping_decrease
+    post_json "/api/piece", {
+      gauge: {stitches: 18, rows: 24, width: 4},
+      piece: {width: 20, height: 25},
+      shaping: {end_width: 14}
+    }
+
+    assert last_response.ok?
+    data = json_response
+    shaping = data["shaping"]
+    assert shaping["enabled"]
+    assert_equal "decrease", shaping["method"]
+    assert_equal 63, shaping["end_stitches"]
+    assert_equal 14.0, shaping["end_width"]
+    assert shaping["total_changes"] > 0
+    assert_kind_of Array, shaping["schedule"]
+  end
+
+  def test_post_api_piece_with_shaping_increase
+    post_json "/api/piece", {
+      gauge: {stitches: 18, rows: 24, width: 4},
+      piece: {width: 20, height: 25},
+      shaping: {end_width: 26}
+    }
+
+    assert last_response.ok?
+    assert_equal "increase", json_response["shaping"]["method"]
+  end
+
+  def test_post_api_piece_without_shaping_returns_disabled
+    post_json "/api/piece", {
+      gauge: {stitches: 18, rows: 24, width: 4},
+      piece: {width: 20, height: 25}
+    }
+
+    assert last_response.ok?
+    refute json_response["shaping"]["enabled"]
+  end
+
+  def test_post_api_piece_returns_422_for_shaping_missing_end_width
+    post_json "/api/piece", {
+      gauge: {stitches: 18, rows: 24, width: 4},
+      piece: {width: 20, height: 25},
+      shaping: {}
+    }
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "end_width"
+  end
+
+  def test_post_api_piece_returns_422_for_negative_end_width
+    post_json "/api/piece", {
+      gauge: {stitches: 18, rows: 24, width: 4},
+      piece: {width: 20, height: 25},
+      shaping: {end_width: -5}
+    }
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "positive"
+  end
+
+  def test_post_api_piece_returns_422_for_zero_stitches_per_event
+    post_json "/api/piece", {
+      gauge: {stitches: 18, rows: 24, width: 4},
+      piece: {width: 20, height: 25},
+      shaping: {end_width: 14, stitches_per_event: 0}
+    }
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "stitches_per_event"
+  end
 end

@@ -15,7 +15,8 @@ class PieceServiceTest < Minitest::Test
       piece_params: overrides.fetch(:piece_params, default_piece_params),
       stitch_pattern_name: overrides[:stitch_pattern_name],
       repeat_params: overrides[:repeat_params],
-      unit: overrides[:unit]
+      unit: overrides[:unit],
+      shaping_params: overrides[:shaping_params]
     )
   end
 
@@ -106,5 +107,83 @@ class PieceServiceTest < Minitest::Test
     assert entry.key?(:name)
     assert entry.key?(:width_factor)
     assert entry.key?(:yarn_factor)
+  end
+
+  # ----- shaping -----
+
+  def test_shaping_disabled_when_no_shaping_params
+    service = build_service
+    assert_equal({enabled: false}, service.shaping_results)
+  end
+
+  def test_shaping_disabled_when_end_width_equals_piece_width
+    service = build_service(shaping_params: {"end_width" => 20})
+    assert_equal({enabled: false}, service.shaping_results)
+  end
+
+  def test_shaping_decrease
+    # piece is 20" wide, shaping down to 14"
+    service = build_service(shaping_params: {"end_width" => 14})
+    result = service.shaping_results
+
+    assert result[:enabled]
+    assert_equal :decrease, result[:method]
+    assert_equal 63, result[:end_stitches]  # 14 * 4.5 = 63
+    assert_equal 14.0, result[:end_width]
+    assert result[:total_changes] > 0
+    assert result[:every_n_rows] > 0
+    assert_kind_of Array, result[:schedule]
+    assert(result[:schedule].all? { |e| e[:action] == :dec })
+  end
+
+  def test_shaping_increase
+    # piece is 20" wide, shaping up to 26"
+    service = build_service(shaping_params: {"end_width" => 26})
+    result = service.shaping_results
+
+    assert result[:enabled]
+    assert_equal :increase, result[:method]
+    assert_equal 117, result[:end_stitches]  # 26 * 4.5 = 117
+    assert(result[:schedule].all? { |e| e[:action] == :inc })
+  end
+
+  def test_shaping_with_custom_stitches_per_event
+    service = build_service(shaping_params: {"end_width" => 14, "stitches_per_event" => 4})
+    result = service.shaping_results
+
+    assert result[:enabled]
+    # With 4 stitches per event, fewer total changes needed
+    default_service = build_service(shaping_params: {"end_width" => 14})
+    assert result[:total_changes] < default_service.shaping_results[:total_changes]
+  end
+
+  def test_shaping_included_in_results
+    service = build_service(shaping_params: {"end_width" => 14})
+    results = service.results
+
+    assert results.key?(:shaping)
+    assert results[:shaping][:enabled]
+  end
+
+  def test_results_include_shaping_disabled_without_params
+    service = build_service
+    results = service.results
+
+    assert results.key?(:shaping)
+    refute results[:shaping][:enabled]
+  end
+
+  def test_shaping_with_centimeters
+    service = build_service(
+      gauge_params: {"stitches" => 18, "rows" => 24, "width" => 10},
+      piece_params: {"width" => 50, "height" => 60},
+      shaping_params: {"end_width" => 35},
+      unit: "centimeters"
+    )
+    result = service.shaping_results
+
+    assert result[:enabled]
+    assert_equal :decrease, result[:method]
+    assert result[:end_stitches] < 90  # less than cast on of 90
   end
 end

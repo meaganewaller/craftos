@@ -31,6 +31,7 @@ class PatternEditorApp < Sinatra::Base
     content_type :json
     validate_gauge_params!
     validate_piece_params!
+    validate_shaping_params!
 
     service = build_service
     service.results.to_json
@@ -71,6 +72,24 @@ class PatternEditorApp < Sinatra::Base
     end
   end
 
+  def validate_shaping_params!
+    shaping = request_params["shaping"]
+    return if shaping.nil?
+
+    end_width = shaping["end_width"]
+    if end_width.nil?
+      halt 422, {error: "Missing required shaping parameter: end_width"}.to_json
+    end
+    if end_width.to_f <= 0
+      halt 422, {error: "Shaping parameter must be positive: end_width"}.to_json
+    end
+
+    spe = shaping["stitches_per_event"]
+    if spe && spe.to_i <= 0
+      halt 422, {error: "Shaping parameter must be positive: stitches_per_event"}.to_json
+    end
+  end
+
   def request_params
     @request_params ||= begin
       body = env["rack.input"].read.to_s
@@ -86,7 +105,8 @@ class PatternEditorApp < Sinatra::Base
       piece_params: request_params.fetch("piece"),
       stitch_pattern_name: request_params["stitch_pattern"],
       repeat_params: request_params["repeat"],
-      unit: request_params.dig("gauge", "unit")
+      unit: request_params.dig("gauge", "unit"),
+      shaping_params: request_params["shaping"]
     )
   end
 end
