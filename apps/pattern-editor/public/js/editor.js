@@ -340,11 +340,48 @@ function renderResults(piecesData, unit) {
     if (piece.shaping && piece.shaping.enabled) {
       var shapingVerb = (piece.shaping.method === "increase") ? "inc" : "dec";
       var everyRows = piece.shaping.every_n_rows;
+      var scheduleId = "schedule-" + piece.name.replace(/\s+/g, "-").toLowerCase();
       html += '<div class="bg-purple-50 rounded-xl p-3 text-sm space-y-1">';
       html += '<p class="font-semibold text-purple-700">shaping: ' + piece.shaping.method + '</p>';
       html += '<p class="text-xs text-purple-600">' + piece.finished_width + ' ' + unitAbbr + ' → ' + piece.shaping.end_width + ' ' + unitAbbr + '</p>';
       html += '<p class="text-xs text-purple-600">' + piece.cast_on + ' ' + terms.sts + ' → ' + piece.shaping.end_stitches + ' ' + terms.sts + '</p>';
       html += '<p class="text-xs text-purple-500">' + shapingVerb + ' every ' + everyRows + ' rows, ' + piece.shaping.total_changes + ' times</p>';
+
+      // Collapsible schedule table
+      if (piece.shaping.schedule && piece.shaping.schedule.length > 0) {
+        html += '<button onclick="toggleSchedule(\'' + scheduleId + '\', this)" ';
+        html += 'class="mt-2 text-xs text-purple-500 hover:text-purple-700 font-medium flex items-center gap-1">';
+        html += '<span class="schedule-chevron">&#9654;</span> row-by-row schedule</button>';
+        html += '<div id="' + scheduleId + '" class="hidden mt-2">';
+        html += '<table class="w-full text-xs">';
+        html += '<thead><tr class="text-purple-400">';
+        html += '<th class="text-left py-1 pr-2">row</th>';
+        html += '<th class="text-left py-1 pr-2">action</th>';
+        html += '<th class="text-right py-1">' + terms.sts + ' after</th>';
+        html += '</tr></thead><tbody>';
+
+        var stsPerEvent = 2;
+        var delta = (piece.shaping.method === "increase") ? stsPerEvent : -stsPerEvent;
+        var runningStitches = piece.cast_on;
+        var scheduleIndex = 0;
+        var schedule = piece.shaping.schedule;
+
+        for (var row = 1; row <= piece.total_rows; row++) {
+          if (scheduleIndex < schedule.length && schedule[scheduleIndex].row === row) {
+            runningStitches += delta;
+            var actionLabel = (schedule[scheduleIndex].action === "inc") ? "increase" : "decrease";
+            html += '<tr class="text-purple-700 bg-purple-100/50">';
+            html += '<td class="py-1 pr-2 font-medium">' + row + '</td>';
+            html += '<td class="py-1 pr-2">' + actionLabel + '</td>';
+            html += '<td class="py-1 text-right font-medium">' + runningStitches + '</td>';
+            html += '</tr>';
+            scheduleIndex++;
+          }
+        }
+
+        html += '</tbody></table></div>';
+      }
+
       html += '</div>';
     }
 
@@ -359,6 +396,18 @@ function renderResults(piecesData, unit) {
 
   container.innerHTML = html;
   document.getElementById("resultsPanel").classList.remove("hidden");
+}
+
+function toggleSchedule(id, btn) {
+  var el = document.getElementById(id);
+  var chevron = btn.querySelector(".schedule-chevron");
+  if (el.classList.contains("hidden")) {
+    el.classList.remove("hidden");
+    chevron.innerHTML = "&#9660;";
+  } else {
+    el.classList.add("hidden");
+    chevron.innerHTML = "&#9654;";
+  }
 }
 
 function escapeHtml(str) {
