@@ -8,6 +8,7 @@ require_relative "yarn_skein/fiber_blend"
 require_relative "yarn_skein/yarn"
 require_relative "yarn_skein/substitution"
 require_relative "yarn_skein/yardage_estimator"
+require_relative "yarn_skein/colorwork_estimator"
 require_relative "yarn_skein/catalog"
 
 # Domain objects for describing yarn skeins, fiber blends, and weight classes.
