@@ -1,5 +1,13 @@
 ## Unreleased
 
+## [0.6.0] - 2026-03-28
+
+### Added
+
+- Add `Piece` value object for deriving physical measurements from gauge
+- Add `Schematic` composer for holding named pieces and dispatching to renderer
+- Add `SvgRenderer` pure-Ruby SVG builder with outlines, labels, and multi-piece layout
+
 ## [0.5.0] - 2026-03-26
 
 ### Added
