@@ -1,24 +1,79 @@
 var pieces = [];
 var nextPieceId = 1;
+var craftType = "knit";
+var allStitchPatterns = [];
+
+var KNIT_PATTERNS = ["stockinette", "garter", "rib_1x1", "rib_2x2", "seed", "moss_stitch"];
+var CROCHET_PATTERNS = ["single_crochet", "half_double_crochet", "double_crochet", "treble_crochet", "shell_stitch", "v_stitch"];
+
+function craftTerms() {
+  if (craftType === "crochet") {
+    return { castOn: "foundation chain", bindOff: "fasten off", castOnVerb: "chain", sts: "sts" };
+  }
+  return { castOn: "cast on", bindOff: "bind off", castOnVerb: "cast on", sts: "sts" };
+}
 
 document.addEventListener("DOMContentLoaded", function () {
   loadStitchPatterns();
   addPiece("Back", 20, 25);
 });
 
+function setCraftType(type) {
+  craftType = type;
+  var knitBtn = document.getElementById("craftKnit");
+  var crochetBtn = document.getElementById("craftCrochet");
+  if (type === "knit") {
+    knitBtn.className = "flex-1 p-3 rounded-xl border-2 font-medium text-sm transition craft-type-btn border-pink-400 bg-pink-50 text-pink-700";
+    crochetBtn.className = "flex-1 p-3 rounded-xl border-2 font-medium text-sm transition craft-type-btn border-gray-200 bg-white text-gray-500";
+  } else {
+    crochetBtn.className = "flex-1 p-3 rounded-xl border-2 font-medium text-sm transition craft-type-btn border-pink-400 bg-pink-50 text-pink-700";
+    knitBtn.className = "flex-1 p-3 rounded-xl border-2 font-medium text-sm transition craft-type-btn border-gray-200 bg-white text-gray-500";
+  }
+  filterStitchPatterns();
+  updateRepeatHint();
+}
+
+function updateRepeatHint() {
+  var hint = document.getElementById("repeatHint");
+  if (hint) {
+    hint.textContent = (craftType === "crochet")
+      ? "example: 3 dc, ch 1 = repeat of 4"
+      : "example: k2, p2 = repeat of 4";
+  }
+}
+
 function loadStitchPatterns() {
   fetch("/api/stitch_patterns")
     .then(function (res) { return res.json(); })
     .then(function (patterns) {
-      var select = document.getElementById("stitchPattern");
-      patterns.forEach(function (p) {
-        var opt = document.createElement("option");
-        opt.value = p.key;
-        opt.textContent = p.name + " (width: " + p.width_factor + "x, yarn: " + p.yarn_factor + "x)";
-        select.appendChild(opt);
-      });
+      allStitchPatterns = patterns;
+      filterStitchPatterns();
     })
     .catch(function () {});
+}
+
+function filterStitchPatterns() {
+  var select = document.getElementById("stitchPattern");
+  var currentValue = select.value;
+  var allowed = (craftType === "crochet") ? CROCHET_PATTERNS : KNIT_PATTERNS;
+
+  var defaultLabel = (craftType === "crochet") ? "None (plain single crochet gauge)" : "None (plain stockinette gauge)";
+  select.innerHTML = '<option value="">' + defaultLabel + '</option>';
+  allStitchPatterns.forEach(function (p) {
+    if (allowed.indexOf(p.key) !== -1) {
+      var opt = document.createElement("option");
+      opt.value = p.key;
+      opt.textContent = p.name + " (width: " + p.width_factor + "x, yarn: " + p.yarn_factor + "x)";
+      select.appendChild(opt);
+    }
+  });
+
+  // Restore selection if still valid, otherwise reset
+  if (allowed.indexOf(currentValue) !== -1) {
+    select.value = currentValue;
+  } else {
+    select.value = "";
+  }
 }
 
 function updateUnitLabels() {
@@ -244,6 +299,7 @@ function calculateAll() {
 function renderResults(piecesData, unit) {
   var container = document.getElementById("resultsContainer");
   var unitAbbr = (unit === "centimeters") ? "cm" : "in";
+  var terms = craftTerms();
   var html = "";
 
   piecesData.forEach(function (piece) {
@@ -256,7 +312,7 @@ function renderResults(piecesData, unit) {
     // Stats grid
     html += '<div class="grid grid-cols-2 gap-3">';
     html += '<div class="bg-pink-50 rounded-xl p-4 text-center">';
-    html += '<p class="text-xs text-gray-500">cast on</p>';
+    html += '<p class="text-xs text-gray-500">' + terms.castOn + '</p>';
     html += '<p class="text-lg font-bold text-pink-600">' + piece.cast_on + '</p>';
     html += '<p class="text-xs text-gray-400">stitches</p>';
     html += '</div>';
@@ -282,9 +338,13 @@ function renderResults(piecesData, unit) {
 
     // Shaping info
     if (piece.shaping && piece.shaping.enabled) {
-      html += '<div class="bg-purple-50 rounded-xl p-3 text-sm">';
+      var shapingVerb = (piece.shaping.method === "increase") ? "inc" : "dec";
+      var everyRows = piece.shaping.every_n_rows;
+      html += '<div class="bg-purple-50 rounded-xl p-3 text-sm space-y-1">';
       html += '<p class="font-semibold text-purple-700">shaping: ' + piece.shaping.method + '</p>';
-      html += '<p class="text-xs text-purple-500">' + piece.shaping.total_changes + ' changes over ' + piece.total_rows + ' rows</p>';
+      html += '<p class="text-xs text-purple-600">' + piece.finished_width + ' ' + unitAbbr + ' → ' + piece.shaping.end_width + ' ' + unitAbbr + '</p>';
+      html += '<p class="text-xs text-purple-600">' + piece.cast_on + ' ' + terms.sts + ' → ' + piece.shaping.end_stitches + ' ' + terms.sts + '</p>';
+      html += '<p class="text-xs text-purple-500">' + shapingVerb + ' every ' + everyRows + ' rows, ' + piece.shaping.total_changes + ' times</p>';
       html += '</div>';
     }
 
@@ -308,38 +368,72 @@ function escapeHtml(str) {
 }
 
 function buildSchematicSvg(piece, unit) {
-  var width = piece.finished_width;
+  var startWidth = piece.finished_width;
   var height = piece.finished_height;
   var castOn = piece.cast_on;
   var totalRows = piece.total_rows;
+  var hasShaping = piece.shaping && piece.shaping.enabled;
+  var endWidth = hasShaping ? piece.shaping.end_width : startWidth;
+  var endStitches = hasShaping ? piece.shaping.end_stitches : castOn;
+  var maxW = Math.max(startWidth, endWidth);
 
   var maxSvgWidth = 280;
-  var maxSvgHeight = 200;
+  var maxSvgHeight = 220;
   var padding = 50;
 
   var availW = maxSvgWidth - padding * 2;
   var availH = maxSvgHeight - padding * 2;
-  var scale = Math.min(availW / width, availH / height);
-  var rectW = width * scale;
-  var rectH = height * scale;
-  var rectX = (maxSvgWidth - rectW) / 2;
-  var rectY = (maxSvgHeight - rectH) / 2;
+  var scale = Math.min(availW / maxW, availH / height);
+  var bottomW = startWidth * scale;
+  var topW = endWidth * scale;
+  var shapeH = height * scale;
 
   var unitAbbr = (unit === "centimeters") ? "cm" : "in";
-
+  var terms = craftTerms();
   var svg = '<svg width="' + maxSvgWidth + '" height="' + maxSvgHeight + '" xmlns="http://www.w3.org/2000/svg">';
-  svg += '<rect x="' + rectX + '" y="' + rectY + '" width="' + rectW + '" height="' + rectH + '" ';
-  svg += 'fill="#fce7f3" stroke="#ec4899" stroke-width="2" rx="4"/>';
 
-  var widthLabelX = rectX + rectW / 2;
-  var widthLabelY = rectY + rectH + 16;
-  svg += '<text x="' + widthLabelX + '" y="' + widthLabelY + '" text-anchor="middle" ';
-  svg += 'font-size="11" fill="#be185d" font-weight="600">' + width + ' ' + unitAbbr + '</text>';
-  svg += '<text x="' + widthLabelX + '" y="' + (widthLabelY + 13) + '" text-anchor="middle" ';
-  svg += 'font-size="10" fill="#9ca3af">' + castOn + ' sts</text>';
+  // Bottom edge is cast-on/chain (where you start), top edge is bind-off/fasten-off (where you end)
+  var centerX = maxSvgWidth / 2;
+  var bottomY = padding + shapeH;
+  var topY = padding;
 
-  var heightLabelX = rectX + rectW + 10;
-  var heightLabelY = rectY + rectH / 2;
+  if (hasShaping) {
+    // Trapezoid: bottom = starting width, top = end width
+    var blX = centerX - bottomW / 2;
+    var brX = centerX + bottomW / 2;
+    var tlX = centerX - topW / 2;
+    var trX = centerX + topW / 2;
+
+    var points = tlX + ',' + topY + ' ' + trX + ',' + topY + ' ' + brX + ',' + bottomY + ' ' + blX + ',' + bottomY;
+    svg += '<polygon points="' + points + '" fill="#fce7f3" stroke="#ec4899" stroke-width="2" stroke-linejoin="round"/>';
+
+    // Top label (end/bind-off/fasten-off)
+    svg += '<text x="' + centerX + '" y="' + (topY - 18) + '" text-anchor="middle" ';
+    svg += 'font-size="11" fill="#7c3aed" font-weight="600">' + endWidth + ' ' + unitAbbr + '</text>';
+    svg += '<text x="' + centerX + '" y="' + (topY - 6) + '" text-anchor="middle" ';
+    svg += 'font-size="10" fill="#9ca3af">' + endStitches + ' sts</text>';
+
+    // Bottom label (cast-on/chain)
+    svg += '<text x="' + centerX + '" y="' + (bottomY + 16) + '" text-anchor="middle" ';
+    svg += 'font-size="11" fill="#be185d" font-weight="600">' + startWidth + ' ' + unitAbbr + '</text>';
+    svg += '<text x="' + centerX + '" y="' + (bottomY + 29) + '" text-anchor="middle" ';
+    svg += 'font-size="10" fill="#9ca3af">' + castOn + ' sts (' + terms.castOnVerb + ')</text>';
+  } else {
+    // Rectangle for no shaping
+    var rectX = centerX - bottomW / 2;
+    svg += '<rect x="' + rectX + '" y="' + topY + '" width="' + bottomW + '" height="' + shapeH + '" ';
+    svg += 'fill="#fce7f3" stroke="#ec4899" stroke-width="2" rx="4"/>';
+
+    // Bottom label
+    svg += '<text x="' + centerX + '" y="' + (bottomY + 16) + '" text-anchor="middle" ';
+    svg += 'font-size="11" fill="#be185d" font-weight="600">' + startWidth + ' ' + unitAbbr + '</text>';
+    svg += '<text x="' + centerX + '" y="' + (bottomY + 29) + '" text-anchor="middle" ';
+    svg += 'font-size="10" fill="#9ca3af">' + castOn + ' sts (' + terms.castOnVerb + ')</text>';
+  }
+
+  // Height label (right side)
+  var heightLabelX = centerX + Math.max(bottomW, topW) / 2 + 10;
+  var heightLabelY = topY + shapeH / 2;
   svg += '<text x="' + heightLabelX + '" y="' + (heightLabelY - 6) + '" text-anchor="start" ';
   svg += 'font-size="11" fill="#1d4ed8" font-weight="600">' + height + ' ' + unitAbbr + '</text>';
   svg += '<text x="' + heightLabelX + '" y="' + (heightLabelY + 8) + '" text-anchor="start" ';
