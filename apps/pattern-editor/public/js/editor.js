@@ -396,6 +396,16 @@ function renderResults(piecesData, unit) {
 
   container.innerHTML = html;
   document.getElementById("resultsPanel").classList.remove("hidden");
+
+  // Project-level schematic (only show when multiple pieces)
+  var schematicContainer = document.getElementById("projectSchematicContainer");
+  if (piecesData.length > 1) {
+    schematicContainer.innerHTML = '<div class="bg-white rounded-xl p-4 border border-gray-200">' +
+      '<p class="text-xs text-gray-500 text-center mb-2">project schematic</p>' +
+      '<div class="overflow-x-auto">' + buildProjectSchematic(piecesData, unit) + '</div></div>';
+  } else {
+    schematicContainer.innerHTML = '';
+  }
 }
 
 function toggleSchedule(id, btn) {
@@ -487,6 +497,118 @@ function buildSchematicSvg(piece, unit) {
   svg += 'font-size="11" fill="#1d4ed8" font-weight="600">' + height + ' ' + unitAbbr + '</text>';
   svg += '<text x="' + heightLabelX + '" y="' + (heightLabelY + 8) + '" text-anchor="start" ';
   svg += 'font-size="10" fill="#9ca3af">' + totalRows + ' rows</text>';
+
+  svg += '</svg>';
+  return svg;
+}
+
+function buildProjectSchematic(piecesData, unit) {
+  var unitAbbr = (unit === "centimeters") ? "cm" : "in";
+  var terms = craftTerms();
+  var spacing = 20;
+  var labelPad = 40; // space for labels above/below shapes
+  var heightLabelPad = 45; // space for height label to the right of each piece
+
+  // Compute dimensions for each piece
+  var pieceDims = piecesData.map(function (piece) {
+    var hasShaping = piece.shaping && piece.shaping.enabled;
+    var startW = piece.finished_width;
+    var endW = hasShaping ? piece.shaping.end_width : startW;
+    return {
+      piece: piece,
+      startW: startW,
+      endW: endW,
+      maxW: Math.max(startW, endW),
+      height: piece.finished_height,
+      hasShaping: hasShaping,
+      endStitches: hasShaping ? piece.shaping.end_stitches : piece.cast_on
+    };
+  });
+
+  // Find shared scale: all pieces must fit with the same scale factor
+  var maxHeight = 0;
+  pieceDims.forEach(function (d) { if (d.height > maxHeight) maxHeight = d.height; });
+
+  // Target: tallest piece is ~100px, scale everything from that
+  var targetShapeHeight = 100;
+  var scale = targetShapeHeight / maxHeight;
+
+  // Cap individual piece widths so nothing gets absurdly wide
+  var maxScaledW = 0;
+  pieceDims.forEach(function (d) {
+    var sw = d.maxW * scale;
+    if (sw > maxScaledW) maxScaledW = sw;
+  });
+  if (maxScaledW > 200) {
+    scale = scale * (200 / maxScaledW);
+  }
+
+  // Calculate total SVG width
+  var totalWidth = 20; // left margin
+  pieceDims.forEach(function (d, i) {
+    totalWidth += d.maxW * scale + heightLabelPad;
+    if (i < pieceDims.length - 1) totalWidth += spacing;
+  });
+  totalWidth += 10; // right margin
+
+  var scaledMaxH = maxHeight * scale;
+  var svgTotalHeight = scaledMaxH + labelPad * 2 + 20; // extra for piece name
+
+  // Use viewBox for responsive scaling — fits container width, scrolls if needed
+  var svg = '<svg viewBox="0 0 ' + totalWidth + ' ' + svgTotalHeight + '" ';
+  svg += 'width="' + Math.max(totalWidth, 280) + '" height="' + svgTotalHeight + '" ';
+  svg += 'xmlns="http://www.w3.org/2000/svg" style="min-width:' + totalWidth + 'px">';
+
+  var cursorX = 10;
+  var baselineY = labelPad + scaledMaxH + 10; // bottom-aligned baseline
+
+  pieceDims.forEach(function (d) {
+    var bottomW = d.startW * scale;
+    var topW = d.endW * scale;
+    var shapeH = d.height * scale;
+    var pieceCenterX = cursorX + d.maxW * scale / 2;
+    var bottomY = baselineY;
+    var topY = baselineY - shapeH;
+
+    // Piece name above
+    svg += '<text x="' + pieceCenterX + '" y="' + (topY - 28) + '" text-anchor="middle" ';
+    svg += 'font-size="11" fill="#374151" font-weight="700">' + escapeHtml(d.piece.name) + '</text>';
+
+    if (d.hasShaping) {
+      // Trapezoid
+      var blX = pieceCenterX - bottomW / 2;
+      var brX = pieceCenterX + bottomW / 2;
+      var tlX = pieceCenterX - topW / 2;
+      var trX = pieceCenterX + topW / 2;
+      var points = tlX + ',' + topY + ' ' + trX + ',' + topY + ' ' + brX + ',' + bottomY + ' ' + blX + ',' + bottomY;
+      svg += '<polygon points="' + points + '" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5" stroke-linejoin="round"/>';
+
+      // Top width label
+      svg += '<text x="' + pieceCenterX + '" y="' + (topY - 14) + '" text-anchor="middle" ';
+      svg += 'font-size="9" fill="#7c3aed">' + d.endW + ' ' + unitAbbr + ' (' + d.endStitches + ' sts)</text>';
+    } else {
+      // Rectangle
+      var rectX = pieceCenterX - bottomW / 2;
+      svg += '<rect x="' + rectX + '" y="' + topY + '" width="' + bottomW + '" height="' + shapeH + '" ';
+      svg += 'fill="#fce7f3" stroke="#ec4899" stroke-width="1.5" rx="3"/>';
+    }
+
+    // Bottom width label
+    svg += '<text x="' + pieceCenterX + '" y="' + (bottomY + 13) + '" text-anchor="middle" ';
+    svg += 'font-size="9" fill="#be185d">' + d.startW + ' ' + unitAbbr + '</text>';
+    svg += '<text x="' + pieceCenterX + '" y="' + (bottomY + 24) + '" text-anchor="middle" ';
+    svg += 'font-size="8" fill="#9ca3af">' + d.piece.cast_on + ' sts (' + terms.castOnVerb + ')</text>';
+
+    // Height label (right side)
+    var hLabelX = pieceCenterX + Math.max(bottomW, topW) / 2 + 6;
+    var hLabelY = topY + shapeH / 2;
+    svg += '<text x="' + hLabelX + '" y="' + (hLabelY - 4) + '" text-anchor="start" ';
+    svg += 'font-size="9" fill="#1d4ed8" font-weight="600">' + d.height + ' ' + unitAbbr + '</text>';
+    svg += '<text x="' + hLabelX + '" y="' + (hLabelY + 8) + '" text-anchor="start" ';
+    svg += 'font-size="8" fill="#9ca3af">' + d.piece.total_rows + ' rows</text>';
+
+    cursorX += d.maxW * scale + heightLabelPad + spacing;
+  });
 
   svg += '</svg>';
   return svg;
