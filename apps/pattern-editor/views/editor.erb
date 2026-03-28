@@ -4,12 +4,27 @@
   </h1>
 
   <p class="text-sm text-gray-500 text-center mb-6">
-    define your gauge and piece dimensions, and we'll calculate the stitches and rows you need!
+    define your gauge and pieces, and we'll calculate the stitches and rows you need!
   </p>
 
   <div id="errorBanner" class="hidden bg-red-50 border border-red-200 text-red-600 text-sm rounded-xl p-3 mb-4"></div>
 
-  <!-- Gauge Section -->
+  <!-- Craft Type -->
+  <div class="mb-4">
+    <label class="block text-sm font-semibold text-gray-700 mb-2">craft type</label>
+    <div class="flex gap-2">
+      <button id="craftKnit" onclick="setCraftType('knit')"
+        class="flex-1 p-3 rounded-xl border-2 font-medium text-sm transition craft-type-btn border-pink-400 bg-pink-50 text-pink-700">
+        knitting
+      </button>
+      <button id="craftCrochet" onclick="setCraftType('crochet')"
+        class="flex-1 p-3 rounded-xl border-2 font-medium text-sm transition craft-type-btn border-gray-200 bg-white text-gray-500">
+        crochet
+      </button>
+    </div>
+  </div>
+
+  <!-- Units -->
   <div class="mb-4">
     <label for="unit" class="block text-sm font-semibold text-gray-700 mb-1">units</label>
     <select id="unit" onchange="updateUnitLabels()"
@@ -19,6 +34,7 @@
     </select>
   </div>
 
+  <!-- Gauge Section -->
   <div class="space-y-5">
     <p class="text-sm text-gray-500 mb-2">your gauge swatch</p>
 
@@ -52,31 +68,6 @@
 
   <div class="my-6 border-t border-dashed border-pink-200"></div>
 
-  <!-- Piece Dimensions -->
-  <div class="space-y-5">
-    <p class="text-sm text-gray-500 mb-2">piece dimensions</p>
-
-    <div>
-      <label for="pieceWidth" class="block text-sm font-semibold text-gray-700">
-        desired width (<span class="unitLabel">inches</span>)
-      </label>
-      <p class="text-xs text-gray-400 mb-1">how wide should your piece be?</p>
-      <input id="pieceWidth" type="number" value="20"
-        class="w-full p-3 rounded-xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-300">
-    </div>
-
-    <div>
-      <label for="pieceHeight" class="block text-sm font-semibold text-gray-700">
-        desired height (<span class="unitLabel">inches</span>)
-      </label>
-      <p class="text-xs text-gray-400 mb-1">how tall should your piece be?</p>
-      <input id="pieceHeight" type="number" value="25"
-        class="w-full p-3 rounded-xl border border-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-300">
-    </div>
-  </div>
-
-  <div class="my-6 border-t border-dashed border-pink-200"></div>
-
   <!-- Stitch Pattern -->
   <div class="space-y-5">
     <p class="text-sm text-gray-500 mb-2">stitch pattern (optional)</p>
@@ -90,7 +81,7 @@
       </p>
       <select id="stitchPattern"
         class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300 bg-white">
-        <option value="">None (plain stockinette gauge)</option>
+        <option value="">None (plain gauge)</option>
       </select>
     </div>
 
@@ -100,7 +91,7 @@
       </label>
       <p class="text-xs text-gray-400 mb-1">
         override the stitch repeat if your pattern has a specific multiple<br>
-        <span class="text-gray-500">example: k2, p2 = repeat of 4</span>
+        <span id="repeatHint" class="text-gray-500">example: k2, p2 = repeat of 4</span>
       </p>
       <input id="repeatMultiple" type="number" placeholder="optional"
         class="w-full p-3 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300">
@@ -116,48 +107,44 @@
     </div>
   </div>
 
+  <div class="my-6 border-t border-dashed border-pink-200"></div>
+
+  <!-- Pieces Section -->
+  <div>
+    <p class="text-sm text-gray-500 mb-3">pieces</p>
+    <div id="piecesList"></div>
+
+    <div class="flex flex-wrap gap-2 mt-3">
+      <button onclick="addPiece()"
+        class="text-sm bg-blue-50 hover:bg-blue-100 text-blue-600 font-medium px-4 py-2 rounded-xl border border-blue-200 transition">
+        + add piece
+      </button>
+      <button onclick="addPreset('pullover')"
+        class="text-sm bg-purple-50 hover:bg-purple-100 text-purple-600 font-medium px-3 py-2 rounded-xl border border-purple-200 transition">
+        pullover
+      </button>
+      <button onclick="addPreset('cardigan')"
+        class="text-sm bg-purple-50 hover:bg-purple-100 text-purple-600 font-medium px-3 py-2 rounded-xl border border-purple-200 transition">
+        cardigan
+      </button>
+      <button onclick="addPreset('vest')"
+        class="text-sm bg-purple-50 hover:bg-purple-100 text-purple-600 font-medium px-3 py-2 rounded-xl border border-purple-200 transition">
+        vest
+      </button>
+    </div>
+  </div>
+
   <div class="mt-6">
-    <button onclick="calculatePiece()"
+    <button onclick="calculateAll()"
       class="w-full bg-pink-500 hover:bg-pink-600 text-white font-medium p-3 rounded-xl transition">
-      calculate my piece!
+      calculate all pieces!
     </button>
   </div>
 
   <!-- Results -->
   <div id="resultsPanel" class="hidden mt-6 space-y-4">
-    <p class="text-sm text-gray-500">your piece</p>
-
-    <div class="grid grid-cols-2 gap-3">
-      <div class="bg-pink-50 rounded-xl p-4 text-center">
-        <p class="text-xs text-gray-500">cast on</p>
-        <p id="castOnResult" class="text-lg font-bold text-pink-600"></p>
-        <p class="text-xs text-gray-400">stitches</p>
-      </div>
-      <div class="bg-blue-50 rounded-xl p-4 text-center">
-        <p class="text-xs text-gray-500">work</p>
-        <p id="totalRowsResult" class="text-lg font-bold text-blue-600"></p>
-        <p class="text-xs text-gray-400">rows</p>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-2 gap-3">
-      <div class="bg-pink-50 rounded-xl p-4 text-center">
-        <p class="text-xs text-gray-500">finished width</p>
-        <p id="finishedWidthResult" class="text-lg font-bold text-pink-600"></p>
-        <p class="text-xs text-gray-400"><span class="unitLabel">inches</span></p>
-      </div>
-      <div class="bg-blue-50 rounded-xl p-4 text-center">
-        <p class="text-xs text-gray-500">finished height</p>
-        <p id="finishedHeightResult" class="text-lg font-bold text-blue-600"></p>
-        <p class="text-xs text-gray-400"><span class="unitLabel">inches</span></p>
-      </div>
-    </div>
-
-    <!-- Schematic -->
-    <div class="bg-white rounded-xl p-4 border border-gray-200">
-      <p class="text-xs text-gray-500 text-center mb-2">schematic</p>
-      <div id="schematic" class="flex justify-center"></div>
-    </div>
+    <p class="text-sm text-gray-500">results</p>
+    <div id="resultsContainer"></div>
   </div>
 </div>
 
