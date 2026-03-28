@@ -6,10 +6,14 @@ gem "sinatra", require: "sinatra/base"
 gem "puma"
 gem "dotenv"
 gem "sequel"
-gem "sqlite3"
+gem "pg"
 gem "fiber_units"
 gem "yarn_skein"
 gem "bcrypt"
+
+group :development, :test do
+  gem "sqlite3"
+end
 
 group :development do
   gem "better_errors"
