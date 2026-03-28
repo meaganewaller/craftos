@@ -52,6 +52,8 @@ services:
         fromDatabase:
           name: stash-manager-db
           property: connectionString
+      - key: SESSION_SECRET
+        generateValue: true
 
   - type: web
     name: pattern-editor
