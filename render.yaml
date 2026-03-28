@@ -24,7 +24,7 @@ services:
     runtime: ruby
     rootDir: apps/yarn-substitution
     buildCommand: bundle install
-    startCommand: bundle exec rackup -p $PORT -o 0.0.0.0
+    startCommand: bundle exec puma -C config/puma.rb
     envVars:
       - key: SINATRA_ENV
         value: production
@@ -40,7 +40,7 @@ services:
     runtime: ruby
     rootDir: apps/stash-manager
     buildCommand: bundle install
-    startCommand: bundle exec rackup -p $PORT -o 0.0.0.0
+    startCommand: bundle exec puma -C config/puma.rb
     envVars:
       - key: SINATRA_ENV
         value: production
