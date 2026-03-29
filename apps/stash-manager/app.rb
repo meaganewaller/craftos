@@ -159,6 +159,54 @@ class StashManagerApp < Sinatra::Base
     service.check_yardage(yardage, yarn_id: (yarn_id.nil? || yarn_id == 0) ? nil : yarn_id).to_json
   end
 
+  post "/api/stash/project-check" do
+    content_type :json
+    require_login!
+    data = request_params
+
+    mode = data["mode"]
+    halt 422, {error: "mode must be 'simple' or 'colorwork'"}.to_json unless %w[simple colorwork].include?(mode)
+
+    gauge = data["gauge"]
+    unless gauge.is_a?(Hash) && %w[stitches rows width].all? { |k| gauge[k].to_f > 0 }
+      halt 422, {error: "gauge requires positive stitches, rows, and width"}.to_json
+    end
+
+    dims = data["dimensions"]
+    unless dims.is_a?(Hash) && %w[width height].all? { |k| dims[k].to_f > 0 }
+      halt 422, {error: "dimensions requires positive width and height"}.to_json
+    end
+
+    service = ProjectCheckService.new(current_user)
+    gauge_params = {stitches: gauge["stitches"], rows: gauge["rows"], width: gauge["width"], height: gauge["height"]}
+    dimensions = {width: dims["width"], height: dims["height"]}
+
+    result = if mode == "simple"
+      ids = data["stash_entry_ids"]
+      halt 422, {error: "stash_entry_ids is required"}.to_json unless ids.is_a?(Array) && !ids.empty?
+      service.check_rectangle(gauge_params: gauge_params, dimensions: dimensions, stash_entry_ids: ids)
+    else
+      colors = data["colors"]
+      halt 422, {error: "colors is required for colorwork mode"}.to_json unless colors.is_a?(Hash) && !colors.empty?
+
+      technique = data["technique"]
+      halt 422, {error: "technique must be 'stranded' or 'intarsia'"}.to_json unless %w[stranded intarsia].include?(technique)
+
+      service.check_colorwork(
+        gauge_params: gauge_params,
+        dimensions: dimensions,
+        technique: technique,
+        color_assignments: colors
+      )
+    end
+
+    if result[:error]
+      halt 422, {error: result[:error]}.to_json
+    end
+
+    result.to_json
+  end
+
   error 422 do
     content_type :json
     response.body

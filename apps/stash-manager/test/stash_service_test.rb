@@ -4,8 +4,12 @@ require "test_helper"
 
 class StashServiceTest < Minitest::Test
   def setup
-    super
-    @user = create_user
+    existing = User.where(username: "service_test_user").first
+    if existing
+      existing.stash_entries_dataset.delete
+      existing.delete
+    end
+    @user = create_user(username: "service_test_user")
   end
 
   def service

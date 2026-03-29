@@ -162,4 +162,103 @@ class StashManagerApiTest < Minitest::Test
     assert data["sufficient"]
     assert_equal 630.0, data["available"]
   end
+
+  # -----------------------------
+  # POST /api/stash/project-check
+  # -----------------------------
+
+  def post_project_check(body)
+    request_post "/api/stash/project-check",
+      JSON.generate(body),
+      {"CONTENT_TYPE" => "application/json"}
+  end
+
+  def test_project_check_simple_mode
+    create_entry(yardage: 210, quantity: 10)
+    id = json_response["id"]
+
+    post_project_check(
+      mode: "simple",
+      gauge: {stitches: 18, rows: 24, width: 4, height: 4},
+      dimensions: {width: 20, height: 20},
+      stash_entry_ids: [id]
+    )
+
+    assert last_response.ok?
+    data = json_response
+    assert_equal "simple", data["mode"]
+    assert data["estimated_yardage"] > 0
+    assert_equal 2100.0, data["available_yardage"]
+    assert data["sufficient"]
+  end
+
+  def test_project_check_colorwork_mode
+    create_entry(yardage: 210, quantity: 10, colorway: "Navy")
+    main_id = json_response["id"]
+    create_entry(yardage: 210, quantity: 10, colorway: "Cream")
+    contrast_id = json_response["id"]
+
+    post_project_check(
+      mode: "colorwork",
+      gauge: {stitches: 18, rows: 24, width: 4, height: 4},
+      dimensions: {width: 20, height: 20},
+      technique: "stranded",
+      colors: {
+        main: {proportion: 0.6, stash_entry_ids: [main_id]},
+        contrast: {proportion: 0.4, stash_entry_ids: [contrast_id]}
+      }
+    )
+
+    assert last_response.ok?
+    data = json_response
+    assert_equal "colorwork", data["mode"]
+    assert_equal "stranded", data["technique"]
+    assert data["colors"]["main"]
+    assert data["colors"]["contrast"]
+    assert data["total_estimated_yardage"] > 0
+  end
+
+  def test_project_check_rejects_invalid_mode
+    post_project_check(mode: "invalid", gauge: {stitches: 18, rows: 24, width: 4}, dimensions: {width: 20, height: 20})
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "mode"
+  end
+
+  def test_project_check_rejects_missing_gauge
+    post_project_check(mode: "simple", dimensions: {width: 20, height: 20}, stash_entry_ids: [1])
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "gauge"
+  end
+
+  def test_project_check_rejects_missing_dimensions
+    post_project_check(mode: "simple", gauge: {stitches: 18, rows: 24, width: 4}, stash_entry_ids: [1])
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "dimensions"
+  end
+
+  def test_project_check_rejects_missing_stash_entry_ids
+    post_project_check(
+      mode: "simple",
+      gauge: {stitches: 18, rows: 24, width: 4, height: 4},
+      dimensions: {width: 20, height: 20}
+    )
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "stash_entry_ids"
+  end
+
+  def test_project_check_rejects_missing_technique
+    post_project_check(
+      mode: "colorwork",
+      gauge: {stitches: 18, rows: 24, width: 4, height: 4},
+      dimensions: {width: 20, height: 20},
+      colors: {main: {proportion: 1.0, stash_entry_ids: [1]}}
+    )
+
+    assert_equal 422, last_response.status
+    assert_includes json_response["error"], "technique"
+  end
 end
