@@ -1,10 +1,3 @@
-PATH
-  remote: ../../gems/yarn_skein
-  specs:
-    yarn_skein (0.3.0)
-      fiber_gauge
-      fiber_units (>= 0.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -87,6 +80,9 @@ GEM
     sqlite3 (2.9.2-x86_64-linux-gnu)
     sqlite3 (2.9.2-x86_64-linux-musl)
     tilt (2.7.0)
+    yarn_skein (0.4.0)
+      fiber_gauge
+      fiber_units (>= 0.1)
 
 PLATFORMS
   aarch64-linux-gnu
@@ -118,7 +114,7 @@ DEPENDENCIES
   simplecov-json
   sinatra
   sqlite3
-  yarn_skein!
+  yarn_skein (~> 0.4.0)
 
 CHECKSUMS
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
@@ -172,7 +168,7 @@ CHECKSUMS
   sqlite3 (2.9.2-x86_64-linux-gnu) sha256=dce83ffcb7e72f9f7aeb6e5404f15d277a45332fe18ccce8a8b3ed51e8d23aee
   sqlite3 (2.9.2-x86_64-linux-musl) sha256=e8dd906a613f13b60f6d47ae9dda376384d9de1ab3f7e3f2fdf2fd18a871a2d7
   tilt (2.7.0) sha256=0d5b9ba69f6a36490c64b0eee9f6e9aad517e20dcc848800a06eb116f08c6ab3
-  yarn_skein (0.3.0)
+  yarn_skein (0.4.0) sha256=a84fb17a5d190819631616ac2645b8b5efa632d4ea93be04e58fd0d8474729d3
 
 BUNDLED WITH
   4.0.3
