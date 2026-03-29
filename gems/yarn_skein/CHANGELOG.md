@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+## [0.4.0] - 2026-03-28
+
+### Added
+- `YarnSkein::ColorworkEstimator` for estimating per-color yarn yardage in stranded and intarsia colorwork
+- Supports float overhead calculation for stranded colorwork (default 20%)
+- Per-color breakdown with optional skein calculations when yarn is provided
+- Configurable safety margin (default 10%) consistent with `YardageEstimator`
+
 ## [0.3.0] - 2026-03-26
 
 ### Added
